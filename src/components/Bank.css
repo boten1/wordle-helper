@@ -1,0 +1,38 @@
+.Bank {
+    flex:1;
+}
+
+.Bank div {
+    border: 3px solid black;
+    height: 90%;
+    min-height: 50px;
+    width: 440px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex; 
+    justify-content: space-between;
+    flex-wrap: wrap;
+    overflow-y:scroll;
+}
+
+
+.Bank p {
+    margin-left: 7px;
+    margin-top: 2px;
+    font-size: 25px;
+    font-family: Helvetica;
+}
+
+
+.letterGreen {
+    color: #6aaa64;
+}
+
+.letterYellow {
+    color: #c9b458;
+}
+
+.letterGray {
+    color: #787c7e;
+}
