@@ -13,14 +13,14 @@ grid {
     supported by Chrome, Edge, Opera and Firefox */
     color: white;
     font-weight: bold;
+    height: 65px;
     /*border-radius: 5px;*/
     margin: 3px 5px;
-    font-size: 60px;
+    font-size: 48px;
     font-family: Helvetica;
     text-align: center;
     text-transform: uppercase;
     border-style: solid;
-    caret-color: transparent;
   }
 
   grid table {
@@ -29,9 +29,11 @@ grid {
   }
   
   .divgridup {
-    height: 530px;
+    flex-grow: 0;
+    flex-shrink: 0;
   }
   
   .divgriddown {
     flex-grow: 1;
+    margin-bottom: 10px;
   }
