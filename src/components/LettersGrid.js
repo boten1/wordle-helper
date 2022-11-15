@@ -51,7 +51,7 @@ function LettersGrid() {
             for (var col = 0; col < NOF_CELLS_IN_ROW && firstFree === -1; col++) {
                 let cellIndex = row*NOF_CELLS_IN_ROW +col;
                 
-                if(document.getElementById(cellIdFromNumber(cellIndex)).value == "") {
+                if(document.getElementById(cellIdFromNumber(cellIndex)).value === "") {
                     firstFree = row*NOF_CELLS_IN_ROW;
                 }
             }
@@ -242,11 +242,11 @@ function LettersGrid() {
                         {getTds()}
                     </tbody>
                 </table>
-                <button class="btn btn-success mb-7" onClick={SendDataToServer}>Submit</button>
-                <label>
-                    <input type="checkbox" checked={onlyUnusedLetters}  onChange={onlyUnusedLettersCheckChanged} />
-                    My Value
-                </label>
+                <div className="controlItems">
+                    <button class="btn btn-success mb-7" onClick={SendDataToServer}>Submit</button>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" checked={onlyUnusedLetters}  onChange={onlyUnusedLettersCheckChanged}/>
+                    <label class="form-check-label" for="flexCheckCheckedDisabled"> Disabled checked checkbox</label>
+                </div>
             </div>
         <div className="divgriddown" >
                 <Bank ref={bankRef} updateWord={UpdateSelectedWordFromBank}/>

@@ -1,11 +1,11 @@
 .Bank {
     flex: 1;
-    display: flex; 
+    display: flex;
+
 }
 
 .Bank div {
     border: 3px solid black;
-    max-height: 90%;
     min-height: 50px;
     width: 440px;
     margin-top: 10px;
@@ -15,7 +15,8 @@
     justify-content: space-between;
     flex-wrap: wrap;
     overflow-y:scroll;
-    margin-bottom: 80px;;
+    margin-bottom: 20px;
+    flex : 1;
 }
 
 

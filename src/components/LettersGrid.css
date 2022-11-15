@@ -3,9 +3,9 @@
 }
 
 letters_grid {
-    height: 100vh;
     display: flex;
-    flex-flow: column;                            
+    height: 100%;
+    flex-direction: column;              
   }
   
   letters_grid input {
@@ -32,8 +32,14 @@ letters_grid {
     flex-grow: 0;
     flex-shrink: 0;
   }
+
+  .controlItems {
+    display: inline-block;
+  }
   
   .divgriddown {
-    flex-grow: 1;
-    margin-bottom: 10px;
+    display: flex;
+		flex-direction: column;
+    justify-content: center;
+    flex: 1;
   }
