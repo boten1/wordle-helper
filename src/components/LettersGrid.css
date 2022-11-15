@@ -2,13 +2,13 @@
     user-select: none;
 }
 
-grid {
+letters_grid {
     height: 100vh;
     display: flex;
     flex-flow: column;                            
   }
   
-  grid input {
+  letters_grid input {
     user-select: none; /* Non-prefixed version, currently
     supported by Chrome, Edge, Opera and Firefox */
     color: white;
@@ -23,7 +23,7 @@ grid {
     border-style: solid;
   }
 
-  grid table {
+  letters_grid table {
     margin-left: auto;
     margin-right: auto;
   }

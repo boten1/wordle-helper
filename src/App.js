@@ -1,10 +1,10 @@
-import Grid from "./components/Grid" 
+import LettersGrid from "./components/LettersGrid" 
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Grid/>
+      <LettersGrid/>
     </div>
   );
 }

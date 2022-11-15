@@ -1,4 +1,4 @@
-import './Grid.css';
+import './LettersGrid.css';
 import Bank from "./Bank" 
 import React,{useState, useRef} from "react";
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -13,7 +13,7 @@ const COLOR_YELLOW="#c9b458";
 const COLOR_GREEN="#6aaa64";
 const COLOR_GRAY="#787c7e";
 
-function Grid() {
+function LettersGrid() {
 
     const bankRef = useRef();
 
@@ -235,7 +235,7 @@ function Grid() {
     }
 
     return (
-        <grid>
+        <letters_grid>
             <div className="divgridup" >
                 <table>
                     <tbody>
@@ -251,8 +251,8 @@ function Grid() {
         <div className="divgriddown" >
                 <Bank ref={bankRef} updateWord={UpdateSelectedWordFromBank}/>
             </div>
-        </grid>
+        </letters_grid>
     );
 }
 
-export default Grid;
+export default LettersGrid;
