@@ -34,12 +34,19 @@ letters_grid {
   }
 
   .controlItems {
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
   }
   
   .divgriddown {
     display: flex;
+    margin: auto;
+   /* max-width: 600px;*/
 		flex-direction: column;
     justify-content: center;
     flex: 1;
+    overflow: hidden;
+
   }

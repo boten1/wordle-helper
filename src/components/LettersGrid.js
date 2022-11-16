@@ -245,7 +245,7 @@ function LettersGrid() {
                 <div className="controlItems">
                     <button class="btn btn-success mb-7" onClick={SendDataToServer}>Submit</button>
                     <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" checked={onlyUnusedLetters}  onChange={onlyUnusedLettersCheckChanged}/>
-                    <label class="form-check-label" for="flexCheckCheckedDisabled"> Disabled checked checkbox</label>
+                    <label class="form-check-label" for="flexCheckCheckedDisabled"> Only unused letters</label>
                 </div>
             </div>
         <div className="divgriddown" >
