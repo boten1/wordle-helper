@@ -43,27 +43,32 @@ const Bank = forwardRef((props, ref) => {
         updateWords: (data) => {
 
             let paragraphs  = [];
-            let para_count = 0;
-            data.words.forEach(element => {
-                let spans = [];
-                for(let index = 0; index < 5;index++) {
-                    let c = element.charAt(index);
-                    let paraId = "para_" + para_count + "_" + index;
-                    let diff = 1 << (c.charCodeAt(0) - "a".charCodeAt(0));
-                    if(c === data.greenLetters[index] ) {
-                        spans.push(<span id={paraId} className='letterGreen'>{c}</span>)
-                    } else if((data.goodLetters & diff) !== 0) {
-                        spans.push(<span id={paraId} className='letterYellow'>{c}</span>)
-                    } else {
-                        spans.push(<span id={paraId} className='letterGray'>{c}</span>)
+            console.log("data.errorMessage " + data.errorMessage);
+            if (data.errorMessage.length === 0) {
+                let para_count = 0;
+                data.words.forEach(element => {
+                    let spans = [];
+                    for(let index = 0; index < 5;index++) {
+                        let c = element.charAt(index);
+                        let paraId = "para_" + para_count + "_" + index;
+                        let diff = 1 << (c.charCodeAt(0) - "a".charCodeAt(0));
+                        if(c === data.greenLetters[index] ) {
+                            spans.push(<span id={paraId} className='letterGreen'>{c}</span>)
+                        } else if((data.goodLetters & diff) !== 0) {
+                            spans.push(<span id={paraId} className='letterYellow'>{c}</span>)
+                        } else {
+                            spans.push(<span id={paraId} className='letterGray'>{c}</span>)
+                        }
                     }
-                    
+                    paragraphs.push(<p className='wordBankParagraph' onClick={UpdateRowWithWord}>{spans}</p>);
+                    para_count++;
+                });
+            } else {
+                data.errorMessage.forEach( item => {
+                    paragraphs.push(<p className='errorMessageParagraph'>{item}</p>);
+                })
+            }
 
-                }
-                
-                paragraphs.push(<p onClick={UpdateRowWithWord}>{spans}</p>);
-                para_count++;
-            });
             setWords(paragraphs);
             serverData = data;
         }

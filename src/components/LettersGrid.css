@@ -50,3 +50,8 @@ letters_grid {
     overflow: hidden;
 
   }
+
+  .checkbox-class {
+    width: 10px; 
+    height: 10px;
+  }

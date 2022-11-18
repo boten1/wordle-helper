@@ -65,6 +65,45 @@ function LettersGrid() {
         }
     }
 
+    function ClearLast() {
+        let nothingFree = -1;
+        let allClear = -2;
+        //find first free
+        let firstFreeRow = nothingFree;
+        for (var row = 0; row < NOF_ROWS_IN_TABLE && firstFreeRow === nothingFree; row++) {
+            for (var col = 0; col < NOF_CELLS_IN_ROW && firstFreeRow === nothingFree; col++) {
+                let cellIndex = row*NOF_CELLS_IN_ROW +col;
+                
+                if(document.getElementById(cellIdFromNumber(cellIndex)).value === "") {
+                    if((col % 5) == 0) 
+                    {
+                        if(row === 0) {
+                            firstFreeRow = allClear;
+                        } else {
+                            firstFreeRow = row-1;
+                        }
+                    } else {
+                        firstFreeRow = row;
+                    }
+                }
+            }
+        }
+
+        if(firstFreeRow === nothingFree) {
+            firstFreeRow = NOF_ROWS_IN_TABLE - 1;
+        }
+
+        if(firstFreeRow !== allClear)
+        {
+            let baseIndex = firstFreeRow*NOF_CELLS_IN_ROW;
+            for(let index = 0; index < 5; index++) {
+                document.getElementById(cellIdFromNumber(baseIndex + index)).value = "";
+            }
+            UpdateCellStates(baseIndex,Array(NOF_CELLS_IN_ROW).fill(COLOR_GRAY));
+        }
+
+    }
+
     /**Update the focus to the next cell or prev cell according to the action type, the serialNumber represent the cell serial number  */
     function moveFocus(serialNumber,action)
     {
@@ -243,8 +282,9 @@ function LettersGrid() {
                     </tbody>
                 </table>
                 <div className="controlItems">
-                    <button class="btn btn-success mb-7" onClick={SendDataToServer}>Submit</button>
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" checked={onlyUnusedLetters}  onChange={onlyUnusedLettersCheckChanged}/>
+                    <button class="btn btn-success mb-7" onClick={SendDataToServer}>Find</button>
+                    <button class="btn btn-success mb-7" onClick={ClearLast}>ClearLast</button>
+                    <input class="checkbox-class form-check-input" type="checkbox" value="" id="checkbox-1" checked={onlyUnusedLetters}  onChange={onlyUnusedLettersCheckChanged}/>
                     <label class="form-check-label" for="flexCheckCheckedDisabled"> Only unused letters</label>
                 </div>
             </div>
