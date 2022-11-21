@@ -7,8 +7,23 @@ letters_grid {
     height: 100%;
     flex-direction: column;              
   }
-  
-  letters_grid input {
+  .divgridup {
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+
+  .divgriddown {
+    display: flex;
+    margin: auto;
+   /* max-width: 600px;*/
+		flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    overflow: hidden;
+
+  }
+
+  .letters_grid_input {
     user-select: none; /* Non-prefixed version, currently
     supported by Chrome, Edge, Opera and Firefox */
     color: white;
@@ -28,30 +43,32 @@ letters_grid {
     margin-right: auto;
   }
   
-  .divgridup {
-    flex-grow: 0;
-    flex-shrink: 0;
-  }
 
   .controlItems {
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin-top: 8px;
   }
   
-  .divgriddown {
-    display: flex;
-    margin: auto;
-   /* max-width: 600px;*/
-		flex-direction: column;
-    justify-content: center;
-    flex: 1;
-    overflow: hidden;
 
+  .btn-success {
+    margin-right: 22px;
+    width: 140px !important;
+    height: 40px !important;
+    background-color: #5096c3 !important;
   }
 
-  .checkbox-class {
-    width: 10px; 
-    height: 10px;
+  .btn-primary {
+    margin-left: 5px;
+    width: 90px !important;
+    height: 60px !important;
+    background-color: #e1555a !important;;
+  }
+
+  .control-lbl {
+    font-size: 20px;
+    margin-left: 3px;
   }

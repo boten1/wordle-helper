@@ -216,7 +216,7 @@ function LettersGrid() {
             for (var col = 0; col < NOF_CELLS_IN_ROW; col++) {
                 let cellIndex = row*NOF_CELLS_IN_ROW +col;
                 let cellId = cellIdFromNumber(cellIndex); 
-                cols.push(<td><input type="text" id={cellId} style={{background:cellColorState[cellIndex]}} maxLength="1" size="2" onKeyDown={handleKeyDown}  onChange={change} onClick={cellClick}/></td>)
+                cols.push(<td><input type="text" className='letters_grid_input' id={cellId} style={{background:cellColorState[cellIndex]}} maxLength="1" size="2" onKeyDown={handleKeyDown}  onChange={change} onClick={cellClick}/></td>)
             }
             inputs.push(<tr>{cols}</tr>)
         }
@@ -272,7 +272,7 @@ function LettersGrid() {
         let col = Number(words[3]);
         return row*NOF_CELLS_IN_ROW  + col;
     }
-
+//<button class="btn btn-primary mb-7" onClick={ClearLast}>Clear Last Row</button> 
     return (
         <letters_grid>
             <div className="divgridup" >
@@ -282,10 +282,9 @@ function LettersGrid() {
                     </tbody>
                 </table>
                 <div className="controlItems">
-                    <button class="btn btn-success mb-7" onClick={SendDataToServer}>Find</button>
-                    <button class="btn btn-success mb-7" onClick={ClearLast}>ClearLast</button>
-                    <input class="checkbox-class form-check-input" type="checkbox" value="" id="checkbox-1" checked={onlyUnusedLetters}  onChange={onlyUnusedLettersCheckChanged}/>
-                    <label class="form-check-label" for="flexCheckCheckedDisabled"> Only unused letters</label>
+                    <button class="control-btn btn btn-success mb-7" onClick={SendDataToServer}>Search</button>                    
+                    <input class="control-checkbox form-check-input" type="checkbox" value="" id="checkbox-1" checked={onlyUnusedLetters}  onChange={onlyUnusedLettersCheckChanged}/>
+                    <label class="control-lbl form-check-label" for="checkbox-1"> Only unused letters</label>  
                 </div>
             </div>
         <div className="divgriddown" >

@@ -87,7 +87,8 @@ function ConvertCellsArrayIntoWordSearchValues(cellArray) {
 
     if(double_green_same_col.length > 0) {
         double_green_same_col.forEach( value => {
-            searchWord.errorMessage.push("column " + value + " has more than one option for a green letter.");
+            let colNum = value + 1;
+            searchWord.errorMessage.push("column " + colNum + " has more than one option for a green letter.");
         })
     }
 
@@ -137,6 +138,10 @@ app.post("/api",function(req,res){
                 }
         
             });
+        }
+
+        if(foundMatchWord.length === 0) {
+            searchWord.errorMessage.push("No matching words were found.")
         }
     }
     console.log("searchWord.errorMessage " + searchWord.errorMessage);
