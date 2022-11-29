@@ -5,9 +5,10 @@
 letters_grid {
     display: flex;
     height: 100%;
-    flex-direction: column;              
-  }
-  .divgridup {
+    flex-direction: column;        
+}
+
+.divgridup {
     flex-grow: 0;
     flex-shrink: 0;
   }
@@ -37,11 +38,13 @@ letters_grid {
     text-align: center;
     text-transform: uppercase;
     border-style: solid;
+    cursor: pointer;
   }
 
   letters_grid table {
     margin-left: auto;
     margin-right: auto;
+    overflow: scroll;
   }
   
 

@@ -1,5 +1,6 @@
 import './LettersGrid.css';
 import Bank from "./Bank" 
+import Header from "./Header" 
 import React,{useState, useRef} from "react";
 import 'bootstrap/dist/css/bootstrap.min.css'
 
@@ -24,6 +25,12 @@ function LettersGrid() {
     //this hold the checkbox value that indicate if only unused letters should be used
     const [onlyUnusedLetters,setonlyUnusedLetters] = useState(false);
 
+    /*
+     * stors the current cells values, this is used for mobile support, acording to the current cell state and the new cell 
+     * state we know what to do.
+     * If current state isn't legal use the old value, if delete was pressed and the current cell is empty move back
+     */
+    const [cellValues,setCellValues] = useState(Array(NOF_CELLS_IN_ROW * NOF_ROWS_IN_TABLE).fill(''));
 
 
     function onlyUnusedLettersCheckChanged() {
@@ -34,10 +41,12 @@ function LettersGrid() {
 
     /* The cell content change in case, act according to the action */
     function change(event) {
-        console.log("event");
+        console.log("event " + pressState );
         //Check if a legal action was called
         if(pressState !== ACTION_STOP) {
+            
             let serialNumber = cellIdToNumber(event.target.id);
+            console.log("event serialNumber " + serialNumber );
             moveFocus(serialNumber,pressState);
         }
 
@@ -65,46 +74,10 @@ function LettersGrid() {
         }
     }
 
-    function ClearLast() {
-        let nothingFree = -1;
-        let allClear = -2;
-        //find first free
-        let firstFreeRow = nothingFree;
-        for (var row = 0; row < NOF_ROWS_IN_TABLE && firstFreeRow === nothingFree; row++) {
-            for (var col = 0; col < NOF_CELLS_IN_ROW && firstFreeRow === nothingFree; col++) {
-                let cellIndex = row*NOF_CELLS_IN_ROW +col;
-                
-                if(document.getElementById(cellIdFromNumber(cellIndex)).value === "") {
-                    if((col % 5) == 0) 
-                    {
-                        if(row === 0) {
-                            firstFreeRow = allClear;
-                        } else {
-                            firstFreeRow = row-1;
-                        }
-                    } else {
-                        firstFreeRow = row;
-                    }
-                }
-            }
-        }
 
-        if(firstFreeRow === nothingFree) {
-            firstFreeRow = NOF_ROWS_IN_TABLE - 1;
-        }
-
-        if(firstFreeRow !== allClear)
-        {
-            let baseIndex = firstFreeRow*NOF_CELLS_IN_ROW;
-            for(let index = 0; index < 5; index++) {
-                document.getElementById(cellIdFromNumber(baseIndex + index)).value = "";
-            }
-            UpdateCellStates(baseIndex,Array(NOF_CELLS_IN_ROW).fill(COLOR_GRAY));
-        }
-
-    }
-
-    /**Update the focus to the next cell or prev cell according to the action type, the serialNumber represent the cell serial number  */
+   /**Update the focus to the next cell or prev cell according to the action type, the serialNumber represent the cell serial number  
+    *  serialNumber - the current cell, this function will see if we can move forwared or backwared acording to the action
+    */
     function moveFocus(serialNumber,action)
     {
     
@@ -172,11 +145,29 @@ function LettersGrid() {
     * The key is down, check if the input is legal, if it does let the "onChange" event handle it
     */
     function handleKeyDown(event) {
-        console.log("handleKeyDown");
-        /* If the backspace was pressed delete the input and ask the "onchange" to move to the prev cell */
-        if(event.key === 'Backspace')
+
+
+        /********************************* */
+        const {id} = event.target;
+        let cellIndex = cellIdToNumber(id);
+        if(event.keyCode === 8 && cellValues[cellIndex].length === 0)
         {
-            
+            moveFocus(cellIndex,ACTION_BACK);
+            UpdateCellState(cellIndex,COLOR_GRAY);
+            event.preventDefault();
+        }
+        /********************************* */
+        return;
+
+
+        event.target.value = "";
+
+        console.log("handleKeyDown");
+
+        /* If the backspace was pressed delete the input and ask the "onchange" to move to the prev cell */
+        if(event.keyCode === 8)
+        {
+            console.log("handleKeyDown del");
             let cellIndex = cellIdToNumber(event.target.id);
             UpdateCellState(cellIndex,COLOR_GRAY);
             //as the input value is empty the onChange won't happen
@@ -195,15 +186,18 @@ function LettersGrid() {
             
 
         /* check if the keys are A-Z */
-        } else if(event.keyCode >= 65 && event.keyCode <= 90) {
+        } else if((event.keyCode >= 65) && (event.keyCode <= 90)) {
+
+            console.log("handleKeyDown letter");
             event.target.value = "";
             pressState = ACTION_FORWARD;
         } else {
+            console.log("handleKeyDown stop event.keyCode " + event.keyCode);
             /* No legal input was detected, cancel the event */
             event.preventDefault();
             pressState = ACTION_STOP;
         }
-        
+        console.log("handleKeyDown pressState " + pressState);
     }
 
     /** Build the table by creating the cells called on init */
@@ -216,7 +210,8 @@ function LettersGrid() {
             for (var col = 0; col < NOF_CELLS_IN_ROW; col++) {
                 let cellIndex = row*NOF_CELLS_IN_ROW +col;
                 let cellId = cellIdFromNumber(cellIndex); 
-                cols.push(<td><input type="text" className='letters_grid_input' id={cellId} style={{background:cellColorState[cellIndex]}} maxLength="1" size="2" onKeyDown={handleKeyDown}  onChange={change} onClick={cellClick}/></td>)
+                //onChange={change}
+                cols.push(<td><input type="text" className='letters_grid_input' id={cellId} style={{background:cellColorState[cellIndex]}} autocomplete="off" size="2" onInput={funcOnInput} onKeyDown={handleKeyDown} onClick={cellClick}/></td>)
             }
             inputs.push(<tr>{cols}</tr>)
         }
@@ -245,7 +240,7 @@ function LettersGrid() {
             cells : cellsVals
         }
         fetch("https://wordhelper-367719.oa.r.appspot.com/api", {
-        //fetch("http://localhost:8081/api", {
+       // fetch("http://localhost:8081/api", {
             method: 'POST',
             headers : {
                 'Content-Type' : 'application/json'
@@ -272,22 +267,73 @@ function LettersGrid() {
         let col = Number(words[3]);
         return row*NOF_CELLS_IN_ROW  + col;
     }
-//<button class="btn btn-primary mb-7" onClick={ClearLast}>Clear Last Row</button> 
+
+    /*
+     * Update the the cell value state array with new value into one of the members
+     */
+    function UpdateCellValues(index,newState)
+    {
+        let updatedArray = [...cellValues];
+        updatedArray[index] = newState;
+        setCellValues(updatedArray);
+    }
+
+    /*
+     * The input on the cell was changed, see the new input and the old and decide what to do.
+     */
+    function funcOnInput(event) {
+
+        const {value, id} = event.target;
+        console.log("funcOnInput " + value);
+        let cellIndex = cellIdToNumber(id);
+
+        if(value.length === 0)
+        {
+            UpdateCellValues(cellIndex,'');
+            UpdateCellState(cellIndex,COLOR_GRAY);
+            moveFocus(cellIndex,ACTION_BACK);
+
+        } else {
+
+            let legalValue = /^[a-zA-Z]+$/.test(value);
+            if(legalValue) {
+                if(value.length === 2)
+                {
+                    if(cellValues[cellIndex] === value.charAt(1))
+                    {
+                        event.target.value = value.charAt(0);  
+                    } else {
+                        event.target.value = value.charAt(1);  
+                    }
+                }
+                UpdateCellValues(cellIndex,event.target.value);
+                moveFocus(cellIndex,ACTION_FORWARD);
+            } else {
+                event.target.value = cellValues[cellIndex];
+            }
+        }
+
+    } 
+
+
     return (
         <letters_grid>
+            <div >
+                <Header/>
+            </div>
             <div className="divgridup" >
-                <table>
+                <table cursor="pointer">
                     <tbody>
                         {getTds()}
                     </tbody>
                 </table>
                 <div className="controlItems">
-                    <button class="control-btn btn btn-success mb-7" onClick={SendDataToServer}>Search</button>                    
-                    <input class="control-checkbox form-check-input" type="checkbox" value="" id="checkbox-1" checked={onlyUnusedLetters}  onChange={onlyUnusedLettersCheckChanged}/>
-                    <label class="control-lbl form-check-label" for="checkbox-1"> Only unused letters</label>  
+                    <button class="control-btn btn btn-success mb-7" onClick={SendDataToServer}>Search</button>              
+                    <input class="control-checkbox form-check-input" type="checkbox" value="" id="checkbox-1" cursor="pointer" checked={onlyUnusedLetters}  onChange={onlyUnusedLettersCheckChanged}/>
+                    <label class="control-lbl form-check-label" for="checkbox-1"> Only unused letters</label>
                 </div>
             </div>
-        <div className="divgriddown" >
+            <div className="divgriddown" >
                 <Bank ref={bankRef} updateWord={UpdateSelectedWordFromBank}/>
             </div>
         </letters_grid>
