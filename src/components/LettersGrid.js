@@ -14,7 +14,7 @@ const COLOR_YELLOW="#c9b458";
 const COLOR_GREEN="#6aaa64";
 const COLOR_GRAY="#787c7e";
 
-function LettersGrid() {
+function LettersGrid(props) {
 
     const bankRef = useRef();
 
@@ -319,7 +319,7 @@ function LettersGrid() {
     return (
         <letters_grid>
             <div >
-                <Header/>
+                <Header setTrigger={props.setTrigger}/>
             </div>
             <div className="divgridup" >
                 <table cursor="pointer">
