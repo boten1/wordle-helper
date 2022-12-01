@@ -239,8 +239,8 @@ function LettersGrid(props) {
             unusedOnly : onlyUnusedLetters,
             cells : cellsVals
         }
-        fetch("https://wordhelper-367719.oa.r.appspot.com/api", {
-       // fetch("http://localhost:8081/api", {
+       // fetch("https://wordhelper-367719.oa.r.appspot.com/api", {
+        fetch("http://localhost:8081/api", {
             method: 'POST',
             headers : {
                 'Content-Type' : 'application/json'
