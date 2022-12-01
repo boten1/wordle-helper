@@ -75,11 +75,9 @@ const Bank = forwardRef((props, ref) => {
       }));
 
     return (
-        <bank className="Bank">
-           <div id="wordBank">
+           <div id="wordBank" className="Bank-div">
                 {words}
            </div> 
-        </bank>
     );
 });
 
