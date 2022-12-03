@@ -14,14 +14,24 @@
 
 p.popupel {
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 17px;
 }
+
+
 
 img.popupel {
     width: 70%;
 }
 
+@media (max-width: 479px) {
+    p.popupel {
+        font-size: 13px;
+    }
 
+    img.popupel {
+        width: 60%;
+    }
+}
 
 .popup-inner {
     position: relative;

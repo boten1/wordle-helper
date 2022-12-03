@@ -1,6 +1,7 @@
 import React,{useState} from "react";
 import LettersGrid from "./components/LettersGrid" 
 import Popup from "./components/Popup" 
+import AdClass from "./components/AdClass" 
 import './App.css';
 
 
