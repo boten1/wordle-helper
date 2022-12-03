@@ -5,6 +5,7 @@ const express = require('express');
 const bodyParser = require("body-parser");
 const path = require('path');
 const englishArr = require('./English');
+const cors = require("cors");
 
 const app = express();
 const NOF_CELLS_IN_ROW = 5;
@@ -15,7 +16,9 @@ const YELLOW = 1;
 const GREEN = 2;
 
 app.use(bodyParser.json());
-
+app.use(cors({
+    origin: ["https://mywordlesolver.com", "https://www.mywordlesolver.com"],
+}))
 
 
 

@@ -146,8 +146,6 @@ function LettersGrid(props) {
     */
     function handleKeyDown(event) {
 
-
-        /********************************* */
         const {id} = event.target;
         let cellIndex = cellIdToNumber(id);
         if(event.keyCode === 8 && cellValues[cellIndex].length === 0)
@@ -156,48 +154,7 @@ function LettersGrid(props) {
             UpdateCellState(cellIndex,COLOR_GRAY);
             event.preventDefault();
         }
-        /********************************* */
-        return;
 
-
-        event.target.value = "";
-
-        console.log("handleKeyDown");
-
-        /* If the backspace was pressed delete the input and ask the "onchange" to move to the prev cell */
-        if(event.keyCode === 8)
-        {
-            console.log("handleKeyDown del");
-            let cellIndex = cellIdToNumber(event.target.id);
-            UpdateCellState(cellIndex,COLOR_GRAY);
-            //as the input value is empty the onChange won't happen
-            if(event.target.value === "")
-            {
-                moveFocus(cellIndex,ACTION_BACK);
-                pressState = ACTION_STOP;
-            }
-            else 
-            {
-                event.target.value = "";
-                moveFocus(cellIndex,ACTION_BACK);
-
-                pressState = ACTION_BACK;
-            }
-            
-
-        /* check if the keys are A-Z */
-        } else if((event.keyCode >= 65) && (event.keyCode <= 90)) {
-
-            console.log("handleKeyDown letter");
-            event.target.value = "";
-            pressState = ACTION_FORWARD;
-        } else {
-            console.log("handleKeyDown stop event.keyCode " + event.keyCode);
-            /* No legal input was detected, cancel the event */
-            event.preventDefault();
-            pressState = ACTION_STOP;
-        }
-        console.log("handleKeyDown pressState " + pressState);
     }
 
     /** Build the table by creating the cells called on init */
@@ -239,8 +196,8 @@ function LettersGrid(props) {
             unusedOnly : onlyUnusedLetters,
             cells : cellsVals
         }
-       // fetch("https://wordhelper-367719.oa.r.appspot.com/api", {
-        fetch("http://localhost:8081/api", {
+        fetch("https://wordhelper-367719.oa.r.appspot.com/api", {
+       // fetch("http://localhost:8081/api", {
             method: 'POST',
             headers : {
                 'Content-Type' : 'application/json'
