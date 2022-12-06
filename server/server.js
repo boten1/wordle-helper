@@ -16,12 +16,10 @@ const YELLOW = 1;
 const GREEN = 2;
 
 app.use(bodyParser.json());
+
 app.use(cors({
     origin: ["https://mywordlesolver.com", "https://www.mywordlesolver.com"],
 }))
-
-
-
 
 
 /*
@@ -102,16 +100,7 @@ function ConvertCellsArrayIntoWordSearchValues(cellArray) {
 
 app.post("/api",function(req,res){
 
-    console.log(req.body);
-    //botner add this section to the input verification
-    if(req.body.cells[0].CellVal != '') {
-        console.log(req.body.cells[0].CellVal.charCodeAt(0));
-    } else {
-        console.log("empty");
-    }
-
     let searchWord = ConvertCellsArrayIntoWordSearchValues(req.body.cells);
-    console.log("req.body.unusedOnly " + req.body.unusedOnly);
 
     let foundMatchWord = [];
 
@@ -145,7 +134,7 @@ app.post("/api",function(req,res){
             searchWord.errorMessage.push("No matching words were found.")
         }
     }
-    console.log("searchWord.errorMessage " + searchWord.errorMessage);
+   // console.log("searchWord.errorMessage " + searchWord.errorMessage);
     const MyData = {
         errorMessage : searchWord.errorMessage,
         greenLetters : searchWord.greenLetters,

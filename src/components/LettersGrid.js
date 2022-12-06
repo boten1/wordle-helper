@@ -18,8 +18,6 @@ function LettersGrid(props) {
 
     const bankRef = useRef();
 
-    // This state is the state that the keyDown is passing to the "change state", if the key is leagle then an action will be done and nothing otherwise
-    let pressState = ACTION_STOP;
     // This is each cell color state, the Cell BG color is hooked on this state
     const [cellColorState,setCellColorState] = useState(Array(NOF_CELLS_IN_ROW * NOF_ROWS_IN_TABLE).fill(COLOR_GRAY));
     //this hold the checkbox value that indicate if only unused letters should be used
@@ -32,28 +30,11 @@ function LettersGrid(props) {
      */
     const [cellValues,setCellValues] = useState(Array(NOF_CELLS_IN_ROW * NOF_ROWS_IN_TABLE).fill(''));
 
-
     function onlyUnusedLettersCheckChanged() {
-
-        console.log("onlyUnusedLettersCheckChanged");
         setonlyUnusedLetters(!onlyUnusedLetters);
     }
 
-    /* The cell content change in case, act according to the action */
-    function change(event) {
-        console.log("event " + pressState );
-        //Check if a legal action was called
-        if(pressState !== ACTION_STOP) {
-            
-            let serialNumber = cellIdToNumber(event.target.id);
-            console.log("event serialNumber " + serialNumber );
-            moveFocus(serialNumber,pressState);
-        }
-
-    }
-
     function UpdateSelectedWordFromBank(wordAndColors) {
-        console.log("UpdateSelectedWordFromBank " + wordAndColors.word + " state " + wordAndColors.colorArray);
         //find first free
         let firstFree = -1;
         for (var row = 0; row < NOF_ROWS_IN_TABLE && firstFree === -1; row++) {
@@ -68,11 +49,16 @@ function LettersGrid(props) {
 
         if(firstFree !== -1) {
             for(let index = 0; index < 5; index++) {
-                document.getElementById(cellIdFromNumber(firstFree + index)).value = wordAndColors.word.charAt(index);
+                let cellIndex = firstFree + index;
+                document.getElementById(cellIdFromNumber(cellIndex)).value = wordAndColors.word.charAt(index);
             }
+            UpdateCellValues(firstFree,wordAndColors.word);
             UpdateCellStates(firstFree,wordAndColors.colorArray);
         }
     }
+
+
+
 
 
    /**Update the focus to the next cell or prev cell according to the action type, the serialNumber represent the cell serial number  
@@ -100,8 +86,6 @@ function LettersGrid(props) {
      */
     function UpdateCellState(index,newState)
     {
-
-        console.log("blop " + index + " state " + newState);
         let updatedArray = [...cellColorState];
         updatedArray[index] = newState;
         setCellColorState(updatedArray);
@@ -125,7 +109,6 @@ function LettersGrid(props) {
     The cell was clicked so change its color to one of the option depending on the prev option 
     */
     function cellClick(event) {
-        console.log("cellClick");
         const {value, id} = event.target;
 
         if(value !== "") {
@@ -148,10 +131,16 @@ function LettersGrid(props) {
 
         const {id} = event.target;
         let cellIndex = cellIdToNumber(id);
-        if(event.keyCode === 8 && cellValues[cellIndex].length === 0)
+
+        if(event.keyCode === 8 && (cellValues[cellIndex].length === 0 || event.target.selectionStart === 0))
         {
             moveFocus(cellIndex,ACTION_BACK);
             UpdateCellState(cellIndex,COLOR_GRAY);
+            document.getElementById(cellIdFromNumber(cellIndex)).value = '';
+            UpdateCellValues(cellIndex,'');
+            event.preventDefault();
+        } else if (event.keyCode === 13) {
+            SendDataToServer();
             event.preventDefault();
         }
 
@@ -167,7 +156,6 @@ function LettersGrid(props) {
             for (var col = 0; col < NOF_CELLS_IN_ROW; col++) {
                 let cellIndex = row*NOF_CELLS_IN_ROW +col;
                 let cellId = cellIdFromNumber(cellIndex); 
-                //onChange={change}
                 cols.push(<td><input type="text" className='letters_grid_input' id={cellId} style={{background:cellColorState[cellIndex]}} autocomplete="off" size="2" onInput={funcOnInput} onKeyDown={handleKeyDown} onClick={cellClick}/></td>)
             }
             inputs.push(<tr>{cols}</tr>)
@@ -191,11 +179,12 @@ function LettersGrid(props) {
 
             cellsVals.push(cellContent);
         }
-        console.log("onlyUnusedLetters " + onlyUnusedLetters);
+
         const MyData = {
             unusedOnly : onlyUnusedLetters,
             cells : cellsVals
         }
+
         fetch("https://wordhelper-367719.oa.r.appspot.com/api", {
        // fetch("http://localhost:8081/api", {
             method: 'POST',
@@ -230,9 +219,14 @@ function LettersGrid(props) {
      */
     function UpdateCellValues(index,newState)
     {
-        let updatedArray = [...cellValues];
-        updatedArray[index] = newState;
-        setCellValues(updatedArray);
+        if(newState.length === 0) {
+            cellValues[index] = newState;
+        } else {
+            for (var i = 0; i < newState.length; i++) {
+                cellValues[index+i] = newState.charAt(i);
+            }
+        }
+        setCellValues(cellValues);
     }
 
     /*
@@ -241,7 +235,6 @@ function LettersGrid(props) {
     function funcOnInput(event) {
 
         const {value, id} = event.target;
-        console.log("funcOnInput " + value);
         let cellIndex = cellIdToNumber(id);
 
         if(value.length === 0)

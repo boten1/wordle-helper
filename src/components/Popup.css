@@ -14,13 +14,13 @@
 
 p.popupel {
     font-family: 'Roboto', sans-serif;
-    font-size: 17px;
+    font-size: 14px;
 }
 
 
 
 img.popupel {
-    width: 70%;
+    width: 65%;
 }
 
 @media (max-width: 479px) {
