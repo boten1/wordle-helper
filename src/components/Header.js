@@ -9,15 +9,21 @@ return (
             <h1>Wordle Solver</h1>
             <div className="language-menu">
                 <div className="language-selected">
-                    <img className="language-img" src='assets/us.svg' alt="En"></img>
+                    
                 </div>
-                <ul>
-                    <il>
-                        <img className="language-img" src='assets/fr.svg' alt="Fr"></img>
-                    </il>
-                    <il>
-                        <img className="language-img" src='assets/it.svg' alt="It"></img>
-                    </il>
+                <ul>                    
+                    <li>
+                        <a class="us">English</a>
+                    </li>
+                    <li>
+                        <a class="fr">French</a>
+                    </li>
+                    <li>
+                        <a class="de">German</a>
+                    </li>
+                    <li>
+                        <a class="it">Italian</a>
+                    </li>
                 </ul>
 
             </div> 

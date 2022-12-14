@@ -268,7 +268,7 @@ function LettersGrid(props) {
 
     return (
         <letters_grid>
-            <div  >
+            <div className='header-div' >
                 <Header setTrigger={props.setTrigger}/>
             </div>
             <div className="divgridup" >

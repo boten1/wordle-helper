@@ -75,3 +75,7 @@ letters_grid {
     font-size: 20px;
     margin-left: 3px;
   }
+
+  .header-div {
+    z-index: 1;
+  }
