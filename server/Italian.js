@@ -27966,12 +27966,6 @@ module.exports = ItalianArr = [
         "yellowLeters" : [8192, 256, 4, 4, 256]
     },
     {
-        "word" : "nicol",
-        "bitmap" : 26884,
-        "wordLetters" : 11995405,
-        "yellowLeters" : [8192, 256, 4, 16384, 2048]
-    },
-    {
         "word" : "nidio",
         "bitmap" : 24840,
         "wordLetters" : 14945549,
@@ -29202,12 +29196,6 @@ module.exports = ItalianArr = [
         "yellowLeters" : [16384, 4096, 16384, 131072, 256]
     },
     {
-        "word" : "onchi",
-        "bitmap" : 24964,
-        "wordLetters" : 8620462,
-        "yellowLeters" : [16384, 8192, 4, 128, 256]
-    },
-    {
         "word" : "oncia",
         "bitmap" : 24837,
         "wordLetters" : 264622,
@@ -29854,12 +29842,6 @@ module.exports = ItalianArr = [
         "bitmap" : 278676,
         "wordLetters" : 4426318,
         "yellowLeters" : [16384, 262144, 4, 128, 16]
-    },
-    {
-        "word" : "oschi",
-        "bitmap" : 278916,
-        "wordLetters" : 8620622,
-        "yellowLeters" : [16384, 262144, 4, 128, 256]
     },
     {
         "word" : "oscur",

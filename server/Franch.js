@@ -24,12 +24,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [1, 2, 4, 16, 262144]
     },
     {
-        "word" : "abcès",
-        "bitmap" : 262279,
-        "wordLetters" : 23300128,
-        "yellowLeters" : [1, 2, 4, 128, 262144]
-    },
-    {
         "word" : "abdos",
         "bitmap" : 278539,
         "wordLetters" : 19336224,
@@ -54,12 +48,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [1, 2, 16, 524288, 256]
     },
     {
-        "word" : "abêti",
-        "bitmap" : 525059,
-        "wordLetters" : 9151520,
-        "yellowLeters" : [1, 2, 512, 524288, 256]
-    },
-    {
         "word" : "abies",
         "bitmap" : 262419,
         "wordLetters" : 19013664,
@@ -72,22 +60,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [1, 2, 256, 4096, 1]
     },
     {
-        "word" : "abîma",
-        "bitmap" : 12291,
-        "wordLetters" : 537632,
-        "yellowLeters" : [1, 2, 8192, 4096, 1]
-    },
-    {
         "word" : "abime",
         "bitmap" : 4371,
         "wordLetters" : 4595744,
         "yellowLeters" : [1, 2, 256, 4096, 16]
-    },
-    {
-        "word" : "abîme",
-        "bitmap" : 12307,
-        "wordLetters" : 4731936,
-        "yellowLeters" : [1, 2, 8192, 4096, 16]
     },
     {
         "word" : "ables",
@@ -204,12 +180,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [1, 4, 4, 16, 262144]
     },
     {
-        "word" : "accès",
-        "bitmap" : 262277,
-        "wordLetters" : 23300160,
-        "yellowLeters" : [1, 4, 4, 128, 262144]
-    },
-    {
         "word" : "accon",
         "bitmap" : 24581,
         "wordLetters" : 14092352,
@@ -262,12 +232,6 @@ module.exports = FrenchArr = [
         "bitmap" : 131093,
         "wordLetters" : 4755520,
         "yellowLeters" : [1, 4, 16, 131072, 16]
-    },
-    {
-        "word" : "acère",
-        "bitmap" : 131221,
-        "wordLetters" : 4889664,
-        "yellowLeters" : [1, 4, 128, 131072, 16]
     },
     {
         "word" : "achab",
@@ -516,12 +480,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [1, 8, 4096, 256, 524288]
     },
     {
-        "word" : "admît",
-        "bitmap" : 536585,
-        "wordLetters" : 24555616,
-        "yellowLeters" : [1, 8, 4096, 8192, 524288]
-    },
-    {
         "word" : "adnee",
         "bitmap" : 8217,
         "wordLetters" : 4338784,
@@ -606,12 +564,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [1, 16, 8, 16, 262144]
     },
     {
-        "word" : "aèdes",
-        "bitmap" : 262297,
-        "wordLetters" : 19012832,
-        "yellowLeters" : [1, 128, 8, 16, 262144]
-    },
-    {
         "word" : "aequo",
         "bitmap" : 1130513,
         "wordLetters" : 15351936,
@@ -652,12 +604,6 @@ module.exports = FrenchArr = [
         "bitmap" : 393233,
         "wordLetters" : 19022976,
         "yellowLeters" : [1, 16, 131072, 16, 262144]
-    },
-    {
-        "word" : "aères",
-        "bitmap" : 393361,
-        "wordLetters" : 19027168,
-        "yellowLeters" : [1, 128, 131072, 16, 262144]
     },
     {
         "word" : "aerez",
@@ -702,12 +648,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [1, 32, 32, 1048576, 524288]
     },
     {
-        "word" : "affût",
-        "bitmap" : 67633185,
-        "wordLetters" : 24974496,
-        "yellowLeters" : [1, 32, 32, 67108864, 524288]
-    },
-    {
         "word" : "afnor",
         "bitmap" : 155681,
         "wordLetters" : 18298016,
@@ -724,12 +664,6 @@ module.exports = FrenchArr = [
         "bitmap" : 69,
         "wordLetters" : 65728,
         "yellowLeters" : [1, 64, 1, 4, 1]
-    },
-    {
-        "word" : "agaça",
-        "bitmap" : 65,
-        "wordLetters" : 4391104,
-        "yellowLeters" : [1, 64, 1, 64, 1]
     },
     {
         "word" : "agace",
@@ -900,12 +834,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [1, 64, 131072, 16, 262144]
     },
     {
-        "word" : "agrès",
-        "bitmap" : 393409,
-        "wordLetters" : 23315648,
-        "yellowLeters" : [1, 64, 131072, 128, 262144]
-    },
-    {
         "word" : "aguis",
         "bitmap" : 1311041,
         "wordLetters" : 19157184,
@@ -1038,22 +966,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [1, 256, 16, 1048576, 2048]
     },
     {
-        "word" : "aïeul",
-        "bitmap" : 1067025,
-        "wordLetters" : 12198336,
-        "yellowLeters" : [1, 16384, 16, 1048576, 2048]
-    },
-    {
         "word" : "aieux",
         "bitmap" : 9437457,
         "wordLetters" : 24776960,
         "yellowLeters" : [1, 256, 16, 1048576, 8388608]
-    },
-    {
-        "word" : "aïeux",
-        "bitmap" : 9453585,
-        "wordLetters" : 24781248,
-        "yellowLeters" : [1, 16384, 16, 1048576, 8388608]
     },
     {
         "word" : "aigle",
@@ -1170,22 +1086,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [1, 256, 8192, 16, 16]
     },
     {
-        "word" : "aînee",
-        "bitmap" : 8209,
-        "wordLetters" : 4343200,
-        "yellowLeters" : [1, 8192, 8192, 16, 16]
-    },
-    {
         "word" : "aines",
         "bitmap" : 270609,
         "wordLetters" : 19019008,
         "yellowLeters" : [1, 256, 8192, 16, 262144]
-    },
-    {
-        "word" : "aînes",
-        "bitmap" : 270353,
-        "wordLetters" : 19023264,
-        "yellowLeters" : [1, 8192, 8192, 16, 262144]
     },
     {
         "word" : "ainou",
@@ -1204,12 +1108,6 @@ module.exports = FrenchArr = [
         "bitmap" : 18689,
         "wordLetters" : 8763648,
         "yellowLeters" : [1, 256, 16384, 2048, 256]
-    },
-    {
-        "word" : "aïoli",
-        "bitmap" : 18689,
-        "wordLetters" : 8767936,
-        "yellowLeters" : [1, 16384, 16384, 2048, 256]
     },
     {
         "word" : "airai",
@@ -1404,12 +1302,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [1, 2048, 16, 8192, 16]
     },
     {
-        "word" : "alêne",
-        "bitmap" : 10769,
-        "wordLetters" : 4760928,
-        "yellowLeters" : [1, 2048, 512, 8192, 16]
-    },
-    {
         "word" : "aleph",
         "bitmap" : 34961,
         "wordLetters" : 7836000,
@@ -1426,12 +1318,6 @@ module.exports = FrenchArr = [
         "bitmap" : 264209,
         "wordLetters" : 4788576,
         "yellowLeters" : [1, 2048, 16, 262144, 16]
-    },
-    {
-        "word" : "alèse",
-        "bitmap" : 264337,
-        "wordLetters" : 4922720,
-        "yellowLeters" : [1, 2048, 128, 262144, 16]
     },
     {
         "word" : "alevi",
@@ -1624,12 +1510,6 @@ module.exports = FrenchArr = [
         "bitmap" : 280593,
         "wordLetters" : 19020128,
         "yellowLeters" : [1, 2048, 16384, 16, 262144]
-    },
-    {
-        "word" : "aloès",
-        "bitmap" : 280705,
-        "wordLetters" : 23312736,
-        "yellowLeters" : [1, 2048, 16384, 128, 262144]
     },
     {
         "word" : "alois",
@@ -1854,22 +1734,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [1, 4096, 16, 8192, 16]
     },
     {
-        "word" : "amène",
-        "bitmap" : 12433,
-        "wordLetters" : 4758912,
-        "yellowLeters" : [1, 4096, 128, 8192, 16]
-    },
-    {
         "word" : "amere",
         "bitmap" : 135185,
         "wordLetters" : 4755840,
         "yellowLeters" : [1, 4096, 16, 131072, 16]
-    },
-    {
-        "word" : "amère",
-        "bitmap" : 135313,
-        "wordLetters" : 4889984,
-        "yellowLeters" : [1, 4096, 128, 131072, 16]
     },
     {
         "word" : "amers",
@@ -1998,12 +1866,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [1, 4096, 1048576, 256, 16]
     },
     {
-        "word" : "amuïe",
-        "bitmap" : 1069073,
-        "wordLetters" : 8868224,
-        "yellowLeters" : [1, 4096, 1048576, 16384, 16]
-    },
-    {
         "word" : "amuir",
         "bitmap" : 1184001,
         "wordLetters" : 18108800,
@@ -2014,12 +1876,6 @@ module.exports = FrenchArr = [
         "bitmap" : 1315073,
         "wordLetters" : 19157376,
         "yellowLeters" : [1, 4096, 1048576, 256, 262144]
-    },
-    {
-        "word" : "amuïs",
-        "bitmap" : 1331201,
-        "wordLetters" : 23548288,
-        "yellowLeters" : [1, 4096, 1048576, 16384, 262144]
     },
     {
         "word" : "amuit",
@@ -2382,22 +2238,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [1, 16384, 1048576, 524288, 1]
     },
     {
-        "word" : "aoûta",
-        "bitmap" : 67649537,
-        "wordLetters" : 780736,
-        "yellowLeters" : [1, 16384, 67108864, 524288, 1]
-    },
-    {
         "word" : "aoute",
         "bitmap" : 1589265,
         "wordLetters" : 4837824,
         "yellowLeters" : [1, 16384, 1048576, 524288, 16]
-    },
-    {
-        "word" : "aoûte",
-        "bitmap" : 67649553,
-        "wordLetters" : 4975040,
-        "yellowLeters" : [1, 16384, 67108864, 524288, 16]
     },
     {
         "word" : "aouts",
@@ -2512,12 +2356,6 @@ module.exports = FrenchArr = [
         "bitmap" : 426001,
         "wordLetters" : 19023328,
         "yellowLeters" : [1, 32768, 131072, 16, 262144]
-    },
-    {
-        "word" : "après",
-        "bitmap" : 426113,
-        "wordLetters" : 23315936,
-        "yellowLeters" : [1, 32768, 131072, 128, 262144]
     },
     {
         "word" : "aptes",
@@ -2670,12 +2508,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [1, 131072, 4, 16384, 8192]
     },
     {
-        "word" : "arçon",
-        "bitmap" : 155713,
-        "wordLetters" : 14228000,
-        "yellowLeters" : [1, 131072, 64, 16384, 8192]
-    },
-    {
         "word" : "arden",
         "bitmap" : 139289,
         "wordLetters" : 13766176,
@@ -2712,22 +2544,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [1, 131072, 16, 8192, 16]
     },
     {
-        "word" : "arène",
-        "bitmap" : 139409,
-        "wordLetters" : 4759072,
-        "yellowLeters" : [1, 131072, 128, 8192, 16]
-    },
-    {
         "word" : "arete",
         "bitmap" : 655377,
         "wordLetters" : 4821536,
         "yellowLeters" : [1, 131072, 16, 524288, 16]
-    },
-    {
-        "word" : "arête",
-        "bitmap" : 655889,
-        "wordLetters" : 4957728,
-        "yellowLeters" : [1, 131072, 512, 524288, 16]
     },
     {
         "word" : "argan",
@@ -2982,12 +2802,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [1, 131072, 16384, 4096, 16]
     },
     {
-        "word" : "arôme",
-        "bitmap" : 659473,
-        "wordLetters" : 4738592,
-        "yellowLeters" : [1, 131072, 524288, 4096, 16]
-    },
-    {
         "word" : "arosa",
         "bitmap" : 409601,
         "wordLetters" : 604704,
@@ -3028,12 +2842,6 @@ module.exports = FrenchArr = [
         "bitmap" : 655377,
         "wordLetters" : 20071968,
         "yellowLeters" : [1, 131072, 131072, 16, 524288]
-    },
-    {
-        "word" : "arrêt",
-        "bitmap" : 655873,
-        "wordLetters" : 24430112,
-        "yellowLeters" : [1, 131072, 131072, 512, 524288]
     },
     {
         "word" : "arroi",
@@ -3306,12 +3114,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [1, 262144, 262144, 256, 524288]
     },
     {
-        "word" : "assît",
-        "bitmap" : 794625,
-        "wordLetters" : 24562240,
-        "yellowLeters" : [1, 262144, 262144, 8192, 524288]
-    },
-    {
         "word" : "aster",
         "bitmap" : 917521,
         "wordLetters" : 17976896,
@@ -3370,12 +3172,6 @@ module.exports = FrenchArr = [
         "bitmap" : 526353,
         "wordLetters" : 4559456,
         "yellowLeters" : [1, 524288, 16, 2048, 16]
-    },
-    {
-        "word" : "atèle",
-        "bitmap" : 526481,
-        "wordLetters" : 4693600,
-        "yellowLeters" : [1, 524288, 128, 2048, 16]
     },
     {
         "word" : "atemi",
@@ -3808,12 +3604,6 @@ module.exports = FrenchArr = [
         "bitmap" : 2228241,
         "wordLetters" : 4756128,
         "yellowLeters" : [1, 2097152, 16, 131072, 16]
-    },
-    {
-        "word" : "avère",
-        "bitmap" : 2228369,
-        "wordLetters" : 4890272,
-        "yellowLeters" : [1, 2097152, 128, 131072, 16]
     },
     {
         "word" : "avers",
@@ -4506,12 +4296,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [2, 1, 2048, 16, 262144]
     },
     {
-        "word" : "balès",
-        "bitmap" : 264323,
-        "wordLetters" : 23309313,
-        "yellowLeters" : [2, 1, 2048, 128, 262144]
-    },
-    {
         "word" : "balla",
         "bitmap" : 2051,
         "wordLetters" : 371713,
@@ -5010,12 +4794,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [2, 1, 524288, 256, 524288]
     },
     {
-        "word" : "batît",
-        "bitmap" : 532483,
-        "wordLetters" : 24562689,
-        "yellowLeters" : [2, 1, 524288, 8192, 524288]
-    },
-    {
         "word" : "batna",
         "bitmap" : 532483,
         "wordLetters" : 445441,
@@ -5274,22 +5052,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [2, 16, 4, 128, 1]
     },
     {
-        "word" : "bêcha",
-        "bitmap" : 647,
-        "wordLetters" : 235809,
-        "yellowLeters" : [2, 512, 4, 128, 1]
-    },
-    {
         "word" : "beche",
         "bitmap" : 150,
         "wordLetters" : 4425857,
         "yellowLeters" : [2, 16, 4, 128, 16]
-    },
-    {
-        "word" : "bêche",
-        "bitmap" : 662,
-        "wordLetters" : 4430113,
-        "yellowLeters" : [2, 512, 4, 128, 16]
     },
     {
         "word" : "becot",
@@ -5352,12 +5118,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [2, 16, 64, 1048576, 1024]
     },
     {
-        "word" : "bègue",
-        "bitmap" : 1048786,
-        "wordLetters" : 4860129,
-        "yellowLeters" : [2, 128, 64, 1048576, 16]
-    },
-    {
         "word" : "begum",
         "bitmap" : 1052754,
         "wordLetters" : 13244545,
@@ -5418,34 +5178,16 @@ module.exports = FrenchArr = [
         "yellowLeters" : [2, 16, 2048, 1, 256]
     },
     {
-        "word" : "bêlai",
-        "bitmap" : 2819,
-        "wordLetters" : 8404257,
-        "yellowLeters" : [2, 512, 2048, 1, 256]
-    },
-    {
         "word" : "belas",
         "bitmap" : 264211,
         "wordLetters" : 18885761,
         "yellowLeters" : [2, 16, 2048, 1, 262144]
     },
     {
-        "word" : "bêlas",
-        "bitmap" : 264707,
-        "wordLetters" : 18890017,
-        "yellowLeters" : [2, 512, 2048, 1, 262144]
-    },
-    {
         "word" : "belat",
         "bitmap" : 526355,
         "wordLetters" : 19934337,
         "yellowLeters" : [2, 16, 2048, 1, 524288]
-    },
-    {
-        "word" : "bêlat",
-        "bitmap" : 526851,
-        "wordLetters" : 19938593,
-        "yellowLeters" : [2, 512, 2048, 1, 524288]
     },
     {
         "word" : "belau",
@@ -5460,12 +5202,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [2, 16, 2048, 16, 16]
     },
     {
-        "word" : "bêlee",
-        "bitmap" : 2578,
-        "wordLetters" : 4341025,
-        "yellowLeters" : [2, 512, 2048, 16, 16]
-    },
-    {
         "word" : "belem",
         "bitmap" : 6162,
         "wordLetters" : 12725377,
@@ -5478,34 +5214,16 @@ module.exports = FrenchArr = [
         "yellowLeters" : [2, 16, 2048, 16, 131072]
     },
     {
-        "word" : "bêler",
-        "bitmap" : 133650,
-        "wordLetters" : 17972513,
-        "yellowLeters" : [2, 512, 2048, 16, 131072]
-    },
-    {
         "word" : "beles",
         "bitmap" : 264210,
         "wordLetters" : 19016833,
         "yellowLeters" : [2, 16, 2048, 16, 262144]
     },
     {
-        "word" : "bêles",
-        "bitmap" : 264722,
-        "wordLetters" : 19021089,
-        "yellowLeters" : [2, 512, 2048, 16, 262144]
-    },
-    {
         "word" : "belez",
         "bitmap" : 33556498,
         "wordLetters" : 26356865,
         "yellowLeters" : [2, 16, 2048, 16, 33554432]
-    },
-    {
-        "word" : "bêlez",
-        "bitmap" : 33557010,
-        "wordLetters" : 26361121,
-        "yellowLeters" : [2, 512, 2048, 16, 33554432]
     },
     {
         "word" : "belga",
@@ -5604,12 +5322,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [2, 16, 8192, 16, 524288]
     },
     {
-        "word" : "benêt",
-        "bitmap" : 533010,
-        "wordLetters" : 24425601,
-        "yellowLeters" : [2, 16, 8192, 512, 524288]
-    },
-    {
         "word" : "benie",
         "bitmap" : 8466,
         "wordLetters" : 4469889,
@@ -5638,12 +5350,6 @@ module.exports = FrenchArr = [
         "bitmap" : 532754,
         "wordLetters" : 20198529,
         "yellowLeters" : [2, 16, 8192, 256, 524288]
-    },
-    {
-        "word" : "benît",
-        "bitmap" : 532498,
-        "wordLetters" : 24556673,
-        "yellowLeters" : [2, 16, 8192, 8192, 524288]
     },
     {
         "word" : "benji",
@@ -5700,22 +5406,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [2, 16, 65536, 1048576, 16]
     },
     {
-        "word" : "bèque",
-        "bitmap" : 1114258,
-        "wordLetters" : 4870369,
-        "yellowLeters" : [2, 128, 65536, 1048576, 16]
-    },
-    {
         "word" : "berca",
         "bitmap" : 131095,
         "wordLetters" : 83073,
         "yellowLeters" : [2, 16, 131072, 4, 1]
-    },
-    {
-        "word" : "berça",
-        "bitmap" : 131155,
-        "wordLetters" : 4408449,
-        "yellowLeters" : [2, 16, 131072, 64, 1]
     },
     {
         "word" : "berce",
@@ -5850,12 +5544,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [2, 16, 524288, 1, 262144]
     },
     {
-        "word" : "bêtas",
-        "bitmap" : 786947,
-        "wordLetters" : 18898209,
-        "yellowLeters" : [2, 512, 524288, 1, 262144]
-    },
-    {
         "word" : "betee",
         "bitmap" : 524306,
         "wordLetters" : 4344961,
@@ -5872,12 +5560,6 @@ module.exports = FrenchArr = [
         "bitmap" : 786450,
         "wordLetters" : 19025025,
         "yellowLeters" : [2, 16, 524288, 16, 262144]
-    },
-    {
-        "word" : "bêtes",
-        "bitmap" : 786962,
-        "wordLetters" : 19029281,
-        "yellowLeters" : [2, 512, 524288, 16, 262144]
     },
     {
         "word" : "bethe",
@@ -6052,12 +5734,6 @@ module.exports = FrenchArr = [
         "bitmap" : 131346,
         "wordLetters" : 4755713,
         "yellowLeters" : [2, 256, 16, 131072, 16]
-    },
-    {
-        "word" : "bière",
-        "bitmap" : 131474,
-        "wordLetters" : 4889857,
-        "yellowLeters" : [2, 256, 128, 131072, 16]
     },
     {
         "word" : "biffa",
@@ -6630,22 +6306,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [2, 2048, 16, 4096, 16]
     },
     {
-        "word" : "blême",
-        "bitmap" : 6674,
-        "wordLetters" : 4728161,
-        "yellowLeters" : [2, 2048, 512, 4096, 16]
-    },
-    {
         "word" : "blemi",
         "bitmap" : 6418,
         "wordLetters" : 8786273,
         "yellowLeters" : [2, 2048, 16, 4096, 256]
-    },
-    {
-        "word" : "blêmi",
-        "bitmap" : 6914,
-        "wordLetters" : 8922465,
-        "yellowLeters" : [2, 2048, 512, 4096, 256]
     },
     {
         "word" : "blesa",
@@ -6658,12 +6322,6 @@ module.exports = FrenchArr = [
         "bitmap" : 264210,
         "wordLetters" : 4788577,
         "yellowLeters" : [2, 2048, 16, 262144, 16]
-    },
-    {
-        "word" : "blèse",
-        "bitmap" : 264338,
-        "wordLetters" : 4922721,
-        "yellowLeters" : [2, 2048, 128, 262144, 16]
     },
     {
         "word" : "blets",
@@ -6942,12 +6600,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [2, 16384, 256, 524288, 16]
     },
     {
-        "word" : "boîte",
-        "bitmap" : 548882,
-        "wordLetters" : 4961729,
-        "yellowLeters" : [2, 16384, 8192, 524288, 16]
-    },
-    {
         "word" : "boive",
         "bitmap" : 2113810,
         "wordLetters" : 4891073,
@@ -7006,12 +6658,6 @@ module.exports = FrenchArr = [
         "bitmap" : 282642,
         "wordLetters" : 19018177,
         "yellowLeters" : [2, 16384, 4096, 16, 262144]
-    },
-    {
-        "word" : "bômes",
-        "bitmap" : 790546,
-        "wordLetters" : 19022433,
-        "yellowLeters" : [2, 524288, 4096, 16, 262144]
     },
     {
         "word" : "bonda",
@@ -7554,40 +7200,16 @@ module.exports = FrenchArr = [
         "yellowLeters" : [2, 131072, 16, 2048, 1]
     },
     {
-        "word" : "brêla",
-        "bitmap" : 133635,
-        "wordLetters" : 501281,
-        "yellowLeters" : [2, 131072, 512, 2048, 1]
-    },
-    {
         "word" : "brele",
         "bitmap" : 133138,
         "wordLetters" : 4559393,
         "yellowLeters" : [2, 131072, 16, 2048, 16]
     },
     {
-        "word" : "brèle",
-        "bitmap" : 133266,
-        "wordLetters" : 4693537,
-        "yellowLeters" : [2, 131072, 128, 2048, 16]
-    },
-    {
-        "word" : "brêle",
-        "bitmap" : 133650,
-        "wordLetters" : 4695585,
-        "yellowLeters" : [2, 131072, 512, 2048, 16]
-    },
-    {
         "word" : "breme",
         "bitmap" : 135186,
         "wordLetters" : 4592161,
         "yellowLeters" : [2, 131072, 16, 4096, 16]
-    },
-    {
-        "word" : "brème",
-        "bitmap" : 135314,
-        "wordLetters" : 4726305,
-        "yellowLeters" : [2, 131072, 128, 4096, 16]
     },
     {
         "word" : "brens",
@@ -7606,12 +7228,6 @@ module.exports = FrenchArr = [
         "bitmap" : 2228242,
         "wordLetters" : 4887073,
         "yellowLeters" : [2, 131072, 16, 2097152, 16]
-    },
-    {
-        "word" : "brève",
-        "bitmap" : 2228370,
-        "wordLetters" : 5021217,
-        "yellowLeters" : [2, 131072, 128, 2097152, 16]
     },
     {
         "word" : "bribe",
@@ -7818,34 +7434,16 @@ module.exports = FrenchArr = [
         "yellowLeters" : [2, 131072, 1048576, 256, 524288]
     },
     {
-        "word" : "bruît",
-        "bitmap" : 1712130,
-        "wordLetters" : 24564257,
-        "yellowLeters" : [2, 131072, 1048576, 8192, 524288]
-    },
-    {
         "word" : "brula",
         "bitmap" : 1181699,
         "wordLetters" : 381473,
         "yellowLeters" : [2, 131072, 1048576, 2048, 1]
     },
     {
-        "word" : "brûla",
-        "bitmap" : 67241987,
-        "wordLetters" : 518689,
-        "yellowLeters" : [2, 131072, 67108864, 2048, 1]
-    },
-    {
         "word" : "brule",
         "bitmap" : 1181714,
         "wordLetters" : 4575777,
         "yellowLeters" : [2, 131072, 1048576, 2048, 16]
-    },
-    {
-        "word" : "brûle",
-        "bitmap" : 67242002,
-        "wordLetters" : 4712993,
-        "yellowLeters" : [2, 131072, 67108864, 2048, 16]
     },
     {
         "word" : "bruma",
@@ -7902,22 +7500,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [2, 1048576, 4, 128, 1]
     },
     {
-        "word" : "bûcha",
-        "bitmap" : 67108999,
-        "wordLetters" : 236353,
-        "yellowLeters" : [2, 67108864, 4, 128, 1]
-    },
-    {
         "word" : "buche",
         "bitmap" : 1048726,
         "wordLetters" : 4426369,
         "yellowLeters" : [2, 1048576, 4, 128, 16]
-    },
-    {
-        "word" : "bûche",
-        "bitmap" : 67109014,
-        "wordLetters" : 4430657,
-        "yellowLeters" : [2, 67108864, 4, 128, 16]
     },
     {
         "word" : "buees",
@@ -8014,12 +7600,6 @@ module.exports = FrenchArr = [
         "bitmap" : 1314834,
         "wordLetters" : 19018369,
         "yellowLeters" : [2, 1048576, 4096, 16, 262144]
-    },
-    {
-        "word" : "bûmes",
-        "bitmap" : 67375122,
-        "wordLetters" : 19022657,
-        "yellowLeters" : [2, 67108864, 4096, 16, 262144]
     },
     {
         "word" : "bunas",
@@ -8194,12 +7774,6 @@ module.exports = FrenchArr = [
         "bitmap" : 1835026,
         "wordLetters" : 19025537,
         "yellowLeters" : [2, 1048576, 524288, 16, 262144]
-    },
-    {
-        "word" : "bûtes",
-        "bitmap" : 67895314,
-        "wordLetters" : 19029825,
-        "yellowLeters" : [2, 67108864, 524288, 16, 262144]
     },
     {
         "word" : "butez",
@@ -8526,22 +8100,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [4, 1, 256, 8, 262144]
     },
     {
-        "word" : "caïds",
-        "bitmap" : 278541,
-        "wordLetters" : 19118082,
-        "yellowLeters" : [4, 1, 16384, 8, 262144]
-    },
-    {
         "word" : "caieu",
         "bitmap" : 1048853,
         "wordLetters" : 21110786,
         "yellowLeters" : [4, 1, 256, 16, 1048576]
-    },
-    {
-        "word" : "caïeu",
-        "bitmap" : 1064981,
-        "wordLetters" : 21248002,
-        "yellowLeters" : [4, 1, 16384, 16, 1048576]
     },
     {
         "word" : "caion",
@@ -9630,12 +9192,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [4, 16, 8, 16, 262144]
     },
     {
-        "word" : "cèdes",
-        "bitmap" : 262300,
-        "wordLetters" : 19012834,
-        "yellowLeters" : [4, 128, 8, 16, 262144]
-    },
-    {
         "word" : "cedex",
         "bitmap" : 8388636,
         "wordLetters" : 24251522,
@@ -9658,12 +9214,6 @@ module.exports = FrenchArr = [
         "bitmap" : 131100,
         "wordLetters" : 4754562,
         "yellowLeters" : [4, 16, 8, 131072, 16]
-    },
-    {
-        "word" : "cèdre",
-        "bitmap" : 131228,
-        "wordLetters" : 4758754,
-        "yellowLeters" : [4, 128, 8, 131072, 16]
     },
     {
         "word" : "cegep",
@@ -9726,12 +9276,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [4, 16, 2048, 16, 262144]
     },
     {
-        "word" : "cèles",
-        "bitmap" : 264340,
-        "wordLetters" : 19021026,
-        "yellowLeters" : [4, 128, 2048, 16, 262144]
-    },
-    {
         "word" : "celez",
         "bitmap" : 33556500,
         "wordLetters" : 26356866,
@@ -9778,12 +9322,6 @@ module.exports = FrenchArr = [
         "bitmap" : 270356,
         "wordLetters" : 19018882,
         "yellowLeters" : [4, 16, 8192, 16, 262144]
-    },
-    {
-        "word" : "cènes",
-        "bitmap" : 270484,
-        "wordLetters" : 19023074,
-        "yellowLeters" : [4, 128, 8192, 16, 262144]
     },
     {
         "word" : "cenis",
@@ -9838,12 +9376,6 @@ module.exports = FrenchArr = [
         "bitmap" : 294932,
         "wordLetters" : 19020930,
         "yellowLeters" : [4, 16, 32768, 16, 262144]
-    },
-    {
-        "word" : "cèpes",
-        "bitmap" : 295060,
-        "wordLetters" : 19025122,
-        "yellowLeters" : [4, 128, 32768, 16, 262144]
     },
     {
         "word" : "ceram",
@@ -10080,12 +9612,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [4, 128, 16, 8192, 16]
     },
     {
-        "word" : "chêne",
-        "bitmap" : 8852,
-        "wordLetters" : 4760802,
-        "yellowLeters" : [4, 128, 512, 8192, 16]
-    },
-    {
         "word" : "cheni",
         "bitmap" : 8596,
         "wordLetters" : 8818914,
@@ -10108,12 +9634,6 @@ module.exports = FrenchArr = [
         "bitmap" : 131220,
         "wordLetters" : 4755682,
         "yellowLeters" : [4, 128, 16, 131072, 16]
-    },
-    {
-        "word" : "chère",
-        "bitmap" : 131220,
-        "wordLetters" : 4889826,
-        "yellowLeters" : [4, 128, 128, 131072, 16]
     },
     {
         "word" : "cheri",
@@ -10308,22 +9828,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [4, 128, 16384, 4096, 1]
     },
     {
-        "word" : "chôma",
-        "bitmap" : 528517,
-        "wordLetters" : 543970,
-        "yellowLeters" : [4, 128, 524288, 4096, 1]
-    },
-    {
         "word" : "chome",
         "bitmap" : 20628,
         "wordLetters" : 4602082,
         "yellowLeters" : [4, 128, 16384, 4096, 16]
-    },
-    {
-        "word" : "chôme",
-        "bitmap" : 528532,
-        "wordLetters" : 4738274,
-        "yellowLeters" : [4, 128, 524288, 4096, 16]
     },
     {
         "word" : "chopa",
@@ -10992,22 +10500,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [4, 16384, 4, 128, 1]
     },
     {
-        "word" : "côcha",
-        "bitmap" : 524421,
-        "wordLetters" : 236130,
-        "yellowLeters" : [4, 524288, 4, 128, 1]
-    },
-    {
         "word" : "coche",
         "bitmap" : 16532,
         "wordLetters" : 4426178,
         "yellowLeters" : [4, 16384, 4, 128, 16]
-    },
-    {
-        "word" : "côche",
-        "bitmap" : 524436,
-        "wordLetters" : 4430434,
-        "yellowLeters" : [4, 524288, 4, 128, 16]
     },
     {
         "word" : "cocon",
@@ -11154,34 +10650,16 @@ module.exports = FrenchArr = [
         "yellowLeters" : [4, 16384, 256, 524288, 1]
     },
     {
-        "word" : "coïta",
-        "bitmap" : 540677,
-        "wordLetters" : 768450,
-        "yellowLeters" : [4, 16384, 16384, 524288, 1]
-    },
-    {
         "word" : "coite",
         "bitmap" : 540948,
         "wordLetters" : 4825538,
         "yellowLeters" : [4, 16384, 256, 524288, 16]
     },
     {
-        "word" : "coïte",
-        "bitmap" : 540692,
-        "wordLetters" : 4962754,
-        "yellowLeters" : [4, 16384, 16384, 524288, 16]
-    },
-    {
         "word" : "coits",
         "bitmap" : 803076,
         "wordLetters" : 19505602,
         "yellowLeters" : [4, 16384, 256, 524288, 262144]
-    },
-    {
-        "word" : "coïts",
-        "bitmap" : 802820,
-        "wordLetters" : 19642818,
-        "yellowLeters" : [4, 16384, 16384, 524288, 262144]
     },
     {
         "word" : "cokes",
@@ -11236,12 +10714,6 @@ module.exports = FrenchArr = [
         "bitmap" : 26628,
         "wordLetters" : 14101954,
         "yellowLeters" : [4, 16384, 2048, 16384, 8192]
-    },
-    {
-        "word" : "côlon",
-        "bitmap" : 550916,
-        "wordLetters" : 14106210,
-        "yellowLeters" : [4, 524288, 2048, 16384, 8192]
     },
     {
         "word" : "colos",
@@ -11316,12 +10788,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [4, 16384, 8192, 4, 1048576]
     },
     {
-        "word" : "conçu",
-        "bitmap" : 1073220,
-        "wordLetters" : 25376194,
-        "yellowLeters" : [4, 16384, 8192, 64, 1048576]
-    },
-    {
         "word" : "conde",
         "bitmap" : 24604,
         "wordLetters" : 4306370,
@@ -11340,12 +10806,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [4, 16384, 8192, 16, 262144]
     },
     {
-        "word" : "cônes",
-        "bitmap" : 794644,
-        "wordLetters" : 19023458,
-        "yellowLeters" : [4, 524288, 8192, 16, 262144]
-    },
-    {
         "word" : "conga",
         "bitmap" : 24645,
         "wordLetters" : 210370,
@@ -11358,34 +10818,28 @@ module.exports = FrenchArr = [
         "yellowLeters" : [4, 16384, 8192, 64, 16]
     },
     {
-        "word" : "cônie",
-        "bitmap" : 532756,
-        "wordLetters" : 4474466,
-        "yellowLeters" : [4, 524288, 8192, 256, 16]
+        "word" : "conie",
+        "bitmap" : 24852,
+        "wordLetters" : 4470210,
+        "yellowLeters" : [4, 16384, 8192, 256, 16]
     },
     {
-        "word" : "cônir",
-        "bitmap" : 663812,
-        "wordLetters" : 18105954,
-        "yellowLeters" : [4, 524288, 8192, 256, 131072]
+        "word" : "conir",
+        "bitmap" : 155908,
+        "wordLetters" : 18101698,
+        "yellowLeters" : [4, 16384, 8192, 256, 131072]
     },
     {
-        "word" : "cônis",
-        "bitmap" : 794884,
-        "wordLetters" : 19154530,
-        "yellowLeters" : [4, 524288, 8192, 256, 262144]
+        "word" : "conis",
+        "bitmap" : 286980,
+        "wordLetters" : 19150274,
+        "yellowLeters" : [4, 16384, 8192, 256, 262144]
     },
     {
-        "word" : "cônit",
-        "bitmap" : 532740,
-        "wordLetters" : 20203106,
-        "yellowLeters" : [4, 524288, 8192, 256, 524288]
-    },
-    {
-        "word" : "cônît",
-        "bitmap" : 532484,
-        "wordLetters" : 24561250,
-        "yellowLeters" : [4, 524288, 8192, 8192, 524288]
+        "word" : "conit",
+        "bitmap" : 549124,
+        "wordLetters" : 20198850,
+        "yellowLeters" : [4, 16384, 8192, 256, 524288]
     },
     {
         "word" : "conne",
@@ -11652,12 +11106,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [4, 16384, 524288, 16, 262144]
     },
     {
-        "word" : "côtes",
-        "bitmap" : 786452,
-        "wordLetters" : 19029602,
-        "yellowLeters" : [4, 524288, 524288, 16, 262144]
-    },
-    {
         "word" : "cotez",
         "bitmap" : 34095124,
         "wordLetters" : 26365378,
@@ -11686,12 +11134,6 @@ module.exports = FrenchArr = [
         "bitmap" : 540932,
         "wordLetters" : 20204994,
         "yellowLeters" : [4, 16384, 524288, 256, 524288]
-    },
-    {
-        "word" : "cotît",
-        "bitmap" : 548868,
-        "wordLetters" : 24563138,
-        "yellowLeters" : [4, 16384, 524288, 8192, 524288]
     },
     {
         "word" : "coton",
@@ -11820,34 +11262,16 @@ module.exports = FrenchArr = [
         "yellowLeters" : [4, 16384, 1048576, 524288, 1]
     },
     {
-        "word" : "coûta",
-        "bitmap" : 67649541,
-        "wordLetters" : 780738,
-        "yellowLeters" : [4, 16384, 67108864, 524288, 1]
-    },
-    {
         "word" : "coute",
         "bitmap" : 1589268,
         "wordLetters" : 4837826,
         "yellowLeters" : [4, 16384, 1048576, 524288, 16]
     },
     {
-        "word" : "coûte",
-        "bitmap" : 67649556,
-        "wordLetters" : 4975042,
-        "yellowLeters" : [4, 16384, 67108864, 524288, 16]
-    },
-    {
         "word" : "couts",
         "bitmap" : 1851396,
         "wordLetters" : 19517890,
         "yellowLeters" : [4, 16384, 1048576, 524288, 262144]
-    },
-    {
-        "word" : "coûts",
-        "bitmap" : 67911684,
-        "wordLetters" : 19655106,
-        "yellowLeters" : [4, 16384, 67108864, 524288, 262144]
     },
     {
         "word" : "couva",
@@ -12108,12 +11532,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [4, 131072, 16, 4096, 16]
     },
     {
-        "word" : "crème",
-        "bitmap" : 135316,
-        "wordLetters" : 4726306,
-        "yellowLeters" : [4, 131072, 128, 4096, 16]
-    },
-    {
         "word" : "crena",
         "bitmap" : 139285,
         "wordLetters" : 430626,
@@ -12126,34 +11544,16 @@ module.exports = FrenchArr = [
         "yellowLeters" : [4, 131072, 16, 8192, 16]
     },
     {
-        "word" : "crène",
-        "bitmap" : 139412,
-        "wordLetters" : 4759074,
-        "yellowLeters" : [4, 131072, 128, 8192, 16]
-    },
-    {
         "word" : "crepa",
         "bitmap" : 163861,
         "wordLetters" : 496162,
         "yellowLeters" : [4, 131072, 16, 32768, 1]
     },
     {
-        "word" : "crêpa",
-        "bitmap" : 164357,
-        "wordLetters" : 632354,
-        "yellowLeters" : [4, 131072, 512, 32768, 1]
-    },
-    {
         "word" : "crepe",
         "bitmap" : 163860,
         "wordLetters" : 4690466,
         "yellowLeters" : [4, 131072, 16, 32768, 16]
-    },
-    {
-        "word" : "crêpe",
-        "bitmap" : 164372,
-        "wordLetters" : 4826658,
-        "yellowLeters" : [4, 131072, 512, 32768, 16]
     },
     {
         "word" : "crepi",
@@ -12180,12 +11580,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [4, 131072, 16, 524288, 16]
     },
     {
-        "word" : "crête",
-        "bitmap" : 655892,
-        "wordLetters" : 4957730,
-        "yellowLeters" : [4, 131072, 512, 524288, 16]
-    },
-    {
         "word" : "crets",
         "bitmap" : 917524,
         "wordLetters" : 19501602,
@@ -12208,12 +11602,6 @@ module.exports = FrenchArr = [
         "bitmap" : 2228244,
         "wordLetters" : 4887074,
         "yellowLeters" : [4, 131072, 16, 2097152, 16]
-    },
-    {
-        "word" : "crève",
-        "bitmap" : 2228372,
-        "wordLetters" : 5021218,
-        "yellowLeters" : [4, 131072, 128, 2097152, 16]
     },
     {
         "word" : "criai",
@@ -12336,22 +11724,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [4, 131072, 16384, 256, 262144]
     },
     {
-        "word" : "croîs",
-        "bitmap" : 417796,
-        "wordLetters" : 23509538,
-        "yellowLeters" : [4, 131072, 16384, 8192, 262144]
-    },
-    {
         "word" : "croit",
         "bitmap" : 672004,
         "wordLetters" : 20199970,
         "yellowLeters" : [4, 131072, 16384, 256, 524288]
-    },
-    {
-        "word" : "croît",
-        "bitmap" : 679940,
-        "wordLetters" : 24558114,
-        "yellowLeters" : [4, 131072, 16384, 8192, 524288]
     },
     {
         "word" : "croix",
@@ -13134,22 +12510,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [8, 16, 4, 16, 262144]
     },
     {
-        "word" : "decès",
-        "bitmap" : 262300,
-        "wordLetters" : 23300227,
-        "yellowLeters" : [8, 16, 4, 128, 262144]
-    },
-    {
         "word" : "deche",
         "bitmap" : 156,
         "wordLetters" : 4425859,
         "yellowLeters" : [8, 16, 4, 128, 16]
-    },
-    {
-        "word" : "dèche",
-        "bitmap" : 156,
-        "wordLetters" : 4430051,
-        "yellowLeters" : [8, 128, 4, 128, 16]
     },
     {
         "word" : "dechu",
@@ -13194,40 +12558,16 @@ module.exports = FrenchArr = [
         "yellowLeters" : [8, 16, 4, 1048576, 16]
     },
     {
-        "word" : "deçue",
-        "bitmap" : 1048664,
-        "wordLetters" : 4987011,
-        "yellowLeters" : [8, 16, 64, 1048576, 16]
-    },
-    {
         "word" : "decus",
         "bitmap" : 1310748,
         "wordLetters" : 19531907,
         "yellowLeters" : [8, 16, 4, 1048576, 262144]
     },
     {
-        "word" : "deçus",
-        "bitmap" : 1310808,
-        "wordLetters" : 19667075,
-        "yellowLeters" : [8, 16, 64, 1048576, 262144]
-    },
-    {
         "word" : "decut",
         "bitmap" : 1572892,
         "wordLetters" : 20580483,
         "yellowLeters" : [8, 16, 4, 1048576, 524288]
-    },
-    {
-        "word" : "deçut",
-        "bitmap" : 1572952,
-        "wordLetters" : 20715651,
-        "yellowLeters" : [8, 16, 64, 1048576, 524288]
-    },
-    {
-        "word" : "deçût",
-        "bitmap" : 67633240,
-        "wordLetters" : 25106563,
-        "yellowLeters" : [8, 16, 64, 67108864, 524288]
     },
     {
         "word" : "dedia",
@@ -13252,12 +12592,6 @@ module.exports = FrenchArr = [
         "bitmap" : 524568,
         "wordLetters" : 20188291,
         "yellowLeters" : [8, 16, 8, 256, 524288]
-    },
-    {
-        "word" : "dedît",
-        "bitmap" : 532504,
-        "wordLetters" : 24546435,
-        "yellowLeters" : [8, 16, 8, 8192, 524288]
     },
     {
         "word" : "defet",
@@ -13288,12 +12622,6 @@ module.exports = FrenchArr = [
         "bitmap" : 524600,
         "wordLetters" : 20190339,
         "yellowLeters" : [8, 16, 32, 256, 524288]
-    },
-    {
-        "word" : "defît",
-        "bitmap" : 532536,
-        "wordLetters" : 24548483,
-        "yellowLeters" : [8, 16, 32, 8192, 524288]
     },
     {
         "word" : "degat",
@@ -13374,12 +12702,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [8, 16, 4096, 16, 262144]
     },
     {
-        "word" : "dèmes",
-        "bitmap" : 266392,
-        "wordLetters" : 19022051,
-        "yellowLeters" : [8, 128, 4096, 16, 262144]
-    },
-    {
         "word" : "demet",
         "bitmap" : 528408,
         "wordLetters" : 20066435,
@@ -13402,12 +12724,6 @@ module.exports = FrenchArr = [
         "bitmap" : 528664,
         "wordLetters" : 20197507,
         "yellowLeters" : [8, 16, 4096, 256, 524288]
-    },
-    {
-        "word" : "demît",
-        "bitmap" : 536600,
-        "wordLetters" : 24555651,
-        "yellowLeters" : [8, 16, 4096, 8192, 524288]
     },
     {
         "word" : "demon",
@@ -13518,12 +12834,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [8, 16, 32768, 16384, 524288]
     },
     {
-        "word" : "depôt",
-        "bitmap" : 557080,
-        "wordLetters" : 24755331,
-        "yellowLeters" : [8, 16, 32768, 524288, 524288]
-    },
-    {
         "word" : "derby",
         "bitmap" : 16908314,
         "wordLetters" : 25216131,
@@ -13582,12 +12892,6 @@ module.exports = FrenchArr = [
         "bitmap" : 2621464,
         "wordLetters" : 20075651,
         "yellowLeters" : [8, 16, 2097152, 16, 524288]
-    },
-    {
-        "word" : "devêt",
-        "bitmap" : 2621976,
-        "wordLetters" : 24433795,
-        "yellowLeters" : [8, 16, 2097152, 512, 524288]
     },
     {
         "word" : "devez",
@@ -13716,22 +13020,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [8, 256, 16, 262144, 16]
     },
     {
-        "word" : "dièse",
-        "bitmap" : 262552,
-        "wordLetters" : 4922627,
-        "yellowLeters" : [8, 256, 128, 262144, 16]
-    },
-    {
         "word" : "diete",
         "bitmap" : 524568,
         "wordLetters" : 4821251,
         "yellowLeters" : [8, 256, 16, 524288, 16]
-    },
-    {
-        "word" : "diète",
-        "bitmap" : 524696,
-        "wordLetters" : 4955395,
-        "yellowLeters" : [8, 256, 128, 524288, 16]
     },
     {
         "word" : "dieux",
@@ -13788,22 +13080,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [8, 256, 4096, 16, 262144]
     },
     {
-        "word" : "dîmes",
-        "bitmap" : 274456,
-        "wordLetters" : 19022243,
-        "yellowLeters" : [8, 8192, 4096, 16, 262144]
-    },
-    {
         "word" : "dinai",
         "bitmap" : 8457,
         "wordLetters" : 8402179,
         "yellowLeters" : [8, 256, 8192, 1, 256]
-    },
-    {
-        "word" : "dînai",
-        "bitmap" : 8457,
-        "wordLetters" : 8406435,
-        "yellowLeters" : [8, 8192, 8192, 1, 256]
     },
     {
         "word" : "dinar",
@@ -13818,22 +13098,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [8, 256, 8192, 1, 262144]
     },
     {
-        "word" : "dînas",
-        "bitmap" : 270345,
-        "wordLetters" : 18892195,
-        "yellowLeters" : [8, 8192, 8192, 1, 262144]
-    },
-    {
         "word" : "dinat",
         "bitmap" : 532745,
         "wordLetters" : 19936515,
         "yellowLeters" : [8, 256, 8192, 1, 524288]
-    },
-    {
-        "word" : "dînat",
-        "bitmap" : 532489,
-        "wordLetters" : 19940771,
-        "yellowLeters" : [8, 8192, 8192, 1, 524288]
     },
     {
         "word" : "dinde",
@@ -13848,34 +13116,16 @@ module.exports = FrenchArr = [
         "yellowLeters" : [8, 256, 8192, 16, 131072]
     },
     {
-        "word" : "dîner",
-        "bitmap" : 139288,
-        "wordLetters" : 17974691,
-        "yellowLeters" : [8, 8192, 8192, 16, 131072]
-    },
-    {
         "word" : "dines",
         "bitmap" : 270616,
         "wordLetters" : 19019011,
         "yellowLeters" : [8, 256, 8192, 16, 262144]
     },
     {
-        "word" : "dînes",
-        "bitmap" : 270360,
-        "wordLetters" : 19023267,
-        "yellowLeters" : [8, 8192, 8192, 16, 262144]
-    },
-    {
         "word" : "dinez",
         "bitmap" : 33562904,
         "wordLetters" : 26359043,
         "yellowLeters" : [8, 256, 8192, 16, 33554432]
-    },
-    {
-        "word" : "dînez",
-        "bitmap" : 33562648,
-        "wordLetters" : 26363299,
-        "yellowLeters" : [8, 8192, 8192, 16, 33554432]
     },
     {
         "word" : "dingo",
@@ -13980,12 +13230,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [8, 256, 524288, 16, 262144]
     },
     {
-        "word" : "dîtes",
-        "bitmap" : 794648,
-        "wordLetters" : 19029411,
-        "yellowLeters" : [8, 8192, 524288, 16, 262144]
-    },
-    {
         "word" : "divan",
         "bitmap" : 2105609,
         "wordLetters" : 13653251,
@@ -14038,12 +13282,6 @@ module.exports = FrenchArr = [
         "bitmap" : 8969,
         "wordLetters" : 13893923,
         "yellowLeters" : [8, 512, 1, 256, 8192]
-    },
-    {
-        "word" : "djaïn",
-        "bitmap" : 25097,
-        "wordLetters" : 18284835,
-        "yellowLeters" : [8, 512, 1, 16384, 8192]
     },
     {
         "word" : "djeun",
@@ -14242,12 +13480,6 @@ module.exports = FrenchArr = [
         "bitmap" : 282648,
         "wordLetters" : 19018179,
         "yellowLeters" : [8, 16384, 4096, 16, 262144]
-    },
-    {
-        "word" : "dômes",
-        "bitmap" : 790552,
-        "wordLetters" : 19022435,
-        "yellowLeters" : [8, 524288, 4096, 16, 262144]
     },
     {
         "word" : "donas",
@@ -14694,12 +13926,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [8, 131072, 16, 64, 16]
     },
     {
-        "word" : "drège",
-        "bitmap" : 131288,
-        "wordLetters" : 4529699,
-        "yellowLeters" : [8, 131072, 128, 64, 16]
-    },
-    {
         "word" : "dreve",
         "bitmap" : 2228248,
         "wordLetters" : 4887075,
@@ -14752,12 +13978,6 @@ module.exports = FrenchArr = [
         "bitmap" : 149528,
         "wordLetters" : 4569635,
         "yellowLeters" : [8, 131072, 16384, 2048, 16]
-    },
-    {
-        "word" : "drôle",
-        "bitmap" : 657432,
-        "wordLetters" : 4705827,
-        "yellowLeters" : [8, 131072, 524288, 2048, 16]
     },
     {
         "word" : "drome",
@@ -14916,12 +14136,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [8, 1048576, 4096, 16, 262144]
     },
     {
-        "word" : "dûmes",
-        "bitmap" : 67375128,
-        "wordLetters" : 19022659,
-        "yellowLeters" : [8, 67108864, 4096, 16, 262144]
-    },
-    {
         "word" : "dunes",
         "bitmap" : 1318936,
         "wordLetters" : 19019395,
@@ -15072,12 +14286,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [8, 1048576, 524288, 16, 262144]
     },
     {
-        "word" : "dûtes",
-        "bitmap" : 67895320,
-        "wordLetters" : 19029827,
-        "yellowLeters" : [8, 67108864, 524288, 16, 262144]
-    },
-    {
         "word" : "duvet",
         "bitmap" : 3670040,
         "wordLetters" : 20076163,
@@ -15108,12 +14316,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [8, 33554432, 16, 524288, 1]
     },
     {
-        "word" : "dzêta",
-        "bitmap" : 34079241,
-        "wordLetters" : 763683,
-        "yellowLeters" : [8, 33554432, 512, 524288, 1]
-    },
-    {
         "word" : "eagle",
         "bitmap" : 2129,
         "wordLetters" : 4560900,
@@ -15136,12 +14338,6 @@ module.exports = FrenchArr = [
         "bitmap" : 8210,
         "wordLetters" : 4624420,
         "yellowLeters" : [16, 2, 16, 8192, 16]
-    },
-    {
-        "word" : "ebène",
-        "bitmap" : 8338,
-        "wordLetters" : 4758564,
-        "yellowLeters" : [16, 2, 128, 8192, 16]
     },
     {
         "word" : "ebert",
@@ -15244,12 +14440,6 @@ module.exports = FrenchArr = [
         "bitmap" : 262292,
         "wordLetters" : 19012676,
         "yellowLeters" : [16, 4, 128, 16, 262144]
-    },
-    {
-        "word" : "èches",
-        "bitmap" : 262292,
-        "wordLetters" : 19012807,
-        "yellowLeters" : [128, 4, 128, 16, 262144]
     },
     {
         "word" : "echet",
@@ -15694,12 +14884,6 @@ module.exports = FrenchArr = [
         "bitmap" : 2099216,
         "wordLetters" : 4886884,
         "yellowLeters" : [16, 2048, 16, 2097152, 16]
-    },
-    {
-        "word" : "elève",
-        "bitmap" : 2099344,
-        "wordLetters" : 5021028,
-        "yellowLeters" : [16, 2048, 128, 2097152, 16]
     },
     {
         "word" : "elfes",
@@ -16476,12 +15660,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [16, 32768, 256, 4, 1]
     },
     {
-        "word" : "epiça",
-        "bitmap" : 33105,
-        "wordLetters" : 4399588,
-        "yellowLeters" : [16, 32768, 256, 64, 1]
-    },
-    {
         "word" : "epice",
         "bitmap" : 33044,
         "wordLetters" : 4268516,
@@ -16618,12 +15796,6 @@ module.exports = FrenchArr = [
         "bitmap" : 1081365,
         "wordLetters" : 86500,
         "yellowLeters" : [16, 32768, 1048576, 4, 1]
-    },
-    {
-        "word" : "epuça",
-        "bitmap" : 1081425,
-        "wordLetters" : 4411876,
-        "yellowLeters" : [16, 32768, 1048576, 64, 1]
     },
     {
         "word" : "epuce",
@@ -17028,22 +16200,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [16, 524288, 16, 524288, 1]
     },
     {
-        "word" : "etêta",
-        "bitmap" : 524817,
-        "wordLetters" : 763492,
-        "yellowLeters" : [16, 524288, 512, 524288, 1]
-    },
-    {
         "word" : "etete",
         "bitmap" : 524304,
         "wordLetters" : 4821604,
         "yellowLeters" : [16, 524288, 16, 524288, 16]
-    },
-    {
-        "word" : "etête",
-        "bitmap" : 524816,
-        "wordLetters" : 4957796,
-        "yellowLeters" : [16, 524288, 512, 524288, 16]
     },
     {
         "word" : "eteuf",
@@ -17112,12 +16272,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [16, 524288, 131072, 16, 262144]
     },
     {
-        "word" : "êtres",
-        "bitmap" : 918032,
-        "wordLetters" : 19023593,
-        "yellowLeters" : [512, 524288, 131072, 16, 262144]
-    },
-    {
         "word" : "etron",
         "bitmap" : 679952,
         "wordLetters" : 14108260,
@@ -17166,12 +16320,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [16, 1048576, 4096, 16, 262144]
     },
     {
-        "word" : "eûmes",
-        "bitmap" : 67375120,
-        "wordLetters" : 19022660,
-        "yellowLeters" : [16, 67108864, 4096, 16, 262144]
-    },
-    {
         "word" : "eupen",
         "bitmap" : 1089552,
         "wordLetters" : 13778564,
@@ -17200,12 +16348,6 @@ module.exports = FrenchArr = [
         "bitmap" : 1835024,
         "wordLetters" : 19025540,
         "yellowLeters" : [16, 1048576, 524288, 16, 262144]
-    },
-    {
-        "word" : "eûtes",
-        "bitmap" : 67895312,
-        "wordLetters" : 19029828,
-        "yellowLeters" : [16, 67108864, 524288, 16, 262144]
     },
     {
         "word" : "evada",
@@ -17362,12 +16504,6 @@ module.exports = FrenchArr = [
         "bitmap" : 8650772,
         "wordLetters" : 19008228,
         "yellowLeters" : [16, 8388608, 4, 16, 262144]
-    },
-    {
-        "word" : "excès",
-        "bitmap" : 8650900,
-        "wordLetters" : 23300836,
-        "yellowLeters" : [16, 8388608, 4, 128, 262144]
     },
     {
         "word" : "exclu",
@@ -17532,12 +16668,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [32, 1, 4, 16384, 8192]
     },
     {
-        "word" : "façon",
-        "bitmap" : 24673,
-        "wordLetters" : 14227461,
-        "yellowLeters" : [32, 1, 64, 16384, 8192]
-    },
-    {
         "word" : "facto",
         "bitmap" : 540709,
         "wordLetters" : 15304709,
@@ -17634,12 +16764,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [32, 1, 256, 8192, 16]
     },
     {
-        "word" : "faîne",
-        "bitmap" : 8241,
-        "wordLetters" : 4764677,
-        "yellowLeters" : [32, 1, 8192, 8192, 16]
-    },
-    {
         "word" : "faire",
         "bitmap" : 131377,
         "wordLetters" : 4759557,
@@ -17650,12 +16774,6 @@ module.exports = FrenchArr = [
         "bitmap" : 524593,
         "wordLetters" : 4825093,
         "yellowLeters" : [32, 1, 256, 524288, 16]
-    },
-    {
-        "word" : "faîte",
-        "bitmap" : 532529,
-        "wordLetters" : 4961285,
-        "yellowLeters" : [32, 1, 8192, 524288, 16]
     },
     {
         "word" : "faits",
@@ -18096,12 +17214,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [32, 16, 4, 16, 262144]
     },
     {
-        "word" : "fèces",
-        "bitmap" : 262324,
-        "wordLetters" : 19011813,
-        "yellowLeters" : [32, 128, 4, 16, 262144]
-    },
-    {
         "word" : "fedes",
         "bitmap" : 262200,
         "wordLetters" : 19008645,
@@ -18144,22 +17256,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [32, 16, 2048, 1, 256]
     },
     {
-        "word" : "fêlai",
-        "bitmap" : 2849,
-        "wordLetters" : 8404261,
-        "yellowLeters" : [32, 512, 2048, 1, 256]
-    },
-    {
         "word" : "felas",
         "bitmap" : 264241,
         "wordLetters" : 18885765,
         "yellowLeters" : [32, 16, 2048, 1, 262144]
-    },
-    {
-        "word" : "fêlas",
-        "bitmap" : 264737,
-        "wordLetters" : 18890021,
-        "yellowLeters" : [32, 512, 2048, 1, 262144]
     },
     {
         "word" : "felat",
@@ -18168,22 +17268,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [32, 16, 2048, 1, 524288]
     },
     {
-        "word" : "fêlat",
-        "bitmap" : 526881,
-        "wordLetters" : 19938597,
-        "yellowLeters" : [32, 512, 2048, 1, 524288]
-    },
-    {
         "word" : "felee",
         "bitmap" : 2096,
         "wordLetters" : 4336773,
         "yellowLeters" : [32, 16, 2048, 16, 16]
-    },
-    {
-        "word" : "fêlee",
-        "bitmap" : 2608,
-        "wordLetters" : 4341029,
-        "yellowLeters" : [32, 512, 2048, 16, 16]
     },
     {
         "word" : "feler",
@@ -18192,34 +17280,16 @@ module.exports = FrenchArr = [
         "yellowLeters" : [32, 16, 2048, 16, 131072]
     },
     {
-        "word" : "fêler",
-        "bitmap" : 133680,
-        "wordLetters" : 17972517,
-        "yellowLeters" : [32, 512, 2048, 16, 131072]
-    },
-    {
         "word" : "feles",
         "bitmap" : 264240,
         "wordLetters" : 19016837,
         "yellowLeters" : [32, 16, 2048, 16, 262144]
     },
     {
-        "word" : "fêles",
-        "bitmap" : 264752,
-        "wordLetters" : 19021093,
-        "yellowLeters" : [32, 512, 2048, 16, 262144]
-    },
-    {
         "word" : "felez",
         "bitmap" : 33556528,
         "wordLetters" : 26356869,
         "yellowLeters" : [32, 16, 2048, 16, 33554432]
-    },
-    {
-        "word" : "fêlez",
-        "bitmap" : 33557040,
-        "wordLetters" : 26361125,
-        "yellowLeters" : [32, 512, 2048, 16, 33554432]
     },
     {
         "word" : "felin",
@@ -18444,22 +17514,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [32, 16, 524288, 1, 256]
     },
     {
-        "word" : "fêtai",
-        "bitmap" : 525089,
-        "wordLetters" : 8412453,
-        "yellowLeters" : [32, 512, 524288, 1, 256]
-    },
-    {
         "word" : "fetas",
         "bitmap" : 786481,
         "wordLetters" : 18893957,
         "yellowLeters" : [32, 16, 524288, 1, 262144]
-    },
-    {
-        "word" : "fêtas",
-        "bitmap" : 786977,
-        "wordLetters" : 18898213,
-        "yellowLeters" : [32, 512, 524288, 1, 262144]
     },
     {
         "word" : "fetat",
@@ -18468,22 +17526,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [32, 16, 524288, 1, 524288]
     },
     {
-        "word" : "fêtat",
-        "bitmap" : 524833,
-        "wordLetters" : 19946789,
-        "yellowLeters" : [32, 512, 524288, 1, 524288]
-    },
-    {
         "word" : "fetee",
         "bitmap" : 524336,
         "wordLetters" : 4344965,
         "yellowLeters" : [32, 16, 524288, 16, 16]
-    },
-    {
-        "word" : "fêtee",
-        "bitmap" : 524848,
-        "wordLetters" : 4349221,
-        "yellowLeters" : [32, 512, 524288, 16, 16]
     },
     {
         "word" : "feter",
@@ -18492,34 +17538,16 @@ module.exports = FrenchArr = [
         "yellowLeters" : [32, 16, 524288, 16, 131072]
     },
     {
-        "word" : "fêter",
-        "bitmap" : 655920,
-        "wordLetters" : 17980709,
-        "yellowLeters" : [32, 512, 524288, 16, 131072]
-    },
-    {
         "word" : "fetes",
         "bitmap" : 786480,
         "wordLetters" : 19025029,
         "yellowLeters" : [32, 16, 524288, 16, 262144]
     },
     {
-        "word" : "fêtes",
-        "bitmap" : 786992,
-        "wordLetters" : 19029285,
-        "yellowLeters" : [32, 512, 524288, 16, 262144]
-    },
-    {
         "word" : "fetez",
         "bitmap" : 34078768,
         "wordLetters" : 26365061,
         "yellowLeters" : [32, 16, 524288, 16, 33554432]
-    },
-    {
-        "word" : "fêtez",
-        "bitmap" : 34079280,
-        "wordLetters" : 26369317,
-        "yellowLeters" : [32, 512, 524288, 16, 33554432]
     },
     {
         "word" : "fetus",
@@ -18574,12 +17602,6 @@ module.exports = FrenchArr = [
         "bitmap" : 2359344,
         "wordLetters" : 19027077,
         "yellowLeters" : [32, 16, 2097152, 16, 262144]
-    },
-    {
-        "word" : "fèves",
-        "bitmap" : 2359472,
-        "wordLetters" : 19031269,
-        "yellowLeters" : [32, 128, 2097152, 16, 262144]
     },
     {
         "word" : "fiais",
@@ -18682,12 +17704,6 @@ module.exports = FrenchArr = [
         "bitmap" : 131376,
         "wordLetters" : 4755717,
         "yellowLeters" : [32, 256, 16, 131072, 16]
-    },
-    {
-        "word" : "fière",
-        "bitmap" : 131504,
-        "wordLetters" : 4889861,
-        "yellowLeters" : [32, 256, 128, 131072, 16]
     },
     {
         "word" : "fiers",
@@ -18864,12 +17880,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [32, 256, 4096, 16, 262144]
     },
     {
-        "word" : "fîmes",
-        "bitmap" : 274480,
-        "wordLetters" : 19022245,
-        "yellowLeters" : [32, 8192, 4096, 16, 262144]
-    },
-    {
         "word" : "final",
         "bitmap" : 10529,
         "wordLetters" : 11547909,
@@ -18904,12 +17914,6 @@ module.exports = FrenchArr = [
         "bitmap" : 532768,
         "wordLetters" : 20198661,
         "yellowLeters" : [32, 256, 8192, 256, 524288]
-    },
-    {
-        "word" : "finît",
-        "bitmap" : 532768,
-        "wordLetters" : 24556805,
-        "yellowLeters" : [32, 256, 8192, 8192, 524288]
     },
     {
         "word" : "finns",
@@ -18982,12 +17986,6 @@ module.exports = FrenchArr = [
         "bitmap" : 786736,
         "wordLetters" : 19025157,
         "yellowLeters" : [32, 256, 524288, 16, 262144]
-    },
-    {
-        "word" : "fîtes",
-        "bitmap" : 794672,
-        "wordLetters" : 19029413,
-        "yellowLeters" : [32, 8192, 524288, 16, 262144]
     },
     {
         "word" : "fitou",
@@ -19320,22 +18318,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [32, 2048, 1048576, 524288, 1]
     },
     {
-        "word" : "flûta",
-        "bitmap" : 67635233,
-        "wordLetters" : 780645,
-        "yellowLeters" : [32, 2048, 67108864, 524288, 1]
-    },
-    {
         "word" : "flute",
         "bitmap" : 1574960,
         "wordLetters" : 4837733,
         "yellowLeters" : [32, 2048, 1048576, 524288, 16]
-    },
-    {
-        "word" : "flûte",
-        "bitmap" : 67635248,
-        "wordLetters" : 4974949,
-        "yellowLeters" : [32, 2048, 67108864, 524288, 16]
     },
     {
         "word" : "fluxa",
@@ -19458,12 +18444,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [32, 16384, 8192, 4, 1]
     },
     {
-        "word" : "fonça",
-        "bitmap" : 24673,
-        "wordLetters" : 4404677,
-        "yellowLeters" : [32, 16384, 8192, 64, 1]
-    },
-    {
         "word" : "fonce",
         "bitmap" : 24628,
         "wordLetters" : 4273605,
@@ -19542,12 +18522,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [32, 16384, 131072, 4, 1]
     },
     {
-        "word" : "força",
-        "bitmap" : 147553,
-        "wordLetters" : 4408773,
-        "yellowLeters" : [32, 16384, 131072, 64, 1]
-    },
-    {
         "word" : "force",
         "bitmap" : 147508,
         "wordLetters" : 4277701,
@@ -19582,12 +18556,6 @@ module.exports = FrenchArr = [
         "bitmap" : 671792,
         "wordLetters" : 20071877,
         "yellowLeters" : [32, 16384, 131072, 16, 524288]
-    },
-    {
-        "word" : "forêt",
-        "bitmap" : 672288,
-        "wordLetters" : 24430021,
-        "yellowLeters" : [32, 16384, 131072, 512, 524288]
     },
     {
         "word" : "forez",
@@ -19684,12 +18652,6 @@ module.exports = FrenchArr = [
         "bitmap" : 1589536,
         "wordLetters" : 20206021,
         "yellowLeters" : [32, 16384, 1048576, 256, 524288]
-    },
-    {
-        "word" : "fouît",
-        "bitmap" : 1597472,
-        "wordLetters" : 24564165,
-        "yellowLeters" : [32, 16384, 1048576, 8192, 524288]
     },
     {
         "word" : "foula",
@@ -19830,12 +18792,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [32, 131072, 16, 2048, 16]
     },
     {
-        "word" : "frêle",
-        "bitmap" : 133680,
-        "wordLetters" : 4695589,
-        "yellowLeters" : [32, 131072, 512, 2048, 16]
-    },
-    {
         "word" : "fremi",
         "bitmap" : 135472,
         "wordLetters" : 8786469,
@@ -19846,12 +18802,6 @@ module.exports = FrenchArr = [
         "bitmap" : 139312,
         "wordLetters" : 4624933,
         "yellowLeters" : [32, 131072, 16, 8192, 16]
-    },
-    {
-        "word" : "frêne",
-        "bitmap" : 139824,
-        "wordLetters" : 4761125,
-        "yellowLeters" : [32, 131072, 512, 8192, 16]
     },
     {
         "word" : "freon",
@@ -19866,12 +18816,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [32, 131072, 16, 131072, 16]
     },
     {
-        "word" : "frère",
-        "bitmap" : 131248,
-        "wordLetters" : 4890149,
-        "yellowLeters" : [32, 131072, 128, 131072, 16]
-    },
-    {
         "word" : "freta",
         "bitmap" : 655409,
         "wordLetters" : 627237,
@@ -19882,12 +18826,6 @@ module.exports = FrenchArr = [
         "bitmap" : 655408,
         "wordLetters" : 4821541,
         "yellowLeters" : [32, 131072, 16, 524288, 16]
-    },
-    {
-        "word" : "frète",
-        "bitmap" : 655536,
-        "wordLetters" : 4955685,
-        "yellowLeters" : [32, 131072, 128, 524288, 16]
     },
     {
         "word" : "frets",
@@ -20004,22 +18942,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [32, 131072, 16384, 2048, 1]
     },
     {
-        "word" : "frôla",
-        "bitmap" : 657441,
-        "wordLetters" : 511525,
-        "yellowLeters" : [32, 131072, 524288, 2048, 1]
-    },
-    {
         "word" : "frole",
         "bitmap" : 149552,
         "wordLetters" : 4569637,
         "yellowLeters" : [32, 131072, 16384, 2048, 16]
-    },
-    {
-        "word" : "frôle",
-        "bitmap" : 657456,
-        "wordLetters" : 4705829,
-        "yellowLeters" : [32, 131072, 524288, 2048, 16]
     },
     {
         "word" : "front",
@@ -20152,12 +19078,6 @@ module.exports = FrenchArr = [
         "bitmap" : 1314864,
         "wordLetters" : 19018373,
         "yellowLeters" : [32, 1048576, 4096, 16, 262144]
-    },
-    {
-        "word" : "fûmes",
-        "bitmap" : 67375152,
-        "wordLetters" : 19022661,
-        "yellowLeters" : [32, 67108864, 4096, 16, 262144]
     },
     {
         "word" : "fumet",
@@ -20304,12 +19224,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [32, 1048576, 524288, 16, 262144]
     },
     {
-        "word" : "fûtes",
-        "bitmap" : 67895344,
-        "wordLetters" : 19029829,
-        "yellowLeters" : [32, 67108864, 524288, 16, 262144]
-    },
-    {
         "word" : "futon",
         "bitmap" : 1597472,
         "wordLetters" : 14110341,
@@ -20452,12 +19366,6 @@ module.exports = FrenchArr = [
         "bitmap" : 325,
         "wordLetters" : 2105350,
         "yellowLeters" : [64, 1, 256, 1, 4]
-    },
-    {
-        "word" : "gaïac",
-        "bitmap" : 16453,
-        "wordLetters" : 2242566,
-        "yellowLeters" : [64, 1, 16384, 1, 4]
     },
     {
         "word" : "gaies",
@@ -21018,12 +19926,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [64, 16, 2048, 16, 262144]
     },
     {
-        "word" : "gèles",
-        "bitmap" : 264400,
-        "wordLetters" : 19021030,
-        "yellowLeters" : [64, 128, 2048, 16, 262144]
-    },
-    {
         "word" : "gelez",
         "bitmap" : 33556560,
         "wordLetters" : 26356870,
@@ -21060,12 +19962,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [64, 16, 4096, 256, 524288]
     },
     {
-        "word" : "gemît",
-        "bitmap" : 536656,
-        "wordLetters" : 24555654,
-        "yellowLeters" : [64, 16, 4096, 8192, 524288]
-    },
-    {
         "word" : "gemma",
         "bitmap" : 4177,
         "wordLetters" : 405638,
@@ -21084,12 +19980,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [64, 16, 8192, 1, 256]
     },
     {
-        "word" : "gênai",
-        "bitmap" : 9025,
-        "wordLetters" : 8406310,
-        "yellowLeters" : [64, 512, 8192, 1, 256]
-    },
-    {
         "word" : "genal",
         "bitmap" : 10321,
         "wordLetters" : 11547782,
@@ -21102,22 +19992,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [64, 16, 8192, 1, 262144]
     },
     {
-        "word" : "gênas",
-        "bitmap" : 270913,
-        "wordLetters" : 18892070,
-        "yellowLeters" : [64, 512, 8192, 1, 262144]
-    },
-    {
         "word" : "genat",
         "bitmap" : 532561,
         "wordLetters" : 19936390,
         "yellowLeters" : [64, 16, 8192, 1, 524288]
-    },
-    {
-        "word" : "gênat",
-        "bitmap" : 533057,
-        "wordLetters" : 19940646,
-        "yellowLeters" : [64, 512, 8192, 1, 524288]
     },
     {
         "word" : "genee",
@@ -21126,22 +20004,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [64, 16, 8192, 16, 16]
     },
     {
-        "word" : "gênee",
-        "bitmap" : 8784,
-        "wordLetters" : 4343078,
-        "yellowLeters" : [64, 512, 8192, 16, 16]
-    },
-    {
         "word" : "gener",
         "bitmap" : 139344,
         "wordLetters" : 17970310,
         "yellowLeters" : [64, 16, 8192, 16, 131072]
-    },
-    {
-        "word" : "gêner",
-        "bitmap" : 139856,
-        "wordLetters" : 17974566,
-        "yellowLeters" : [64, 512, 8192, 16, 131072]
     },
     {
         "word" : "genes",
@@ -21150,40 +20016,16 @@ module.exports = FrenchArr = [
         "yellowLeters" : [64, 16, 8192, 16, 262144]
     },
     {
-        "word" : "gènes",
-        "bitmap" : 270544,
-        "wordLetters" : 19023078,
-        "yellowLeters" : [64, 128, 8192, 16, 262144]
-    },
-    {
-        "word" : "gênes",
-        "bitmap" : 270928,
-        "wordLetters" : 19023142,
-        "yellowLeters" : [64, 512, 8192, 16, 262144]
-    },
-    {
         "word" : "genet",
         "bitmap" : 532560,
         "wordLetters" : 20067462,
         "yellowLeters" : [64, 16, 8192, 16, 524288]
     },
     {
-        "word" : "genêt",
-        "bitmap" : 533072,
-        "wordLetters" : 24425606,
-        "yellowLeters" : [64, 16, 8192, 512, 524288]
-    },
-    {
         "word" : "genez",
         "bitmap" : 33562704,
         "wordLetters" : 26358918,
         "yellowLeters" : [64, 16, 8192, 16, 33554432]
-    },
-    {
-        "word" : "gênez",
-        "bitmap" : 33563216,
-        "wordLetters" : 26363174,
-        "yellowLeters" : [64, 512, 8192, 16, 33554432]
     },
     {
         "word" : "genie",
@@ -21228,12 +20070,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [64, 16, 16384, 2048, 16]
     },
     {
-        "word" : "geôle",
-        "bitmap" : 526416,
-        "wordLetters" : 4705414,
-        "yellowLeters" : [64, 16, 524288, 2048, 16]
-    },
-    {
         "word" : "gerai",
         "bitmap" : 131409,
         "wordLetters" : 8406150,
@@ -21270,12 +20106,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [64, 16, 131072, 4, 1]
     },
     {
-        "word" : "gerça",
-        "bitmap" : 131153,
-        "wordLetters" : 4408454,
-        "yellowLeters" : [64, 16, 131072, 64, 1]
-    },
-    {
         "word" : "gerce",
         "bitmap" : 131156,
         "wordLetters" : 4277382,
@@ -21298,12 +20128,6 @@ module.exports = FrenchArr = [
         "bitmap" : 393296,
         "wordLetters" : 19022982,
         "yellowLeters" : [64, 16, 131072, 16, 262144]
-    },
-    {
-        "word" : "gères",
-        "bitmap" : 393424,
-        "wordLetters" : 19027174,
-        "yellowLeters" : [64, 128, 131072, 16, 262144]
     },
     {
         "word" : "gerez",
@@ -21456,12 +20280,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [64, 256, 524288, 1, 256]
     },
     {
-        "word" : "gîtai",
-        "bitmap" : 532801,
-        "wordLetters" : 8412582,
-        "yellowLeters" : [64, 8192, 524288, 1, 256]
-    },
-    {
         "word" : "gitan",
         "bitmap" : 532801,
         "wordLetters" : 13651206,
@@ -21474,22 +20292,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [64, 256, 524288, 1, 262144]
     },
     {
-        "word" : "gîtas",
-        "bitmap" : 794689,
-        "wordLetters" : 18898342,
-        "yellowLeters" : [64, 8192, 524288, 1, 262144]
-    },
-    {
         "word" : "gitat",
         "bitmap" : 524609,
         "wordLetters" : 19942662,
         "yellowLeters" : [64, 256, 524288, 1, 524288]
-    },
-    {
-        "word" : "gîtat",
-        "bitmap" : 532545,
-        "wordLetters" : 19946918,
-        "yellowLeters" : [64, 8192, 524288, 1, 524288]
     },
     {
         "word" : "gitee",
@@ -21504,34 +20310,16 @@ module.exports = FrenchArr = [
         "yellowLeters" : [64, 256, 524288, 16, 131072]
     },
     {
-        "word" : "gîter",
-        "bitmap" : 663632,
-        "wordLetters" : 17980838,
-        "yellowLeters" : [64, 8192, 524288, 16, 131072]
-    },
-    {
         "word" : "gites",
         "bitmap" : 786768,
         "wordLetters" : 19025158,
         "yellowLeters" : [64, 256, 524288, 16, 262144]
     },
     {
-        "word" : "gîtes",
-        "bitmap" : 794704,
-        "wordLetters" : 19029414,
-        "yellowLeters" : [64, 8192, 524288, 16, 262144]
-    },
-    {
         "word" : "gitez",
         "bitmap" : 34079056,
         "wordLetters" : 26365190,
         "yellowLeters" : [64, 256, 524288, 16, 33554432]
-    },
-    {
-        "word" : "gîtez",
-        "bitmap" : 34086992,
-        "wordLetters" : 26369446,
-        "yellowLeters" : [64, 8192, 524288, 16, 33554432]
     },
     {
         "word" : "giton",
@@ -21556,12 +20344,6 @@ module.exports = FrenchArr = [
         "bitmap" : 2117,
         "wordLetters" : 65894,
         "yellowLeters" : [64, 2048, 1, 4, 1]
-    },
-    {
-        "word" : "glaça",
-        "bitmap" : 2113,
-        "wordLetters" : 4391270,
-        "yellowLeters" : [64, 2048, 1, 64, 1]
     },
     {
         "word" : "glace",
@@ -21612,12 +20394,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [64, 2048, 16, 2, 16]
     },
     {
-        "word" : "glèbe",
-        "bitmap" : 2258,
-        "wordLetters" : 4365670,
-        "yellowLeters" : [64, 2048, 128, 2, 16]
-    },
-    {
         "word" : "glena",
         "bitmap" : 10321,
         "wordLetters" : 430438,
@@ -21628,12 +20404,6 @@ module.exports = FrenchArr = [
         "bitmap" : 10320,
         "wordLetters" : 4624742,
         "yellowLeters" : [64, 2048, 16, 8192, 16]
-    },
-    {
-        "word" : "glène",
-        "bitmap" : 10448,
-        "wordLetters" : 4758886,
-        "yellowLeters" : [64, 2048, 128, 8192, 16]
     },
     {
         "word" : "gleys",
@@ -21766,12 +20536,6 @@ module.exports = FrenchArr = [
         "bitmap" : 26704,
         "wordLetters" : 4569510,
         "yellowLeters" : [64, 8192, 16384, 2048, 16]
-    },
-    {
-        "word" : "gnôle",
-        "bitmap" : 534608,
-        "wordLetters" : 4705702,
-        "yellowLeters" : [64, 8192, 524288, 2048, 16]
     },
     {
         "word" : "gnome",
@@ -22194,34 +20958,16 @@ module.exports = FrenchArr = [
         "yellowLeters" : [64, 16384, 1048576, 524288, 1]
     },
     {
-        "word" : "goûta",
-        "bitmap" : 67649601,
-        "wordLetters" : 780742,
-        "yellowLeters" : [64, 16384, 67108864, 524288, 1]
-    },
-    {
         "word" : "goute",
         "bitmap" : 1589328,
         "wordLetters" : 4837830,
         "yellowLeters" : [64, 16384, 1048576, 524288, 16]
     },
     {
-        "word" : "goûte",
-        "bitmap" : 67649616,
-        "wordLetters" : 4975046,
-        "yellowLeters" : [64, 16384, 67108864, 524288, 16]
-    },
-    {
         "word" : "gouts",
         "bitmap" : 1851456,
         "wordLetters" : 19517894,
         "yellowLeters" : [64, 16384, 1048576, 524288, 262144]
-    },
-    {
-        "word" : "goûts",
-        "bitmap" : 67911744,
-        "wordLetters" : 19655110,
-        "yellowLeters" : [64, 16384, 67108864, 524288, 262144]
     },
     {
         "word" : "goutu",
@@ -22344,12 +21090,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [64, 131072, 16, 2, 16]
     },
     {
-        "word" : "grèbe",
-        "bitmap" : 131282,
-        "wordLetters" : 4365862,
-        "yellowLeters" : [64, 131072, 128, 2, 16]
-    },
-    {
         "word" : "grecs",
         "bitmap" : 393300,
         "wordLetters" : 18944550,
@@ -22392,34 +21132,16 @@ module.exports = FrenchArr = [
         "yellowLeters" : [64, 131072, 16, 64, 16]
     },
     {
-        "word" : "grège",
-        "bitmap" : 131280,
-        "wordLetters" : 4529702,
-        "yellowLeters" : [64, 131072, 128, 64, 16]
-    },
-    {
         "word" : "grela",
         "bitmap" : 133201,
         "wordLetters" : 365094,
         "yellowLeters" : [64, 131072, 16, 2048, 1]
     },
     {
-        "word" : "grêla",
-        "bitmap" : 133697,
-        "wordLetters" : 501286,
-        "yellowLeters" : [64, 131072, 512, 2048, 1]
-    },
-    {
         "word" : "grele",
         "bitmap" : 133200,
         "wordLetters" : 4559398,
         "yellowLeters" : [64, 131072, 16, 2048, 16]
-    },
-    {
-        "word" : "grêle",
-        "bitmap" : 133712,
-        "wordLetters" : 4695590,
-        "yellowLeters" : [64, 131072, 512, 2048, 16]
     },
     {
         "word" : "grena",
@@ -22432,12 +21154,6 @@ module.exports = FrenchArr = [
         "bitmap" : 139344,
         "wordLetters" : 4624934,
         "yellowLeters" : [64, 131072, 16, 8192, 16]
-    },
-    {
-        "word" : "grène",
-        "bitmap" : 139472,
-        "wordLetters" : 4759078,
-        "yellowLeters" : [64, 131072, 128, 8192, 16]
     },
     {
         "word" : "grenu",
@@ -22458,12 +21174,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [64, 131072, 16, 262144, 16]
     },
     {
-        "word" : "grèse",
-        "bitmap" : 393424,
-        "wordLetters" : 4922918,
-        "yellowLeters" : [64, 131072, 128, 262144, 16]
-    },
-    {
         "word" : "greva",
         "bitmap" : 2228305,
         "wordLetters" : 692774,
@@ -22474,12 +21184,6 @@ module.exports = FrenchArr = [
         "bitmap" : 2228304,
         "wordLetters" : 4887078,
         "yellowLeters" : [64, 131072, 16, 2097152, 16]
-    },
-    {
-        "word" : "grève",
-        "bitmap" : 2228432,
-        "wordLetters" : 5021222,
-        "yellowLeters" : [64, 131072, 128, 2097152, 16]
     },
     {
         "word" : "grief",
@@ -22656,12 +21360,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [64, 1048576, 16, 8, 16]
     },
     {
-        "word" : "guède",
-        "bitmap" : 1048792,
-        "wordLetters" : 4431494,
-        "yellowLeters" : [64, 1048576, 128, 8, 16]
-    },
-    {
         "word" : "gueee",
         "bitmap" : 1048656,
         "wordLetters" : 4330118,
@@ -22692,22 +21390,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [64, 1048576, 16, 32768, 16]
     },
     {
-        "word" : "guêpe",
-        "bitmap" : 1081936,
-        "wordLetters" : 4826758,
-        "yellowLeters" : [64, 1048576, 512, 32768, 16]
-    },
-    {
         "word" : "guere",
         "bitmap" : 1179728,
         "wordLetters" : 4756102,
         "yellowLeters" : [64, 1048576, 16, 131072, 16]
-    },
-    {
-        "word" : "guère",
-        "bitmap" : 1179856,
-        "wordLetters" : 4890246,
-        "yellowLeters" : [64, 1048576, 128, 131072, 16]
     },
     {
         "word" : "gueri",
@@ -22720,12 +21406,6 @@ module.exports = FrenchArr = [
         "bitmap" : 1572944,
         "wordLetters" : 4821638,
         "yellowLeters" : [64, 1048576, 16, 524288, 16]
-    },
-    {
-        "word" : "guète",
-        "bitmap" : 1573072,
-        "wordLetters" : 4955782,
-        "yellowLeters" : [64, 1048576, 128, 524288, 16]
     },
     {
         "word" : "guets",
@@ -22908,34 +21588,16 @@ module.exports = FrenchArr = [
         "yellowLeters" : [128, 1, 256, 16, 262144]
     },
     {
-        "word" : "haïes",
-        "bitmap" : 278673,
-        "wordLetters" : 19150855,
-        "yellowLeters" : [128, 1, 16384, 16, 262144]
-    },
-    {
         "word" : "haiks",
         "bitmap" : 263553,
         "wordLetters" : 19210247,
         "yellowLeters" : [128, 1, 256, 1024, 262144]
     },
     {
-        "word" : "haïks",
-        "bitmap" : 279681,
-        "wordLetters" : 19347463,
-        "yellowLeters" : [128, 1, 16384, 1024, 262144]
-    },
-    {
         "word" : "haiku",
         "bitmap" : 1049985,
         "wordLetters" : 21307399,
         "yellowLeters" : [128, 1, 256, 1024, 1048576]
-    },
-    {
-        "word" : "haïku",
-        "bitmap" : 1066113,
-        "wordLetters" : 21444615,
-        "yellowLeters" : [128, 1, 16384, 1024, 1048576]
     },
     {
         "word" : "haine",
@@ -22948,12 +21610,6 @@ module.exports = FrenchArr = [
         "bitmap" : 131457,
         "wordLetters" : 565255,
         "yellowLeters" : [128, 1, 256, 131072, 1]
-    },
-    {
-        "word" : "haïra",
-        "bitmap" : 147585,
-        "wordLetters" : 702471,
-        "yellowLeters" : [128, 1, 16384, 131072, 1]
     },
     {
         "word" : "haire",
@@ -23370,12 +22026,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [128, 1, 2097152, 256, 524288]
     },
     {
-        "word" : "havît",
-        "bitmap" : 2629761,
-        "wordLetters" : 24564743,
-        "yellowLeters" : [128, 1, 2097152, 8192, 524288]
-    },
-    {
         "word" : "havre",
         "bitmap" : 2228369,
         "wordLetters" : 4772871,
@@ -23440,12 +22090,6 @@ module.exports = FrenchArr = [
         "bitmap" : 264336,
         "wordLetters" : 19016839,
         "yellowLeters" : [128, 16, 2048, 16, 262144]
-    },
-    {
-        "word" : "hèles",
-        "bitmap" : 264336,
-        "wordLetters" : 19021031,
-        "yellowLeters" : [128, 128, 2048, 16, 262144]
     },
     {
         "word" : "helez",
@@ -23520,12 +22164,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [128, 16, 131072, 16, 262144]
     },
     {
-        "word" : "hères",
-        "bitmap" : 393360,
-        "wordLetters" : 19027175,
-        "yellowLeters" : [128, 128, 131072, 16, 262144]
-    },
-    {
         "word" : "heron",
         "bitmap" : 155792,
         "wordLetters" : 14107783,
@@ -23572,12 +22210,6 @@ module.exports = FrenchArr = [
         "bitmap" : 655504,
         "wordLetters" : 4770951,
         "yellowLeters" : [128, 16, 524288, 131072, 16]
-    },
-    {
-        "word" : "hêtre",
-        "bitmap" : 656016,
-        "wordLetters" : 4775207,
-        "yellowLeters" : [128, 512, 524288, 131072, 16]
     },
     {
         "word" : "heure",
@@ -23850,22 +22482,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [128, 16384, 524288, 16, 2048]
     },
     {
-        "word" : "hôtel",
-        "bitmap" : 526480,
-        "wordLetters" : 11689575,
-        "yellowLeters" : [128, 524288, 524288, 16, 2048]
-    },
-    {
         "word" : "hotes",
         "bitmap" : 802960,
         "wordLetters" : 19025351,
         "yellowLeters" : [128, 16384, 524288, 16, 262144]
-    },
-    {
-        "word" : "hôtes",
-        "bitmap" : 786576,
-        "wordLetters" : 19029607,
-        "yellowLeters" : [128, 524288, 524288, 16, 262144]
     },
     {
         "word" : "hotta",
@@ -24204,12 +22824,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [128, 16777216, 16, 8192, 16]
     },
     {
-        "word" : "hyène",
-        "bitmap" : 16785552,
-        "wordLetters" : 4759303,
-        "yellowLeters" : [128, 16777216, 128, 8192, 16]
-    },
-    {
         "word" : "hymen",
         "bitmap" : 16789648,
         "wordLetters" : 13775623,
@@ -24258,12 +22872,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [256, 2, 16, 131072, 16]
     },
     {
-        "word" : "ibère",
-        "bitmap" : 131474,
-        "wordLetters" : 4889640,
-        "yellowLeters" : [256, 2, 128, 131072, 16]
-    },
-    {
         "word" : "iceux",
         "bitmap" : 9437460,
         "wordLetters" : 24776776,
@@ -24280,12 +22888,6 @@ module.exports = FrenchArr = [
         "bitmap" : 24852,
         "wordLetters" : 4634696,
         "yellowLeters" : [256, 4, 16384, 8192, 16]
-    },
-    {
-        "word" : "icône",
-        "bitmap" : 532756,
-        "wordLetters" : 4770888,
-        "yellowLeters" : [256, 4, 524288, 8192, 16]
     },
     {
         "word" : "ictus",
@@ -24420,12 +23022,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [256, 2048, 256, 16, 8192]
     },
     {
-        "word" : "îlien",
-        "bitmap" : 10512,
-        "wordLetters" : 13771245,
-        "yellowLeters" : [8192, 2048, 256, 16, 8192]
-    },
-    {
         "word" : "ilion",
         "bitmap" : 26880,
         "wordLetters" : 14098792,
@@ -24442,12 +23038,6 @@ module.exports = FrenchArr = [
         "bitmap" : 805120,
         "wordLetters" : 19511656,
         "yellowLeters" : [256, 2048, 16384, 524288, 262144]
-    },
-    {
-        "word" : "îlots",
-        "bitmap" : 813056,
-        "wordLetters" : 19511789,
-        "yellowLeters" : [8192, 2048, 16384, 524288, 262144]
     },
     {
         "word" : "image",
@@ -24538,12 +23128,6 @@ module.exports = FrenchArr = [
         "bitmap" : 577792,
         "wordLetters" : 20397448,
         "yellowLeters" : [256, 4096, 32768, 16384, 524288]
-    },
-    {
-        "word" : "impôt",
-        "bitmap" : 561408,
-        "wordLetters" : 24755592,
-        "yellowLeters" : [256, 4096, 32768, 524288, 524288]
     },
     {
         "word" : "impro",
@@ -24676,12 +23260,6 @@ module.exports = FrenchArr = [
         "bitmap" : 1073408,
         "wordLetters" : 9058728,
         "yellowLeters" : [256, 8192, 16384, 1048576, 256]
-    },
-    {
-        "word" : "inouï",
-        "bitmap" : 1073408,
-        "wordLetters" : 149567912,
-        "yellowLeters" : [256, 8192, 16384, 1048576, 16384]
     },
     {
         "word" : "input",
@@ -24954,12 +23532,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [256, 524288, 16, 131072, 16]
     },
     {
-        "word" : "itère",
-        "bitmap" : 655760,
-        "wordLetters" : 4890216,
-        "yellowLeters" : [256, 524288, 128, 131072, 16]
-    },
-    {
         "word" : "ithos",
         "bitmap" : 803200,
         "wordLetters" : 19340904,
@@ -25122,12 +23694,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [512, 1, 256, 8192, 1]
     },
     {
-        "word" : "jaïna",
-        "bitmap" : 25089,
-        "wordLetters" : 571401,
-        "yellowLeters" : [512, 1, 16384, 8192, 1]
-    },
-    {
         "word" : "jaine",
         "bitmap" : 8977,
         "wordLetters" : 4628489,
@@ -25138,12 +23704,6 @@ module.exports = FrenchArr = [
         "bitmap" : 271105,
         "wordLetters" : 19308553,
         "yellowLeters" : [512, 1, 256, 8192, 262144]
-    },
-    {
-        "word" : "jaïns",
-        "bitmap" : 287233,
-        "wordLetters" : 19445769,
-        "yellowLeters" : [512, 1, 16384, 8192, 262144]
     },
     {
         "word" : "jalap",
@@ -25464,22 +24024,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [512, 16, 1048576, 8192, 1]
     },
     {
-        "word" : "jeûna",
-        "bitmap" : 67117585,
-        "wordLetters" : 583817,
-        "yellowLeters" : [512, 16, 67108864, 8192, 1]
-    },
-    {
         "word" : "jeune",
         "bitmap" : 1057296,
         "wordLetters" : 4640905,
         "yellowLeters" : [512, 16, 1048576, 8192, 16]
-    },
-    {
-        "word" : "jeûne",
-        "bitmap" : 67117584,
-        "wordLetters" : 4778121,
-        "yellowLeters" : [512, 16, 67108864, 8192, 16]
     },
     {
         "word" : "jezes",
@@ -25596,12 +24144,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [512, 16384, 8192, 4, 1]
     },
     {
-        "word" : "jonça",
-        "bitmap" : 25153,
-        "wordLetters" : 4404681,
-        "yellowLeters" : [512, 16384, 8192, 64, 1]
-    },
-    {
         "word" : "jonce",
         "bitmap" : 25108,
         "wordLetters" : 4273609,
@@ -25702,12 +24244,6 @@ module.exports = FrenchArr = [
         "bitmap" : 1590016,
         "wordLetters" : 20206025,
         "yellowLeters" : [512, 16384, 1048576, 256, 524288]
-    },
-    {
-        "word" : "jouît",
-        "bitmap" : 1597952,
-        "wordLetters" : 24564169,
-        "yellowLeters" : [512, 16384, 1048576, 8192, 524288]
     },
     {
         "word" : "joule",
@@ -26388,12 +24924,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [1024, 128, 16384, 2048, 262144]
     },
     {
-        "word" : "khôls",
-        "bitmap" : 789632,
-        "wordLetters" : 19385578,
-        "yellowLeters" : [1024, 128, 524288, 2048, 262144]
-    },
-    {
         "word" : "kicks",
         "bitmap" : 263428,
         "wordLetters" : 19204362,
@@ -26568,12 +25098,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [1024, 16384, 256, 8192, 16]
     },
     {
-        "word" : "koinè",
-        "bitmap" : 25984,
-        "wordLetters" : 141992394,
-        "yellowLeters" : [1024, 16384, 256, 8192, 128]
-    },
-    {
         "word" : "kokas",
         "bitmap" : 279553,
         "wordLetters" : 18885066,
@@ -26620,12 +25144,6 @@ module.exports = FrenchArr = [
         "bitmap" : 410640,
         "wordLetters" : 19023306,
         "yellowLeters" : [1024, 16384, 131072, 16, 262144]
-    },
-    {
-        "word" : "korês",
-        "bitmap" : 411136,
-        "wordLetters" : 23381450,
-        "yellowLeters" : [1024, 16384, 131072, 512, 262144]
     },
     {
         "word" : "kotai",
@@ -26826,34 +25344,16 @@ module.exports = FrenchArr = [
         "yellowLeters" : [2048, 1, 4, 1, 256]
     },
     {
-        "word" : "laçai",
-        "bitmap" : 2369,
-        "wordLetters" : 8525835,
-        "yellowLeters" : [2048, 1, 64, 1, 256]
-    },
-    {
         "word" : "lacas",
         "bitmap" : 264197,
         "wordLetters" : 18876427,
         "yellowLeters" : [2048, 1, 4, 1, 262144]
     },
     {
-        "word" : "laças",
-        "bitmap" : 264257,
-        "wordLetters" : 19011595,
-        "yellowLeters" : [2048, 1, 64, 1, 262144]
-    },
-    {
         "word" : "lacat",
         "bitmap" : 526341,
         "wordLetters" : 19925003,
         "yellowLeters" : [2048, 1, 4, 1, 524288]
-    },
-    {
-        "word" : "laçat",
-        "bitmap" : 526401,
-        "wordLetters" : 20060171,
-        "yellowLeters" : [2048, 1, 64, 1, 524288]
     },
     {
         "word" : "lacee",
@@ -26958,12 +25458,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [2048, 1, 256, 4, 262144]
     },
     {
-        "word" : "laïcs",
-        "bitmap" : 280581,
-        "wordLetters" : 19085323,
-        "yellowLeters" : [2048, 1, 16384, 4, 262144]
-    },
-    {
         "word" : "laide",
         "bitmap" : 2329,
         "wordLetters" : 4300811,
@@ -27016,12 +25510,6 @@ module.exports = FrenchArr = [
         "bitmap" : 1313025,
         "wordLetters" : 19537931,
         "yellowLeters" : [2048, 1, 256, 1048576, 262144]
-    },
-    {
-        "word" : "laïus",
-        "bitmap" : 1329153,
-        "wordLetters" : 19675147,
-        "yellowLeters" : [2048, 1, 16384, 1048576, 262144]
     },
     {
         "word" : "laize",
@@ -27118,12 +25606,6 @@ module.exports = FrenchArr = [
         "bitmap" : 10245,
         "wordLetters" : 78859,
         "yellowLeters" : [2048, 1, 8192, 4, 1]
-    },
-    {
-        "word" : "lança",
-        "bitmap" : 10305,
-        "wordLetters" : 4404235,
-        "yellowLeters" : [2048, 1, 8192, 64, 1]
     },
     {
         "word" : "lance",
@@ -27522,22 +26004,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [2048, 16, 4, 128, 16]
     },
     {
-        "word" : "lèche",
-        "bitmap" : 2196,
-        "wordLetters" : 4430059,
-        "yellowLeters" : [2048, 128, 4, 128, 16]
-    },
-    {
         "word" : "lecon",
         "bitmap" : 26644,
         "wordLetters" : 14092427,
         "yellowLeters" : [2048, 16, 4, 16384, 8192]
-    },
-    {
-        "word" : "leçon",
-        "bitmap" : 26704,
-        "wordLetters" : 14227595,
-        "yellowLeters" : [2048, 16, 64, 16384, 8192]
     },
     {
         "word" : "ledit",
@@ -27576,12 +26046,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [2048, 16, 64, 16, 262144]
     },
     {
-        "word" : "lèges",
-        "bitmap" : 264400,
-        "wordLetters" : 19015915,
-        "yellowLeters" : [2048, 128, 64, 16, 262144]
-    },
-    {
         "word" : "legos",
         "bitmap" : 280656,
         "wordLetters" : 19339403,
@@ -27598,12 +26062,6 @@ module.exports = FrenchArr = [
         "bitmap" : 1050704,
         "wordLetters" : 4855947,
         "yellowLeters" : [2048, 16, 64, 1048576, 16]
-    },
-    {
-        "word" : "lègue",
-        "bitmap" : 1050832,
-        "wordLetters" : 4860139,
-        "yellowLeters" : [2048, 128, 64, 1048576, 16]
     },
     {
         "word" : "lehms",
@@ -27658,12 +26116,6 @@ module.exports = FrenchArr = [
         "bitmap" : 165904,
         "wordLetters" : 4766859,
         "yellowLeters" : [2048, 16, 32768, 131072, 16]
-    },
-    {
-        "word" : "lèpre",
-        "bitmap" : 166032,
-        "wordLetters" : 4771051,
-        "yellowLeters" : [2048, 128, 32768, 131072, 16]
     },
     {
         "word" : "lepta",
@@ -27730,12 +26182,6 @@ module.exports = FrenchArr = [
         "bitmap" : 264208,
         "wordLetters" : 19024011,
         "yellowLeters" : [2048, 16, 262144, 16, 262144]
-    },
-    {
-        "word" : "lèses",
-        "bitmap" : 264336,
-        "wordLetters" : 19028203,
-        "yellowLeters" : [2048, 128, 262144, 16, 262144]
     },
     {
         "word" : "lesez",
@@ -27822,12 +26268,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [2048, 16, 2097152, 16, 262144]
     },
     {
-        "word" : "lèves",
-        "bitmap" : 2361488,
-        "wordLetters" : 19031275,
-        "yellowLeters" : [2048, 128, 2097152, 16, 262144]
-    },
-    {
         "word" : "levez",
         "bitmap" : 35653648,
         "wordLetters" : 26367115,
@@ -27844,12 +26284,6 @@ module.exports = FrenchArr = [
         "bitmap" : 2230288,
         "wordLetters" : 4773003,
         "yellowLeters" : [2048, 16, 2097152, 131072, 16]
-    },
-    {
-        "word" : "lèvre",
-        "bitmap" : 2230416,
-        "wordLetters" : 4777195,
-        "yellowLeters" : [2048, 128, 2097152, 131072, 16]
     },
     {
         "word" : "lewis",
@@ -27988,12 +26422,6 @@ module.exports = FrenchArr = [
         "bitmap" : 2384,
         "wordLetters" : 4395275,
         "yellowLeters" : [2048, 256, 16, 64, 16]
-    },
-    {
-        "word" : "liège",
-        "bitmap" : 2512,
-        "wordLetters" : 4529419,
-        "yellowLeters" : [2048, 256, 128, 64, 16]
     },
     {
         "word" : "liens",
@@ -28806,12 +27234,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [2048, 16384, 524288, 256, 524288]
     },
     {
-        "word" : "lotît",
-        "bitmap" : 550912,
-        "wordLetters" : 24563147,
-        "yellowLeters" : [2048, 16384, 524288, 8192, 524288]
-    },
-    {
         "word" : "lotos",
         "bitmap" : 804864,
         "wordLetters" : 19353035,
@@ -29112,12 +27534,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [2048, 1048576, 4096, 16, 262144]
     },
     {
-        "word" : "lûmes",
-        "bitmap" : 67377168,
-        "wordLetters" : 19022667,
-        "yellowLeters" : [2048, 67108864, 4096, 16, 262144]
-    },
-    {
         "word" : "lumps",
         "bitmap" : 1349632,
         "wordLetters" : 19378827,
@@ -29218,12 +27634,6 @@ module.exports = FrenchArr = [
         "bitmap" : 1837072,
         "wordLetters" : 19025547,
         "yellowLeters" : [2048, 1048576, 524288, 16, 262144]
-    },
-    {
-        "word" : "lûtes",
-        "bitmap" : 67897360,
-        "wordLetters" : 19029835,
-        "yellowLeters" : [2048, 67108864, 524288, 16, 262144]
     },
     {
         "word" : "lutez",
@@ -29454,12 +27864,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [4096, 1, 4, 16384, 8192]
     },
     {
-        "word" : "maçon",
-        "bitmap" : 28737,
-        "wordLetters" : 14227468,
-        "yellowLeters" : [4096, 1, 64, 16384, 8192]
-    },
-    {
         "word" : "macre",
         "bitmap" : 135189,
         "wordLetters" : 4753420,
@@ -29548,12 +27952,6 @@ module.exports = FrenchArr = [
         "bitmap" : 266497,
         "wordLetters" : 18882572,
         "yellowLeters" : [4096, 1, 256, 1, 262144]
-    },
-    {
-        "word" : "maïas",
-        "bitmap" : 282625,
-        "wordLetters" : 19019788,
-        "yellowLeters" : [4096, 1, 16384, 1, 262144]
     },
     {
         "word" : "maies",
@@ -30174,12 +28572,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [4096, 1, 524288, 256, 524288]
     },
     {
-        "word" : "matît",
-        "bitmap" : 536577,
-        "wordLetters" : 24562700,
-        "yellowLeters" : [4096, 1, 524288, 8192, 524288]
-    },
-    {
         "word" : "maton",
         "bitmap" : 552961,
         "wordLetters" : 14109708,
@@ -30336,22 +28728,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [4096, 16, 4, 128, 16]
     },
     {
-        "word" : "mèche",
-        "bitmap" : 4244,
-        "wordLetters" : 4430060,
-        "yellowLeters" : [4096, 128, 4, 128, 16]
-    },
-    {
         "word" : "medes",
         "bitmap" : 266264,
         "wordLetters" : 19008652,
         "yellowLeters" : [4096, 16, 8, 16, 262144]
-    },
-    {
-        "word" : "mèdes",
-        "bitmap" : 266392,
-        "wordLetters" : 19012844,
-        "yellowLeters" : [4096, 128, 8, 16, 262144]
     },
     {
         "word" : "media",
@@ -30370,12 +28750,6 @@ module.exports = FrenchArr = [
         "bitmap" : 528664,
         "wordLetters" : 20188300,
         "yellowLeters" : [4096, 16, 8, 256, 524288]
-    },
-    {
-        "word" : "medît",
-        "bitmap" : 536600,
-        "wordLetters" : 24546444,
-        "yellowLeters" : [4096, 16, 8, 8192, 524288]
     },
     {
         "word" : "medoc",
@@ -30408,12 +28782,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [4096, 16, 32, 256, 524288]
     },
     {
-        "word" : "mefît",
-        "bitmap" : 536624,
-        "wordLetters" : 24548492,
-        "yellowLeters" : [4096, 16, 32, 8192, 524288]
-    },
-    {
         "word" : "megas",
         "bitmap" : 266321,
         "wordLetters" : 18880652,
@@ -30444,12 +28812,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [4096, 16, 64, 256, 524288]
     },
     {
-        "word" : "megît",
-        "bitmap" : 536656,
-        "wordLetters" : 24549516,
-        "yellowLeters" : [4096, 16, 64, 8192, 524288]
-    },
-    {
         "word" : "megot",
         "bitmap" : 544848,
         "wordLetters" : 20387980,
@@ -30462,22 +28824,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [4096, 16, 256, 512, 256]
     },
     {
-        "word" : "meïji",
-        "bitmap" : 21264,
-        "wordLetters" : 8829068,
-        "yellowLeters" : [4096, 16, 16384, 512, 256]
-    },
-    {
         "word" : "melai",
         "bitmap" : 6417,
         "wordLetters" : 8400012,
         "yellowLeters" : [4096, 16, 2048, 1, 256]
-    },
-    {
-        "word" : "mêlai",
-        "bitmap" : 6913,
-        "wordLetters" : 8404268,
-        "yellowLeters" : [4096, 512, 2048, 1, 256]
     },
     {
         "word" : "melas",
@@ -30486,22 +28836,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [4096, 16, 2048, 1, 262144]
     },
     {
-        "word" : "mêlas",
-        "bitmap" : 268801,
-        "wordLetters" : 18890028,
-        "yellowLeters" : [4096, 512, 2048, 1, 262144]
-    },
-    {
         "word" : "melat",
         "bitmap" : 530449,
         "wordLetters" : 19934348,
         "yellowLeters" : [4096, 16, 2048, 1, 524288]
-    },
-    {
-        "word" : "mêlat",
-        "bitmap" : 530945,
-        "wordLetters" : 19938604,
-        "yellowLeters" : [4096, 512, 2048, 1, 524288]
     },
     {
         "word" : "melba",
@@ -30516,22 +28854,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [4096, 16, 2048, 16, 16]
     },
     {
-        "word" : "mêlee",
-        "bitmap" : 6672,
-        "wordLetters" : 4341036,
-        "yellowLeters" : [4096, 512, 2048, 16, 16]
-    },
-    {
         "word" : "meler",
         "bitmap" : 137232,
         "wordLetters" : 17968268,
         "yellowLeters" : [4096, 16, 2048, 16, 131072]
-    },
-    {
-        "word" : "mêler",
-        "bitmap" : 137744,
-        "wordLetters" : 17972524,
-        "yellowLeters" : [4096, 512, 2048, 16, 131072]
     },
     {
         "word" : "meles",
@@ -30540,22 +28866,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [4096, 16, 2048, 16, 262144]
     },
     {
-        "word" : "mêles",
-        "bitmap" : 268816,
-        "wordLetters" : 19021100,
-        "yellowLeters" : [4096, 512, 2048, 16, 262144]
-    },
-    {
         "word" : "melez",
         "bitmap" : 33560592,
         "wordLetters" : 26356876,
         "yellowLeters" : [4096, 16, 2048, 16, 33554432]
-    },
-    {
-        "word" : "mêlez",
-        "bitmap" : 33561104,
-        "wordLetters" : 26361132,
-        "yellowLeters" : [4096, 512, 2048, 16, 33554432]
     },
     {
         "word" : "melia",
@@ -30592,12 +28906,6 @@ module.exports = FrenchArr = [
         "bitmap" : 266256,
         "wordLetters" : 19017868,
         "yellowLeters" : [4096, 16, 4096, 16, 262144]
-    },
-    {
-        "word" : "mêmes",
-        "bitmap" : 266768,
-        "wordLetters" : 19022124,
-        "yellowLeters" : [4096, 512, 4096, 16, 262144]
     },
     {
         "word" : "memos",
@@ -30640,12 +28948,6 @@ module.exports = FrenchArr = [
         "bitmap" : 274448,
         "wordLetters" : 19018892,
         "yellowLeters" : [4096, 16, 8192, 16, 262144]
-    },
-    {
-        "word" : "mènes",
-        "bitmap" : 274576,
-        "wordLetters" : 19023084,
-        "yellowLeters" : [4096, 128, 8192, 16, 262144]
     },
     {
         "word" : "menez",
@@ -30718,12 +29020,6 @@ module.exports = FrenchArr = [
         "bitmap" : 397328,
         "wordLetters" : 19022988,
         "yellowLeters" : [4096, 16, 131072, 16, 262144]
-    },
-    {
-        "word" : "mères",
-        "bitmap" : 397456,
-        "wordLetters" : 19027180,
-        "yellowLeters" : [4096, 128, 131072, 16, 262144]
     },
     {
         "word" : "merle",
@@ -30802,12 +29098,6 @@ module.exports = FrenchArr = [
         "bitmap" : 659472,
         "wordLetters" : 4770956,
         "yellowLeters" : [4096, 16, 524288, 131072, 16]
-    },
-    {
-        "word" : "mètre",
-        "bitmap" : 659600,
-        "wordLetters" : 4775148,
-        "yellowLeters" : [4096, 128, 524288, 131072, 16]
     },
     {
         "word" : "metro",
@@ -31054,12 +29344,6 @@ module.exports = FrenchArr = [
         "bitmap" : 266512,
         "wordLetters" : 19017996,
         "yellowLeters" : [4096, 256, 4096, 16, 262144]
-    },
-    {
-        "word" : "mîmes",
-        "bitmap" : 274448,
-        "wordLetters" : 19022252,
-        "yellowLeters" : [4096, 8192, 4096, 16, 262144]
     },
     {
         "word" : "mimez",
@@ -31314,12 +29598,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [4096, 256, 524288, 16, 262144]
     },
     {
-        "word" : "mîtes",
-        "bitmap" : 798736,
-        "wordLetters" : 19029420,
-        "yellowLeters" : [4096, 8192, 524288, 16, 262144]
-    },
-    {
         "word" : "mitez",
         "bitmap" : 34083088,
         "wordLetters" : 26365196,
@@ -31512,12 +29790,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [4096, 16384, 256, 262144, 16]
     },
     {
-        "word" : "moïse",
-        "bitmap" : 282640,
-        "wordLetters" : 4929996,
-        "yellowLeters" : [4096, 16384, 16384, 262144, 16]
-    },
-    {
         "word" : "moisi",
         "bitmap" : 282880,
         "wordLetters" : 8987084,
@@ -31560,12 +29832,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [4096, 16384, 2048, 16, 262144]
     },
     {
-        "word" : "môles",
-        "bitmap" : 792592,
-        "wordLetters" : 19021420,
-        "yellowLeters" : [4096, 524288, 2048, 16, 262144]
-    },
-    {
         "word" : "molle",
         "bitmap" : 22544,
         "wordLetters" : 4566476,
@@ -31600,12 +29866,6 @@ module.exports = FrenchArr = [
         "bitmap" : 282640,
         "wordLetters" : 19018188,
         "yellowLeters" : [4096, 16384, 4096, 16, 262144]
-    },
-    {
-        "word" : "mômes",
-        "bitmap" : 790544,
-        "wordLetters" : 19022444,
-        "yellowLeters" : [4096, 524288, 4096, 16, 262144]
     },
     {
         "word" : "momie",
@@ -31884,12 +30144,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [4096, 16384, 1048576, 524288, 262144]
     },
     {
-        "word" : "moûts",
-        "bitmap" : 67915776,
-        "wordLetters" : 19655116,
-        "yellowLeters" : [4096, 16384, 67108864, 524288, 262144]
-    },
-    {
         "word" : "mouva",
         "bitmap" : 3166209,
         "wordLetters" : 709068,
@@ -32076,12 +30330,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [4096, 1048576, 64, 256, 524288]
     },
     {
-        "word" : "mugît",
-        "bitmap" : 1585216,
-        "wordLetters" : 24550028,
-        "yellowLeters" : [4096, 1048576, 64, 8192, 524288]
-    },
-    {
         "word" : "muids",
         "bitmap" : 1315080,
         "wordLetters" : 18981516,
@@ -32148,12 +30396,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [4096, 1048576, 4096, 16, 262144]
     },
     {
-        "word" : "mûmes",
-        "bitmap" : 67375120,
-        "wordLetters" : 19022668,
-        "yellowLeters" : [4096, 67108864, 4096, 16, 262144]
-    },
-    {
         "word" : "munda",
         "bitmap" : 1060873,
         "wordLetters" : 112268,
@@ -32188,12 +30430,6 @@ module.exports = FrenchArr = [
         "bitmap" : 1585408,
         "wordLetters" : 20199052,
         "yellowLeters" : [4096, 1048576, 8192, 256, 524288]
-    },
-    {
-        "word" : "munît",
-        "bitmap" : 1585152,
-        "wordLetters" : 24557196,
-        "yellowLeters" : [4096, 1048576, 8192, 8192, 524288]
     },
     {
         "word" : "muons",
@@ -32244,12 +30480,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [4096, 1048576, 131072, 16, 262144]
     },
     {
-        "word" : "mûres",
-        "bitmap" : 67506192,
-        "wordLetters" : 19027788,
-        "yellowLeters" : [4096, 67108864, 131072, 16, 262144]
-    },
-    {
         "word" : "muret",
         "bitmap" : 1708048,
         "wordLetters" : 20072076,
@@ -32280,12 +30510,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [4096, 1048576, 131072, 256, 16]
     },
     {
-        "word" : "mûrie",
-        "bitmap" : 67244304,
-        "wordLetters" : 4478796,
-        "yellowLeters" : [4096, 67108864, 131072, 256, 16]
-    },
-    {
         "word" : "murin",
         "bitmap" : 1192192,
         "wordLetters" : 13911692,
@@ -32298,40 +30522,16 @@ module.exports = FrenchArr = [
         "yellowLeters" : [4096, 1048576, 131072, 256, 131072]
     },
     {
-        "word" : "mûrir",
-        "bitmap" : 67244288,
-        "wordLetters" : 18110284,
-        "yellowLeters" : [4096, 67108864, 131072, 256, 131072]
-    },
-    {
         "word" : "muris",
         "bitmap" : 1446144,
         "wordLetters" : 19154572,
         "yellowLeters" : [4096, 1048576, 131072, 256, 262144]
     },
     {
-        "word" : "mûris",
-        "bitmap" : 67506432,
-        "wordLetters" : 19158860,
-        "yellowLeters" : [4096, 67108864, 131072, 256, 262144]
-    },
-    {
         "word" : "murit",
         "bitmap" : 1708288,
         "wordLetters" : 20203148,
         "yellowLeters" : [4096, 1048576, 131072, 256, 524288]
-    },
-    {
-        "word" : "mûrit",
-        "bitmap" : 67768576,
-        "wordLetters" : 20207436,
-        "yellowLeters" : [4096, 67108864, 131072, 256, 524288]
-    },
-    {
-        "word" : "mûrît",
-        "bitmap" : 67776512,
-        "wordLetters" : 24565580,
-        "yellowLeters" : [4096, 67108864, 131072, 8192, 524288]
     },
     {
         "word" : "muron",
@@ -32458,12 +30658,6 @@ module.exports = FrenchArr = [
         "bitmap" : 1839120,
         "wordLetters" : 19025548,
         "yellowLeters" : [4096, 1048576, 524288, 16, 262144]
-    },
-    {
-        "word" : "mûtes",
-        "bitmap" : 67899408,
-        "wordLetters" : 19029836,
-        "yellowLeters" : [4096, 67108864, 524288, 16, 262144]
     },
     {
         "word" : "mutez",
@@ -32646,12 +30840,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [8192, 1, 256, 32, 262144]
     },
     {
-        "word" : "naïfs",
-        "bitmap" : 286753,
-        "wordLetters" : 19183629,
-        "yellowLeters" : [8192, 1, 16384, 32, 262144]
-    },
-    {
         "word" : "naine",
         "bitmap" : 8465,
         "wordLetters" : 4628493,
@@ -32674,12 +30862,6 @@ module.exports = FrenchArr = [
         "bitmap" : 2105617,
         "wordLetters" : 4890637,
         "yellowLeters" : [8192, 1, 256, 2097152, 16]
-    },
-    {
-        "word" : "naïve",
-        "bitmap" : 2121745,
-        "wordLetters" : 5027853,
-        "yellowLeters" : [8192, 1, 16384, 2097152, 16]
     },
     {
         "word" : "najas",
@@ -32940,22 +31122,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [8192, 16, 32, 2048, 16]
     },
     {
-        "word" : "nèfle",
-        "bitmap" : 10416,
-        "wordLetters" : 4564205,
-        "yellowLeters" : [8192, 128, 32, 2048, 16]
-    },
-    {
         "word" : "negre",
         "bitmap" : 139344,
         "wordLetters" : 4757645,
         "yellowLeters" : [8192, 16, 64, 131072, 16]
-    },
-    {
-        "word" : "nègre",
-        "bitmap" : 139472,
-        "wordLetters" : 4761837,
-        "yellowLeters" : [8192, 128, 64, 131072, 16]
     },
     {
         "word" : "negro",
@@ -33150,12 +31320,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [8192, 256, 16, 4, 16]
     },
     {
-        "word" : "nièce",
-        "bitmap" : 8596,
-        "wordLetters" : 4398349,
-        "yellowLeters" : [8192, 256, 128, 4, 16]
-    },
-    {
         "word" : "niees",
         "bitmap" : 270608,
         "wordLetters" : 19009805,
@@ -33166,12 +31330,6 @@ module.exports = FrenchArr = [
         "bitmap" : 12560,
         "wordLetters" : 4591885,
         "yellowLeters" : [8192, 256, 16, 4096, 16]
-    },
-    {
-        "word" : "nième",
-        "bitmap" : 12688,
-        "wordLetters" : 4726029,
-        "yellowLeters" : [8192, 256, 128, 4096, 16]
     },
     {
         "word" : "nient",
@@ -33234,10 +31392,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [8192, 256, 4096, 2, 16]
     },
     {
-        "word" : "nîmes",
-        "bitmap" : 274448,
-        "wordLetters" : 19022253,
-        "yellowLeters" : [8192, 8192, 4096, 16, 262144]
+        "word" : "nimes",
+        "bitmap" : 274704,
+        "wordLetters" : 19017997,
+        "yellowLeters" : [8192, 256, 4096, 16, 262144]
     },
     {
         "word" : "ninas",
@@ -33256,12 +31414,6 @@ module.exports = FrenchArr = [
         "bitmap" : 26896,
         "wordLetters" : 4569357,
         "yellowLeters" : [8192, 256, 16384, 2048, 16]
-    },
-    {
-        "word" : "niôle",
-        "bitmap" : 534800,
-        "wordLetters" : 4705549,
-        "yellowLeters" : [8192, 256, 524288, 2048, 16]
     },
     {
         "word" : "niolo",
@@ -33654,12 +31806,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [8192, 16384, 524288, 131072, 16]
     },
     {
-        "word" : "nôtre",
-        "bitmap" : 663568,
-        "wordLetters" : 4775533,
-        "yellowLeters" : [8192, 524288, 524288, 131072, 16]
-    },
-    {
         "word" : "nouai",
         "bitmap" : 1073409,
         "wordLetters" : 8409549,
@@ -33978,22 +32124,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [16384, 2, 16, 256, 524288]
     },
     {
-        "word" : "obeît",
-        "bitmap" : 548882,
-        "wordLetters" : 24547374,
-        "yellowLeters" : [16384, 2, 16, 8192, 524288]
-    },
-    {
         "word" : "obele",
         "bitmap" : 18450,
         "wordLetters" : 4558894,
         "yellowLeters" : [16384, 2, 16, 2048, 16]
-    },
-    {
-        "word" : "obèle",
-        "bitmap" : 18578,
-        "wordLetters" : 4693038,
-        "yellowLeters" : [16384, 2, 128, 2048, 16]
     },
     {
         "word" : "obels",
@@ -34014,22 +32148,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [16384, 2, 16, 131072, 16]
     },
     {
-        "word" : "obère",
-        "bitmap" : 147602,
-        "wordLetters" : 4889646,
-        "yellowLeters" : [16384, 2, 128, 131072, 16]
-    },
-    {
         "word" : "obese",
         "bitmap" : 278546,
         "wordLetters" : 4788270,
         "yellowLeters" : [16384, 2, 16, 262144, 16]
-    },
-    {
-        "word" : "obèse",
-        "bitmap" : 278674,
-        "wordLetters" : 4922414,
-        "yellowLeters" : [16384, 2, 128, 262144, 16]
     },
     {
         "word" : "obier",
@@ -34434,12 +32556,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [16384, 32768, 16, 131072, 16]
     },
     {
-        "word" : "opère",
-        "bitmap" : 180368,
-        "wordLetters" : 4890094,
-        "yellowLeters" : [16384, 32768, 128, 131072, 16]
-    },
-    {
         "word" : "opiat",
         "bitmap" : 573697,
         "wordLetters" : 19931630,
@@ -34806,22 +32922,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [16384, 524288, 1, 256, 262144]
     },
     {
-        "word" : "ôtais",
-        "bitmap" : 786689,
-        "wordLetters" : 19137267,
-        "yellowLeters" : [524288, 524288, 1, 256, 262144]
-    },
-    {
         "word" : "otait",
         "bitmap" : 540929,
         "wordLetters" : 20185710,
         "yellowLeters" : [16384, 524288, 1, 256, 524288]
-    },
-    {
-        "word" : "ôtait",
-        "bitmap" : 524545,
-        "wordLetters" : 20185843,
-        "yellowLeters" : [524288, 524288, 1, 256, 524288]
     },
     {
         "word" : "otant",
@@ -34830,22 +32934,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [16384, 524288, 1, 8192, 524288]
     },
     {
-        "word" : "ôtant",
-        "bitmap" : 532481,
-        "wordLetters" : 20349683,
-        "yellowLeters" : [524288, 524288, 1, 8192, 524288]
-    },
-    {
         "word" : "otees",
         "bitmap" : 802832,
         "wordLetters" : 19010158,
         "yellowLeters" : [16384, 524288, 16, 16, 262144]
-    },
-    {
-        "word" : "ôtees",
-        "bitmap" : 786448,
-        "wordLetters" : 19010291,
-        "yellowLeters" : [524288, 524288, 16, 16, 262144]
     },
     {
         "word" : "otent",
@@ -34854,34 +32946,16 @@ module.exports = FrenchArr = [
         "yellowLeters" : [16384, 524288, 16, 8192, 524288]
     },
     {
-        "word" : "ôtent",
-        "bitmap" : 532496,
-        "wordLetters" : 20353779,
-        "yellowLeters" : [524288, 524288, 16, 8192, 524288]
-    },
-    {
         "word" : "otera",
         "bitmap" : 671761,
         "wordLetters" : 561774,
         "yellowLeters" : [16384, 524288, 16, 131072, 1]
     },
     {
-        "word" : "ôtera",
-        "bitmap" : 655377,
-        "wordLetters" : 561907,
-        "yellowLeters" : [524288, 524288, 16, 131072, 1]
-    },
-    {
         "word" : "otiez",
         "bitmap" : 34095376,
         "wordLetters" : 26354286,
         "yellowLeters" : [16384, 524288, 256, 16, 33554432]
-    },
-    {
-        "word" : "ôtiez",
-        "bitmap" : 34078992,
-        "wordLetters" : 26354419,
-        "yellowLeters" : [524288, 524288, 256, 16, 33554432]
     },
     {
         "word" : "otite",
@@ -34900,12 +32974,6 @@ module.exports = FrenchArr = [
         "bitmap" : 811008,
         "wordLetters" : 19315310,
         "yellowLeters" : [16384, 524288, 16384, 8192, 262144]
-    },
-    {
-        "word" : "ôtons",
-        "bitmap" : 811008,
-        "wordLetters" : 19315443,
-        "yellowLeters" : [524288, 524288, 16384, 8192, 262144]
     },
     {
         "word" : "ouais",
@@ -34956,16 +33024,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [16384, 1048576, 256, 16, 262144]
     },
     {
-        "word" : "ouïes",
-        "bitmap" : 1327120,
-        "wordLetters" : 19151502,
-        "yellowLeters" : [16384, 1048576, 16384, 16, 262144]
-    },
-    {
-        "word" : "ouïra",
-        "bitmap" : 1196033,
-        "wordLetters" : 703118,
-        "yellowLeters" : [16384, 1048576, 16384, 131072, 1]
+        "word" : "ouira",
+        "bitmap" : 1196289,
+        "wordLetters" : 565902,
+        "yellowLeters" : [16384, 1048576, 256, 131072, 1]
     },
     {
         "word" : "oumma",
@@ -35148,12 +33210,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [16384, 33554432, 16, 8192, 16]
     },
     {
-        "word" : "ozène",
-        "bitmap" : 33579152,
-        "wordLetters" : 4759342,
-        "yellowLeters" : [16384, 33554432, 128, 8192, 16]
-    },
-    {
         "word" : "ozona",
         "bitmap" : 33579009,
         "wordLetters" : 441134,
@@ -35310,12 +33366,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [32768, 1, 256, 16, 8192]
     },
     {
-        "word" : "païen",
-        "bitmap" : 57361,
-        "wordLetters" : 13907983,
-        "yellowLeters" : [32768, 1, 16384, 16, 8192]
-    },
-    {
         "word" : "paies",
         "bitmap" : 295185,
         "wordLetters" : 19013647,
@@ -35398,12 +33448,6 @@ module.exports = FrenchArr = [
         "bitmap" : 559361,
         "wordLetters" : 20196367,
         "yellowLeters" : [32768, 1, 2048, 256, 524288]
-    },
-    {
-        "word" : "palît",
-        "bitmap" : 567297,
-        "wordLetters" : 24554511,
-        "yellowLeters" : [32768, 1, 2048, 8192, 524288]
     },
     {
         "word" : "palle",
@@ -35874,12 +33918,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [32768, 1, 131072, 1048576, 524288]
     },
     {
-        "word" : "parût",
-        "bitmap" : 67796993,
-        "wordLetters" : 24986639,
-        "yellowLeters" : [32768, 1, 131072, 67108864, 524288]
-    },
-    {
         "word" : "paseo",
         "bitmap" : 311313,
         "wordLetters" : 14829583,
@@ -35974,12 +34012,6 @@ module.exports = FrenchArr = [
         "bitmap" : 557313,
         "wordLetters" : 20204559,
         "yellowLeters" : [32768, 1, 524288, 256, 524288]
-    },
-    {
-        "word" : "patît",
-        "bitmap" : 565249,
-        "wordLetters" : 24562703,
-        "yellowLeters" : [32768, 1, 524288, 8192, 524288]
     },
     {
         "word" : "paton",
@@ -36192,28 +34224,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [32768, 16, 4, 128, 1]
     },
     {
-        "word" : "pêcha",
-        "bitmap" : 33413,
-        "wordLetters" : 235823,
-        "yellowLeters" : [32768, 512, 4, 128, 1]
-    },
-    {
         "word" : "peche",
         "bitmap" : 32916,
         "wordLetters" : 4425871,
         "yellowLeters" : [32768, 16, 4, 128, 16]
-    },
-    {
-        "word" : "pèche",
-        "bitmap" : 32916,
-        "wordLetters" : 4430063,
-        "yellowLeters" : [32768, 128, 4, 128, 16]
-    },
-    {
-        "word" : "pêche",
-        "bitmap" : 33428,
-        "wordLetters" : 4430127,
-        "yellowLeters" : [32768, 512, 4, 128, 16]
     },
     {
         "word" : "pechu",
@@ -36262,12 +34276,6 @@ module.exports = FrenchArr = [
         "bitmap" : 163920,
         "wordLetters" : 4757647,
         "yellowLeters" : [32768, 16, 64, 131072, 16]
-    },
-    {
-        "word" : "pègre",
-        "bitmap" : 164048,
-        "wordLetters" : 4761839,
-        "yellowLeters" : [32768, 128, 64, 131072, 16]
     },
     {
         "word" : "pegua",
@@ -36366,12 +34374,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [32768, 16, 2048, 16, 262144]
     },
     {
-        "word" : "pèles",
-        "bitmap" : 297104,
-        "wordLetters" : 19021039,
-        "yellowLeters" : [32768, 128, 2048, 16, 262144]
-    },
-    {
         "word" : "pelez",
         "bitmap" : 33589264,
         "wordLetters" : 26356879,
@@ -36436,12 +34438,6 @@ module.exports = FrenchArr = [
         "bitmap" : 303120,
         "wordLetters" : 19018895,
         "yellowLeters" : [32768, 16, 8192, 16, 262144]
-    },
-    {
-        "word" : "pênes",
-        "bitmap" : 303632,
-        "wordLetters" : 19023151,
-        "yellowLeters" : [32768, 512, 8192, 16, 262144]
     },
     {
         "word" : "penil",
@@ -36552,12 +34548,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [32768, 16, 131072, 4, 1]
     },
     {
-        "word" : "perça",
-        "bitmap" : 163921,
-        "wordLetters" : 4408463,
-        "yellowLeters" : [32768, 16, 131072, 64, 1]
-    },
-    {
         "word" : "perce",
         "bitmap" : 163860,
         "wordLetters" : 4277391,
@@ -36568,12 +34558,6 @@ module.exports = FrenchArr = [
         "bitmap" : 1212436,
         "wordLetters" : 21054607,
         "yellowLeters" : [32768, 16, 131072, 4, 1048576]
-    },
-    {
-        "word" : "perçu",
-        "bitmap" : 1212496,
-        "wordLetters" : 25379983,
-        "yellowLeters" : [32768, 16, 131072, 64, 1048576]
     },
     {
         "word" : "percy",
@@ -36610,18 +34594,6 @@ module.exports = FrenchArr = [
         "bitmap" : 426000,
         "wordLetters" : 19022991,
         "yellowLeters" : [32768, 16, 131072, 16, 262144]
-    },
-    {
-        "word" : "perès",
-        "bitmap" : 426128,
-        "wordLetters" : 23315599,
-        "yellowLeters" : [32768, 16, 131072, 128, 262144]
-    },
-    {
-        "word" : "pères",
-        "bitmap" : 426128,
-        "wordLetters" : 19027183,
-        "yellowLeters" : [32768, 128, 131072, 16, 262144]
     },
     {
         "word" : "perfs",
@@ -36664,12 +34636,6 @@ module.exports = FrenchArr = [
         "bitmap" : 688400,
         "wordLetters" : 20202639,
         "yellowLeters" : [32768, 16, 131072, 256, 524288]
-    },
-    {
-        "word" : "perît",
-        "bitmap" : 696336,
-        "wordLetters" : 24560783,
-        "yellowLeters" : [32768, 16, 131072, 8192, 524288]
     },
     {
         "word" : "perla",
@@ -36768,12 +34734,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [32768, 16, 262144, 16, 262144]
     },
     {
-        "word" : "pèses",
-        "bitmap" : 295056,
-        "wordLetters" : 19028207,
-        "yellowLeters" : [32768, 128, 262144, 16, 262144]
-    },
-    {
         "word" : "pesez",
         "bitmap" : 33849360,
         "wordLetters" : 26364047,
@@ -36852,12 +34812,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [32768, 16, 524288, 16, 262144]
     },
     {
-        "word" : "pètes",
-        "bitmap" : 819344,
-        "wordLetters" : 19029231,
-        "yellowLeters" : [32768, 128, 524288, 16, 262144]
-    },
-    {
         "word" : "petez",
         "bitmap" : 34111504,
         "wordLetters" : 26365071,
@@ -36922,12 +34876,6 @@ module.exports = FrenchArr = [
         "bitmap" : 33849360,
         "wordLetters" : 19031183,
         "yellowLeters" : [32768, 16, 33554432, 16, 262144]
-    },
-    {
-        "word" : "pèzes",
-        "bitmap" : 33849488,
-        "wordLetters" : 19035375,
-        "yellowLeters" : [32768, 128, 33554432, 16, 262144]
     },
     {
         "word" : "phaco",
@@ -37056,12 +35004,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [32768, 256, 16, 4, 16]
     },
     {
-        "word" : "pièce",
-        "bitmap" : 33172,
-        "wordLetters" : 4398351,
-        "yellowLeters" : [32768, 256, 128, 4, 16]
-    },
-    {
         "word" : "pieds",
         "bitmap" : 295192,
         "wordLetters" : 18977039,
@@ -37072,12 +35014,6 @@ module.exports = FrenchArr = [
         "bitmap" : 33104,
         "wordLetters" : 4395279,
         "yellowLeters" : [32768, 256, 16, 64, 16]
-    },
-    {
-        "word" : "piège",
-        "bitmap" : 33232,
-        "wordLetters" : 4529423,
-        "yellowLeters" : [32768, 256, 128, 64, 16]
     },
     {
         "word" : "piers",
@@ -37104,12 +35040,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [32768, 256, 16, 524288, 16]
     },
     {
-        "word" : "piète",
-        "bitmap" : 557456,
-        "wordLetters" : 4955407,
-        "yellowLeters" : [32768, 256, 128, 524288, 16]
-    },
-    {
         "word" : "pieux",
         "bitmap" : 9470224,
         "wordLetters" : 24776975,
@@ -37120,12 +35050,6 @@ module.exports = FrenchArr = [
         "bitmap" : 33587472,
         "wordLetters" : 5017871,
         "yellowLeters" : [32768, 256, 16, 33554432, 16]
-    },
-    {
-        "word" : "pièze",
-        "bitmap" : 33587600,
-        "wordLetters" : 5152015,
-        "yellowLeters" : [32768, 256, 128, 33554432, 16]
     },
     {
         "word" : "pifai",
@@ -37330,12 +35254,6 @@ module.exports = FrenchArr = [
         "bitmap" : 41221,
         "wordLetters" : 79119,
         "yellowLeters" : [32768, 256, 8192, 4, 1]
-    },
-    {
-        "word" : "pinça",
-        "bitmap" : 41281,
-        "wordLetters" : 4404495,
-        "yellowLeters" : [32768, 256, 8192, 64, 1]
     },
     {
         "word" : "pince",
@@ -37584,12 +35502,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [32768, 2048, 1, 4, 1]
     },
     {
-        "word" : "plaça",
-        "bitmap" : 34881,
-        "wordLetters" : 4391279,
-        "yellowLeters" : [32768, 2048, 1, 64, 1]
-    },
-    {
         "word" : "place",
         "bitmap" : 34837,
         "wordLetters" : 4260207,
@@ -37632,12 +35544,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [32768, 2048, 1, 256, 524288]
     },
     {
-        "word" : "plaît",
-        "bitmap" : 567297,
-        "wordLetters" : 24543599,
-        "yellowLeters" : [32768, 2048, 1, 8192, 524288]
-    },
-    {
         "word" : "plana",
         "bitmap" : 43009,
         "wordLetters" : 426351,
@@ -37678,12 +35584,6 @@ module.exports = FrenchArr = [
         "bitmap" : 34834,
         "wordLetters" : 4231535,
         "yellowLeters" : [32768, 2048, 16, 2, 16]
-    },
-    {
-        "word" : "plèbe",
-        "bitmap" : 34962,
-        "wordLetters" : 4365679,
-        "yellowLeters" : [32768, 2048, 128, 2, 16]
     },
     {
         "word" : "plein",
@@ -37872,22 +35772,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [32768, 16384, 16, 2048, 1]
     },
     {
-        "word" : "poêla",
-        "bitmap" : 51713,
-        "wordLetters" : 501199,
-        "yellowLeters" : [32768, 16384, 512, 2048, 1]
-    },
-    {
         "word" : "poele",
         "bitmap" : 51216,
         "wordLetters" : 4559311,
         "yellowLeters" : [32768, 16384, 16, 2048, 16]
-    },
-    {
-        "word" : "poêle",
-        "bitmap" : 51728,
-        "wordLetters" : 4695503,
-        "yellowLeters" : [32768, 16384, 512, 2048, 16]
     },
     {
         "word" : "poële",
@@ -37902,22 +35790,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [32768, 16384, 16, 4096, 16]
     },
     {
-        "word" : "poème",
-        "bitmap" : 53392,
-        "wordLetters" : 4726223,
-        "yellowLeters" : [32768, 16384, 128, 4096, 16]
-    },
-    {
         "word" : "poete",
         "bitmap" : 573456,
         "wordLetters" : 4821455,
         "yellowLeters" : [32768, 16384, 16, 524288, 16]
-    },
-    {
-        "word" : "poète",
-        "bitmap" : 573584,
-        "wordLetters" : 4955599,
-        "yellowLeters" : [32768, 16384, 128, 524288, 16]
     },
     {
         "word" : "pogna",
@@ -38016,12 +35892,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [32768, 16384, 2048, 16, 262144]
     },
     {
-        "word" : "pôles",
-        "bitmap" : 821264,
-        "wordLetters" : 19021423,
-        "yellowLeters" : [32768, 524288, 2048, 16, 262144]
-    },
-    {
         "word" : "polie",
         "bitmap" : 51472,
         "wordLetters" : 4468175,
@@ -38050,12 +35920,6 @@ module.exports = FrenchArr = [
         "bitmap" : 575744,
         "wordLetters" : 20196815,
         "yellowLeters" : [32768, 16384, 2048, 256, 524288]
-    },
-    {
-        "word" : "polît",
-        "bitmap" : 583680,
-        "wordLetters" : 24554959,
-        "yellowLeters" : [32768, 16384, 2048, 8192, 524288]
     },
     {
         "word" : "polje",
@@ -38116,12 +35980,6 @@ module.exports = FrenchArr = [
         "bitmap" : 57349,
         "wordLetters" : 79311,
         "yellowLeters" : [32768, 16384, 8192, 4, 1]
-    },
-    {
-        "word" : "ponça",
-        "bitmap" : 57409,
-        "wordLetters" : 4404687,
-        "yellowLeters" : [32768, 16384, 8192, 64, 1]
     },
     {
         "word" : "ponce",
@@ -38442,18 +36300,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [32768, 131072, 16, 2048, 16]
     },
     {
-        "word" : "prèle",
-        "bitmap" : 166032,
-        "wordLetters" : 4693551,
-        "yellowLeters" : [32768, 131072, 128, 2048, 16]
-    },
-    {
-        "word" : "prêle",
-        "bitmap" : 166416,
-        "wordLetters" : 4695599,
-        "yellowLeters" : [32768, 131072, 512, 2048, 16]
-    },
-    {
         "word" : "prend",
         "bitmap" : 172056,
         "wordLetters" : 3576367,
@@ -38472,34 +36318,16 @@ module.exports = FrenchArr = [
         "yellowLeters" : [32768, 131072, 16, 524288, 1]
     },
     {
-        "word" : "prêta",
-        "bitmap" : 688641,
-        "wordLetters" : 763439,
-        "yellowLeters" : [32768, 131072, 512, 524288, 1]
-    },
-    {
         "word" : "prete",
         "bitmap" : 688144,
         "wordLetters" : 4821551,
         "yellowLeters" : [32768, 131072, 16, 524288, 16]
     },
     {
-        "word" : "prête",
-        "bitmap" : 688656,
-        "wordLetters" : 4957743,
-        "yellowLeters" : [32768, 131072, 512, 524288, 16]
-    },
-    {
         "word" : "prets",
         "bitmap" : 950288,
         "wordLetters" : 19501615,
         "yellowLeters" : [32768, 131072, 16, 524288, 262144]
-    },
-    {
-        "word" : "prêts",
-        "bitmap" : 950784,
-        "wordLetters" : 19637807,
-        "yellowLeters" : [32768, 131072, 512, 524288, 262144]
     },
     {
         "word" : "preux",
@@ -38658,22 +36486,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [32768, 131072, 16384, 8192, 1]
     },
     {
-        "word" : "prôna",
-        "bitmap" : 696321,
-        "wordLetters" : 577071,
-        "yellowLeters" : [32768, 131072, 524288, 8192, 1]
-    },
-    {
         "word" : "prone",
         "bitmap" : 188432,
         "wordLetters" : 4635183,
         "yellowLeters" : [32768, 131072, 16384, 8192, 16]
-    },
-    {
-        "word" : "prône",
-        "bitmap" : 696336,
-        "wordLetters" : 4771375,
-        "yellowLeters" : [32768, 131072, 524288, 8192, 16]
     },
     {
         "word" : "prose",
@@ -38758,12 +36574,6 @@ module.exports = FrenchArr = [
         "bitmap" : 835600,
         "wordLetters" : 4799087,
         "yellowLeters" : [32768, 524288, 16384, 262144, 16]
-    },
-    {
-        "word" : "ptôse",
-        "bitmap" : 819216,
-        "wordLetters" : 4935279,
-        "yellowLeters" : [32768, 524288, 524288, 262144, 16]
     },
     {
         "word" : "puais",
@@ -38874,12 +36684,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [32768, 1048576, 256, 8192, 16]
     },
     {
-        "word" : "puîne",
-        "bitmap" : 1089552,
-        "wordLetters" : 4765327,
-        "yellowLeters" : [32768, 1048576, 8192, 8192, 16]
-    },
-    {
         "word" : "puisa",
         "bitmap" : 1343745,
         "wordLetters" : 598671,
@@ -38946,12 +36750,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [32768, 1048576, 4096, 16, 262144]
     },
     {
-        "word" : "pûmes",
-        "bitmap" : 67407888,
-        "wordLetters" : 19022671,
-        "yellowLeters" : [32768, 67108864, 4096, 16, 262144]
-    },
-    {
         "word" : "punas",
         "bitmap" : 1351681,
         "wordLetters" : 18888335,
@@ -38986,12 +36784,6 @@ module.exports = FrenchArr = [
         "bitmap" : 1614080,
         "wordLetters" : 20199055,
         "yellowLeters" : [32768, 1048576, 8192, 256, 524288]
-    },
-    {
-        "word" : "punît",
-        "bitmap" : 1613824,
-        "wordLetters" : 24557199,
-        "yellowLeters" : [32768, 1048576, 8192, 8192, 524288]
     },
     {
         "word" : "punks",
@@ -39064,12 +36856,6 @@ module.exports = FrenchArr = [
         "bitmap" : 1867792,
         "wordLetters" : 19025551,
         "yellowLeters" : [32768, 1048576, 524288, 16, 262144]
-    },
-    {
-        "word" : "pûtes",
-        "bitmap" : 67928080,
-        "wordLetters" : 19029839,
-        "yellowLeters" : [32768, 67108864, 524288, 16, 262144]
     },
     {
         "word" : "putta",
@@ -39192,22 +36978,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [65536, 1048576, 16, 524288, 1]
     },
     {
-        "word" : "quêta",
-        "bitmap" : 1638913,
-        "wordLetters" : 763536,
-        "yellowLeters" : [65536, 1048576, 512, 524288, 1]
-    },
-    {
         "word" : "quete",
         "bitmap" : 1638416,
         "wordLetters" : 4821648,
         "yellowLeters" : [65536, 1048576, 16, 524288, 16]
-    },
-    {
-        "word" : "quête",
-        "bitmap" : 1638928,
-        "wordLetters" : 4957840,
-        "yellowLeters" : [65536, 1048576, 512, 524288, 16]
     },
     {
         "word" : "queue",
@@ -39526,12 +37300,6 @@ module.exports = FrenchArr = [
         "bitmap" : 393473,
         "wordLetters" : 18882577,
         "yellowLeters" : [131072, 1, 256, 1, 262144]
-    },
-    {
-        "word" : "raïas",
-        "bitmap" : 409601,
-        "wordLetters" : 19019793,
-        "yellowLeters" : [131072, 1, 16384, 1, 262144]
     },
     {
         "word" : "raide",
@@ -40074,12 +37842,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [131072, 1, 2097152, 256, 524288]
     },
     {
-        "word" : "ravît",
-        "bitmap" : 2760705,
-        "wordLetters" : 24564753,
-        "yellowLeters" : [131072, 1, 2097152, 8192, 524288]
-    },
-    {
         "word" : "rayai",
         "bitmap" : 16908545,
         "wordLetters" : 8413201,
@@ -40254,12 +38016,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [131072, 16, 4, 16, 262144]
     },
     {
-        "word" : "recès",
-        "bitmap" : 393364,
-        "wordLetters" : 23300241,
-        "yellowLeters" : [131072, 16, 4, 128, 262144]
-    },
-    {
         "word" : "recez",
         "bitmap" : 33685524,
         "wordLetters" : 26347665,
@@ -40270,12 +38026,6 @@ module.exports = FrenchArr = [
         "bitmap" : 131220,
         "wordLetters" : 4425873,
         "yellowLeters" : [131072, 16, 4, 128, 16]
-    },
-    {
-        "word" : "rêche",
-        "bitmap" : 131732,
-        "wordLetters" : 4430129,
-        "yellowLeters" : [131072, 512, 4, 128, 16]
     },
     {
         "word" : "recif",
@@ -40308,12 +38058,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [131072, 16, 4, 131072, 1048576]
     },
     {
-        "word" : "recrû",
-        "bitmap" : 67239956,
-        "wordLetters" : 162039953,
-        "yellowLeters" : [131072, 16, 4, 131072, 67108864]
-    },
-    {
         "word" : "recta",
         "bitmap" : 655381,
         "wordLetters" : 624785,
@@ -40330,12 +38074,6 @@ module.exports = FrenchArr = [
         "bitmap" : 1179668,
         "wordLetters" : 4851857,
         "yellowLeters" : [131072, 16, 4, 1048576, 16]
-    },
-    {
-        "word" : "reçue",
-        "bitmap" : 1179728,
-        "wordLetters" : 4987025,
-        "yellowLeters" : [131072, 16, 64, 1048576, 16]
     },
     {
         "word" : "recul",
@@ -40356,28 +38094,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [131072, 16, 4, 1048576, 262144]
     },
     {
-        "word" : "reçus",
-        "bitmap" : 1441872,
-        "wordLetters" : 19667089,
-        "yellowLeters" : [131072, 16, 64, 1048576, 262144]
-    },
-    {
         "word" : "recut",
         "bitmap" : 1703956,
         "wordLetters" : 20580497,
         "yellowLeters" : [131072, 16, 4, 1048576, 524288]
-    },
-    {
-        "word" : "reçut",
-        "bitmap" : 1704016,
-        "wordLetters" : 20715665,
-        "yellowLeters" : [131072, 16, 64, 1048576, 524288]
-    },
-    {
-        "word" : "reçût",
-        "bitmap" : 67764304,
-        "wordLetters" : 25106577,
-        "yellowLeters" : [131072, 16, 64, 67108864, 524288]
     },
     {
         "word" : "redan",
@@ -40410,12 +38130,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [131072, 16, 8, 256, 524288]
     },
     {
-        "word" : "redît",
-        "bitmap" : 663576,
-        "wordLetters" : 24546449,
-        "yellowLeters" : [131072, 16, 8, 8192, 524288]
-    },
-    {
         "word" : "redox",
         "bitmap" : 8536088,
         "wordLetters" : 24579217,
@@ -40444,12 +38158,6 @@ module.exports = FrenchArr = [
         "bitmap" : 1703960,
         "wordLetters" : 20581521,
         "yellowLeters" : [131072, 16, 8, 1048576, 524288]
-    },
-    {
-        "word" : "redût",
-        "bitmap" : 67764248,
-        "wordLetters" : 24972433,
-        "yellowLeters" : [131072, 16, 8, 67108864, 524288]
     },
     {
         "word" : "reels",
@@ -40486,12 +38194,6 @@ module.exports = FrenchArr = [
         "bitmap" : 655664,
         "wordLetters" : 20190353,
         "yellowLeters" : [131072, 16, 32, 256, 524288]
-    },
-    {
-        "word" : "refît",
-        "bitmap" : 663600,
-        "wordLetters" : 24548497,
-        "yellowLeters" : [131072, 16, 32, 8192, 524288]
     },
     {
         "word" : "refus",
@@ -40542,12 +38244,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [131072, 16, 64, 256, 524288]
     },
     {
-        "word" : "regît",
-        "bitmap" : 663632,
-        "wordLetters" : 24549521,
-        "yellowLeters" : [131072, 16, 64, 8192, 524288]
-    },
-    {
         "word" : "regla",
         "bitmap" : 133201,
         "wordLetters" : 366737,
@@ -40558,12 +38254,6 @@ module.exports = FrenchArr = [
         "bitmap" : 133200,
         "wordLetters" : 4561041,
         "yellowLeters" : [131072, 16, 64, 2048, 16]
-    },
-    {
-        "word" : "règle",
-        "bitmap" : 133328,
-        "wordLetters" : 4565233,
-        "yellowLeters" : [131072, 128, 64, 2048, 16]
     },
     {
         "word" : "reglo",
@@ -40582,12 +38272,6 @@ module.exports = FrenchArr = [
         "bitmap" : 139344,
         "wordLetters" : 4626577,
         "yellowLeters" : [131072, 16, 64, 8192, 16]
-    },
-    {
-        "word" : "règne",
-        "bitmap" : 139472,
-        "wordLetters" : 4630769,
-        "yellowLeters" : [131072, 128, 64, 8192, 16]
     },
     {
         "word" : "regur",
@@ -40692,12 +38376,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [131072, 16, 2048, 1048576, 524288]
     },
     {
-        "word" : "relût",
-        "bitmap" : 67766288,
-        "wordLetters" : 24980625,
-        "yellowLeters" : [131072, 16, 2048, 67108864, 524288]
-    },
-    {
         "word" : "remet",
         "bitmap" : 659472,
         "wordLetters" : 20066449,
@@ -40714,12 +38392,6 @@ module.exports = FrenchArr = [
         "bitmap" : 659728,
         "wordLetters" : 20197521,
         "yellowLeters" : [131072, 16, 4096, 256, 524288]
-    },
-    {
-        "word" : "remît",
-        "bitmap" : 667664,
-        "wordLetters" : 24555665,
-        "yellowLeters" : [131072, 16, 4096, 8192, 524288]
     },
     {
         "word" : "remix",
@@ -40780,12 +38452,6 @@ module.exports = FrenchArr = [
         "bitmap" : 401424,
         "wordLetters" : 19018897,
         "yellowLeters" : [131072, 16, 8192, 16, 262144]
-    },
-    {
-        "word" : "rênes",
-        "bitmap" : 401936,
-        "wordLetters" : 19023153,
-        "yellowLeters" : [131072, 512, 8192, 16, 262144]
     },
     {
         "word" : "renia",
@@ -40890,12 +38556,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [131072, 16, 32768, 1048576, 524288]
     },
     {
-        "word" : "repût",
-        "bitmap" : 67797008,
-        "wordLetters" : 24984721,
-        "yellowLeters" : [131072, 16, 32768, 67108864, 524288]
-    },
-    {
         "word" : "resta",
         "bitmap" : 917521,
         "wordLetters" : 641169,
@@ -40938,12 +38598,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [131072, 16, 2097152, 1, 256]
     },
     {
-        "word" : "rêvai",
-        "bitmap" : 2228993,
-        "wordLetters" : 8414513,
-        "yellowLeters" : [131072, 512, 2097152, 1, 256]
-    },
-    {
         "word" : "reval",
         "bitmap" : 2230289,
         "wordLetters" : 11555985,
@@ -40956,34 +38610,16 @@ module.exports = FrenchArr = [
         "yellowLeters" : [131072, 16, 2097152, 1, 262144]
     },
     {
-        "word" : "rêvas",
-        "bitmap" : 2490881,
-        "wordLetters" : 18900273,
-        "yellowLeters" : [131072, 512, 2097152, 1, 262144]
-    },
-    {
         "word" : "revat",
         "bitmap" : 2752529,
         "wordLetters" : 19944593,
         "yellowLeters" : [131072, 16, 2097152, 1, 524288]
     },
     {
-        "word" : "rêvat",
-        "bitmap" : 2753025,
-        "wordLetters" : 19948849,
-        "yellowLeters" : [131072, 512, 2097152, 1, 524288]
-    },
-    {
         "word" : "revee",
         "bitmap" : 2228240,
         "wordLetters" : 4347025,
         "yellowLeters" : [131072, 16, 2097152, 16, 16]
-    },
-    {
-        "word" : "rêvee",
-        "bitmap" : 2228752,
-        "wordLetters" : 4351281,
-        "yellowLeters" : [131072, 512, 2097152, 16, 16]
     },
     {
         "word" : "revel",
@@ -40998,22 +38634,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [131072, 16, 2097152, 16, 131072]
     },
     {
-        "word" : "rêver",
-        "bitmap" : 2228752,
-        "wordLetters" : 17982769,
-        "yellowLeters" : [131072, 512, 2097152, 16, 131072]
-    },
-    {
         "word" : "reves",
         "bitmap" : 2490384,
         "wordLetters" : 19027089,
         "yellowLeters" : [131072, 16, 2097152, 16, 262144]
-    },
-    {
-        "word" : "rêves",
-        "bitmap" : 2490896,
-        "wordLetters" : 19031345,
-        "yellowLeters" : [131072, 512, 2097152, 16, 262144]
     },
     {
         "word" : "revet",
@@ -41022,22 +38646,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [131072, 16, 2097152, 16, 524288]
     },
     {
-        "word" : "revêt",
-        "bitmap" : 2753040,
-        "wordLetters" : 24433809,
-        "yellowLeters" : [131072, 16, 2097152, 512, 524288]
-    },
-    {
         "word" : "revez",
         "bitmap" : 35782672,
         "wordLetters" : 26367121,
         "yellowLeters" : [131072, 16, 2097152, 16, 33554432]
-    },
-    {
-        "word" : "rêvez",
-        "bitmap" : 35783184,
-        "wordLetters" : 26371377,
-        "yellowLeters" : [131072, 512, 2097152, 16, 33554432]
     },
     {
         "word" : "revif",
@@ -41056,12 +38668,6 @@ module.exports = FrenchArr = [
         "bitmap" : 2752784,
         "wordLetters" : 20206737,
         "yellowLeters" : [131072, 16, 2097152, 256, 524288]
-    },
-    {
-        "word" : "revît",
-        "bitmap" : 2760720,
-        "wordLetters" : 24564881,
-        "yellowLeters" : [131072, 16, 2097152, 8192, 524288]
     },
     {
         "word" : "revue",
@@ -41094,10 +38700,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [131072, 128, 256, 8192, 16384]
     },
     {
-        "word" : "rhône",
-        "bitmap" : 663696,
-        "wordLetters" : 4771057,
-        "yellowLeters" : [131072, 128, 524288, 8192, 16]
+        "word" : "rhone",
+        "bitmap" : 155792,
+        "wordLetters" : 4634865,
+        "yellowLeters" : [131072, 128, 16384, 8192, 16]
     },
     {
         "word" : "rhuma",
@@ -41340,12 +38946,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [131072, 256, 4096, 16, 262144]
     },
     {
-        "word" : "rîmes",
-        "bitmap" : 405520,
-        "wordLetters" : 19022257,
-        "yellowLeters" : [131072, 8192, 4096, 16, 262144]
-    },
-    {
         "word" : "rimez",
         "bitmap" : 33689872,
         "wordLetters" : 26358033,
@@ -41356,12 +38956,6 @@ module.exports = FrenchArr = [
         "bitmap" : 139525,
         "wordLetters" : 79121,
         "yellowLeters" : [131072, 256, 8192, 4, 1]
-    },
-    {
-        "word" : "rinça",
-        "bitmap" : 139585,
-        "wordLetters" : 4404497,
-        "yellowLeters" : [131072, 256, 8192, 64, 1]
     },
     {
         "word" : "rince",
@@ -41512,12 +39106,6 @@ module.exports = FrenchArr = [
         "bitmap" : 917776,
         "wordLetters" : 19025169,
         "yellowLeters" : [131072, 256, 524288, 16, 262144]
-    },
-    {
-        "word" : "rîtes",
-        "bitmap" : 925712,
-        "wordLetters" : 19029425,
-        "yellowLeters" : [131072, 8192, 524288, 16, 262144]
     },
     {
         "word" : "rivai",
@@ -41676,34 +39264,16 @@ module.exports = FrenchArr = [
         "yellowLeters" : [131072, 16384, 8, 1, 256]
     },
     {
-        "word" : "rôdai",
-        "bitmap" : 655625,
-        "wordLetters" : 8396401,
-        "yellowLeters" : [131072, 524288, 8, 1, 256]
-    },
-    {
         "word" : "rodas",
         "bitmap" : 409609,
         "wordLetters" : 18877905,
         "yellowLeters" : [131072, 16384, 8, 1, 262144]
     },
     {
-        "word" : "rôdas",
-        "bitmap" : 917513,
-        "wordLetters" : 18882161,
-        "yellowLeters" : [131072, 524288, 8, 1, 262144]
-    },
-    {
         "word" : "rodat",
         "bitmap" : 671753,
         "wordLetters" : 19926481,
         "yellowLeters" : [131072, 16384, 8, 1, 524288]
-    },
-    {
-        "word" : "rôdat",
-        "bitmap" : 655369,
-        "wordLetters" : 19930737,
-        "yellowLeters" : [131072, 524288, 8, 1, 524288]
     },
     {
         "word" : "rodee",
@@ -41724,34 +39294,16 @@ module.exports = FrenchArr = [
         "yellowLeters" : [131072, 16384, 8, 16, 131072]
     },
     {
-        "word" : "rôder",
-        "bitmap" : 655384,
-        "wordLetters" : 17964657,
-        "yellowLeters" : [131072, 524288, 8, 16, 131072]
-    },
-    {
         "word" : "rodes",
         "bitmap" : 409624,
         "wordLetters" : 19008977,
         "yellowLeters" : [131072, 16384, 8, 16, 262144]
     },
     {
-        "word" : "rôdes",
-        "bitmap" : 917528,
-        "wordLetters" : 19013233,
-        "yellowLeters" : [131072, 524288, 8, 16, 262144]
-    },
-    {
         "word" : "rodez",
         "bitmap" : 33701912,
         "wordLetters" : 26349009,
         "yellowLeters" : [131072, 16384, 8, 16, 33554432]
-    },
-    {
-        "word" : "rôdez",
-        "bitmap" : 34209816,
-        "wordLetters" : 26353265,
-        "yellowLeters" : [131072, 524288, 8, 16, 33554432]
     },
     {
         "word" : "roger",
@@ -41794,12 +39346,6 @@ module.exports = FrenchArr = [
         "bitmap" : 411664,
         "wordLetters" : 19017169,
         "yellowLeters" : [131072, 16384, 2048, 16, 262144]
-    },
-    {
-        "word" : "rôles",
-        "bitmap" : 919568,
-        "wordLetters" : 19021425,
-        "yellowLeters" : [131072, 524288, 2048, 16, 262144]
     },
     {
         "word" : "rolle",
@@ -41982,12 +39528,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [131072, 16384, 262144, 256, 524288]
     },
     {
-        "word" : "rosît",
-        "bitmap" : 942080,
-        "wordLetters" : 24562129,
-        "yellowLeters" : [131072, 16384, 262144, 8192, 524288]
-    },
-    {
         "word" : "rossa",
         "bitmap" : 409601,
         "wordLetters" : 608721,
@@ -42054,12 +39594,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [131072, 16384, 524288, 256, 16]
     },
     {
-        "word" : "rôtie",
-        "bitmap" : 655632,
-        "wordLetters" : 4480625,
-        "yellowLeters" : [131072, 524288, 524288, 256, 16]
-    },
-    {
         "word" : "rotin",
         "bitmap" : 680192,
         "wordLetters" : 13913553,
@@ -42072,40 +39606,16 @@ module.exports = FrenchArr = [
         "yellowLeters" : [131072, 16384, 524288, 256, 131072]
     },
     {
-        "word" : "rôtir",
-        "bitmap" : 655616,
-        "wordLetters" : 18112113,
-        "yellowLeters" : [131072, 524288, 524288, 256, 131072]
-    },
-    {
         "word" : "rotis",
         "bitmap" : 934144,
         "wordLetters" : 19156433,
         "yellowLeters" : [131072, 16384, 524288, 256, 262144]
     },
     {
-        "word" : "rôtis",
-        "bitmap" : 917760,
-        "wordLetters" : 19160689,
-        "yellowLeters" : [131072, 524288, 524288, 256, 262144]
-    },
-    {
         "word" : "rotit",
         "bitmap" : 672000,
         "wordLetters" : 20205009,
         "yellowLeters" : [131072, 16384, 524288, 256, 524288]
-    },
-    {
-        "word" : "rôtit",
-        "bitmap" : 655616,
-        "wordLetters" : 20209265,
-        "yellowLeters" : [131072, 524288, 524288, 256, 524288]
-    },
-    {
-        "word" : "rôtît",
-        "bitmap" : 663552,
-        "wordLetters" : 24567409,
-        "yellowLeters" : [131072, 524288, 524288, 8192, 524288]
     },
     {
         "word" : "rotor",
@@ -42220,12 +39730,6 @@ module.exports = FrenchArr = [
         "bitmap" : 1720576,
         "wordLetters" : 20206033,
         "yellowLeters" : [131072, 16384, 1048576, 256, 524288]
-    },
-    {
-        "word" : "rouît",
-        "bitmap" : 1728512,
-        "wordLetters" : 24564177,
-        "yellowLeters" : [131072, 16384, 1048576, 8192, 524288]
     },
     {
         "word" : "roula",
@@ -42376,12 +39880,6 @@ module.exports = FrenchArr = [
         "bitmap" : 1704256,
         "wordLetters" : 20191889,
         "yellowLeters" : [131072, 1048576, 64, 256, 524288]
-    },
-    {
-        "word" : "rugît",
-        "bitmap" : 1712192,
-        "wordLetters" : 24550033,
-        "yellowLeters" : [131072, 1048576, 64, 8192, 524288]
     },
     {
         "word" : "ruiez",
@@ -42714,12 +40212,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [262144, 1, 256, 64, 1]
     },
     {
-        "word" : "saïga",
-        "bitmap" : 278593,
-        "wordLetters" : 342034,
-        "yellowLeters" : [262144, 1, 16384, 64, 1]
-    },
-    {
         "word" : "saine",
         "bitmap" : 270609,
         "wordLetters" : 4628498,
@@ -42748,12 +40240,6 @@ module.exports = FrenchArr = [
         "bitmap" : 786705,
         "wordLetters" : 4825106,
         "yellowLeters" : [262144, 1, 256, 524288, 16]
-    },
-    {
-        "word" : "saïte",
-        "bitmap" : 802833,
-        "wordLetters" : 4962322,
-        "yellowLeters" : [262144, 1, 16384, 524288, 16]
     },
     {
         "word" : "sajou",
@@ -42868,12 +40354,6 @@ module.exports = FrenchArr = [
         "bitmap" : 788737,
         "wordLetters" : 20196370,
         "yellowLeters" : [262144, 1, 2048, 256, 524288]
-    },
-    {
-        "word" : "salît",
-        "bitmap" : 796673,
-        "wordLetters" : 24554514,
-        "yellowLeters" : [262144, 1, 2048, 8192, 524288]
     },
     {
         "word" : "salle",
@@ -43188,22 +40668,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [262144, 1, 524288, 256, 262144]
     },
     {
-        "word" : "satîs",
-        "bitmap" : 794625,
-        "wordLetters" : 23514130,
-        "yellowLeters" : [262144, 1, 524288, 8192, 262144]
-    },
-    {
         "word" : "sauca",
         "bitmap" : 1310725,
         "wordLetters" : 86034,
         "yellowLeters" : [262144, 1, 1048576, 4, 1]
-    },
-    {
-        "word" : "sauça",
-        "bitmap" : 1310785,
-        "wordLetters" : 4411410,
-        "yellowLeters" : [262144, 1, 1048576, 64, 1]
     },
     {
         "word" : "sauce",
@@ -43386,12 +40854,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [262144, 4, 16, 8192, 16]
     },
     {
-        "word" : "scène",
-        "bitmap" : 270484,
-        "wordLetters" : 4758610,
-        "yellowLeters" : [262144, 4, 128, 8192, 16]
-    },
-    {
         "word" : "schah",
         "bitmap" : 262277,
         "wordLetters" : 7347282,
@@ -43560,12 +41022,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [262144, 16, 4, 128, 16]
     },
     {
-        "word" : "sèche",
-        "bitmap" : 262292,
-        "wordLetters" : 4430066,
-        "yellowLeters" : [262144, 128, 4, 128, 16]
-    },
-    {
         "word" : "secte",
         "bitmap" : 786452,
         "wordLetters" : 4819090,
@@ -43720,12 +41176,6 @@ module.exports = FrenchArr = [
         "bitmap" : 266256,
         "wordLetters" : 19017874,
         "yellowLeters" : [262144, 16, 4096, 16, 262144]
-    },
-    {
-        "word" : "sèmes",
-        "bitmap" : 266384,
-        "wordLetters" : 19022066,
-        "yellowLeters" : [262144, 128, 4096, 16, 262144]
     },
     {
         "word" : "semez",
@@ -43956,12 +41406,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [262144, 16, 2097152, 16, 262144]
     },
     {
-        "word" : "sèves",
-        "bitmap" : 2359440,
-        "wordLetters" : 19031282,
-        "yellowLeters" : [262144, 128, 2097152, 16, 262144]
-    },
-    {
         "word" : "sevir",
         "bitmap" : 2490640,
         "wordLetters" : 18109586,
@@ -43978,12 +41422,6 @@ module.exports = FrenchArr = [
         "bitmap" : 2883856,
         "wordLetters" : 20206738,
         "yellowLeters" : [262144, 16, 2097152, 256, 524288]
-    },
-    {
-        "word" : "sevît",
-        "bitmap" : 2891792,
-        "wordLetters" : 24564882,
-        "yellowLeters" : [262144, 16, 2097152, 8192, 524288]
     },
     {
         "word" : "sevra",
@@ -44182,12 +41620,6 @@ module.exports = FrenchArr = [
         "bitmap" : 262480,
         "wordLetters" : 4395282,
         "yellowLeters" : [262144, 256, 16, 64, 16]
-    },
-    {
-        "word" : "siège",
-        "bitmap" : 262608,
-        "wordLetters" : 4529426,
-        "yellowLeters" : [262144, 256, 128, 64, 16]
     },
     {
         "word" : "siens",
@@ -44424,12 +41856,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [262144, 256, 524288, 16384, 524288]
     },
     {
-        "word" : "sitôt",
-        "bitmap" : 786688,
-        "wordLetters" : 24759570,
-        "yellowLeters" : [262144, 256, 524288, 524288, 524288]
-    },
-    {
         "word" : "situa",
         "bitmap" : 1835265,
         "wordLetters" : 675090,
@@ -44458,12 +41884,6 @@ module.exports = FrenchArr = [
         "bitmap" : 263425,
         "wordLetters" : 19136850,
         "yellowLeters" : [262144, 1024, 1, 256, 262144]
-    },
-    {
-        "word" : "skaïs",
-        "bitmap" : 279553,
-        "wordLetters" : 23527762,
-        "yellowLeters" : [262144, 1024, 1, 16384, 262144]
     },
     {
         "word" : "skate",
@@ -45084,34 +42504,16 @@ module.exports = FrenchArr = [
         "yellowLeters" : [262144, 16384, 1048576, 2048, 1]
     },
     {
-        "word" : "soûla",
-        "bitmap" : 67389441,
-        "wordLetters" : 518610,
-        "yellowLeters" : [262144, 16384, 67108864, 2048, 1]
-    },
-    {
         "word" : "soule",
         "bitmap" : 1329168,
         "wordLetters" : 4575698,
         "yellowLeters" : [262144, 16384, 1048576, 2048, 16]
     },
     {
-        "word" : "soûle",
-        "bitmap" : 67389456,
-        "wordLetters" : 4712914,
-        "yellowLeters" : [262144, 16384, 67108864, 2048, 16]
-    },
-    {
         "word" : "souls",
         "bitmap" : 1329152,
         "wordLetters" : 19255762,
         "yellowLeters" : [262144, 16384, 1048576, 2048, 262144]
-    },
-    {
-        "word" : "soûls",
-        "bitmap" : 67389440,
-        "wordLetters" : 19392978,
-        "yellowLeters" : [262144, 16384, 67108864, 2048, 262144]
     },
     {
         "word" : "soult",
@@ -45414,12 +42816,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [262144, 524288, 16, 2048, 16]
     },
     {
-        "word" : "stèle",
-        "bitmap" : 788624,
-        "wordLetters" : 4693618,
-        "yellowLeters" : [262144, 524288, 128, 2048, 16]
-    },
-    {
         "word" : "stemm",
         "bitmap" : 790544,
         "wordLetters" : 12980850,
@@ -45460,12 +42856,6 @@ module.exports = FrenchArr = [
         "bitmap" : 917520,
         "wordLetters" : 4756082,
         "yellowLeters" : [262144, 524288, 16, 131072, 16]
-    },
-    {
-        "word" : "stère",
-        "bitmap" : 917648,
-        "wordLetters" : 4890226,
-        "yellowLeters" : [262144, 524288, 128, 131072, 16]
     },
     {
         "word" : "stern",
@@ -45678,12 +43068,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [262144, 1048576, 2, 256, 524288]
     },
     {
-        "word" : "subît",
-        "bitmap" : 1843202,
-        "wordLetters" : 24544914,
-        "yellowLeters" : [262144, 1048576, 2, 8192, 524288]
-    },
-    {
         "word" : "subla",
         "bitmap" : 1312771,
         "wordLetters" : 362130,
@@ -45702,34 +43086,16 @@ module.exports = FrenchArr = [
         "yellowLeters" : [262144, 1048576, 4, 1, 256]
     },
     {
-        "word" : "suçai",
-        "bitmap" : 1311041,
-        "wordLetters" : 8526482,
-        "yellowLeters" : [262144, 1048576, 64, 1, 256]
-    },
-    {
         "word" : "sucas",
         "bitmap" : 1310725,
         "wordLetters" : 18877074,
         "yellowLeters" : [262144, 1048576, 4, 1, 262144]
     },
     {
-        "word" : "suças",
-        "bitmap" : 1310785,
-        "wordLetters" : 19012242,
-        "yellowLeters" : [262144, 1048576, 64, 1, 262144]
-    },
-    {
         "word" : "sucat",
         "bitmap" : 1835013,
         "wordLetters" : 19925650,
         "yellowLeters" : [262144, 1048576, 4, 1, 524288]
-    },
-    {
-        "word" : "suçat",
-        "bitmap" : 1835073,
-        "wordLetters" : 20060818,
-        "yellowLeters" : [262144, 1048576, 64, 1, 524288]
     },
     {
         "word" : "sucee",
@@ -45762,12 +43128,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [262144, 1048576, 4, 16384, 8192]
     },
     {
-        "word" : "suçon",
-        "bitmap" : 1335360,
-        "wordLetters" : 14228114,
-        "yellowLeters" : [262144, 1048576, 64, 16384, 8192]
-    },
-    {
         "word" : "sucra",
         "bitmap" : 1441797,
         "wordLetters" : 559762,
@@ -45790,12 +43150,6 @@ module.exports = FrenchArr = [
         "bitmap" : 1310744,
         "wordLetters" : 4297362,
         "yellowLeters" : [262144, 1048576, 16, 8, 16]
-    },
-    {
-        "word" : "suède",
-        "bitmap" : 1310872,
-        "wordLetters" : 4431506,
-        "yellowLeters" : [262144, 1048576, 128, 8, 16]
     },
     {
         "word" : "suees",
@@ -45918,12 +43272,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [262144, 1048576, 4096, 16, 262144]
     },
     {
-        "word" : "sûmes",
-        "bitmap" : 67375120,
-        "wordLetters" : 19022674,
-        "yellowLeters" : [262144, 67108864, 4096, 16, 262144]
-    },
-    {
         "word" : "sumos",
         "bitmap" : 1331200,
         "wordLetters" : 19346066,
@@ -46020,12 +43368,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [262144, 1048576, 131072, 16, 262144]
     },
     {
-        "word" : "sûres",
-        "bitmap" : 67502096,
-        "wordLetters" : 19027794,
-        "yellowLeters" : [262144, 67108864, 131072, 16, 262144]
-    },
-    {
         "word" : "suret",
         "bitmap" : 1966096,
         "wordLetters" : 20072082,
@@ -46092,12 +43434,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [262144, 1048576, 131072, 256, 524288]
     },
     {
-        "word" : "surît",
-        "bitmap" : 1974272,
-        "wordLetters" : 24561298,
-        "yellowLeters" : [262144, 1048576, 131072, 8192, 524288]
-    },
-    {
         "word" : "suros",
         "bitmap" : 1458176,
         "wordLetters" : 19351186,
@@ -46120,12 +43456,6 @@ module.exports = FrenchArr = [
         "bitmap" : 1835024,
         "wordLetters" : 19025554,
         "yellowLeters" : [262144, 1048576, 524288, 16, 262144]
-    },
-    {
-        "word" : "sûtes",
-        "bitmap" : 67895312,
-        "wordLetters" : 19029842,
-        "yellowLeters" : [262144, 67108864, 524288, 16, 262144]
     },
     {
         "word" : "sutra",
@@ -46222,12 +43552,6 @@ module.exports = FrenchArr = [
         "bitmap" : 786451,
         "wordLetters" : 19006483,
         "yellowLeters" : [524288, 1, 2, 16, 262144]
-    },
-    {
-        "word" : "tabès",
-        "bitmap" : 786563,
-        "wordLetters" : 23299091,
-        "yellowLeters" : [524288, 1, 2, 128, 262144]
     },
     {
         "word" : "tabla",
@@ -46384,12 +43708,6 @@ module.exports = FrenchArr = [
         "bitmap" : 524609,
         "wordLetters" : 204819,
         "yellowLeters" : [524288, 1, 256, 64, 1]
-    },
-    {
-        "word" : "taïga",
-        "bitmap" : 540737,
-        "wordLetters" : 342035,
-        "yellowLeters" : [524288, 1, 16384, 64, 1]
     },
     {
         "word" : "taiji",
@@ -46554,12 +43872,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [524288, 1, 8192, 4, 1]
     },
     {
-        "word" : "tança",
-        "bitmap" : 532545,
-        "wordLetters" : 4404243,
-        "yellowLeters" : [524288, 1, 8192, 64, 1]
-    },
-    {
         "word" : "tance",
         "bitmap" : 532501,
         "wordLetters" : 4273171,
@@ -46692,12 +44004,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [524288, 1, 32768, 256, 524288]
     },
     {
-        "word" : "tapît",
-        "bitmap" : 565249,
-        "wordLetters" : 24558611,
-        "yellowLeters" : [524288, 1, 32768, 8192, 524288]
-    },
-    {
         "word" : "tapon",
         "bitmap" : 581633,
         "wordLetters" : 14105619,
@@ -46822,12 +44128,6 @@ module.exports = FrenchArr = [
         "bitmap" : 655617,
         "wordLetters" : 20202515,
         "yellowLeters" : [524288, 1, 131072, 256, 524288]
-    },
-    {
-        "word" : "tarît",
-        "bitmap" : 663553,
-        "wordLetters" : 24560659,
-        "yellowLeters" : [524288, 1, 131072, 8192, 524288]
     },
     {
         "word" : "taros",
@@ -47310,12 +44610,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [524288, 16, 131072, 4, 1]
     },
     {
-        "word" : "terça",
-        "bitmap" : 655441,
-        "wordLetters" : 4408467,
-        "yellowLeters" : [524288, 16, 131072, 64, 1]
-    },
-    {
         "word" : "terce",
         "bitmap" : 655380,
         "wordLetters" : 4277395,
@@ -47430,18 +44724,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [524288, 16, 524288, 16, 262144]
     },
     {
-        "word" : "tètes",
-        "bitmap" : 786576,
-        "wordLetters" : 19029235,
-        "yellowLeters" : [524288, 128, 524288, 16, 262144]
-    },
-    {
-        "word" : "têtes",
-        "bitmap" : 786960,
-        "wordLetters" : 19029299,
-        "yellowLeters" : [524288, 512, 524288, 16, 262144]
-    },
-    {
         "word" : "tetez",
         "bitmap" : 34078736,
         "wordLetters" : 26365075,
@@ -47478,22 +44760,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [524288, 16, 524288, 1048576, 16]
     },
     {
-        "word" : "têtue",
-        "bitmap" : 1573392,
-        "wordLetters" : 4873523,
-        "yellowLeters" : [524288, 512, 524288, 1048576, 16]
-    },
-    {
         "word" : "tetus",
         "bitmap" : 1835024,
         "wordLetters" : 19549331,
         "yellowLeters" : [524288, 16, 524288, 1048576, 262144]
-    },
-    {
-        "word" : "têtus",
-        "bitmap" : 1835520,
-        "wordLetters" : 19553587,
-        "yellowLeters" : [524288, 512, 524288, 1048576, 262144]
     },
     {
         "word" : "teufs",
@@ -47544,12 +44814,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [524288, 128, 1, 256, 16]
     },
     {
-        "word" : "thaïe",
-        "bitmap" : 540817,
-        "wordLetters" : 8847603,
-        "yellowLeters" : [524288, 128, 1, 16384, 16]
-    },
-    {
         "word" : "thais",
         "bitmap" : 786817,
         "wordLetters" : 19136755,
@@ -47574,34 +44838,16 @@ module.exports = FrenchArr = [
         "yellowLeters" : [524288, 128, 16, 4096, 16]
     },
     {
-        "word" : "thème",
-        "bitmap" : 528528,
-        "wordLetters" : 4726003,
-        "yellowLeters" : [524288, 128, 128, 4096, 16]
-    },
-    {
         "word" : "these",
         "bitmap" : 786576,
         "wordLetters" : 4788467,
         "yellowLeters" : [524288, 128, 16, 262144, 16]
     },
     {
-        "word" : "thèse",
-        "bitmap" : 786576,
-        "wordLetters" : 4922611,
-        "yellowLeters" : [524288, 128, 128, 262144, 16]
-    },
-    {
         "word" : "theta",
         "bitmap" : 524433,
         "wordLetters" : 626931,
         "yellowLeters" : [524288, 128, 16, 524288, 1]
-    },
-    {
-        "word" : "thêta",
-        "bitmap" : 524929,
-        "wordLetters" : 763123,
-        "yellowLeters" : [524288, 128, 512, 524288, 1]
     },
     {
         "word" : "thete",
@@ -47686,12 +44932,6 @@ module.exports = FrenchArr = [
         "bitmap" : 524568,
         "wordLetters" : 4296979,
         "yellowLeters" : [524288, 256, 16, 8, 16]
-    },
-    {
-        "word" : "tiède",
-        "bitmap" : 524696,
-        "wordLetters" : 4431123,
-        "yellowLeters" : [524288, 256, 128, 8, 16]
     },
     {
         "word" : "tiedi",
@@ -48066,12 +45306,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [524288, 4096, 16, 262144, 16]
     },
     {
-        "word" : "tmèse",
-        "bitmap" : 790672,
-        "wordLetters" : 4922771,
-        "yellowLeters" : [524288, 4096, 128, 262144, 16]
-    },
-    {
         "word" : "toast",
         "bitmap" : 802817,
         "wordLetters" : 20513235,
@@ -48180,12 +45414,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [524288, 16384, 2048, 16, 16]
     },
     {
-        "word" : "tôlee",
-        "bitmap" : 526352,
-        "wordLetters" : 4341363,
-        "yellowLeters" : [524288, 524288, 2048, 16, 16]
-    },
-    {
         "word" : "toler",
         "bitmap" : 673808,
         "wordLetters" : 17968595,
@@ -48196,12 +45424,6 @@ module.exports = FrenchArr = [
         "bitmap" : 804880,
         "wordLetters" : 19017171,
         "yellowLeters" : [524288, 16384, 2048, 16, 262144]
-    },
-    {
-        "word" : "tôles",
-        "bitmap" : 788496,
-        "wordLetters" : 19021427,
-        "yellowLeters" : [524288, 524288, 2048, 16, 262144]
     },
     {
         "word" : "tolet",
@@ -48690,12 +45912,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [524288, 131072, 1, 4, 1]
     },
     {
-        "word" : "traça",
-        "bitmap" : 655425,
-        "wordLetters" : 4391475,
-        "yellowLeters" : [524288, 131072, 1, 64, 1]
-    },
-    {
         "word" : "trace",
         "bitmap" : 655381,
         "wordLetters" : 4260403,
@@ -48820,12 +46036,6 @@ module.exports = FrenchArr = [
         "bitmap" : 2752528,
         "wordLetters" : 4887091,
         "yellowLeters" : [524288, 131072, 16, 2097152, 16]
-    },
-    {
-        "word" : "trêve",
-        "bitmap" : 2753040,
-        "wordLetters" : 5023283,
-        "yellowLeters" : [524288, 131072, 512, 2097152, 16]
     },
     {
         "word" : "triai",
@@ -48984,12 +46194,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [524288, 131072, 16384, 8192, 1]
     },
     {
-        "word" : "trôna",
-        "bitmap" : 663553,
-        "wordLetters" : 577075,
-        "yellowLeters" : [524288, 131072, 524288, 8192, 1]
-    },
-    {
         "word" : "tronc",
         "bitmap" : 679940,
         "wordLetters" : 2538035,
@@ -49000,12 +46204,6 @@ module.exports = FrenchArr = [
         "bitmap" : 679952,
         "wordLetters" : 4635187,
         "yellowLeters" : [524288, 131072, 16384, 8192, 16]
-    },
-    {
-        "word" : "trône",
-        "bitmap" : 663568,
-        "wordLetters" : 4771379,
-        "yellowLeters" : [524288, 131072, 524288, 8192, 16]
     },
     {
         "word" : "trope",
@@ -49224,12 +46422,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [524288, 1048576, 4096, 16, 262144]
     },
     {
-        "word" : "tûmes",
-        "bitmap" : 67899408,
-        "wordLetters" : 19022675,
-        "yellowLeters" : [524288, 67108864, 4096, 16, 262144]
-    },
-    {
         "word" : "tuner",
         "bitmap" : 1712144,
         "wordLetters" : 17970835,
@@ -49306,12 +46498,6 @@ module.exports = FrenchArr = [
         "bitmap" : 1835024,
         "wordLetters" : 19025555,
         "yellowLeters" : [524288, 1048576, 524288, 16, 262144]
-    },
-    {
-        "word" : "tûtes",
-        "bitmap" : 67895312,
-        "wordLetters" : 19029843,
-        "yellowLeters" : [524288, 67108864, 524288, 16, 262144]
     },
     {
         "word" : "tutie",
@@ -49908,12 +47094,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [2097152, 1, 2048, 1048576, 524288]
     },
     {
-        "word" : "valût",
-        "bitmap" : 69732353,
-        "wordLetters" : 24980501,
-        "yellowLeters" : [2097152, 1, 2048, 67108864, 524288]
-    },
-    {
         "word" : "valve",
         "bitmap" : 2099217,
         "wordLetters" : 4893717,
@@ -50112,12 +47292,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [2097152, 16, 4, 1048576, 524288]
     },
     {
-        "word" : "vecût",
-        "bitmap" : 69730324,
-        "wordLetters" : 24971413,
-        "yellowLeters" : [2097152, 16, 4, 67108864, 524288]
-    },
-    {
         "word" : "vedas",
         "bitmap" : 2359321,
         "wordLetters" : 18877589,
@@ -50142,12 +47316,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [2097152, 16, 2048, 1, 256]
     },
     {
-        "word" : "vêlai",
-        "bitmap" : 2099969,
-        "wordLetters" : 8404277,
-        "yellowLeters" : [2097152, 512, 2048, 1, 256]
-    },
-    {
         "word" : "velar",
         "bitmap" : 2230289,
         "wordLetters" : 17837205,
@@ -50160,22 +47328,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [2097152, 16, 2048, 1, 262144]
     },
     {
-        "word" : "vêlas",
-        "bitmap" : 2361857,
-        "wordLetters" : 18890037,
-        "yellowLeters" : [2097152, 512, 2048, 1, 262144]
-    },
-    {
         "word" : "velat",
         "bitmap" : 2623505,
         "wordLetters" : 19934357,
         "yellowLeters" : [2097152, 16, 2048, 1, 524288]
-    },
-    {
-        "word" : "vêlat",
-        "bitmap" : 2624001,
-        "wordLetters" : 19938613,
-        "yellowLeters" : [2097152, 512, 2048, 1, 524288]
     },
     {
         "word" : "velds",
@@ -50196,22 +47352,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [2097152, 16, 2048, 16, 131072]
     },
     {
-        "word" : "vêler",
-        "bitmap" : 2230800,
-        "wordLetters" : 17972533,
-        "yellowLeters" : [2097152, 512, 2048, 16, 131072]
-    },
-    {
         "word" : "veles",
         "bitmap" : 2361360,
         "wordLetters" : 19016853,
         "yellowLeters" : [2097152, 16, 2048, 16, 262144]
-    },
-    {
-        "word" : "vêles",
-        "bitmap" : 2361872,
-        "wordLetters" : 19021109,
-        "yellowLeters" : [2097152, 512, 2048, 16, 262144]
     },
     {
         "word" : "velet",
@@ -50224,12 +47368,6 @@ module.exports = FrenchArr = [
         "bitmap" : 35653648,
         "wordLetters" : 26356885,
         "yellowLeters" : [2097152, 16, 2048, 16, 33554432]
-    },
-    {
-        "word" : "vêlez",
-        "bitmap" : 35654160,
-        "wordLetters" : 26361141,
-        "yellowLeters" : [2097152, 512, 2048, 16, 33554432]
     },
     {
         "word" : "velie",
@@ -50526,22 +47664,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [2097152, 16, 524288, 16, 262144]
     },
     {
-        "word" : "vêtes",
-        "bitmap" : 2884112,
-        "wordLetters" : 19029301,
-        "yellowLeters" : [2097152, 512, 524288, 16, 262144]
-    },
-    {
         "word" : "vetez",
         "bitmap" : 36175888,
         "wordLetters" : 26365077,
         "yellowLeters" : [2097152, 16, 524288, 16, 33554432]
-    },
-    {
-        "word" : "vêtez",
-        "bitmap" : 36176400,
-        "wordLetters" : 26369333,
-        "yellowLeters" : [2097152, 512, 524288, 16, 33554432]
     },
     {
         "word" : "vetir",
@@ -50550,40 +47676,16 @@ module.exports = FrenchArr = [
         "yellowLeters" : [2097152, 16, 524288, 256, 131072]
     },
     {
-        "word" : "vêtir",
-        "bitmap" : 2753280,
-        "wordLetters" : 18111797,
-        "yellowLeters" : [2097152, 512, 524288, 256, 131072]
-    },
-    {
         "word" : "vetis",
         "bitmap" : 2883856,
         "wordLetters" : 19156117,
         "yellowLeters" : [2097152, 16, 524288, 256, 262144]
     },
     {
-        "word" : "vêtis",
-        "bitmap" : 2884352,
-        "wordLetters" : 19160373,
-        "yellowLeters" : [2097152, 512, 524288, 256, 262144]
-    },
-    {
         "word" : "vetit",
         "bitmap" : 2621712,
         "wordLetters" : 20204693,
         "yellowLeters" : [2097152, 16, 524288, 256, 524288]
-    },
-    {
-        "word" : "vêtit",
-        "bitmap" : 2622208,
-        "wordLetters" : 20208949,
-        "yellowLeters" : [2097152, 512, 524288, 256, 524288]
-    },
-    {
-        "word" : "vêtît",
-        "bitmap" : 2630144,
-        "wordLetters" : 24567093,
-        "yellowLeters" : [2097152, 512, 524288, 8192, 524288]
     },
     {
         "word" : "vetos",
@@ -50598,22 +47700,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [2097152, 16, 524288, 1048576, 16]
     },
     {
-        "word" : "vêtue",
-        "bitmap" : 3670544,
-        "wordLetters" : 4873525,
-        "yellowLeters" : [2097152, 512, 524288, 1048576, 16]
-    },
-    {
         "word" : "vetus",
         "bitmap" : 3932176,
         "wordLetters" : 19549333,
         "yellowLeters" : [2097152, 16, 524288, 1048576, 262144]
-    },
-    {
-        "word" : "vêtus",
-        "bitmap" : 3932672,
-        "wordLetters" : 19553589,
-        "yellowLeters" : [2097152, 512, 524288, 1048576, 262144]
     },
     {
         "word" : "veufs",
@@ -50850,12 +47940,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [2097152, 256, 4096, 16, 262144]
     },
     {
-        "word" : "vîmes",
-        "bitmap" : 2371600,
-        "wordLetters" : 19022261,
-        "yellowLeters" : [2097152, 8192, 4096, 16, 262144]
-    },
-    {
         "word" : "vinai",
         "bitmap" : 2105601,
         "wordLetters" : 8402197,
@@ -51088,12 +48172,6 @@ module.exports = FrenchArr = [
         "bitmap" : 2883856,
         "wordLetters" : 19025173,
         "yellowLeters" : [2097152, 256, 524288, 16, 262144]
-    },
-    {
-        "word" : "vîtes",
-        "bitmap" : 2891792,
-        "wordLetters" : 19029429,
-        "yellowLeters" : [2097152, 8192, 524288, 16, 262144]
     },
     {
         "word" : "vitra",
@@ -51330,12 +48408,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [2097152, 16384, 4096, 256, 524288]
     },
     {
-        "word" : "vomît",
-        "bitmap" : 2650112,
-        "wordLetters" : 24555989,
-        "yellowLeters" : [2097152, 16384, 4096, 8192, 524288]
-    },
-    {
         "word" : "votai",
         "bitmap" : 2638081,
         "wordLetters" : 8408533,
@@ -51388,12 +48460,6 @@ module.exports = FrenchArr = [
         "bitmap" : 2768912,
         "wordLetters" : 4771285,
         "yellowLeters" : [2097152, 16384, 524288, 131072, 16]
-    },
-    {
-        "word" : "vôtre",
-        "bitmap" : 2752528,
-        "wordLetters" : 4775541,
-        "yellowLeters" : [2097152, 524288, 524288, 131072, 16]
     },
     {
         "word" : "vouai",
@@ -51456,22 +48522,10 @@ module.exports = FrenchArr = [
         "yellowLeters" : [2097152, 16384, 1048576, 524288, 1]
     },
     {
-        "word" : "voûta",
-        "bitmap" : 69746689,
-        "wordLetters" : 780757,
-        "yellowLeters" : [2097152, 16384, 67108864, 524288, 1]
-    },
-    {
         "word" : "voute",
         "bitmap" : 3686416,
         "wordLetters" : 4837845,
         "yellowLeters" : [2097152, 16384, 1048576, 524288, 16]
-    },
-    {
-        "word" : "voûte",
-        "bitmap" : 69746704,
-        "wordLetters" : 4975061,
-        "yellowLeters" : [2097152, 16384, 67108864, 524288, 16]
     },
     {
         "word" : "voyer",
@@ -51684,12 +48738,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [8388608, 16, 131072, 16, 262144]
     },
     {
-        "word" : "xerès",
-        "bitmap" : 8781968,
-        "wordLetters" : 23315607,
-        "yellowLeters" : [8388608, 16, 131072, 128, 262144]
-    },
-    {
         "word" : "xerus",
         "bitmap" : 9830416,
         "wordLetters" : 19547287,
@@ -51796,12 +48844,6 @@ module.exports = FrenchArr = [
         "bitmap" : 16779282,
         "wordLetters" : 4555928,
         "yellowLeters" : [16777216, 16, 2, 2048, 16]
-    },
-    {
-        "word" : "yèble",
-        "bitmap" : 16779410,
-        "wordLetters" : 4560120,
-        "yellowLeters" : [16777216, 128, 2, 2048, 16]
     },
     {
         "word" : "yetis",
@@ -52020,12 +49062,6 @@ module.exports = FrenchArr = [
         "yellowLeters" : [33554432, 16, 2, 131072, 16]
     },
     {
-        "word" : "zèbre",
-        "bitmap" : 33685650,
-        "wordLetters" : 4756729,
-        "yellowLeters" : [33554432, 128, 2, 131072, 16]
-    },
-    {
         "word" : "zebus",
         "bitmap" : 34865170,
         "wordLetters" : 19530905,
@@ -52048,12 +49084,6 @@ module.exports = FrenchArr = [
         "bitmap" : 33818640,
         "wordLetters" : 19016857,
         "yellowLeters" : [33554432, 16, 2048, 16, 262144]
-    },
-    {
-        "word" : "zèles",
-        "bitmap" : 33818768,
-        "wordLetters" : 19021049,
-        "yellowLeters" : [33554432, 128, 2048, 16, 262144]
     },
     {
         "word" : "zende",
@@ -52186,12 +49216,6 @@ module.exports = FrenchArr = [
         "bitmap" : 33573136,
         "wordLetters" : 4563417,
         "yellowLeters" : [33554432, 16384, 256, 2048, 16]
-    },
-    {
-        "word" : "zoïle",
-        "bitmap" : 33572880,
-        "wordLetters" : 4700633,
-        "yellowLeters" : [33554432, 16384, 16384, 2048, 16]
     },
     {
         "word" : "zombi",

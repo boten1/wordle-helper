@@ -5,11 +5,19 @@ const express = require('express');
 const bodyParser = require("body-parser");
 const path = require('path');
 const englishArr = require('./English');
+const FrenchArr = require('./Franch');
+const ItalianArr = require('./Italian');
+const GermanArr = require('./German');
 const cors = require("cors");
 
 const app = express();
 const NOF_CELLS_IN_ROW = 5;
 const NOF_ROWS_IN_TABLE = 6;
+
+const LANG_EN = 0;
+const LANG_FR = 1;
+const LANG_DE = 2;
+const LANG_IT = 3;
 
 const GRAY = 0;
 const YELLOW = 1;
@@ -102,8 +110,24 @@ app.post("/api",function(req,res){
 
     let searchWord = ConvertCellsArrayIntoWordSearchValues(req.body.cells);
 
-    let foundMatchWord = [];
+    console.log("req.body.langaugeType " + req.body.langaugeType);
 
+    let foundMatchWord = [];
+    let languageArray = null;
+    switch(req.body.langaugeType) {
+        case LANG_FR:
+            languageArray = FrenchArr;
+            break;
+        case LANG_DE:
+            languageArray = GermanArr;
+            break;
+        case LANG_IT:
+            languageArray = ItalianArr;
+            break;
+        default:
+            languageArray = englishArr;
+            break;
+    }
 
     if(searchWord.errorMessage.length === 0) {
         /*
@@ -112,7 +136,7 @@ app.post("/api",function(req,res){
         if (req.body.unusedOnly) {
             let englishLetterFullMask = 67108863;//this is 0x3FFFFFF, meaning 26 letters full mask to start with (NOF english letters)
             let mask = englishLetterFullMask & (~(searchWord.goodLetters+englishLetterFullMask+1)) & (~searchWord.badLetters);
-            englishArr.forEach((value) => {
+            languageArray.forEach((value) => {
                 if( (value.bitmap & mask) == value.bitmap)
                 {
                     foundMatchWord.push(value.word);
@@ -120,7 +144,7 @@ app.post("/api",function(req,res){
         
             });
         } else {
-            englishArr.forEach((value) => {
+            languageArray.forEach((value) => {
                 if((searchWord.badLetters & value.bitmap) == 0 && (searchWord.goodLetters & value.bitmap) == searchWord.goodLetters && (searchWord.wordLettersMask & value.wordLetters) == searchWord.wordLetters && 
                 (searchWord.yellowLetters[0] & value.yellowLeters[0]) == 0 && (searchWord.yellowLetters[1] & value.yellowLeters[1]) == 0 && (searchWord.yellowLetters[2] & value.yellowLeters[2]) == 0 && (searchWord.yellowLetters[3] & value.yellowLeters[3]) == 0 && (searchWord.yellowLetters[4] & value.yellowLeters[4]) == 0 )
                 {

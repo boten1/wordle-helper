@@ -6,13 +6,14 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 const NOF_CELLS_IN_ROW = 5;
 const NOF_ROWS_IN_TABLE = 6;
-const ACTION_STOP = "stop";
+
 const ACTION_BACK = "back";
 const ACTION_FORWARD = "forward";
 
 const COLOR_YELLOW="#c9b458";
 const COLOR_GREEN="#6aaa64";
 const COLOR_GRAY="#787c7e";
+
 
 function LettersGrid(props) {
 
@@ -23,6 +24,7 @@ function LettersGrid(props) {
     //this hold the checkbox value that indicate if only unused letters should be used
     const [onlyUnusedLetters,setonlyUnusedLetters] = useState(false);
 
+    const [language, setLanguage] = useState()
     /*
      * stors the current cells values, this is used for mobile support, acording to the current cell state and the new cell 
      * state we know what to do.
@@ -181,12 +183,13 @@ function LettersGrid(props) {
         }
 
         const MyData = {
+            langaugeType : language , 
             unusedOnly : onlyUnusedLetters,
             cells : cellsVals
         }
 
         fetch("https://wordhelper-367719.oa.r.appspot.com/api", {
-       // fetch("http://localhost:8081/api", {
+      // fetch("http://localhost:8081/api", {
             method: 'POST',
             headers : {
                 'Content-Type' : 'application/json'
@@ -269,7 +272,7 @@ function LettersGrid(props) {
     return (
         <letters_grid>
             <div className='header-div' >
-                <Header setTrigger={props.setTrigger}/>
+                <Header setTrigger={props.setTrigger} setLang={setLanguage}/>
             </div>
             <div className="divgridup" >
                 <table cursor="pointer">

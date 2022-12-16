@@ -150,12 +150,6 @@ module.exports = GermanArr = [
         "yellowLeters" : [1, 2, 2048, 1048576, 8]
     },
     {
-        "word" : "abmaß",
-        "bitmap" : 1073745923,
-        "wordLetters" : 132132896,
-        "yellowLeters" : [1, 2, 4096, 1, 1073741824]
-    },
-    {
         "word" : "abort",
         "bitmap" : 671747,
         "wordLetters" : 20494368,
@@ -178,12 +172,6 @@ module.exports = GermanArr = [
         "bitmap" : 262275,
         "wordLetters" : 7358496,
         "yellowLeters" : [1, 2, 262144, 1, 128]
-    },
-    {
-        "word" : "absaß",
-        "bitmap" : 1074003971,
-        "wordLetters" : 132139040,
-        "yellowLeters" : [1, 2, 262144, 1, 1073741824]
     },
     {
         "word" : "absud",
@@ -690,10 +678,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [1, 256, 8, 1, 262144]
     },
     {
-        "word" : "aimée",
+        "word" : "aimee",
         "bitmap" : 4369,
-        "wordLetters" : 8663296,
-        "yellowLeters" : [1, 256, 4096, 256, 16]
+        "wordLetters" : 4337920,
+        "yellowLeters" : [1, 256, 4096, 16, 16]
     },
     {
         "word" : "aioli",
@@ -1092,10 +1080,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [1, 2048, 524288, 256, 262144]
     },
     {
-        "word" : "altöl",
-        "bitmap" : 2623489,
-        "wordLetters" : 16436576,
-        "yellowLeters" : [1, 2048, 524288, 2097152, 2048]
+        "word" : "altol",
+        "bitmap" : 542721,
+        "wordLetters" : 12012896,
+        "yellowLeters" : [1, 2048, 524288, 16384, 2048]
     },
     {
         "word" : "alwin",
@@ -1206,10 +1194,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [1, 4096, 4096, 16384, 8192]
     },
     {
-        "word" : "amöbe",
-        "bitmap" : 2101267,
-        "wordLetters" : 4380032,
-        "yellowLeters" : [1, 4096, 2097152, 2, 16]
+        "word" : "amobe",
+        "bitmap" : 20499,
+        "wordLetters" : 4241792,
+        "yellowLeters" : [1, 4096, 16384, 2, 16]
     },
     {
         "word" : "amors",
@@ -1296,10 +1284,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [1, 8192, 8, 256, 8192]
     },
     {
-        "word" : "andré",
-        "bitmap" : 139529,
-        "wordLetters" : 143166880,
-        "yellowLeters" : [1, 8192, 8, 131072, 256]
+        "word" : "andre",
+        "bitmap" : 139289,
+        "wordLetters" : 4754848,
+        "yellowLeters" : [1, 8192, 8, 131072, 16]
     },
     {
         "word" : "andys",
@@ -1492,12 +1480,6 @@ module.exports = GermanArr = [
         "bitmap" : 24601,
         "wordLetters" : 4307360,
         "yellowLeters" : [1, 8192, 16384, 8, 16]
-    },
-    {
-        "word" : "anöde",
-        "bitmap" : 2105369,
-        "wordLetters" : 4445600,
-        "yellowLeters" : [1, 8192, 2097152, 8, 16]
     },
     {
         "word" : "anrat",
@@ -2082,12 +2064,6 @@ module.exports = GermanArr = [
         "yellowLeters" : [1, 262144, 262144, 16, 262144]
     },
     {
-        "word" : "aßest",
-        "bitmap" : 1074528273,
-        "wordLetters" : 20520896,
-        "yellowLeters" : [1, 1073741824, 16, 262144, 524288]
-    },
-    {
         "word" : "asset",
         "bitmap" : 786449,
         "wordLetters" : 20073024,
@@ -2268,12 +2244,6 @@ module.exports = GermanArr = [
         "yellowLeters" : [1, 1048576, 8, 256, 524288]
     },
     {
-        "word" : "aufaß",
-        "bitmap" : 1074790433,
-        "wordLetters" : 132126336,
-        "yellowLeters" : [1, 1048576, 32, 1, 1073741824]
-    },
-    {
         "word" : "augen",
         "bitmap" : 1056849,
         "wordLetters" : 13769344,
@@ -2320,24 +2290,6 @@ module.exports = GermanArr = [
         "bitmap" : 1183745,
         "wordLetters" : 13256320,
         "yellowLeters" : [1, 1048576, 131072, 1048576, 4096]
-    },
-    {
-        "word" : "außen",
-        "bitmap" : 1074798609,
-        "wordLetters" : 13892224,
-        "yellowLeters" : [1, 1048576, 1073741824, 16, 8192]
-    },
-    {
-        "word" : "außer",
-        "bitmap" : 1074921489,
-        "wordLetters" : 18086528,
-        "yellowLeters" : [1, 1048576, 1073741824, 16, 131072]
-    },
-    {
-        "word" : "außre",
-        "bitmap" : 1074921489,
-        "wordLetters" : 4881024,
-        "yellowLeters" : [1, 1048576, 1073741824, 131072, 16]
     },
     {
         "word" : "autan",
@@ -2544,10 +2496,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [2, 1, 32, 256, 8192]
     },
     {
-        "word" : "bafög",
-        "bitmap" : 2097251,
-        "wordLetters" : 11179009,
-        "yellowLeters" : [2, 1, 32, 2097152, 64]
+        "word" : "bafog",
+        "bitmap" : 16483,
+        "wordLetters" : 6755329,
+        "yellowLeters" : [2, 1, 32, 16384, 64]
     },
     {
         "word" : "bagel",
@@ -3246,16 +3198,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [2, 16, 256, 262144, 2048]
     },
     {
-        "word" : "beiße",
-        "bitmap" : 1073742098,
-        "wordLetters" : 8331393,
-        "yellowLeters" : [2, 16, 256, 1073741824, 16]
-    },
-    {
-        "word" : "beißt",
-        "bitmap" : 1074266386,
-        "wordLetters" : 24060033,
-        "yellowLeters" : [2, 16, 256, 1073741824, 524288]
+        "word" : "beiss",
+        "bitmap" : 262418,
+        "wordLetters" : 19472513,
+        "yellowLeters" : [2, 16, 256, 262144, 262144]
     },
     {
         "word" : "beize",
@@ -3286,12 +3232,6 @@ module.exports = GermanArr = [
         "bitmap" : 264211,
         "wordLetters" : 18885761,
         "yellowLeters" : [2, 16, 2048, 1, 262144]
-    },
-    {
-        "word" : "bélas",
-        "bitmap" : 264451,
-        "wordLetters" : 18889985,
-        "yellowLeters" : [2, 256, 2048, 1, 262144]
     },
     {
         "word" : "beleg",
@@ -3342,22 +3282,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [2, 16, 2048, 1048576, 8]
     },
     {
-        "word" : "bemaß",
-        "bitmap" : 1073745939,
-        "wordLetters" : 132132993,
-        "yellowLeters" : [2, 16, 4096, 1, 1073741824]
-    },
-    {
         "word" : "bemme",
         "bitmap" : 4114,
         "wordLetters" : 4599937,
         "yellowLeters" : [2, 16, 4096, 4096, 16]
     },
     {
-        "word" : "bemüh",
-        "bitmap" : 134221970,
-        "wordLetters" : 12431489,
-        "yellowLeters" : [2, 16, 4096, 134217728, 128]
+        "word" : "bemuh",
+        "bitmap" : 1052818,
+        "wordLetters" : 8007809,
+        "yellowLeters" : [2, 16, 4096, 1048576, 128]
     },
     {
         "word" : "bengt",
@@ -3478,12 +3412,6 @@ module.exports = GermanArr = [
         "bitmap" : 270355,
         "wordLetters" : 13650049,
         "yellowLeters" : [2, 16, 262144, 1, 8192]
-    },
-    {
-        "word" : "besaß",
-        "bitmap" : 1074003987,
-        "wordLetters" : 132139137,
-        "yellowLeters" : [2, 16, 262144, 1, 1073741824]
     },
     {
         "word" : "besat",
@@ -3798,10 +3726,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [2, 256, 8192, 262144, 16]
     },
     {
-        "word" : "bioöl",
-        "bitmap" : 2115842,
-        "wordLetters" : 16431361,
-        "yellowLeters" : [2, 256, 16384, 2097152, 2048]
+        "word" : "biool",
+        "bitmap" : 18690,
+        "wordLetters" : 12007681,
+        "yellowLeters" : [2, 256, 16384, 16384, 2048]
     },
     {
         "word" : "biped",
@@ -3888,10 +3816,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [2, 256, 33554432, 16, 524288]
     },
     {
-        "word" : "björn",
-        "bitmap" : 2236930,
-        "wordLetters" : 14341409,
-        "yellowLeters" : [2, 512, 2097152, 131072, 8192]
+        "word" : "bjorn",
+        "bitmap" : 156162,
+        "wordLetters" : 14203169,
+        "yellowLeters" : [2, 512, 16384, 131072, 8192]
     },
     {
         "word" : "blahe",
@@ -4038,16 +3966,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [2, 2048, 16384, 4, 1024]
     },
     {
-        "word" : "blöde",
-        "bitmap" : 2099226,
-        "wordLetters" : 4445537,
-        "yellowLeters" : [2, 2048, 2097152, 8, 16]
+        "word" : "blode",
+        "bitmap" : 18458,
+        "wordLetters" : 4307297,
+        "yellowLeters" : [2, 2048, 16384, 8, 16]
     },
     {
-        "word" : "blödi",
-        "bitmap" : 2099466,
-        "wordLetters" : 8639841,
-        "yellowLeters" : [2, 2048, 2097152, 8, 256]
+        "word" : "blodi",
+        "bitmap" : 18698,
+        "wordLetters" : 8501601,
+        "yellowLeters" : [2, 2048, 16384, 8, 256]
     },
     {
         "word" : "blogs",
@@ -4056,16 +3984,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [2, 2048, 16384, 64, 262144]
     },
     {
-        "word" : "blöke",
-        "bitmap" : 2100242,
-        "wordLetters" : 4674913,
-        "yellowLeters" : [2, 2048, 2097152, 1024, 16]
+        "word" : "bloke",
+        "bitmap" : 19474,
+        "wordLetters" : 4536673,
+        "yellowLeters" : [2, 2048, 16384, 1024, 16]
     },
     {
-        "word" : "blökt",
-        "bitmap" : 2624514,
-        "wordLetters" : 20403553,
-        "yellowLeters" : [2, 2048, 2097152, 1024, 524288]
+        "word" : "blokt",
+        "bitmap" : 543746,
+        "wordLetters" : 20265313,
+        "yellowLeters" : [2, 2048, 16384, 1024, 524288]
     },
     {
         "word" : "blond",
@@ -4074,16 +4002,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [2, 2048, 16384, 8192, 8]
     },
     {
-        "word" : "bloße",
-        "bitmap" : 1073760274,
-        "wordLetters" : 8337761,
-        "yellowLeters" : [2, 2048, 16384, 1073741824, 16]
-    },
-    {
-        "word" : "blöße",
-        "bitmap" : 1075841042,
-        "wordLetters" : 8476001,
-        "yellowLeters" : [2, 2048, 2097152, 1073741824, 16]
+        "word" : "bloss",
+        "bitmap" : 280578,
+        "wordLetters" : 19478881,
+        "yellowLeters" : [2, 2048, 16384, 262144, 262144]
     },
     {
         "word" : "blues",
@@ -4098,16 +4020,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [2, 2048, 1048576, 32, 32]
     },
     {
-        "word" : "blühe",
-        "bitmap" : 134219922,
-        "wordLetters" : 4582753,
-        "yellowLeters" : [2, 2048, 134217728, 128, 16]
+        "word" : "bluhe",
+        "bitmap" : 1050770,
+        "wordLetters" : 4444513,
+        "yellowLeters" : [2, 2048, 1048576, 128, 16]
     },
     {
-        "word" : "blüht",
-        "bitmap" : 134744194,
-        "wordLetters" : 20311393,
-        "yellowLeters" : [2, 2048, 134217728, 128, 524288]
+        "word" : "bluht",
+        "bitmap" : 1575042,
+        "wordLetters" : 20173153,
+        "yellowLeters" : [2, 2048, 1048576, 128, 524288]
     },
     {
         "word" : "blume",
@@ -4126,12 +4048,6 @@ module.exports = GermanArr = [
         "bitmap" : 1574930,
         "wordLetters" : 4837729,
         "yellowLeters" : [2, 2048, 1048576, 524288, 16]
-    },
-    {
-        "word" : "blüte",
-        "bitmap" : 134744082,
-        "wordLetters" : 4975969,
-        "yellowLeters" : [2, 2048, 134217728, 524288, 16]
     },
     {
         "word" : "bluts",
@@ -4164,12 +4080,6 @@ module.exports = GermanArr = [
         "yellowLeters" : [2, 16384, 4, 1024, 16]
     },
     {
-        "word" : "böcke",
-        "bitmap" : 2098198,
-        "wordLetters" : 4528801,
-        "yellowLeters" : [2, 2097152, 4, 1024, 16]
-    },
-    {
         "word" : "bocks",
         "bitmap" : 279558,
         "wordLetters" : 19204545,
@@ -4186,12 +4096,6 @@ module.exports = GermanArr = [
         "bitmap" : 24602,
         "wordLetters" : 13766081,
         "yellowLeters" : [2, 16384, 8, 16, 8192]
-    },
-    {
-        "word" : "böden",
-        "bitmap" : 2105370,
-        "wordLetters" : 13770401,
-        "yellowLeters" : [2, 2097152, 8, 16, 8192]
     },
     {
         "word" : "bodos",
@@ -4212,16 +4116,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [2, 16384, 64, 16, 8192]
     },
     {
-        "word" : "bögen",
-        "bitmap" : 2105426,
-        "wordLetters" : 13773473,
-        "yellowLeters" : [2, 2097152, 64, 16, 8192]
-    },
-    {
-        "word" : "böget",
-        "bitmap" : 2621522,
-        "wordLetters" : 20064929,
-        "yellowLeters" : [2, 2097152, 64, 16, 524288]
+        "word" : "boget",
+        "bitmap" : 540754,
+        "wordLetters" : 20060609,
+        "yellowLeters" : [2, 16384, 64, 16, 524288]
     },
     {
         "word" : "bogey",
@@ -4254,16 +4152,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [2, 16384, 128, 2048, 16]
     },
     {
-        "word" : "böhme",
-        "bitmap" : 2101394,
-        "wordLetters" : 4599457,
-        "yellowLeters" : [2, 2097152, 128, 4096, 16]
+        "word" : "bohme",
+        "bitmap" : 20626,
+        "wordLetters" : 4595137,
+        "yellowLeters" : [2, 16384, 128, 4096, 16]
     },
     {
-        "word" : "böhms",
-        "bitmap" : 2363522,
-        "wordLetters" : 19279521,
-        "yellowLeters" : [2, 2097152, 128, 4096, 262144]
+        "word" : "bohms",
+        "bitmap" : 282754,
+        "wordLetters" : 19275201,
+        "yellowLeters" : [2, 16384, 128, 4096, 262144]
     },
     {
         "word" : "bohne",
@@ -4290,10 +4188,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [2, 16384, 128, 131072, 524288]
     },
     {
-        "word" : "böige",
-        "bitmap" : 2097490,
-        "wordLetters" : 4403873,
-        "yellowLeters" : [2, 2097152, 256, 64, 16]
+        "word" : "boige",
+        "bitmap" : 16722,
+        "wordLetters" : 4399553,
+        "yellowLeters" : [2, 16384, 256, 64, 16]
     },
     {
         "word" : "bojen",
@@ -4308,10 +4206,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [2, 16384, 2048, 2048, 16]
     },
     {
-        "word" : "bölls",
-        "bitmap" : 2361346,
-        "wordLetters" : 19250849,
-        "yellowLeters" : [2, 2097152, 2048, 2048, 262144]
+        "word" : "bolls",
+        "bitmap" : 280578,
+        "wordLetters" : 19246529,
+        "yellowLeters" : [2, 16384, 2048, 2048, 262144]
     },
     {
         "word" : "bolte",
@@ -4416,12 +4314,6 @@ module.exports = GermanArr = [
         "yellowLeters" : [2, 16384, 131072, 8, 16]
     },
     {
-        "word" : "börde",
-        "bitmap" : 2228250,
-        "wordLetters" : 4314785,
-        "yellowLeters" : [2, 2097152, 131072, 8, 16]
-    },
-    {
         "word" : "bords",
         "bitmap" : 409610,
         "wordLetters" : 18990529,
@@ -4464,10 +4356,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [2, 16384, 131072, 8192, 262144]
     },
     {
-        "word" : "börse",
-        "bitmap" : 2490386,
-        "wordLetters" : 4806305,
-        "yellowLeters" : [2, 2097152, 131072, 262144, 16]
+        "word" : "borse",
+        "bitmap" : 409618,
+        "wordLetters" : 4801985,
+        "yellowLeters" : [2, 16384, 131072, 262144, 16]
     },
     {
         "word" : "borte",
@@ -4488,28 +4380,28 @@ module.exports = GermanArr = [
         "yellowLeters" : [2, 16384, 262144, 4, 16384]
     },
     {
-        "word" : "bösem",
-        "bitmap" : 2363410,
-        "wordLetters" : 12737185,
-        "yellowLeters" : [2, 2097152, 262144, 16, 4096]
+        "word" : "bosem",
+        "bitmap" : 282642,
+        "wordLetters" : 12732865,
+        "yellowLeters" : [2, 16384, 262144, 16, 4096]
     },
     {
-        "word" : "bösen",
-        "bitmap" : 2367506,
-        "wordLetters" : 13785761,
-        "yellowLeters" : [2, 2097152, 262144, 16, 8192]
+        "word" : "bosen",
+        "bitmap" : 286738,
+        "wordLetters" : 13781441,
+        "yellowLeters" : [2, 16384, 262144, 16, 8192]
     },
     {
-        "word" : "böser",
-        "bitmap" : 2490386,
-        "wordLetters" : 17980065,
-        "yellowLeters" : [2, 2097152, 262144, 16, 131072]
+        "word" : "boser",
+        "bitmap" : 409618,
+        "wordLetters" : 17975745,
+        "yellowLeters" : [2, 16384, 262144, 16, 131072]
     },
     {
-        "word" : "böses",
-        "bitmap" : 2359314,
-        "wordLetters" : 19028641,
-        "yellowLeters" : [2, 2097152, 262144, 16, 262144]
+        "word" : "boses",
+        "bitmap" : 278546,
+        "wordLetters" : 19024321,
+        "yellowLeters" : [2, 16384, 262144, 16, 262144]
     },
     {
         "word" : "boson",
@@ -4530,22 +4422,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [2, 16384, 524288, 16, 8192]
     },
     {
-        "word" : "böten",
-        "bitmap" : 2629650,
-        "wordLetters" : 13786785,
-        "yellowLeters" : [2, 2097152, 524288, 16, 8192]
-    },
-    {
         "word" : "botet",
         "bitmap" : 540690,
         "wordLetters" : 20073921,
         "yellowLeters" : [2, 16384, 524288, 16, 524288]
-    },
-    {
-        "word" : "bötet",
-        "bitmap" : 2621458,
-        "wordLetters" : 20078241,
-        "yellowLeters" : [2, 2097152, 524288, 16, 524288]
     },
     {
         "word" : "botin",
@@ -4860,22 +4740,22 @@ module.exports = GermanArr = [
         "yellowLeters" : [2, 131072, 1048576, 64, 64]
     },
     {
-        "word" : "brühe",
-        "bitmap" : 134348946,
-        "wordLetters" : 4582945,
-        "yellowLeters" : [2, 131072, 134217728, 128, 16]
+        "word" : "bruhe",
+        "bitmap" : 1179794,
+        "wordLetters" : 4444705,
+        "yellowLeters" : [2, 131072, 1048576, 128, 16]
     },
     {
-        "word" : "brühl",
-        "bitmap" : 134350978,
-        "wordLetters" : 11922977,
-        "yellowLeters" : [2, 131072, 134217728, 128, 2048]
+        "word" : "bruhl",
+        "bitmap" : 1181826,
+        "wordLetters" : 11784737,
+        "yellowLeters" : [2, 131072, 1048576, 128, 2048]
     },
     {
-        "word" : "brüht",
-        "bitmap" : 134873218,
-        "wordLetters" : 20311585,
-        "yellowLeters" : [2, 131072, 134217728, 128, 524288]
+        "word" : "bruht",
+        "bitmap" : 1704066,
+        "wordLetters" : 20173345,
+        "yellowLeters" : [2, 131072, 1048576, 128, 524288]
     },
     {
         "word" : "bruni",
@@ -4884,10 +4764,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [2, 131072, 1048576, 8192, 256]
     },
     {
-        "word" : "brünn",
-        "bitmap" : 134356994,
-        "wordLetters" : 14216737,
-        "yellowLeters" : [2, 131072, 134217728, 8192, 8192]
+        "word" : "brunn",
+        "bitmap" : 1187842,
+        "wordLetters" : 14078497,
+        "yellowLeters" : [2, 131072, 1048576, 8192, 8192]
     },
     {
         "word" : "bruno",
@@ -4896,10 +4776,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [2, 131072, 1048576, 8192, 16384]
     },
     {
-        "word" : "brüsk",
-        "bitmap" : 134611970,
-        "wordLetters" : 11234849,
-        "yellowLeters" : [2, 131072, 134217728, 262144, 1024]
+        "word" : "brusk",
+        "bitmap" : 1442818,
+        "wordLetters" : 11096609,
+        "yellowLeters" : [2, 131072, 1048576, 262144, 1024]
     },
     {
         "word" : "brust",
@@ -4908,10 +4788,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [2, 131072, 1048576, 262144, 524288]
     },
     {
-        "word" : "brüte",
-        "bitmap" : 134873106,
-        "wordLetters" : 4976161,
-        "yellowLeters" : [2, 131072, 134217728, 524288, 16]
+        "word" : "brute",
+        "bitmap" : 1703954,
+        "wordLetters" : 4837921,
+        "yellowLeters" : [2, 131072, 1048576, 524288, 16]
     },
     {
         "word" : "bryan",
@@ -4950,10 +4830,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [2, 1048576, 4, 128, 524288]
     },
     {
-        "word" : "bücke",
-        "bitmap" : 134218774,
-        "wordLetters" : 4528993,
-        "yellowLeters" : [2, 134217728, 4, 1024, 16]
+        "word" : "bucke",
+        "bitmap" : 1049622,
+        "wordLetters" : 4524673,
+        "yellowLeters" : [2, 1048576, 4, 1024, 16]
     },
     {
         "word" : "bucks",
@@ -4962,10 +4842,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [2, 1048576, 4, 1024, 262144]
     },
     {
-        "word" : "bückt",
-        "bitmap" : 134743046,
-        "wordLetters" : 20257633,
-        "yellowLeters" : [2, 134217728, 4, 1024, 524288]
+        "word" : "buckt",
+        "bitmap" : 1573894,
+        "wordLetters" : 20253313,
+        "yellowLeters" : [2, 1048576, 4, 1024, 524288]
     },
     {
         "word" : "buddy",
@@ -4986,10 +4866,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [2, 1048576, 32, 32, 16384]
     },
     {
-        "word" : "bügel",
-        "bitmap" : 134219858,
-        "wordLetters" : 11676513,
-        "yellowLeters" : [2, 134217728, 64, 16, 2048]
+        "word" : "bugel",
+        "bitmap" : 1050706,
+        "wordLetters" : 11672193,
+        "yellowLeters" : [2, 1048576, 64, 16, 2048]
     },
     {
         "word" : "buges",
@@ -5004,10 +4884,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [2, 1048576, 64, 64, 16777216]
     },
     {
-        "word" : "bügle",
-        "bitmap" : 134219858,
-        "wordLetters" : 4565857,
-        "yellowLeters" : [2, 134217728, 64, 2048, 16]
+        "word" : "bugle",
+        "bitmap" : 1050706,
+        "wordLetters" : 4561537,
+        "yellowLeters" : [2, 1048576, 64, 2048, 16]
     },
     {
         "word" : "buhei",
@@ -5016,10 +4896,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [2, 1048576, 128, 16, 256]
     },
     {
-        "word" : "bühel",
-        "bitmap" : 134219922,
-        "wordLetters" : 11677537,
-        "yellowLeters" : [2, 134217728, 128, 16, 2048]
+        "word" : "buhel",
+        "bitmap" : 1050770,
+        "wordLetters" : 11673217,
+        "yellowLeters" : [2, 1048576, 128, 16, 2048]
     },
     {
         "word" : "buhen",
@@ -5046,12 +4926,6 @@ module.exports = GermanArr = [
         "yellowLeters" : [2, 1048576, 128, 8192, 16]
     },
     {
-        "word" : "bühne",
-        "bitmap" : 134226066,
-        "wordLetters" : 4632417,
-        "yellowLeters" : [2, 134217728, 128, 8192, 16]
-    },
-    {
         "word" : "buhst",
         "bitmap" : 1835138,
         "wordLetters" : 20520577,
@@ -5076,22 +4950,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [2, 1048576, 1024, 16, 8192]
     },
     {
-        "word" : "büken",
-        "bitmap" : 134226962,
-        "wordLetters" : 13777761,
-        "yellowLeters" : [2, 134217728, 1024, 16, 8192]
-    },
-    {
         "word" : "bukst",
         "bitmap" : 1836034,
         "wordLetters" : 20523649,
         "yellowLeters" : [2, 1048576, 1024, 262144, 524288]
-    },
-    {
-        "word" : "bükst",
-        "bitmap" : 135005186,
-        "wordLetters" : 20527969,
-        "yellowLeters" : [2, 134217728, 1024, 262144, 524288]
     },
     {
         "word" : "bulle",
@@ -5112,10 +4974,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [2, 1048576, 2048, 2048, 16777216]
     },
     {
-        "word" : "bülow",
-        "bitmap" : 138430466,
-        "wordLetters" : 23543649,
-        "yellowLeters" : [2, 134217728, 2048, 16384, 4194304]
+        "word" : "bulow",
+        "bitmap" : 5261314,
+        "wordLetters" : 23539329,
+        "yellowLeters" : [2, 1048576, 2048, 16384, 4194304]
     },
     {
         "word" : "bumse",
@@ -5134,12 +4996,6 @@ module.exports = GermanArr = [
         "bitmap" : 1056794,
         "wordLetters" : 4306561,
         "yellowLeters" : [2, 1048576, 8192, 8, 16]
-    },
-    {
-        "word" : "bünde",
-        "bitmap" : 134225946,
-        "wordLetters" : 4310881,
-        "yellowLeters" : [2, 134217728, 8192, 8, 16]
     },
     {
         "word" : "bunds",
@@ -5166,10 +5022,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [2, 1048576, 131072, 8, 1]
     },
     {
-        "word" : "bürde",
-        "bitmap" : 134348826,
-        "wordLetters" : 4314977,
-        "yellowLeters" : [2, 134217728, 131072, 8, 16]
+        "word" : "burde",
+        "bitmap" : 1179674,
+        "wordLetters" : 4310657,
+        "yellowLeters" : [2, 1048576, 131072, 8, 16]
     },
     {
         "word" : "buren",
@@ -5178,16 +5034,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [2, 1048576, 131072, 16, 8192]
     },
     {
-        "word" : "bürge",
-        "bitmap" : 134348882,
-        "wordLetters" : 4413281,
-        "yellowLeters" : [2, 134217728, 131072, 64, 16]
+        "word" : "burge",
+        "bitmap" : 1179730,
+        "wordLetters" : 4408961,
+        "yellowLeters" : [2, 1048576, 131072, 64, 16]
     },
     {
-        "word" : "bürgt",
-        "bitmap" : 134873154,
-        "wordLetters" : 20141921,
-        "yellowLeters" : [2, 134217728, 131072, 64, 524288]
+        "word" : "burgt",
+        "bitmap" : 1704002,
+        "wordLetters" : 20137601,
+        "yellowLeters" : [2, 1048576, 131072, 64, 524288]
     },
     {
         "word" : "burka",
@@ -5202,10 +5058,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [2, 1048576, 131072, 4096, 1]
     },
     {
-        "word" : "büros",
-        "bitmap" : 134627330,
-        "wordLetters" : 19355489,
-        "yellowLeters" : [2, 134217728, 131072, 16384, 262144]
+        "word" : "buros",
+        "bitmap" : 1458178,
+        "wordLetters" : 19351169,
+        "yellowLeters" : [2, 1048576, 131072, 16384, 262144]
     },
     {
         "word" : "bursa",
@@ -5244,46 +5100,28 @@ module.exports = GermanArr = [
         "yellowLeters" : [2, 1048576, 262144, 262144, 16]
     },
     {
-        "word" : "bußen",
-        "bitmap" : 1074798610,
-        "wordLetters" : 13892225,
-        "yellowLeters" : [2, 1048576, 1073741824, 16, 8192]
-    },
-    {
-        "word" : "büßen",
-        "bitmap" : 1207967762,
-        "wordLetters" : 13896545,
-        "yellowLeters" : [2, 134217728, 1073741824, 16, 8192]
-    },
-    {
-        "word" : "büßer",
-        "bitmap" : 1208090642,
-        "wordLetters" : 18090849,
-        "yellowLeters" : [2, 134217728, 1073741824, 16, 131072]
-    },
-    {
         "word" : "bussi",
         "bitmap" : 1310978,
         "wordLetters" : 8997505,
         "yellowLeters" : [2, 1048576, 262144, 262144, 256]
     },
     {
-        "word" : "büßte",
-        "bitmap" : 1208483858,
-        "wordLetters" : 4950881,
-        "yellowLeters" : [2, 134217728, 1073741824, 524288, 16]
+        "word" : "busst",
+        "bitmap" : 1835010,
+        "wordLetters" : 20531841,
+        "yellowLeters" : [2, 1048576, 262144, 262144, 524288]
     },
     {
-        "word" : "büste",
-        "bitmap" : 135004178,
-        "wordLetters" : 4840289,
-        "yellowLeters" : [2, 134217728, 262144, 524288, 16]
+        "word" : "buste",
+        "bitmap" : 1835026,
+        "wordLetters" : 4835969,
+        "yellowLeters" : [2, 1048576, 262144, 524288, 16]
     },
     {
-        "word" : "büsum",
-        "bitmap" : 135532546,
-        "wordLetters" : 13261665,
-        "yellowLeters" : [2, 134217728, 262144, 1048576, 4096]
+        "word" : "busum",
+        "bitmap" : 1314818,
+        "wordLetters" : 13257345,
+        "yellowLeters" : [2, 1048576, 262144, 1048576, 4096]
     },
     {
         "word" : "butan",
@@ -5298,10 +5136,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [2, 1048576, 524288, 4, 128]
     },
     {
-        "word" : "bütte",
-        "bitmap" : 134742034,
-        "wordLetters" : 4841313,
-        "yellowLeters" : [2, 134217728, 524288, 524288, 16]
+        "word" : "butte",
+        "bitmap" : 1572882,
+        "wordLetters" : 4836993,
+        "yellowLeters" : [2, 1048576, 524288, 524288, 16]
     },
     {
         "word" : "butze",
@@ -5352,10 +5190,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [4, 1, 8, 256, 33554432]
     },
     {
-        "word" : "cafés",
-        "bitmap" : 262437,
-        "wordLetters" : 23335938,
-        "yellowLeters" : [4, 1, 32, 256, 262144]
+        "word" : "cafes",
+        "bitmap" : 262197,
+        "wordLetters" : 19010562,
+        "yellowLeters" : [4, 1, 32, 16, 262144]
     },
     {
         "word" : "caffè",
@@ -5646,10 +5484,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [4, 128, 256, 32768, 262144]
     },
     {
-        "word" : "chloé",
-        "bitmap" : 18820,
-        "wordLetters" : 143076578,
-        "yellowLeters" : [4, 128, 2048, 16384, 256]
+        "word" : "chloe",
+        "bitmap" : 18580,
+        "wordLetters" : 4664546,
+        "yellowLeters" : [4, 128, 2048, 16384, 16]
     },
     {
         "word" : "chlor",
@@ -5664,10 +5502,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [4, 128, 16384, 1024, 16]
     },
     {
-        "word" : "chöre",
-        "bitmap" : 2228372,
-        "wordLetters" : 4904162,
-        "yellowLeters" : [4, 128, 2097152, 131072, 16]
+        "word" : "chore",
+        "bitmap" : 147604,
+        "wordLetters" : 4765922,
+        "yellowLeters" : [4, 128, 16384, 131072, 16]
     },
     {
         "word" : "chors",
@@ -5970,10 +5808,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [4, 16384, 1048576, 8192, 524288]
     },
     {
-        "word" : "coupé",
-        "bitmap" : 1097988,
-        "wordLetters" : 143118786,
-        "yellowLeters" : [4, 16384, 1048576, 32768, 256]
+        "word" : "coupe",
+        "bitmap" : 1097748,
+        "wordLetters" : 4706754,
+        "yellowLeters" : [4, 16384, 1048576, 32768, 16]
     },
     {
         "word" : "coups",
@@ -6090,10 +5928,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [4, 1048576, 131072, 131072, 16777216]
     },
     {
-        "word" : "cuvée",
-        "bitmap" : 3146004,
-        "wordLetters" : 8672898,
-        "yellowLeters" : [4, 1048576, 2097152, 256, 16]
+        "word" : "cuvee",
+        "bitmap" : 3145748,
+        "wordLetters" : 4347522,
+        "yellowLeters" : [4, 1048576, 2097152, 16, 16]
     },
     {
         "word" : "cyber",
@@ -6120,10 +5958,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [8, 1, 8, 8, 16777216]
     },
     {
-        "word" : "dafür",
-        "bitmap" : 134348841,
-        "wordLetters" : 22909955,
-        "yellowLeters" : [8, 1, 32, 134217728, 131072]
+        "word" : "dafur",
+        "bitmap" : 1179689,
+        "wordLetters" : 18486275,
+        "yellowLeters" : [8, 1, 32, 1048576, 131072]
     },
     {
         "word" : "dahat",
@@ -6354,12 +6192,6 @@ module.exports = GermanArr = [
         "yellowLeters" : [8, 1, 131072, 1048576, 4096]
     },
     {
-        "word" : "dasaß",
-        "bitmap" : 1074003977,
-        "wordLetters" : 132139011,
-        "yellowLeters" : [8, 1, 262144, 1, 1073741824]
-    },
-    {
         "word" : "datei",
         "bitmap" : 524569,
         "wordLetters" : 8539139,
@@ -6486,10 +6318,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [8, 16, 2, 256, 524288]
     },
     {
-        "word" : "debüt",
-        "bitmap" : 134742042,
-        "wordLetters" : 25003139,
-        "yellowLeters" : [8, 16, 2, 134217728, 524288]
+        "word" : "debut",
+        "bitmap" : 1572890,
+        "wordLetters" : 20579459,
+        "yellowLeters" : [8, 16, 2, 1048576, 524288]
     },
     {
         "word" : "decke",
@@ -7038,10 +6870,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [8, 16384, 4, 1024, 524288]
     },
     {
-        "word" : "dödel",
-        "bitmap" : 2099224,
-        "wordLetters" : 11673251,
-        "yellowLeters" : [8, 2097152, 8, 16, 2048]
+        "word" : "dodel",
+        "bitmap" : 18456,
+        "wordLetters" : 11668931,
+        "yellowLeters" : [8, 16384, 8, 16, 2048]
     },
     {
         "word" : "dodge",
@@ -7140,10 +6972,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [8, 16384, 8192, 1, 1048576]
     },
     {
-        "word" : "döner",
-        "bitmap" : 2236440,
-        "wordLetters" : 17974947,
-        "yellowLeters" : [8, 2097152, 8192, 16, 131072]
+        "word" : "doner",
+        "bitmap" : 155672,
+        "wordLetters" : 17970627,
+        "yellowLeters" : [8, 16384, 8192, 16, 131072]
     },
     {
         "word" : "donna",
@@ -7248,28 +7080,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [8, 16384, 131072, 131072, 16]
     },
     {
-        "word" : "dörre",
-        "bitmap" : 2228248,
-        "wordLetters" : 4773539,
-        "yellowLeters" : [8, 2097152, 131072, 131072, 16]
-    },
-    {
         "word" : "dorrt",
         "bitmap" : 671752,
         "wordLetters" : 20497859,
         "yellowLeters" : [8, 16384, 131072, 131072, 524288]
     },
     {
-        "word" : "dörrt",
-        "bitmap" : 2752520,
-        "wordLetters" : 20502179,
-        "yellowLeters" : [8, 2097152, 131072, 131072, 524288]
-    },
-    {
-        "word" : "dörte",
-        "bitmap" : 2752536,
-        "wordLetters" : 4839075,
-        "yellowLeters" : [8, 2097152, 131072, 524288, 16]
+        "word" : "dorte",
+        "bitmap" : 671768,
+        "wordLetters" : 4834755,
+        "yellowLeters" : [8, 16384, 131072, 524288, 16]
     },
     {
         "word" : "dosen",
@@ -7278,16 +7098,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [8, 16384, 262144, 16, 8192]
     },
     {
-        "word" : "dösen",
-        "bitmap" : 2367512,
-        "wordLetters" : 13785763,
-        "yellowLeters" : [8, 2097152, 262144, 16, 8192]
-    },
-    {
-        "word" : "dösig",
-        "bitmap" : 2359624,
-        "wordLetters" : 6576803,
-        "yellowLeters" : [8, 2097152, 262144, 256, 64]
+        "word" : "dosig",
+        "bitmap" : 278856,
+        "wordLetters" : 6572483,
+        "yellowLeters" : [8, 16384, 262144, 256, 64]
     },
     {
         "word" : "dosis",
@@ -7296,10 +7110,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [8, 16384, 262144, 256, 262144]
     },
     {
-        "word" : "döste",
-        "bitmap" : 2883608,
-        "wordLetters" : 4840099,
-        "yellowLeters" : [8, 2097152, 262144, 524288, 16]
+        "word" : "doste",
+        "bitmap" : 802840,
+        "wordLetters" : 4835779,
+        "yellowLeters" : [8, 16384, 262144, 524288, 16]
     },
     {
         "word" : "dover",
@@ -7356,10 +7170,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [8, 131072, 1, 8192, 64]
     },
     {
-        "word" : "drapé",
-        "bitmap" : 164105,
-        "wordLetters" : 143098403,
-        "yellowLeters" : [8, 131072, 1, 32768, 256]
+        "word" : "drape",
+        "bitmap" : 163865,
+        "wordLetters" : 4686371,
+        "yellowLeters" : [8, 131072, 1, 32768, 16]
     },
     {
         "word" : "drauf",
@@ -7452,12 +7266,6 @@ module.exports = GermanArr = [
         "yellowLeters" : [8, 131072, 16384, 64, 16]
     },
     {
-        "word" : "dröge",
-        "bitmap" : 2228312,
-        "wordLetters" : 4544035,
-        "yellowLeters" : [8, 131072, 2097152, 64, 16]
-    },
-    {
         "word" : "drohe",
         "bitmap" : 147608,
         "wordLetters" : 4438563,
@@ -7482,12 +7290,6 @@ module.exports = GermanArr = [
         "yellowLeters" : [8, 131072, 1048576, 4, 1024]
     },
     {
-        "word" : "drück",
-        "bitmap" : 134349836,
-        "wordLetters" : 10710563,
-        "yellowLeters" : [8, 131072, 134217728, 4, 1024]
-    },
-    {
         "word" : "drums",
         "bitmap" : 1445896,
         "wordLetters" : 19288611,
@@ -7498,12 +7300,6 @@ module.exports = GermanArr = [
         "bitmap" : 1441816,
         "wordLetters" : 4805155,
         "yellowLeters" : [8, 131072, 1048576, 262144, 16]
-    },
-    {
-        "word" : "drüse",
-        "bitmap" : 134610968,
-        "wordLetters" : 4943395,
-        "yellowLeters" : [8, 131072, 134217728, 262144, 16]
     },
     {
         "word" : "dschg",
@@ -7530,10 +7326,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [8, 1048576, 2, 1, 256]
     },
     {
-        "word" : "dübel",
-        "bitmap" : 134219802,
-        "wordLetters" : 11671395,
-        "yellowLeters" : [8, 134217728, 2, 16, 2048]
+        "word" : "dubel",
+        "bitmap" : 1050650,
+        "wordLetters" : 11667075,
+        "yellowLeters" : [8, 1048576, 2, 16, 2048]
     },
     {
         "word" : "dubio",
@@ -7542,10 +7338,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [8, 1048576, 2, 256, 16384]
     },
     {
-        "word" : "düble",
-        "bitmap" : 134219802,
-        "wordLetters" : 4560739,
-        "yellowLeters" : [8, 134217728, 2, 2048, 16]
+        "word" : "duble",
+        "bitmap" : 1050650,
+        "wordLetters" : 4556419,
+        "yellowLeters" : [8, 1048576, 2, 2048, 16]
     },
     {
         "word" : "ducke",
@@ -7590,12 +7386,6 @@ module.exports = GermanArr = [
         "yellowLeters" : [8, 1048576, 32, 524288, 16]
     },
     {
-        "word" : "düfte",
-        "bitmap" : 134742072,
-        "wordLetters" : 4826979,
-        "yellowLeters" : [8, 134217728, 32, 524288, 16]
-    },
-    {
         "word" : "dufts",
         "bitmap" : 1835048,
         "wordLetters" : 19502723,
@@ -7638,16 +7428,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [8, 1048576, 4096, 32768, 32]
     },
     {
-        "word" : "dünen",
-        "bitmap" : 134225944,
-        "wordLetters" : 13780835,
-        "yellowLeters" : [8, 134217728, 8192, 16, 8192]
+        "word" : "dunen",
+        "bitmap" : 1056792,
+        "wordLetters" : 13776515,
+        "yellowLeters" : [8, 1048576, 8192, 16, 8192]
     },
     {
-        "word" : "dünge",
-        "bitmap" : 134226008,
-        "wordLetters" : 4409187,
-        "yellowLeters" : [8, 134217728, 8192, 64, 16]
+        "word" : "dunge",
+        "bitmap" : 1056856,
+        "wordLetters" : 4404867,
+        "yellowLeters" : [8, 1048576, 8192, 64, 16]
     },
     {
         "word" : "dungs",
@@ -7656,10 +7446,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [8, 1048576, 8192, 64, 262144]
     },
     {
-        "word" : "düngt",
-        "bitmap" : 134750280,
-        "wordLetters" : 20137827,
-        "yellowLeters" : [8, 134217728, 8192, 64, 524288]
+        "word" : "dungt",
+        "bitmap" : 1581128,
+        "wordLetters" : 20133507,
+        "yellowLeters" : [8, 1048576, 8192, 64, 524288]
     },
     {
         "word" : "dunja",
@@ -7668,28 +7458,28 @@ module.exports = GermanArr = [
         "yellowLeters" : [8, 1048576, 8192, 512, 1]
     },
     {
-        "word" : "dünke",
-        "bitmap" : 134226968,
-        "wordLetters" : 4540259,
-        "yellowLeters" : [8, 134217728, 8192, 1024, 16]
+        "word" : "dunke",
+        "bitmap" : 1057816,
+        "wordLetters" : 4535939,
+        "yellowLeters" : [8, 1048576, 8192, 1024, 16]
     },
     {
-        "word" : "dünkt",
-        "bitmap" : 134751240,
-        "wordLetters" : 20268899,
-        "yellowLeters" : [8, 134217728, 8192, 1024, 524288]
+        "word" : "dunkt",
+        "bitmap" : 1582088,
+        "wordLetters" : 20264579,
+        "yellowLeters" : [8, 1048576, 8192, 1024, 524288]
     },
     {
-        "word" : "dünne",
-        "bitmap" : 134225944,
-        "wordLetters" : 4638563,
-        "yellowLeters" : [8, 134217728, 8192, 8192, 16]
+        "word" : "dunne",
+        "bitmap" : 1056792,
+        "wordLetters" : 4634243,
+        "yellowLeters" : [8, 1048576, 8192, 8192, 16]
     },
     {
-        "word" : "dünnt",
-        "bitmap" : 134750216,
-        "wordLetters" : 20367203,
-        "yellowLeters" : [8, 134217728, 8192, 8192, 524288]
+        "word" : "dunnt",
+        "bitmap" : 1581064,
+        "wordLetters" : 20362883,
+        "yellowLeters" : [8, 1048576, 8192, 8192, 524288]
     },
     {
         "word" : "dunst",
@@ -7710,34 +7500,34 @@ module.exports = GermanArr = [
         "yellowLeters" : [8, 1048576, 131072, 4, 128]
     },
     {
-        "word" : "düren",
-        "bitmap" : 134357016,
-        "wordLetters" : 13784931,
-        "yellowLeters" : [8, 134217728, 131072, 16, 8192]
+        "word" : "duren",
+        "bitmap" : 1187864,
+        "wordLetters" : 13780611,
+        "yellowLeters" : [8, 1048576, 131072, 16, 8192]
     },
     {
-        "word" : "dürer",
-        "bitmap" : 134348824,
-        "wordLetters" : 17979235,
-        "yellowLeters" : [8, 134217728, 131072, 16, 131072]
+        "word" : "durer",
+        "bitmap" : 1179672,
+        "wordLetters" : 17974915,
+        "yellowLeters" : [8, 1048576, 131072, 16, 131072]
     },
     {
-        "word" : "dürfe",
-        "bitmap" : 134348856,
-        "wordLetters" : 4380515,
-        "yellowLeters" : [8, 134217728, 131072, 32, 16]
+        "word" : "durfe",
+        "bitmap" : 1179704,
+        "wordLetters" : 4376195,
+        "yellowLeters" : [8, 1048576, 131072, 32, 16]
     },
     {
-        "word" : "dürft",
-        "bitmap" : 134873128,
-        "wordLetters" : 20109155,
-        "yellowLeters" : [8, 134217728, 131072, 32, 524288]
+        "word" : "durft",
+        "bitmap" : 1703976,
+        "wordLetters" : 20104835,
+        "yellowLeters" : [8, 1048576, 131072, 32, 524288]
     },
     {
-        "word" : "dürre",
-        "bitmap" : 134348824,
-        "wordLetters" : 4773731,
-        "yellowLeters" : [8, 134217728, 131072, 131072, 16]
+        "word" : "durre",
+        "bitmap" : 1179672,
+        "wordLetters" : 4769411,
+        "yellowLeters" : [8, 1048576, 131072, 131072, 16]
     },
     {
         "word" : "durst",
@@ -7752,10 +7542,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [8, 1048576, 262144, 16, 2048]
     },
     {
-        "word" : "düsen",
-        "bitmap" : 134488088,
-        "wordLetters" : 13785955,
-        "yellowLeters" : [8, 134217728, 262144, 16, 8192]
+        "word" : "dusen",
+        "bitmap" : 1318936,
+        "wordLetters" : 13781635,
+        "yellowLeters" : [8, 1048576, 262144, 16, 8192]
     },
     {
         "word" : "dutte",
@@ -7908,10 +7698,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [16, 4, 1024, 524288, 16]
     },
     {
-        "word" : "école",
-        "bitmap" : 18708,
-        "wordLetters" : 4569288,
-        "yellowLeters" : [256, 4, 16384, 2048, 16]
+        "word" : "ecole",
+        "bitmap" : 18452,
+        "wordLetters" : 4569156,
+        "yellowLeters" : [16, 4, 16384, 2048, 16]
     },
     {
         "word" : "edams",
@@ -8538,12 +8328,6 @@ module.exports = GermanArr = [
         "yellowLeters" : [16, 4096, 256, 2048, 16]
     },
     {
-        "word" : "émile",
-        "bitmap" : 6416,
-        "wordLetters" : 4563464,
-        "yellowLeters" : [256, 4096, 256, 2048, 16]
-    },
-    {
         "word" : "emils",
         "bitmap" : 268560,
         "wordLetters" : 19243396,
@@ -8802,10 +8586,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [16, 131072, 8, 256, 64]
     },
     {
-        "word" : "erdöl",
-        "bitmap" : 2230296,
-        "wordLetters" : 16420388,
-        "yellowLeters" : [16, 131072, 8, 2097152, 2048]
+        "word" : "erdol",
+        "bitmap" : 149528,
+        "wordLetters" : 11996708,
+        "yellowLeters" : [16, 131072, 8, 16384, 2048]
     },
     {
         "word" : "ergab",
@@ -8874,16 +8658,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [16, 131072, 2048, 16, 8192]
     },
     {
-        "word" : "erlös",
-        "bitmap" : 2492432,
-        "wordLetters" : 23768612,
-        "yellowLeters" : [16, 131072, 2048, 2097152, 262144]
-    },
-    {
-        "word" : "ermaß",
-        "bitmap" : 1073877009,
-        "wordLetters" : 132133412,
-        "yellowLeters" : [16, 131072, 4096, 1, 1073741824]
+        "word" : "erlos",
+        "bitmap" : 411664,
+        "wordLetters" : 19344932,
+        "yellowLeters" : [16, 131072, 2048, 16384, 262144]
     },
     {
         "word" : "ernas",
@@ -9108,10 +8886,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [16, 524288, 524288, 1, 2048]
     },
     {
-        "word" : "etüde",
-        "bitmap" : 134742040,
-        "wordLetters" : 4451940,
-        "yellowLeters" : [16, 524288, 134217728, 8, 16]
+        "word" : "etude",
+        "bitmap" : 1572888,
+        "wordLetters" : 4313700,
+        "yellowLeters" : [16, 524288, 1048576, 8, 16]
     },
     {
         "word" : "etuis",
@@ -9132,10 +8910,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [16, 524288, 33554432, 16, 2048]
     },
     {
-        "word" : "euböa",
-        "bitmap" : 3145747,
-        "wordLetters" : 4884100,
-        "yellowLeters" : [16, 1048576, 2, 2097152, 1]
+        "word" : "euboa",
+        "bitmap" : 1064979,
+        "wordLetters" : 460420,
+        "yellowLeters" : [16, 1048576, 2, 16384, 1]
     },
     {
         "word" : "eugen",
@@ -10338,12 +10116,6 @@ module.exports = GermanArr = [
         "yellowLeters" : [32, 2048, 16, 128, 524288]
     },
     {
-        "word" : "fleiß",
-        "bitmap" : 1073744176,
-        "wordLetters" : 132387173,
-        "yellowLeters" : [32, 2048, 16, 256, 1073741824]
-    },
-    {
         "word" : "fleur",
         "bitmap" : 1181744,
         "wordLetters" : 18485605,
@@ -10392,10 +10164,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [32, 2048, 256, 131072, 524288]
     },
     {
-        "word" : "flöge",
-        "bitmap" : 2099312,
-        "wordLetters" : 4543845,
-        "yellowLeters" : [32, 2048, 2097152, 64, 16]
+        "word" : "floge",
+        "bitmap" : 18544,
+        "wordLetters" : 4405605,
+        "yellowLeters" : [32, 2048, 16384, 64, 16]
     },
     {
         "word" : "flogt",
@@ -10404,10 +10176,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [32, 2048, 16384, 64, 524288]
     },
     {
-        "word" : "flöhe",
-        "bitmap" : 2099376,
-        "wordLetters" : 4576613,
-        "yellowLeters" : [32, 2048, 2097152, 128, 16]
+        "word" : "flohe",
+        "bitmap" : 18608,
+        "wordLetters" : 4438373,
+        "yellowLeters" : [32, 2048, 16384, 128, 16]
     },
     {
         "word" : "flohs",
@@ -10420,12 +10192,6 @@ module.exports = GermanArr = [
         "bitmap" : 542880,
         "wordLetters" : 20167013,
         "yellowLeters" : [32, 2048, 16384, 128, 524288]
-    },
-    {
-        "word" : "flöht",
-        "bitmap" : 2623648,
-        "wordLetters" : 20305253,
-        "yellowLeters" : [32, 2048, 2097152, 128, 524288]
     },
     {
         "word" : "flops",
@@ -10446,22 +10212,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [32, 2048, 16384, 262144, 262144]
     },
     {
-        "word" : "flöße",
-        "bitmap" : 1075841072,
-        "wordLetters" : 8476005,
-        "yellowLeters" : [32, 2048, 2097152, 1073741824, 16]
-    },
-    {
-        "word" : "flößt",
-        "bitmap" : 1076365344,
-        "wordLetters" : 24204645,
-        "yellowLeters" : [32, 2048, 2097152, 1073741824, 524288]
-    },
-    {
-        "word" : "flöte",
-        "bitmap" : 2623536,
-        "wordLetters" : 4969829,
-        "yellowLeters" : [32, 2048, 2097152, 524288, 16]
+        "word" : "flote",
+        "bitmap" : 542768,
+        "wordLetters" : 4831589,
+        "yellowLeters" : [32, 2048, 16384, 524288, 16]
     },
     {
         "word" : "flott",
@@ -10482,10 +10236,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [32, 2048, 16384, 16777216, 8]
     },
     {
-        "word" : "flöze",
-        "bitmap" : 35653680,
-        "wordLetters" : 5166437,
-        "yellowLeters" : [32, 2048, 2097152, 33554432, 16]
+        "word" : "floze",
+        "bitmap" : 33572912,
+        "wordLetters" : 5028197,
+        "yellowLeters" : [32, 2048, 16384, 33554432, 16]
     },
     {
         "word" : "fluch",
@@ -10498,12 +10252,6 @@ module.exports = GermanArr = [
         "bitmap" : 1050736,
         "wordLetters" : 4411749,
         "yellowLeters" : [32, 2048, 1048576, 64, 16]
-    },
-    {
-        "word" : "flüge",
-        "bitmap" : 134219888,
-        "wordLetters" : 4549989,
-        "yellowLeters" : [32, 2048, 134217728, 64, 16]
     },
     {
         "word" : "flugs",
@@ -10584,34 +10332,34 @@ module.exports = GermanArr = [
         "yellowLeters" : [32, 16384, 4, 1048576, 262144]
     },
     {
-        "word" : "föhne",
-        "bitmap" : 2105520,
-        "wordLetters" : 4632229,
-        "yellowLeters" : [32, 2097152, 128, 8192, 16]
+        "word" : "fohne",
+        "bitmap" : 24752,
+        "wordLetters" : 4627909,
+        "yellowLeters" : [32, 16384, 128, 8192, 16]
     },
     {
-        "word" : "föhns",
-        "bitmap" : 2367648,
-        "wordLetters" : 19312293,
-        "yellowLeters" : [32, 2097152, 128, 8192, 262144]
+        "word" : "fohns",
+        "bitmap" : 286880,
+        "wordLetters" : 19307973,
+        "yellowLeters" : [32, 16384, 128, 8192, 262144]
     },
     {
-        "word" : "föhnt",
-        "bitmap" : 2629792,
-        "wordLetters" : 20360869,
-        "yellowLeters" : [32, 2097152, 128, 8192, 524288]
+        "word" : "fohnt",
+        "bitmap" : 549024,
+        "wordLetters" : 20356549,
+        "yellowLeters" : [32, 16384, 128, 8192, 524288]
     },
     {
-        "word" : "föhre",
-        "bitmap" : 2228400,
-        "wordLetters" : 4763301,
-        "yellowLeters" : [32, 2097152, 128, 131072, 16]
+        "word" : "fohre",
+        "bitmap" : 147632,
+        "wordLetters" : 4758981,
+        "yellowLeters" : [32, 16384, 128, 131072, 16]
     },
     {
-        "word" : "föhrs",
-        "bitmap" : 2490528,
-        "wordLetters" : 19443365,
-        "yellowLeters" : [32, 2097152, 128, 131072, 262144]
+        "word" : "fohrs",
+        "bitmap" : 409760,
+        "wordLetters" : 19439045,
+        "yellowLeters" : [32, 16384, 128, 131072, 262144]
     },
     {
         "word" : "fokal",
@@ -10686,10 +10434,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [32, 16384, 131072, 4, 16]
     },
     {
-        "word" : "förde",
-        "bitmap" : 2228280,
-        "wordLetters" : 4314789,
-        "yellowLeters" : [32, 2097152, 131072, 8, 16]
+        "word" : "forde",
+        "bitmap" : 147512,
+        "wordLetters" : 4310469,
+        "yellowLeters" : [32, 16384, 131072, 8, 16]
     },
     {
         "word" : "fords",
@@ -10776,16 +10524,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [32, 16384, 262144, 262144, 1]
     },
     {
-        "word" : "fötal",
-        "bitmap" : 2623521,
-        "wordLetters" : 11558565,
-        "yellowLeters" : [32, 2097152, 524288, 1, 2048]
+        "word" : "fotal",
+        "bitmap" : 542753,
+        "wordLetters" : 11554245,
+        "yellowLeters" : [32, 16384, 524288, 1, 2048]
     },
     {
-        "word" : "föten",
-        "bitmap" : 2629680,
-        "wordLetters" : 13786789,
-        "yellowLeters" : [32, 2097152, 524288, 16, 8192]
+        "word" : "foten",
+        "bitmap" : 548912,
+        "wordLetters" : 13782469,
+        "yellowLeters" : [32, 16384, 524288, 16, 8192]
     },
     {
         "word" : "fotos",
@@ -10794,10 +10542,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [32, 16384, 524288, 16384, 262144]
     },
     {
-        "word" : "fötus",
-        "bitmap" : 3932192,
-        "wordLetters" : 19553957,
-        "yellowLeters" : [32, 2097152, 524288, 1048576, 262144]
+        "word" : "fotus",
+        "bitmap" : 1851424,
+        "wordLetters" : 19549637,
+        "yellowLeters" : [32, 16384, 524288, 1048576, 262144]
     },
     {
         "word" : "fotze",
@@ -10866,16 +10614,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [32, 131072, 1, 262144, 16]
     },
     {
-        "word" : "fraße",
-        "bitmap" : 1073872945,
-        "wordLetters" : 8323621,
-        "yellowLeters" : [32, 131072, 1, 1073741824, 16]
-    },
-    {
-        "word" : "fraßt",
-        "bitmap" : 1074397217,
-        "wordLetters" : 24052261,
-        "yellowLeters" : [32, 131072, 1, 1073741824, 524288]
+        "word" : "frass",
+        "bitmap" : 393249,
+        "wordLetters" : 19464741,
+        "yellowLeters" : [32, 131072, 1, 262144, 262144]
     },
     {
         "word" : "frast",
@@ -10992,10 +10734,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [32, 131072, 16384, 4096, 4096]
     },
     {
-        "word" : "fröne",
-        "bitmap" : 2236464,
-        "wordLetters" : 4773413,
-        "yellowLeters" : [32, 131072, 2097152, 8192, 16]
+        "word" : "frone",
+        "bitmap" : 155696,
+        "wordLetters" : 4635173,
+        "yellowLeters" : [32, 131072, 16384, 8192, 16]
     },
     {
         "word" : "front",
@@ -11004,16 +10746,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [32, 131072, 16384, 8192, 524288]
     },
     {
-        "word" : "frönt",
-        "bitmap" : 2760736,
-        "wordLetters" : 20502053,
-        "yellowLeters" : [32, 131072, 2097152, 8192, 524288]
-    },
-    {
-        "word" : "fröre",
-        "bitmap" : 2228272,
-        "wordLetters" : 4904485,
-        "yellowLeters" : [32, 131072, 2097152, 131072, 16]
+        "word" : "frore",
+        "bitmap" : 147504,
+        "wordLetters" : 4766245,
+        "yellowLeters" : [32, 131072, 16384, 131072, 16]
     },
     {
         "word" : "frort",
@@ -11028,10 +10764,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [32, 131072, 16384, 262144, 524288]
     },
     {
-        "word" : "frühe",
-        "bitmap" : 134348976,
-        "wordLetters" : 4582949,
-        "yellowLeters" : [32, 131072, 134217728, 128, 16]
+        "word" : "fruhe",
+        "bitmap" : 1179824,
+        "wordLetters" : 4444709,
+        "yellowLeters" : [32, 131072, 1048576, 128, 16]
     },
     {
         "word" : "frust",
@@ -11064,22 +10800,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [32, 1048576, 64, 16, 8192]
     },
     {
-        "word" : "fügen",
-        "bitmap" : 134226032,
-        "wordLetters" : 13773669,
-        "yellowLeters" : [32, 134217728, 64, 16, 8192]
-    },
-    {
         "word" : "fugst",
         "bitmap" : 1835104,
         "wordLetters" : 20519557,
         "yellowLeters" : [32, 1048576, 64, 262144, 524288]
-    },
-    {
-        "word" : "fügst",
-        "bitmap" : 135004256,
-        "wordLetters" : 20523877,
-        "yellowLeters" : [32, 134217728, 64, 262144, 524288]
     },
     {
         "word" : "fugte",
@@ -11088,22 +10812,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [32, 1048576, 64, 524288, 16]
     },
     {
-        "word" : "fügte",
-        "bitmap" : 134742128,
-        "wordLetters" : 4828005,
-        "yellowLeters" : [32, 134217728, 64, 524288, 16]
+        "word" : "fuhle",
+        "bitmap" : 1050800,
+        "wordLetters" : 4562565,
+        "yellowLeters" : [32, 1048576, 128, 2048, 16]
     },
     {
-        "word" : "fühle",
-        "bitmap" : 134219952,
-        "wordLetters" : 4566885,
-        "yellowLeters" : [32, 134217728, 128, 2048, 16]
-    },
-    {
-        "word" : "fühlt",
-        "bitmap" : 134744224,
-        "wordLetters" : 20295525,
-        "yellowLeters" : [32, 134217728, 128, 2048, 524288]
+        "word" : "fuhlt",
+        "bitmap" : 1575072,
+        "wordLetters" : 20291205,
+        "yellowLeters" : [32, 1048576, 128, 2048, 524288]
     },
     {
         "word" : "fuhre",
@@ -11112,22 +10830,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [32, 1048576, 128, 131072, 16]
     },
     {
-        "word" : "führe",
-        "bitmap" : 134348976,
-        "wordLetters" : 4763493,
-        "yellowLeters" : [32, 134217728, 128, 131072, 16]
-    },
-    {
         "word" : "fuhrt",
         "bitmap" : 1704096,
         "wordLetters" : 20487813,
         "yellowLeters" : [32, 1048576, 128, 131072, 524288]
-    },
-    {
-        "word" : "führt",
-        "bitmap" : 134873248,
-        "wordLetters" : 20492133,
-        "yellowLeters" : [32, 134217728, 128, 131072, 524288]
     },
     {
         "word" : "fulda",
@@ -11136,16 +10842,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [32, 1048576, 2048, 8, 1]
     },
     {
-        "word" : "fülle",
-        "bitmap" : 134219824,
-        "wordLetters" : 4570981,
-        "yellowLeters" : [32, 134217728, 2048, 2048, 16]
+        "word" : "fulle",
+        "bitmap" : 1050672,
+        "wordLetters" : 4566661,
+        "yellowLeters" : [32, 1048576, 2048, 2048, 16]
     },
     {
-        "word" : "füllt",
-        "bitmap" : 134744096,
-        "wordLetters" : 20299621,
-        "yellowLeters" : [32, 134217728, 2048, 2048, 524288]
+        "word" : "fullt",
+        "bitmap" : 1574944,
+        "wordLetters" : 20295301,
+        "yellowLeters" : [32, 1048576, 2048, 2048, 524288]
     },
     {
         "word" : "funde",
@@ -11166,10 +10872,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [32, 1048576, 8192, 8, 262144]
     },
     {
-        "word" : "fünft",
-        "bitmap" : 134750240,
-        "wordLetters" : 20105061,
-        "yellowLeters" : [32, 134217728, 8192, 32, 524288]
+        "word" : "funft",
+        "bitmap" : 1581088,
+        "wordLetters" : 20100741,
+        "yellowLeters" : [32, 1048576, 8192, 32, 524288]
     },
     {
         "word" : "funke",
@@ -11214,28 +10920,22 @@ module.exports = GermanArr = [
         "yellowLeters" : [32, 1048576, 131072, 16384, 131072]
     },
     {
-        "word" : "fürst",
-        "bitmap" : 135135264,
-        "wordLetters" : 20535141,
-        "yellowLeters" : [32, 134217728, 131072, 262144, 524288]
+        "word" : "furst",
+        "bitmap" : 1966112,
+        "wordLetters" : 20530821,
+        "yellowLeters" : [32, 1048576, 131072, 262144, 524288]
     },
     {
-        "word" : "fürth",
-        "bitmap" : 134873248,
-        "wordLetters" : 7984997,
-        "yellowLeters" : [32, 134217728, 131072, 524288, 128]
+        "word" : "furth",
+        "bitmap" : 1704096,
+        "wordLetters" : 7980677,
+        "yellowLeters" : [32, 1048576, 131072, 524288, 128]
     },
     {
         "word" : "furze",
         "bitmap" : 34734128,
         "wordLetters" : 5031557,
         "yellowLeters" : [32, 1048576, 131072, 33554432, 16]
-    },
-    {
-        "word" : "fürze",
-        "bitmap" : 167903280,
-        "wordLetters" : 5035877,
-        "yellowLeters" : [32, 134217728, 131072, 33554432, 16]
     },
     {
         "word" : "furzt",
@@ -11250,28 +10950,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [32, 1048576, 262144, 16, 2048]
     },
     {
-        "word" : "fußen",
-        "bitmap" : 1074798640,
-        "wordLetters" : 13892229,
-        "yellowLeters" : [32, 1048576, 1073741824, 16, 8192]
+        "word" : "fusse",
+        "bitmap" : 1310768,
+        "wordLetters" : 4803205,
+        "yellowLeters" : [32, 1048576, 262144, 262144, 16]
     },
     {
-        "word" : "füßen",
-        "bitmap" : 1207967792,
-        "wordLetters" : 13896549,
-        "yellowLeters" : [32, 134217728, 1073741824, 16, 8192]
-    },
-    {
-        "word" : "fußes",
-        "bitmap" : 1075052592,
-        "wordLetters" : 19135109,
-        "yellowLeters" : [32, 1048576, 1073741824, 16, 262144]
-    },
-    {
-        "word" : "fußte",
-        "bitmap" : 1075314736,
-        "wordLetters" : 4946565,
-        "yellowLeters" : [32, 1048576, 1073741824, 524288, 16]
+        "word" : "fusst",
+        "bitmap" : 1835040,
+        "wordLetters" : 20531845,
+        "yellowLeters" : [32, 1048576, 262144, 262144, 524288]
     },
     {
         "word" : "futon",
@@ -11568,10 +11256,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [64, 1, 262144, 16, 262144]
     },
     {
-        "word" : "gasöl",
-        "bitmap" : 2361409,
-        "wordLetters" : 16435206,
-        "yellowLeters" : [64, 1, 262144, 2097152, 2048]
+        "word" : "gasol",
+        "bitmap" : 280641,
+        "wordLetters" : 12011526,
+        "yellowLeters" : [64, 1, 262144, 16384, 2048]
     },
     {
         "word" : "gasse",
@@ -11652,6 +11340,12 @@ module.exports = GermanArr = [
         "yellowLeters" : [64, 1, 1048576, 2048, 262144]
     },
     {
+        "word" : "gauss",
+        "bitmap" : 1310785,
+        "wordLetters" : 19484678,
+        "yellowLeters" : [64, 1, 1048576, 262144, 262144]
+    },
+    {
         "word" : "gazas",
         "bitmap" : 33816641,
         "wordLetters" : 18899974,
@@ -11724,12 +11418,6 @@ module.exports = GermanArr = [
         "yellowLeters" : [64, 16, 16, 262144, 524288]
     },
     {
-        "word" : "gefaß",
-        "bitmap" : 1073741937,
-        "wordLetters" : 132125830,
-        "yellowLeters" : [64, 16, 32, 1, 1073741824]
-    },
-    {
         "word" : "gegen",
         "bitmap" : 8272,
         "wordLetters" : 13768838,
@@ -11754,10 +11442,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [64, 16, 128, 16, 131072]
     },
     {
-        "word" : "gehör",
-        "bitmap" : 2228432,
-        "wordLetters" : 22715526,
-        "yellowLeters" : [64, 16, 128, 2097152, 131072]
+        "word" : "gehor",
+        "bitmap" : 147664,
+        "wordLetters" : 18291846,
+        "yellowLeters" : [64, 16, 128, 16384, 131072]
     },
     {
         "word" : "gehst",
@@ -11794,6 +11482,12 @@ module.exports = GermanArr = [
         "bitmap" : 526672,
         "wordLetters" : 20291718,
         "yellowLeters" : [64, 16, 256, 2048, 524288]
+    },
+    {
+        "word" : "geiss",
+        "bitmap" : 262480,
+        "wordLetters" : 19472518,
+        "yellowLeters" : [64, 16, 256, 262144, 262144]
     },
     {
         "word" : "geist",
@@ -11856,22 +11550,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [64, 16, 2048, 524288, 16]
     },
     {
-        "word" : "gemaß",
-        "bitmap" : 1073746001,
-        "wordLetters" : 132132998,
-        "yellowLeters" : [64, 16, 4096, 1, 1073741824]
-    },
-    {
         "word" : "gemme",
         "bitmap" : 4176,
         "wordLetters" : 4599942,
         "yellowLeters" : [64, 16, 4096, 4096, 16]
     },
     {
-        "word" : "gemüt",
-        "bitmap" : 134746192,
-        "wordLetters" : 25014406,
-        "yellowLeters" : [64, 16, 4096, 134217728, 524288]
+        "word" : "gemut",
+        "bitmap" : 1577040,
+        "wordLetters" : 20590726,
+        "yellowLeters" : [64, 16, 4096, 1048576, 524288]
     },
     {
         "word" : "genas",
@@ -11940,10 +11628,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [64, 16, 8192, 1048576, 262144]
     },
     {
-        "word" : "geölt",
-        "bitmap" : 2623568,
-        "wordLetters" : 20436102,
-        "yellowLeters" : [64, 16, 2097152, 2048, 524288]
+        "word" : "geolt",
+        "bitmap" : 542800,
+        "wordLetters" : 20297862,
+        "yellowLeters" : [64, 16, 16384, 2048, 524288]
     },
     {
         "word" : "georg",
@@ -12024,12 +11712,6 @@ module.exports = GermanArr = [
         "yellowLeters" : [64, 16, 262144, 1, 262144]
     },
     {
-        "word" : "gesaß",
-        "bitmap" : 1074004049,
-        "wordLetters" : 132139142,
-        "yellowLeters" : [64, 16, 262144, 1, 1073741824]
-    },
-    {
         "word" : "gesat",
         "bitmap" : 786513,
         "wordLetters" : 19941510,
@@ -12066,10 +11748,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [64, 16, 524288, 1048576, 16]
     },
     {
-        "word" : "geübt",
-        "bitmap" : 134742098,
-        "wordLetters" : 20114566,
-        "yellowLeters" : [64, 16, 134217728, 2, 524288]
+        "word" : "geubt",
+        "bitmap" : 1572946,
+        "wordLetters" : 19976326,
+        "yellowLeters" : [64, 16, 1048576, 2, 524288]
     },
     {
         "word" : "ggmbh",
@@ -12114,16 +11796,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [64, 256, 16, 131072, 524288]
     },
     {
-        "word" : "gieße",
-        "bitmap" : 1073742160,
-        "wordLetters" : 8327430,
-        "yellowLeters" : [64, 256, 16, 1073741824, 16]
-    },
-    {
-        "word" : "gießt",
-        "bitmap" : 1074266448,
-        "wordLetters" : 24056070,
-        "yellowLeters" : [64, 256, 16, 1073741824, 524288]
+        "word" : "giess",
+        "bitmap" : 262480,
+        "wordLetters" : 19468550,
+        "yellowLeters" : [64, 256, 16, 262144, 262144]
     },
     {
         "word" : "gifte",
@@ -12204,10 +11880,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [64, 256, 33554432, 16, 128]
     },
     {
-        "word" : "glacé",
-        "bitmap" : 2373,
-        "wordLetters" : 142672230,
-        "yellowLeters" : [64, 2048, 1, 4, 256]
+        "word" : "glace",
+        "bitmap" : 2133,
+        "wordLetters" : 4260198,
+        "yellowLeters" : [64, 2048, 1, 4, 16]
     },
     {
         "word" : "glanz",
@@ -12288,22 +11964,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [64, 2048, 1048576, 4, 1024]
     },
     {
-        "word" : "glück",
-        "bitmap" : 134220868,
-        "wordLetters" : 10710374,
-        "yellowLeters" : [64, 2048, 134217728, 4, 1024]
+        "word" : "gluhe",
+        "bitmap" : 1050832,
+        "wordLetters" : 4444518,
+        "yellowLeters" : [64, 2048, 1048576, 128, 16]
     },
     {
-        "word" : "glühe",
-        "bitmap" : 134219984,
-        "wordLetters" : 4582758,
-        "yellowLeters" : [64, 2048, 134217728, 128, 16]
-    },
-    {
-        "word" : "glüht",
-        "bitmap" : 134744256,
-        "wordLetters" : 20311398,
-        "yellowLeters" : [64, 2048, 134217728, 128, 524288]
+        "word" : "gluht",
+        "bitmap" : 1575104,
+        "wordLetters" : 20173158,
+        "yellowLeters" : [64, 2048, 1048576, 128, 524288]
     },
     {
         "word" : "gluon",
@@ -12324,10 +11994,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [64, 4096, 2, 128, 262144]
     },
     {
-        "word" : "gmünd",
-        "bitmap" : 134230088,
-        "wordLetters" : 3730822,
-        "yellowLeters" : [64, 4096, 134217728, 8192, 8]
+        "word" : "gmund",
+        "bitmap" : 1060936,
+        "wordLetters" : 3592582,
+        "yellowLeters" : [64, 4096, 1048576, 8192, 8]
     },
     {
         "word" : "gnade",
@@ -12354,10 +12024,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [64, 8192, 16384, 4096, 262144]
     },
     {
-        "word" : "gödel",
-        "bitmap" : 2099288,
-        "wordLetters" : 11673254,
-        "yellowLeters" : [64, 2097152, 8, 16, 2048]
+        "word" : "godel",
+        "bitmap" : 18520,
+        "wordLetters" : 11668934,
+        "yellowLeters" : [64, 16384, 8, 16, 2048]
     },
     {
         "word" : "godot",
@@ -12444,16 +12114,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [64, 16384, 8192, 64, 262144]
     },
     {
-        "word" : "gönne",
-        "bitmap" : 2105424,
-        "wordLetters" : 4638374,
-        "yellowLeters" : [64, 2097152, 8192, 8192, 16]
+        "word" : "gonne",
+        "bitmap" : 24656,
+        "wordLetters" : 4634054,
+        "yellowLeters" : [64, 16384, 8192, 8192, 16]
     },
     {
-        "word" : "gönnt",
-        "bitmap" : 2629696,
-        "wordLetters" : 20367014,
-        "yellowLeters" : [64, 2097152, 8192, 8192, 524288]
+        "word" : "gonnt",
+        "bitmap" : 548928,
+        "wordLetters" : 20362694,
+        "yellowLeters" : [64, 16384, 8192, 8192, 524288]
     },
     {
         "word" : "goofy",
@@ -12462,10 +12132,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [64, 16384, 16384, 32, 16777216]
     },
     {
-        "word" : "göran",
-        "bitmap" : 2236481,
-        "wordLetters" : 13653670,
-        "yellowLeters" : [64, 2097152, 131072, 1, 8192]
+        "word" : "goran",
+        "bitmap" : 155713,
+        "wordLetters" : 13649350,
+        "yellowLeters" : [64, 16384, 131072, 1, 8192]
     },
     {
         "word" : "gorch",
@@ -12480,12 +12150,6 @@ module.exports = GermanArr = [
         "yellowLeters" : [64, 16384, 131072, 16, 8192]
     },
     {
-        "word" : "gören",
-        "bitmap" : 2236496,
-        "wordLetters" : 13784742,
-        "yellowLeters" : [64, 2097152, 131072, 16, 8192]
-    },
-    {
         "word" : "gorki",
         "bitmap" : 148800,
         "wordLetters" : 8734150,
@@ -12496,12 +12160,6 @@ module.exports = GermanArr = [
         "bitmap" : 278608,
         "wordLetters" : 4803014,
         "yellowLeters" : [64, 16384, 262144, 262144, 16]
-    },
-    {
-        "word" : "gösse",
-        "bitmap" : 2359376,
-        "wordLetters" : 4807334,
-        "yellowLeters" : [64, 2097152, 262144, 262144, 16]
     },
     {
         "word" : "gosst",
@@ -12534,10 +12192,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [64, 16384, 524288, 256, 8192]
     },
     {
-        "word" : "götze",
-        "bitmap" : 36175952,
-        "wordLetters" : 5037734,
-        "yellowLeters" : [64, 2097152, 524288, 33554432, 16]
+        "word" : "gotze",
+        "bitmap" : 34095184,
+        "wordLetters" : 5033414,
+        "yellowLeters" : [64, 16384, 524288, 33554432, 16]
     },
     {
         "word" : "gouda",
@@ -12732,12 +12390,6 @@ module.exports = GermanArr = [
         "yellowLeters" : [64, 131072, 16, 524288, 16]
     },
     {
-        "word" : "grieß",
-        "bitmap" : 1073873232,
-        "wordLetters" : 132260390,
-        "yellowLeters" : [64, 131072, 256, 16, 1073741824]
-    },
-    {
         "word" : "griff",
         "bitmap" : 131424,
         "wordLetters" : 5415462,
@@ -12786,10 +12438,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [64, 131072, 16384, 64, 262144]
     },
     {
-        "word" : "gröle",
-        "bitmap" : 2230352,
-        "wordLetters" : 4707878,
-        "yellowLeters" : [64, 131072, 2097152, 2048, 16]
+        "word" : "grole",
+        "bitmap" : 149584,
+        "wordLetters" : 4569638,
+        "yellowLeters" : [64, 131072, 16384, 2048, 16]
     },
     {
         "word" : "groll",
@@ -12798,22 +12450,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [64, 131072, 16384, 2048, 2048]
     },
     {
-        "word" : "grölt",
-        "bitmap" : 2754624,
-        "wordLetters" : 20436518,
-        "yellowLeters" : [64, 131072, 2097152, 2048, 524288]
+        "word" : "grolt",
+        "bitmap" : 673856,
+        "wordLetters" : 20298278,
+        "yellowLeters" : [64, 131072, 16384, 2048, 524288]
     },
     {
-        "word" : "große",
-        "bitmap" : 1073889360,
-        "wordLetters" : 8337958,
-        "yellowLeters" : [64, 131072, 16384, 1073741824, 16]
-    },
-    {
-        "word" : "größe",
-        "bitmap" : 1075970128,
-        "wordLetters" : 8476198,
-        "yellowLeters" : [64, 131072, 2097152, 1073741824, 16]
+        "word" : "gross",
+        "bitmap" : 409664,
+        "wordLetters" : 19479078,
+        "yellowLeters" : [64, 131072, 16384, 262144, 262144]
     },
     {
         "word" : "group",
@@ -12826,12 +12472,6 @@ module.exports = GermanArr = [
         "bitmap" : 1179730,
         "wordLetters" : 4248102,
         "yellowLeters" : [64, 131072, 1048576, 2, 16]
-    },
-    {
-        "word" : "grübe",
-        "bitmap" : 134348882,
-        "wordLetters" : 4386342,
-        "yellowLeters" : [64, 131072, 134217728, 2, 16]
     },
     {
         "word" : "grubt",
@@ -12858,34 +12498,22 @@ module.exports = GermanArr = [
         "yellowLeters" : [64, 131072, 1048576, 8192, 8]
     },
     {
-        "word" : "grüne",
-        "bitmap" : 134357072,
-        "wordLetters" : 4779558,
-        "yellowLeters" : [64, 131072, 134217728, 8192, 16]
+        "word" : "grune",
+        "bitmap" : 1187920,
+        "wordLetters" : 4641318,
+        "yellowLeters" : [64, 131072, 1048576, 8192, 16]
     },
     {
-        "word" : "grünt",
-        "bitmap" : 134881344,
-        "wordLetters" : 20508198,
-        "yellowLeters" : [64, 131072, 134217728, 8192, 524288]
+        "word" : "grunt",
+        "bitmap" : 1712192,
+        "wordLetters" : 20369958,
+        "yellowLeters" : [64, 131072, 1048576, 8192, 524288]
     },
     {
-        "word" : "gruße",
-        "bitmap" : 1074921552,
-        "wordLetters" : 8344102,
-        "yellowLeters" : [64, 131072, 1048576, 1073741824, 16]
-    },
-    {
-        "word" : "grüße",
-        "bitmap" : 1208090704,
-        "wordLetters" : 8482342,
-        "yellowLeters" : [64, 131072, 134217728, 1073741824, 16]
-    },
-    {
-        "word" : "grüßt",
-        "bitmap" : 1208614976,
-        "wordLetters" : 24210982,
-        "yellowLeters" : [64, 131072, 134217728, 1073741824, 524288]
+        "word" : "gruss",
+        "bitmap" : 1441856,
+        "wordLetters" : 19485222,
+        "yellowLeters" : [64, 131072, 1048576, 262144, 262144]
     },
     {
         "word" : "guano",
@@ -12936,10 +12564,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [64, 1048576, 2048, 1, 64]
     },
     {
-        "word" : "gülle",
-        "bitmap" : 134219856,
-        "wordLetters" : 4570982,
-        "yellowLeters" : [64, 134217728, 2048, 2048, 16]
+        "word" : "gulle",
+        "bitmap" : 1050704,
+        "wordLetters" : 4566662,
+        "yellowLeters" : [64, 1048576, 2048, 2048, 16]
     },
     {
         "word" : "gully",
@@ -13002,10 +12630,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [64, 1048576, 131072, 1048576, 262144]
     },
     {
-        "word" : "güsse",
-        "bitmap" : 134479952,
-        "wordLetters" : 4807526,
-        "yellowLeters" : [64, 134217728, 262144, 262144, 16]
+        "word" : "gusse",
+        "bitmap" : 1310800,
+        "wordLetters" : 4803206,
+        "yellowLeters" : [64, 1048576, 262144, 262144, 16]
     },
     {
         "word" : "gustl",
@@ -13038,22 +12666,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [64, 1048576, 524288, 16, 131072]
     },
     {
-        "word" : "güter",
-        "bitmap" : 134873168,
-        "wordLetters" : 17981286,
-        "yellowLeters" : [64, 134217728, 524288, 16, 131072]
-    },
-    {
         "word" : "gutes",
         "bitmap" : 1835088,
         "wordLetters" : 19025542,
         "yellowLeters" : [64, 1048576, 524288, 16, 262144]
     },
     {
-        "word" : "gütig",
-        "bitmap" : 134742336,
-        "wordLetters" : 6578022,
-        "yellowLeters" : [64, 134217728, 524288, 256, 64]
+        "word" : "gutig",
+        "bitmap" : 1573184,
+        "wordLetters" : 6573702,
+        "yellowLeters" : [64, 1048576, 524288, 256, 64]
     },
     {
         "word" : "gyros",
@@ -13110,10 +12732,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [128, 1, 2, 256, 524288]
     },
     {
-        "word" : "haché",
-        "bitmap" : 389,
-        "wordLetters" : 142837767,
-        "yellowLeters" : [128, 1, 4, 128, 256]
+        "word" : "hache",
+        "bitmap" : 149,
+        "wordLetters" : 4425735,
+        "yellowLeters" : [128, 1, 4, 128, 16]
     },
     {
         "word" : "hacke",
@@ -14004,22 +13626,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [128, 16, 256, 262144, 16]
     },
     {
-        "word" : "heißa",
-        "bitmap" : 1073742225,
-        "wordLetters" : 4137095,
-        "yellowLeters" : [128, 16, 256, 1073741824, 1]
-    },
-    {
-        "word" : "heiße",
-        "bitmap" : 1073742224,
-        "wordLetters" : 8331399,
-        "yellowLeters" : [128, 16, 256, 1073741824, 16]
-    },
-    {
-        "word" : "heißt",
-        "bitmap" : 1074266512,
-        "wordLetters" : 24060039,
-        "yellowLeters" : [128, 16, 256, 1073741824, 524288]
+        "word" : "heiss",
+        "bitmap" : 262544,
+        "wordLetters" : 19472519,
+        "yellowLeters" : [128, 16, 256, 262144, 262144]
     },
     {
         "word" : "heize",
@@ -14400,16 +14010,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [128, 256, 16, 2048, 524288]
     },
     {
-        "word" : "hieße",
-        "bitmap" : 1073742224,
-        "wordLetters" : 8327431,
-        "yellowLeters" : [128, 256, 16, 1073741824, 16]
-    },
-    {
-        "word" : "hießt",
-        "bitmap" : 1074266512,
-        "wordLetters" : 24056071,
-        "yellowLeters" : [128, 256, 16, 1073741824, 524288]
+        "word" : "hiess",
+        "bitmap" : 262544,
+        "wordLetters" : 19468551,
+        "yellowLeters" : [128, 256, 16, 262144, 262144]
     },
     {
         "word" : "hieve",
@@ -14604,16 +14208,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [128, 16384, 2, 16, 8192]
     },
     {
-        "word" : "höben",
-        "bitmap" : 2105490,
-        "wordLetters" : 13768359,
-        "yellowLeters" : [128, 2097152, 2, 16, 8192]
-    },
-    {
-        "word" : "höbet",
-        "bitmap" : 2621586,
-        "wordLetters" : 20059815,
-        "yellowLeters" : [128, 2097152, 2, 16, 524288]
+        "word" : "hobet",
+        "bitmap" : 540818,
+        "wordLetters" : 20055495,
+        "yellowLeters" : [128, 16384, 2, 16, 524288]
     },
     {
         "word" : "hoble",
@@ -14652,22 +14250,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [128, 16384, 8, 16, 8192]
     },
     {
-        "word" : "höfen",
-        "bitmap" : 2105520,
-        "wordLetters" : 13772455,
-        "yellowLeters" : [128, 2097152, 32, 16, 8192]
+        "word" : "hofen",
+        "bitmap" : 24752,
+        "wordLetters" : 13768135,
+        "yellowLeters" : [128, 16384, 32, 16, 8192]
     },
     {
         "word" : "hofer",
         "bitmap" : 147632,
         "wordLetters" : 17962439,
         "yellowLeters" : [128, 16384, 32, 16, 131072]
-    },
-    {
-        "word" : "höfer",
-        "bitmap" : 2228400,
-        "wordLetters" : 17966759,
-        "yellowLeters" : [128, 2097152, 32, 16, 131072]
     },
     {
         "word" : "hofes",
@@ -14700,22 +14292,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [128, 16384, 128, 16, 8192]
     },
     {
-        "word" : "höhen",
-        "bitmap" : 2105488,
-        "wordLetters" : 13774503,
-        "yellowLeters" : [128, 2097152, 128, 16, 8192]
-    },
-    {
         "word" : "hoher",
         "bitmap" : 147600,
         "wordLetters" : 17964487,
         "yellowLeters" : [128, 16384, 128, 16, 131072]
-    },
-    {
-        "word" : "höher",
-        "bitmap" : 2228368,
-        "wordLetters" : 17968807,
-        "yellowLeters" : [128, 2097152, 128, 16, 131072]
     },
     {
         "word" : "hohes",
@@ -14730,22 +14310,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [128, 16384, 128, 2048, 16]
     },
     {
-        "word" : "höhle",
-        "bitmap" : 2099344,
-        "wordLetters" : 4566695,
-        "yellowLeters" : [128, 2097152, 128, 2048, 16]
+        "word" : "hohlt",
+        "bitmap" : 542848,
+        "wordLetters" : 20291015,
+        "yellowLeters" : [128, 16384, 128, 2048, 524288]
     },
     {
-        "word" : "höhlt",
-        "bitmap" : 2623616,
-        "wordLetters" : 20295335,
-        "yellowLeters" : [128, 2097152, 128, 2048, 524288]
-    },
-    {
-        "word" : "höhne",
-        "bitmap" : 2105488,
-        "wordLetters" : 4632231,
-        "yellowLeters" : [128, 2097152, 128, 8192, 16]
+        "word" : "hohne",
+        "bitmap" : 24720,
+        "wordLetters" : 4627911,
+        "yellowLeters" : [128, 16384, 128, 8192, 16]
     },
     {
         "word" : "hohns",
@@ -14754,16 +14328,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [128, 16384, 128, 8192, 262144]
     },
     {
-        "word" : "höhnt",
-        "bitmap" : 2629760,
-        "wordLetters" : 20360871,
-        "yellowLeters" : [128, 2097152, 128, 8192, 524288]
+        "word" : "hohnt",
+        "bitmap" : 548992,
+        "wordLetters" : 20356551,
+        "yellowLeters" : [128, 16384, 128, 8192, 524288]
     },
     {
-        "word" : "höker",
-        "bitmap" : 2229392,
-        "wordLetters" : 17971879,
-        "yellowLeters" : [128, 2097152, 1024, 16, 131072]
+        "word" : "hoker",
+        "bitmap" : 148624,
+        "wordLetters" : 17967559,
+        "yellowLeters" : [128, 16384, 1024, 16, 131072]
     },
     {
         "word" : "holde",
@@ -14788,12 +14362,6 @@ module.exports = GermanArr = [
         "bitmap" : 18576,
         "wordLetters" : 4566471,
         "yellowLeters" : [128, 16384, 2048, 2048, 16]
-    },
-    {
-        "word" : "hölle",
-        "bitmap" : 2099344,
-        "wordLetters" : 4570791,
-        "yellowLeters" : [128, 2097152, 2048, 2048, 16]
     },
     {
         "word" : "holly",
@@ -14916,22 +14484,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [128, 16384, 131072, 16, 8192]
     },
     {
-        "word" : "hören",
-        "bitmap" : 2236560,
-        "wordLetters" : 13784743,
-        "yellowLeters" : [128, 2097152, 131072, 16, 8192]
+        "word" : "horer",
+        "bitmap" : 147600,
+        "wordLetters" : 17974727,
+        "yellowLeters" : [128, 16384, 131072, 16, 131072]
     },
     {
-        "word" : "hörer",
-        "bitmap" : 2228368,
-        "wordLetters" : 17979047,
-        "yellowLeters" : [128, 2097152, 131072, 16, 131072]
-    },
-    {
-        "word" : "hörig",
-        "bitmap" : 2228672,
-        "wordLetters" : 6575783,
-        "yellowLeters" : [128, 2097152, 131072, 256, 64]
+        "word" : "horig",
+        "bitmap" : 147904,
+        "wordLetters" : 6571463,
+        "yellowLeters" : [128, 16384, 131072, 256, 64]
     },
     {
         "word" : "horns",
@@ -14946,22 +14508,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [128, 16384, 131072, 262144, 524288]
     },
     {
-        "word" : "hörst",
-        "bitmap" : 3014784,
-        "wordLetters" : 20534951,
-        "yellowLeters" : [128, 2097152, 131072, 262144, 524288]
-    },
-    {
         "word" : "horte",
         "bitmap" : 671888,
         "wordLetters" : 4834759,
         "yellowLeters" : [128, 16384, 131072, 524288, 16]
-    },
-    {
-        "word" : "hörte",
-        "bitmap" : 2752656,
-        "wordLetters" : 4839079,
-        "yellowLeters" : [128, 2097152, 131072, 524288, 16]
     },
     {
         "word" : "horus",
@@ -14970,10 +14520,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [128, 16384, 131072, 1048576, 262144]
     },
     {
-        "word" : "hörzu",
-        "bitmap" : 36831360,
-        "wordLetters" : 21812903,
-        "yellowLeters" : [128, 2097152, 131072, 33554432, 1048576]
+        "word" : "horzu",
+        "bitmap" : 34750592,
+        "wordLetters" : 21808583,
+        "yellowLeters" : [128, 16384, 131072, 33554432, 1048576]
     },
     {
         "word" : "hosea",
@@ -15012,10 +14562,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [128, 524288, 524288, 32768, 262144]
     },
     {
-        "word" : "hüben",
-        "bitmap" : 134226066,
-        "wordLetters" : 13768551,
-        "yellowLeters" : [128, 134217728, 2, 16, 8192]
+        "word" : "huben",
+        "bitmap" : 1056914,
+        "wordLetters" : 13764231,
+        "yellowLeters" : [128, 1048576, 2, 16, 8192]
     },
     {
         "word" : "huber",
@@ -15048,22 +14598,22 @@ module.exports = GermanArr = [
         "yellowLeters" : [128, 1048576, 32, 16, 262144]
     },
     {
-        "word" : "huföl",
-        "bitmap" : 3147936,
-        "wordLetters" : 16422535,
-        "yellowLeters" : [128, 1048576, 32, 2097152, 2048]
+        "word" : "hufol",
+        "bitmap" : 1067168,
+        "wordLetters" : 11998855,
+        "yellowLeters" : [128, 1048576, 32, 16384, 2048]
     },
     {
-        "word" : "hüfte",
-        "bitmap" : 134742192,
-        "wordLetters" : 4826983,
-        "yellowLeters" : [128, 134217728, 32, 524288, 16]
+        "word" : "hufte",
+        "bitmap" : 1573040,
+        "wordLetters" : 4822663,
+        "yellowLeters" : [128, 1048576, 32, 524288, 16]
     },
     {
-        "word" : "hügel",
-        "bitmap" : 134219984,
-        "wordLetters" : 11676519,
-        "yellowLeters" : [128, 134217728, 64, 16, 2048]
+        "word" : "hugel",
+        "bitmap" : 1050832,
+        "wordLetters" : 11672199,
+        "yellowLeters" : [128, 1048576, 64, 16, 2048]
     },
     {
         "word" : "hugos",
@@ -15084,22 +14634,22 @@ module.exports = GermanArr = [
         "yellowLeters" : [128, 1048576, 2048, 1024, 262144]
     },
     {
-        "word" : "hülle",
-        "bitmap" : 134219920,
-        "wordLetters" : 4570983,
-        "yellowLeters" : [128, 134217728, 2048, 2048, 16]
+        "word" : "hulle",
+        "bitmap" : 1050768,
+        "wordLetters" : 4566663,
+        "yellowLeters" : [128, 1048576, 2048, 2048, 16]
     },
     {
-        "word" : "hüllt",
-        "bitmap" : 134744192,
-        "wordLetters" : 20299623,
-        "yellowLeters" : [128, 134217728, 2048, 2048, 524288]
+        "word" : "hullt",
+        "bitmap" : 1575040,
+        "wordLetters" : 20295303,
+        "yellowLeters" : [128, 1048576, 2048, 2048, 524288]
     },
     {
-        "word" : "hülse",
-        "bitmap" : 134482064,
-        "wordLetters" : 4800359,
-        "yellowLeters" : [128, 134217728, 2048, 262144, 16]
+        "word" : "hulse",
+        "bitmap" : 1312912,
+        "wordLetters" : 4796039,
+        "yellowLeters" : [128, 1048576, 2048, 262144, 16]
     },
     {
         "word" : "human",
@@ -15156,10 +14706,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [128, 1048576, 8192, 8, 262144]
     },
     {
-        "word" : "hünen",
-        "bitmap" : 134226064,
-        "wordLetters" : 13780839,
-        "yellowLeters" : [128, 134217728, 8192, 16, 8192]
+        "word" : "hunen",
+        "bitmap" : 1056912,
+        "wordLetters" : 13776519,
+        "yellowLeters" : [128, 1048576, 8192, 16, 8192]
     },
     {
         "word" : "hunne",
@@ -15180,16 +14730,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [128, 1048576, 32768, 16, 8192]
     },
     {
-        "word" : "hüpfe",
-        "bitmap" : 134250672,
-        "wordLetters" : 4378471,
-        "yellowLeters" : [128, 134217728, 32768, 32, 16]
+        "word" : "hupfe",
+        "bitmap" : 1081520,
+        "wordLetters" : 4374151,
+        "yellowLeters" : [128, 1048576, 32768, 32, 16]
     },
     {
-        "word" : "hüpft",
-        "bitmap" : 134774944,
-        "wordLetters" : 20107111,
-        "yellowLeters" : [128, 134217728, 32768, 32, 524288]
+        "word" : "hupft",
+        "bitmap" : 1605792,
+        "wordLetters" : 20102791,
+        "yellowLeters" : [128, 1048576, 32768, 32, 524288]
     },
     {
         "word" : "hupst",
@@ -15204,10 +14754,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [128, 1048576, 32768, 524288, 16]
     },
     {
-        "word" : "hürde",
-        "bitmap" : 134348952,
-        "wordLetters" : 4314983,
-        "yellowLeters" : [128, 134217728, 131072, 8, 16]
+        "word" : "hurde",
+        "bitmap" : 1179800,
+        "wordLetters" : 4310663,
+        "yellowLeters" : [128, 1048576, 131072, 8, 16]
     },
     {
         "word" : "huren",
@@ -15234,10 +14784,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [128, 1048576, 131072, 524288, 16]
     },
     {
-        "word" : "hürth",
-        "bitmap" : 134873216,
-        "wordLetters" : 7984999,
-        "yellowLeters" : [128, 134217728, 131072, 524288, 128]
+        "word" : "hurth",
+        "bitmap" : 1704064,
+        "wordLetters" : 7980679,
+        "yellowLeters" : [128, 1048576, 131072, 524288, 128]
     },
     {
         "word" : "husar",
@@ -15282,16 +14832,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [128, 1048576, 262144, 1048576, 4096]
     },
     {
-        "word" : "hüten",
-        "bitmap" : 134750352,
-        "wordLetters" : 13786983,
-        "yellowLeters" : [128, 134217728, 524288, 16, 8192]
+        "word" : "huten",
+        "bitmap" : 1581200,
+        "wordLetters" : 13782663,
+        "yellowLeters" : [128, 1048576, 524288, 16, 8192]
     },
     {
-        "word" : "hüter",
-        "bitmap" : 134873232,
-        "wordLetters" : 17981287,
-        "yellowLeters" : [128, 134217728, 524288, 16, 131072]
+        "word" : "huter",
+        "bitmap" : 1704080,
+        "wordLetters" : 17976967,
+        "yellowLeters" : [128, 1048576, 524288, 16, 131072]
     },
     {
         "word" : "hutes",
@@ -15300,16 +14850,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [128, 1048576, 524288, 16, 262144]
     },
     {
-        "word" : "hütet",
-        "bitmap" : 134742160,
-        "wordLetters" : 20078439,
-        "yellowLeters" : [128, 134217728, 524288, 16, 524288]
+        "word" : "hutet",
+        "bitmap" : 1573008,
+        "wordLetters" : 20074119,
+        "yellowLeters" : [128, 1048576, 524288, 16, 524288]
     },
     {
-        "word" : "hütte",
-        "bitmap" : 134742160,
-        "wordLetters" : 4841319,
-        "yellowLeters" : [128, 134217728, 524288, 524288, 16]
+        "word" : "hutte",
+        "bitmap" : 1573008,
+        "wordLetters" : 4836999,
+        "yellowLeters" : [128, 1048576, 524288, 524288, 16]
     },
     {
         "word" : "hutus",
@@ -16590,10 +16140,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [512, 16384, 131072, 64, 16]
     },
     {
-        "word" : "jörgs",
-        "bitmap" : 2490944,
-        "wordLetters" : 19093161,
-        "yellowLeters" : [512, 2097152, 131072, 64, 262144]
+        "word" : "jorgs",
+        "bitmap" : 410176,
+        "wordLetters" : 19088841,
+        "yellowLeters" : [512, 16384, 131072, 64, 262144]
     },
     {
         "word" : "josef",
@@ -16602,10 +16152,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [512, 16384, 262144, 16, 32]
     },
     {
-        "word" : "josés",
-        "bitmap" : 279296,
-        "wordLetters" : 23349705,
-        "yellowLeters" : [512, 16384, 262144, 256, 262144]
+        "word" : "joses",
+        "bitmap" : 279056,
+        "wordLetters" : 19024329,
+        "yellowLeters" : [512, 16384, 262144, 16, 262144]
     },
     {
         "word" : "josua",
@@ -16680,10 +16230,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [512, 1048576, 8, 16, 8192]
     },
     {
-        "word" : "jüdin",
-        "bitmap" : 134226696,
-        "wordLetters" : 13901673,
-        "yellowLeters" : [512, 134217728, 8, 256, 8192]
+        "word" : "judin",
+        "bitmap" : 1057544,
+        "wordLetters" : 13897353,
+        "yellowLeters" : [512, 1048576, 8, 256, 8192]
     },
     {
         "word" : "judiz",
@@ -16836,10 +16386,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [512, 1048576, 262144, 16384, 262144]
     },
     {
-        "word" : "jüten",
-        "bitmap" : 134750736,
-        "wordLetters" : 13786985,
-        "yellowLeters" : [512, 134217728, 524288, 16, 8192]
+        "word" : "juten",
+        "bitmap" : 1581584,
+        "wordLetters" : 13782665,
+        "yellowLeters" : [512, 1048576, 524288, 16, 8192]
     },
     {
         "word" : "jutta",
@@ -18234,12 +17784,6 @@ module.exports = GermanArr = [
         "yellowLeters" : [1024, 2048, 16384, 8192, 16]
     },
     {
-        "word" : "klöne",
-        "bitmap" : 2108432,
-        "wordLetters" : 4773226,
-        "yellowLeters" : [1024, 2048, 2097152, 8192, 16]
-    },
-    {
         "word" : "klons",
         "bitmap" : 289792,
         "wordLetters" : 19315050,
@@ -18250,12 +17794,6 @@ module.exports = GermanArr = [
         "bitmap" : 551936,
         "wordLetters" : 20363626,
         "yellowLeters" : [1024, 2048, 16384, 8192, 524288]
-    },
-    {
-        "word" : "klönt",
-        "bitmap" : 2632704,
-        "wordLetters" : 20501866,
-        "yellowLeters" : [1024, 2048, 2097152, 8192, 524288]
     },
     {
         "word" : "klopf",
@@ -18270,10 +17808,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [1024, 2048, 16384, 32768, 262144]
     },
     {
-        "word" : "klöße",
-        "bitmap" : 1075842064,
-        "wordLetters" : 8476010,
-        "yellowLeters" : [1024, 2048, 2097152, 1073741824, 16]
+        "word" : "kloss",
+        "bitmap" : 281600,
+        "wordLetters" : 19478890,
+        "yellowLeters" : [1024, 2048, 16384, 262144, 262144]
     },
     {
         "word" : "klotz",
@@ -18306,10 +17844,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [1024, 2048, 1048576, 4096, 32768]
     },
     {
-        "word" : "klüse",
-        "bitmap" : 134482960,
-        "wordLetters" : 4943210,
-        "yellowLeters" : [1024, 2048, 134217728, 262144, 16]
+        "word" : "kluse",
+        "bitmap" : 1313808,
+        "wordLetters" : 4804970,
+        "yellowLeters" : [1024, 2048, 1048576, 262144, 16]
     },
     {
         "word" : "knabe",
@@ -18420,12 +17958,6 @@ module.exports = GermanArr = [
         "yellowLeters" : [1024, 8192, 16384, 32768, 32]
     },
     {
-        "word" : "knöpf",
-        "bitmap" : 2139168,
-        "wordLetters" : 5887402,
-        "yellowLeters" : [1024, 8192, 2097152, 32768, 32]
-    },
-    {
         "word" : "knorr",
         "bitmap" : 156672,
         "wordLetters" : 18397610,
@@ -18444,16 +17976,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [1024, 8192, 1048576, 32, 32]
     },
     {
-        "word" : "knüll",
-        "bitmap" : 134228992,
-        "wordLetters" : 12053930,
-        "yellowLeters" : [1024, 8192, 134217728, 2048, 2048]
+        "word" : "knull",
+        "bitmap" : 1059840,
+        "wordLetters" : 11915690,
+        "yellowLeters" : [1024, 8192, 1048576, 2048, 2048]
     },
     {
-        "word" : "knüpf",
-        "bitmap" : 134259744,
-        "wordLetters" : 5893546,
-        "yellowLeters" : [1024, 8192, 134217728, 32768, 32]
+        "word" : "knupf",
+        "bitmap" : 1090592,
+        "wordLetters" : 5755306,
+        "yellowLeters" : [1024, 8192, 1048576, 32768, 32]
     },
     {
         "word" : "knurr",
@@ -18498,12 +18030,6 @@ module.exports = GermanArr = [
         "yellowLeters" : [1024, 16384, 4, 128, 16]
     },
     {
-        "word" : "köche",
-        "bitmap" : 2098324,
-        "wordLetters" : 4430506,
-        "yellowLeters" : [1024, 2097152, 4, 128, 16]
-    },
-    {
         "word" : "kochs",
         "bitmap" : 279684,
         "wordLetters" : 19106250,
@@ -18522,10 +18048,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [1024, 16384, 8, 1, 1024]
     },
     {
-        "word" : "köder",
-        "bitmap" : 2229272,
-        "wordLetters" : 17964714,
-        "yellowLeters" : [1024, 2097152, 8, 16, 131072]
+        "word" : "koder",
+        "bitmap" : 148504,
+        "wordLetters" : 17960394,
+        "yellowLeters" : [1024, 16384, 8, 16, 131072]
     },
     {
         "word" : "kodes",
@@ -18606,10 +18132,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [1024, 16384, 2048, 512, 1]
     },
     {
-        "word" : "kölns",
-        "bitmap" : 2370560,
-        "wordLetters" : 19316394,
-        "yellowLeters" : [1024, 2097152, 2048, 8192, 262144]
+        "word" : "kolns",
+        "bitmap" : 289792,
+        "wordLetters" : 19312074,
+        "yellowLeters" : [1024, 16384, 2048, 8192, 262144]
     },
     {
         "word" : "kolon",
@@ -18666,22 +18192,22 @@ module.exports = GermanArr = [
         "yellowLeters" : [1024, 16384, 8192, 64, 16384]
     },
     {
-        "word" : "könig",
-        "bitmap" : 2106688,
-        "wordLetters" : 6571690,
-        "yellowLeters" : [1024, 2097152, 8192, 256, 64]
+        "word" : "konig",
+        "bitmap" : 25920,
+        "wordLetters" : 6567370,
+        "yellowLeters" : [1024, 16384, 8192, 256, 64]
     },
     {
-        "word" : "könne",
-        "bitmap" : 2106384,
-        "wordLetters" : 4638378,
-        "yellowLeters" : [1024, 2097152, 8192, 8192, 16]
+        "word" : "konne",
+        "bitmap" : 25616,
+        "wordLetters" : 4634058,
+        "yellowLeters" : [1024, 16384, 8192, 8192, 16]
     },
     {
-        "word" : "könnt",
-        "bitmap" : 2630656,
-        "wordLetters" : 20367018,
-        "yellowLeters" : [1024, 2097152, 8192, 8192, 524288]
+        "word" : "konnt",
+        "bitmap" : 549888,
+        "wordLetters" : 20362698,
+        "yellowLeters" : [1024, 16384, 8192, 8192, 524288]
     },
     {
         "word" : "konto",
@@ -18702,22 +18228,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [1024, 16384, 32768, 32, 16]
     },
     {
-        "word" : "köpfe",
-        "bitmap" : 2130992,
-        "wordLetters" : 4378282,
-        "yellowLeters" : [1024, 2097152, 32768, 32, 16]
-    },
-    {
         "word" : "kopfs",
         "bitmap" : 312352,
         "wordLetters" : 19054026,
         "yellowLeters" : [1024, 16384, 32768, 32, 262144]
     },
     {
-        "word" : "köpft",
-        "bitmap" : 2655264,
-        "wordLetters" : 20106922,
-        "yellowLeters" : [1024, 2097152, 32768, 32, 524288]
+        "word" : "kopft",
+        "bitmap" : 574496,
+        "wordLetters" : 20102602,
+        "yellowLeters" : [1024, 16384, 32768, 32, 524288]
     },
     {
         "word" : "kopie",
@@ -18738,10 +18258,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [1024, 16384, 131072, 1, 8192]
     },
     {
-        "word" : "körbe",
-        "bitmap" : 2229266,
-        "wordLetters" : 4249258,
-        "yellowLeters" : [1024, 2097152, 131072, 2, 16]
+        "word" : "korbe",
+        "bitmap" : 148498,
+        "wordLetters" : 4244938,
+        "yellowLeters" : [1024, 16384, 131072, 2, 16]
     },
     {
         "word" : "korbs",
@@ -18822,10 +18342,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [1024, 16384, 524288, 16, 8192]
     },
     {
-        "word" : "köter",
-        "bitmap" : 2753552,
-        "wordLetters" : 17981098,
-        "yellowLeters" : [1024, 2097152, 524288, 16, 131072]
+        "word" : "koter",
+        "bitmap" : 672784,
+        "wordLetters" : 17976778,
+        "yellowLeters" : [1024, 16384, 524288, 16, 131072]
     },
     {
         "word" : "kotze",
@@ -18972,12 +18492,6 @@ module.exports = GermanArr = [
         "yellowLeters" : [1024, 131072, 1, 1048576, 262144]
     },
     {
-        "word" : "krauß",
-        "bitmap" : 1074922497,
-        "wordLetters" : 132776490,
-        "yellowLeters" : [1024, 131072, 1, 1048576, 1073741824]
-    },
-    {
         "word" : "kraut",
         "bitmap" : 1704961,
         "wordLetters" : 20578858,
@@ -19092,16 +18606,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [1024, 131072, 16384, 8192, 16]
     },
     {
-        "word" : "kröne",
-        "bitmap" : 2237456,
-        "wordLetters" : 4773418,
-        "yellowLeters" : [1024, 131072, 2097152, 8192, 16]
-    },
-    {
-        "word" : "krönt",
-        "bitmap" : 2761728,
-        "wordLetters" : 20502058,
-        "yellowLeters" : [1024, 131072, 2097152, 8192, 524288]
+        "word" : "kront",
+        "bitmap" : 680960,
+        "wordLetters" : 20363818,
+        "yellowLeters" : [1024, 131072, 16384, 8192, 524288]
     },
     {
         "word" : "kropf",
@@ -19116,10 +18624,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [1024, 131072, 16384, 262144, 262144]
     },
     {
-        "word" : "kröte",
-        "bitmap" : 2753552,
-        "wordLetters" : 4970026,
-        "yellowLeters" : [1024, 131072, 2097152, 524288, 16]
+        "word" : "krote",
+        "bitmap" : 672784,
+        "wordLetters" : 4831786,
+        "yellowLeters" : [1024, 131072, 16384, 524288, 16]
     },
     {
         "word" : "krude",
@@ -19128,10 +18636,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [1024, 131072, 1048576, 8, 16]
     },
     {
-        "word" : "krüge",
-        "bitmap" : 134349904,
-        "wordLetters" : 4550186,
-        "yellowLeters" : [1024, 131072, 134217728, 64, 16]
+        "word" : "kruge",
+        "bitmap" : 1180752,
+        "wordLetters" : 4411946,
+        "yellowLeters" : [1024, 131072, 1048576, 64, 16]
     },
     {
         "word" : "krugs",
@@ -19188,10 +18696,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [1024, 1048576, 2, 1, 262144]
     },
     {
-        "word" : "kübel",
-        "bitmap" : 134220818,
-        "wordLetters" : 11671402,
-        "yellowLeters" : [1024, 134217728, 2, 16, 2048]
+        "word" : "kubel",
+        "bitmap" : 1051666,
+        "wordLetters" : 11667082,
+        "yellowLeters" : [1024, 1048576, 2, 16, 2048]
     },
     {
         "word" : "kuben",
@@ -19206,10 +18714,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [1024, 1048576, 2, 1048576, 262144]
     },
     {
-        "word" : "küche",
-        "bitmap" : 134218900,
-        "wordLetters" : 4430698,
-        "yellowLeters" : [1024, 134217728, 4, 128, 16]
+        "word" : "kuche",
+        "bitmap" : 1049748,
+        "wordLetters" : 4426378,
+        "yellowLeters" : [1024, 1048576, 4, 128, 16]
     },
     {
         "word" : "kufen",
@@ -19218,10 +18726,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [1024, 1048576, 32, 16, 8192]
     },
     {
-        "word" : "küfer",
-        "bitmap" : 134349872,
-        "wordLetters" : 17966954,
-        "yellowLeters" : [1024, 134217728, 32, 16, 131072]
+        "word" : "kufer",
+        "bitmap" : 1180720,
+        "wordLetters" : 17962634,
+        "yellowLeters" : [1024, 1048576, 32, 16, 131072]
     },
     {
         "word" : "kugel",
@@ -19236,10 +18744,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [1024, 1048576, 64, 2048, 16]
     },
     {
-        "word" : "kühen",
-        "bitmap" : 134227088,
-        "wordLetters" : 13774698,
-        "yellowLeters" : [1024, 134217728, 128, 16, 8192]
+        "word" : "kuhen",
+        "bitmap" : 1057936,
+        "wordLetters" : 13770378,
+        "yellowLeters" : [1024, 1048576, 128, 16, 8192]
     },
     {
         "word" : "kuhle",
@@ -19248,22 +18756,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [1024, 1048576, 128, 2048, 16]
     },
     {
-        "word" : "kühle",
-        "bitmap" : 134220944,
-        "wordLetters" : 4566890,
-        "yellowLeters" : [1024, 134217728, 128, 2048, 16]
+        "word" : "kuhlt",
+        "bitmap" : 1576064,
+        "wordLetters" : 20291210,
+        "yellowLeters" : [1024, 1048576, 128, 2048, 524288]
     },
     {
-        "word" : "kühlt",
-        "bitmap" : 134745216,
-        "wordLetters" : 20295530,
-        "yellowLeters" : [1024, 134217728, 128, 2048, 524288]
-    },
-    {
-        "word" : "kühne",
-        "bitmap" : 134227088,
-        "wordLetters" : 4632426,
-        "yellowLeters" : [1024, 134217728, 128, 8192, 16]
+        "word" : "kuhne",
+        "bitmap" : 1057936,
+        "wordLetters" : 4628106,
+        "yellowLeters" : [1024, 1048576, 128, 8192, 16]
     },
     {
         "word" : "kuhns",
@@ -19272,10 +18774,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [1024, 1048576, 128, 8192, 262144]
     },
     {
-        "word" : "küken",
-        "bitmap" : 134226960,
-        "wordLetters" : 13777770,
-        "yellowLeters" : [1024, 134217728, 1024, 16, 8192]
+        "word" : "kuken",
+        "bitmap" : 1057808,
+        "wordLetters" : 13773450,
+        "yellowLeters" : [1024, 1048576, 1024, 16, 8192]
     },
     {
         "word" : "kulis",
@@ -19312,12 +18814,6 @@ module.exports = GermanArr = [
         "bitmap" : 1057816,
         "wordLetters" : 4306570,
         "yellowLeters" : [1024, 1048576, 8192, 8, 16]
-    },
-    {
-        "word" : "künde",
-        "bitmap" : 134226968,
-        "wordLetters" : 4310890,
-        "yellowLeters" : [1024, 134217728, 8192, 8, 16]
     },
     {
         "word" : "kunos",
@@ -19368,12 +18864,6 @@ module.exports = GermanArr = [
         "yellowLeters" : [1024, 1048576, 131072, 16, 8192]
     },
     {
-        "word" : "küren",
-        "bitmap" : 134358032,
-        "wordLetters" : 13784938,
-        "yellowLeters" : [1024, 134217728, 131072, 16, 8192]
-    },
-    {
         "word" : "kurie",
         "bitmap" : 1180944,
         "wordLetters" : 4474506,
@@ -19398,16 +18888,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [1024, 1048576, 131072, 262144, 524288]
     },
     {
-        "word" : "kürst",
-        "bitmap" : 135136256,
-        "wordLetters" : 20535146,
-        "yellowLeters" : [1024, 134217728, 131072, 262144, 524288]
-    },
-    {
-        "word" : "kürte",
-        "bitmap" : 134874128,
-        "wordLetters" : 4839274,
-        "yellowLeters" : [1024, 134217728, 131072, 524288, 16]
+        "word" : "kurte",
+        "bitmap" : 1704976,
+        "wordLetters" : 4834954,
+        "yellowLeters" : [1024, 1048576, 131072, 524288, 16]
     },
     {
         "word" : "kurth",
@@ -19440,16 +18924,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [1024, 1048576, 131072, 33554432, 16]
     },
     {
-        "word" : "kürze",
-        "bitmap" : 167904272,
-        "wordLetters" : 5035882,
-        "yellowLeters" : [1024, 134217728, 131072, 33554432, 16]
-    },
-    {
-        "word" : "kürzt",
-        "bitmap" : 168428544,
-        "wordLetters" : 20764522,
-        "yellowLeters" : [1024, 134217728, 131072, 33554432, 524288]
+        "word" : "kurzt",
+        "bitmap" : 35259392,
+        "wordLetters" : 20760202,
+        "yellowLeters" : [1024, 1048576, 131072, 33554432, 524288]
     },
     {
         "word" : "kusch",
@@ -19464,22 +18942,22 @@ module.exports = GermanArr = [
         "yellowLeters" : [1024, 1048576, 262144, 16, 2048]
     },
     {
-        "word" : "küsse",
-        "bitmap" : 134480912,
-        "wordLetters" : 4807530,
-        "yellowLeters" : [1024, 134217728, 262144, 262144, 16]
+        "word" : "kusse",
+        "bitmap" : 1311760,
+        "wordLetters" : 4803210,
+        "yellowLeters" : [1024, 1048576, 262144, 262144, 16]
     },
     {
-        "word" : "küsst",
-        "bitmap" : 135005184,
-        "wordLetters" : 20536170,
-        "yellowLeters" : [1024, 134217728, 262144, 262144, 524288]
+        "word" : "kusst",
+        "bitmap" : 1836032,
+        "wordLetters" : 20531850,
+        "yellowLeters" : [1024, 1048576, 262144, 262144, 524288]
     },
     {
-        "word" : "küste",
-        "bitmap" : 135005200,
-        "wordLetters" : 4840298,
-        "yellowLeters" : [1024, 134217728, 262144, 524288, 16]
+        "word" : "kuste",
+        "bitmap" : 1836048,
+        "wordLetters" : 4835978,
+        "yellowLeters" : [1024, 1048576, 262144, 524288, 16]
     },
     {
         "word" : "kutan",
@@ -19740,10 +19218,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [2048, 1, 4096, 16, 16]
     },
     {
-        "word" : "lamés",
-        "bitmap" : 268545,
-        "wordLetters" : 23343115,
-        "yellowLeters" : [2048, 1, 4096, 256, 262144]
+        "word" : "lames",
+        "bitmap" : 268305,
+        "wordLetters" : 19017739,
+        "yellowLeters" : [2048, 1, 4096, 16, 262144]
     },
     {
         "word" : "lamms",
@@ -20694,16 +20172,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [2048, 256, 16, 262144, 2048]
     },
     {
-        "word" : "ließe",
-        "bitmap" : 1073744144,
-        "wordLetters" : 8327435,
-        "yellowLeters" : [2048, 256, 16, 1073741824, 16]
-    },
-    {
-        "word" : "ließt",
-        "bitmap" : 1074268432,
-        "wordLetters" : 24056075,
-        "yellowLeters" : [2048, 256, 16, 1073741824, 524288]
+        "word" : "liess",
+        "bitmap" : 264464,
+        "wordLetters" : 19468555,
+        "yellowLeters" : [2048, 256, 16, 262144, 262144]
     },
     {
         "word" : "liest",
@@ -20742,10 +20214,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [2048, 256, 1024, 16, 262144]
     },
     {
-        "word" : "likör",
-        "bitmap" : 2231552,
-        "wordLetters" : 22718731,
-        "yellowLeters" : [2048, 256, 1024, 2097152, 131072]
+        "word" : "likor",
+        "bitmap" : 150784,
+        "wordLetters" : 18295051,
+        "yellowLeters" : [2048, 256, 1024, 16384, 131072]
     },
     {
         "word" : "lilie",
@@ -20856,10 +20328,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [2048, 256, 8192, 1024, 524288]
     },
     {
-        "word" : "linné",
-        "bitmap" : 10496,
-        "wordLetters" : 143045899,
-        "yellowLeters" : [2048, 256, 8192, 8192, 256]
+        "word" : "linne",
+        "bitmap" : 10512,
+        "wordLetters" : 4633867,
+        "yellowLeters" : [2048, 256, 8192, 8192, 16]
     },
     {
         "word" : "linon",
@@ -21120,12 +20592,6 @@ module.exports = GermanArr = [
         "yellowLeters" : [2048, 16384, 128, 8192, 16]
     },
     {
-        "word" : "löhne",
-        "bitmap" : 2107536,
-        "wordLetters" : 4632235,
-        "yellowLeters" : [2048, 2097152, 128, 8192, 16]
-    },
-    {
         "word" : "lohns",
         "bitmap" : 288896,
         "wordLetters" : 19307979,
@@ -21136,12 +20602,6 @@ module.exports = GermanArr = [
         "bitmap" : 551040,
         "wordLetters" : 20356555,
         "yellowLeters" : [2048, 16384, 128, 8192, 524288]
-    },
-    {
-        "word" : "löhnt",
-        "bitmap" : 2631808,
-        "wordLetters" : 20360875,
-        "yellowLeters" : [2048, 2097152, 128, 8192, 524288]
     },
     {
         "word" : "loipe",
@@ -21222,22 +20682,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [2048, 16384, 262144, 16, 8192]
     },
     {
-        "word" : "lösen",
-        "bitmap" : 2369552,
-        "wordLetters" : 13785771,
-        "yellowLeters" : [2048, 2097152, 262144, 16, 8192]
-    },
-    {
         "word" : "loser",
         "bitmap" : 411664,
         "wordLetters" : 17975755,
         "yellowLeters" : [2048, 16384, 262144, 16, 131072]
-    },
-    {
-        "word" : "löser",
-        "bitmap" : 2492432,
-        "wordLetters" : 17980075,
-        "yellowLeters" : [2048, 2097152, 262144, 16, 131072]
     },
     {
         "word" : "loses",
@@ -21252,22 +20700,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [2048, 16384, 262144, 524288, 16]
     },
     {
-        "word" : "löste",
-        "bitmap" : 2885648,
-        "wordLetters" : 4840107,
-        "yellowLeters" : [2048, 2097152, 262144, 524288, 16]
-    },
-    {
         "word" : "loten",
         "bitmap" : 550928,
         "wordLetters" : 13782475,
         "yellowLeters" : [2048, 16384, 524288, 16, 8192]
-    },
-    {
-        "word" : "löten",
-        "bitmap" : 2631696,
-        "wordLetters" : 13786795,
-        "yellowLeters" : [2048, 2097152, 524288, 16, 8192]
     },
     {
         "word" : "lotes",
@@ -21280,12 +20716,6 @@ module.exports = GermanArr = [
         "bitmap" : 542736,
         "wordLetters" : 20073931,
         "yellowLeters" : [2048, 16384, 524288, 16, 524288]
-    },
-    {
-        "word" : "lötet",
-        "bitmap" : 2623504,
-        "wordLetters" : 20078251,
-        "yellowLeters" : [2048, 2097152, 524288, 16, 524288]
     },
     {
         "word" : "lotos",
@@ -21348,16 +20778,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [2048, 16384, 2097152, 16, 131072]
     },
     {
-        "word" : "löwen",
-        "bitmap" : 6301712,
-        "wordLetters" : 13789867,
-        "yellowLeters" : [2048, 2097152, 4194304, 16, 8192]
+        "word" : "lowen",
+        "bitmap" : 4220944,
+        "wordLetters" : 13785547,
+        "yellowLeters" : [2048, 16384, 4194304, 16, 8192]
     },
     {
-        "word" : "löwin",
-        "bitmap" : 6301952,
-        "wordLetters" : 13920939,
-        "yellowLeters" : [2048, 2097152, 4194304, 256, 8192]
+        "word" : "lowin",
+        "bitmap" : 4221184,
+        "wordLetters" : 13916619,
+        "yellowLeters" : [2048, 16384, 4194304, 256, 8192]
     },
     {
         "word" : "loyal",
@@ -21366,16 +20796,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [2048, 16384, 16777216, 1, 2048]
     },
     {
-        "word" : "lübbe",
-        "bitmap" : 134219794,
-        "wordLetters" : 4233067,
-        "yellowLeters" : [2048, 134217728, 2, 2, 16]
+        "word" : "lubbe",
+        "bitmap" : 1050642,
+        "wordLetters" : 4228747,
+        "yellowLeters" : [2048, 1048576, 2, 2, 16]
     },
     {
-        "word" : "lübke",
-        "bitmap" : 134220818,
-        "wordLetters" : 4527979,
-        "yellowLeters" : [2048, 134217728, 2, 1024, 16]
+        "word" : "lubke",
+        "bitmap" : 1051666,
+        "wordLetters" : 4523659,
+        "yellowLeters" : [2048, 1048576, 2, 1024, 16]
     },
     {
         "word" : "lucas",
@@ -21408,10 +20838,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [2048, 1048576, 4, 256, 16]
     },
     {
-        "word" : "lücke",
-        "bitmap" : 134220820,
-        "wordLetters" : 4529003,
-        "yellowLeters" : [2048, 134217728, 4, 1024, 16]
+        "word" : "lucke",
+        "bitmap" : 1051668,
+        "wordLetters" : 4524683,
+        "yellowLeters" : [2048, 1048576, 4, 1024, 16]
     },
     {
         "word" : "lucky",
@@ -21432,12 +20862,6 @@ module.exports = GermanArr = [
         "yellowLeters" : [2048, 1048576, 8, 16, 8192]
     },
     {
-        "word" : "lüden",
-        "bitmap" : 134227992,
-        "wordLetters" : 13770603,
-        "yellowLeters" : [2048, 134217728, 8, 16, 8192]
-    },
-    {
         "word" : "luder",
         "bitmap" : 1181720,
         "wordLetters" : 17960587,
@@ -21448,12 +20872,6 @@ module.exports = GermanArr = [
         "bitmap" : 1574936,
         "wordLetters" : 20057739,
         "yellowLeters" : [2048, 1048576, 8, 16, 524288]
-    },
-    {
-        "word" : "lüdet",
-        "bitmap" : 134744088,
-        "wordLetters" : 20062059,
-        "yellowLeters" : [2048, 134217728, 8, 16, 524288]
     },
     {
         "word" : "ludst",
@@ -21468,10 +20886,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [2048, 1048576, 16, 64, 262144]
     },
     {
-        "word" : "lüfte",
-        "bitmap" : 134744112,
-        "wordLetters" : 4826987,
-        "yellowLeters" : [2048, 134217728, 32, 524288, 16]
+        "word" : "lufte",
+        "bitmap" : 1574960,
+        "wordLetters" : 4822667,
+        "yellowLeters" : [2048, 1048576, 32, 524288, 16]
     },
     {
         "word" : "lugal",
@@ -21486,12 +20904,6 @@ module.exports = GermanArr = [
         "yellowLeters" : [2048, 1048576, 64, 16, 8192]
     },
     {
-        "word" : "lügen",
-        "bitmap" : 134228048,
-        "wordLetters" : 13773675,
-        "yellowLeters" : [2048, 134217728, 64, 16, 8192]
-    },
-    {
         "word" : "luger",
         "bitmap" : 1181776,
         "wordLetters" : 17963659,
@@ -21502,12 +20914,6 @@ module.exports = GermanArr = [
         "bitmap" : 1837120,
         "wordLetters" : 20519563,
         "yellowLeters" : [2048, 1048576, 64, 262144, 524288]
-    },
-    {
-        "word" : "lügst",
-        "bitmap" : 135006272,
-        "wordLetters" : 20523883,
-        "yellowLeters" : [2048, 134217728, 64, 262144, 524288]
     },
     {
         "word" : "lugte",
@@ -21600,10 +21006,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [2048, 1048576, 8192, 4, 128]
     },
     {
-        "word" : "lünen",
-        "bitmap" : 134227984,
-        "wordLetters" : 13780843,
-        "yellowLeters" : [2048, 134217728, 8192, 16, 8192]
+        "word" : "lunen",
+        "bitmap" : 1058832,
+        "wordLetters" : 13776523,
+        "yellowLeters" : [2048, 1048576, 8192, 16, 8192]
     },
     {
         "word" : "lunge",
@@ -21630,22 +21036,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [2048, 1048576, 32768, 32, 16]
     },
     {
-        "word" : "lüpfe",
-        "bitmap" : 134252592,
-        "wordLetters" : 4378475,
-        "yellowLeters" : [2048, 134217728, 32768, 32, 16]
-    },
-    {
         "word" : "lupft",
         "bitmap" : 1607712,
         "wordLetters" : 20102795,
         "yellowLeters" : [2048, 1048576, 32768, 32, 524288]
-    },
-    {
-        "word" : "lüpft",
-        "bitmap" : 134776864,
-        "wordLetters" : 20107115,
-        "yellowLeters" : [2048, 134217728, 32768, 32, 524288]
     },
     {
         "word" : "lupos",
@@ -21666,10 +21060,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [2048, 1048576, 131072, 4, 128]
     },
     {
-        "word" : "lüste",
-        "bitmap" : 135006224,
-        "wordLetters" : 4840299,
-        "yellowLeters" : [2048, 134217728, 262144, 524288, 16]
+        "word" : "luste",
+        "bitmap" : 1837072,
+        "wordLetters" : 4835979,
+        "yellowLeters" : [2048, 1048576, 262144, 524288, 16]
     },
     {
         "word" : "luxor",
@@ -22062,10 +21456,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [4096, 1, 2048, 4096, 16]
     },
     {
-        "word" : "malmö",
-        "bitmap" : 2103297,
-        "wordLetters" : 156642316,
-        "yellowLeters" : [4096, 1, 2048, 4096, 2097152]
+        "word" : "malmo",
+        "bitmap" : 22529,
+        "wordLetters" : 15084556,
+        "yellowLeters" : [4096, 1, 2048, 4096, 16384]
     },
     {
         "word" : "malmt",
@@ -22362,28 +21756,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [4096, 1, 262144, 262144, 16]
     },
     {
-        "word" : "maßen",
-        "bitmap" : 1073754129,
-        "wordLetters" : 13891596,
-        "yellowLeters" : [4096, 1, 1073741824, 16, 8192]
-    },
-    {
-        "word" : "maßes",
-        "bitmap" : 1074008081,
-        "wordLetters" : 19134476,
-        "yellowLeters" : [4096, 1, 1073741824, 16, 262144]
-    },
-    {
-        "word" : "maßig",
-        "bitmap" : 1073746241,
-        "wordLetters" : 6682636,
-        "yellowLeters" : [4096, 1, 1073741824, 256, 64]
-    },
-    {
-        "word" : "maßte",
-        "bitmap" : 1074270225,
-        "wordLetters" : 4945932,
-        "yellowLeters" : [4096, 1, 1073741824, 524288, 16]
+        "word" : "masst",
+        "bitmap" : 790529,
+        "wordLetters" : 20531212,
+        "yellowLeters" : [4096, 1, 262144, 262144, 524288]
     },
     {
         "word" : "maste",
@@ -22746,10 +22122,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [4096, 16, 8192, 262144, 1]
     },
     {
-        "word" : "menüs",
-        "bitmap" : 134492176,
-        "wordLetters" : 23966860,
-        "yellowLeters" : [4096, 16, 8192, 134217728, 262144]
+        "word" : "menus",
+        "bitmap" : 1323024,
+        "wordLetters" : 19543180,
+        "yellowLeters" : [4096, 16, 8192, 1048576, 262144]
     },
     {
         "word" : "meran",
@@ -22828,12 +22204,6 @@ module.exports = GermanArr = [
         "bitmap" : 675856,
         "wordLetters" : 15256716,
         "yellowLeters" : [4096, 16, 524288, 131072, 16384]
-    },
-    {
-        "word" : "métro",
-        "bitmap" : 676096,
-        "wordLetters" : 15260940,
-        "yellowLeters" : [4096, 256, 524288, 131072, 16384]
     },
     {
         "word" : "mette",
@@ -23154,12 +22524,6 @@ module.exports = GermanArr = [
         "yellowLeters" : [4096, 256, 262144, 524288, 16]
     },
     {
-        "word" : "mitaß",
-        "bitmap" : 1074270465,
-        "wordLetters" : 132140300,
-        "yellowLeters" : [4096, 256, 524288, 1, 1073741824]
-    },
-    {
         "word" : "mitau",
         "bitmap" : 1577217,
         "wordLetters" : 20991244,
@@ -23208,10 +22572,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [4096, 16384, 2, 2, 524288]
     },
     {
-        "word" : "möbel",
-        "bitmap" : 2103314,
-        "wordLetters" : 11671212,
-        "yellowLeters" : [4096, 2097152, 2, 16, 2048]
+        "word" : "mobel",
+        "bitmap" : 22546,
+        "wordLetters" : 11666892,
+        "yellowLeters" : [4096, 16384, 2, 16, 2048]
     },
     {
         "word" : "mobil",
@@ -23280,16 +22644,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [4096, 16384, 32, 1, 262144]
     },
     {
-        "word" : "mögen",
-        "bitmap" : 2109520,
-        "wordLetters" : 13773484,
-        "yellowLeters" : [4096, 2097152, 64, 16, 8192]
+        "word" : "mogen",
+        "bitmap" : 28752,
+        "wordLetters" : 13769164,
+        "yellowLeters" : [4096, 16384, 64, 16, 8192]
     },
     {
-        "word" : "möget",
-        "bitmap" : 2625616,
-        "wordLetters" : 20064940,
-        "yellowLeters" : [4096, 2097152, 64, 16, 524288]
+        "word" : "moget",
+        "bitmap" : 544848,
+        "wordLetters" : 20060620,
+        "yellowLeters" : [4096, 16384, 64, 16, 524288]
     },
     {
         "word" : "mogle",
@@ -23322,16 +22686,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [4096, 16384, 128, 8192, 262144]
     },
     {
-        "word" : "möhre",
-        "bitmap" : 2232464,
-        "wordLetters" : 4763308,
-        "yellowLeters" : [4096, 2097152, 128, 131072, 16]
+        "word" : "mohre",
+        "bitmap" : 151696,
+        "wordLetters" : 4758988,
+        "yellowLeters" : [4096, 16384, 128, 131072, 16]
     },
     {
-        "word" : "moiré",
-        "bitmap" : 151808,
-        "wordLetters" : 143172044,
-        "yellowLeters" : [4096, 16384, 256, 131072, 256]
+        "word" : "moire",
+        "bitmap" : 151824,
+        "wordLetters" : 4760012,
+        "yellowLeters" : [4096, 16384, 256, 131072, 16]
     },
     {
         "word" : "mokka",
@@ -23370,10 +22734,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [4096, 16384, 2048, 2048, 256]
     },
     {
-        "word" : "mölln",
-        "bitmap" : 2111488,
-        "wordLetters" : 14007980,
-        "yellowLeters" : [4096, 2097152, 2048, 2048, 8192]
+        "word" : "molln",
+        "bitmap" : 30720,
+        "wordLetters" : 14003660,
+        "yellowLeters" : [4096, 16384, 2048, 2048, 8192]
     },
     {
         "word" : "molly",
@@ -23394,10 +22758,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [4096, 16384, 8192, 1, 524288]
     },
     {
-        "word" : "mönch",
-        "bitmap" : 2109572,
-        "wordLetters" : 7423660,
-        "yellowLeters" : [4096, 2097152, 8192, 4, 128]
+        "word" : "monch",
+        "bitmap" : 28804,
+        "wordLetters" : 7419340,
+        "yellowLeters" : [4096, 16384, 8192, 4, 128]
     },
     {
         "word" : "monde",
@@ -23466,10 +22830,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [4096, 16384, 32768, 32768, 262144]
     },
     {
-        "word" : "möpse",
-        "bitmap" : 2396176,
-        "wordLetters" : 4804268,
-        "yellowLeters" : [4096, 2097152, 32768, 262144, 16]
+        "word" : "mopse",
+        "bitmap" : 315408,
+        "wordLetters" : 4799948,
+        "yellowLeters" : [4096, 16384, 32768, 262144, 16]
     },
     {
         "word" : "moral",
@@ -23520,10 +22884,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [4096, 16384, 262144, 16, 2048]
     },
     {
-        "word" : "mösen",
-        "bitmap" : 2371600,
-        "wordLetters" : 13785772,
-        "yellowLeters" : [4096, 2097152, 262144, 16, 8192]
+        "word" : "mosen",
+        "bitmap" : 290832,
+        "wordLetters" : 13781452,
+        "yellowLeters" : [4096, 16384, 262144, 16, 8192]
     },
     {
         "word" : "moser",
@@ -23598,10 +22962,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [4096, 16384, 2097152, 256, 16]
     },
     {
-        "word" : "möwen",
-        "bitmap" : 6303760,
-        "wordLetters" : 13789868,
-        "yellowLeters" : [4096, 2097152, 4194304, 16, 8192]
+        "word" : "mowen",
+        "bitmap" : 4222992,
+        "wordLetters" : 13785548,
+        "yellowLeters" : [4096, 16384, 4194304, 16, 8192]
     },
     {
         "word" : "msdos",
@@ -23620,12 +22984,6 @@ module.exports = GermanArr = [
         "bitmap" : 1053716,
         "wordLetters" : 4524684,
         "yellowLeters" : [4096, 1048576, 4, 1024, 16]
-    },
-    {
-        "word" : "mücke",
-        "bitmap" : 134222868,
-        "wordLetters" : 4529004,
-        "yellowLeters" : [4096, 134217728, 4, 1024, 16]
     },
     {
         "word" : "mucki",
@@ -23652,28 +23010,28 @@ module.exports = GermanArr = [
         "yellowLeters" : [4096, 1048576, 8, 1, 1048576]
     },
     {
-        "word" : "müdem",
-        "bitmap" : 134221848,
-        "wordLetters" : 12722028,
-        "yellowLeters" : [4096, 134217728, 8, 16, 4096]
+        "word" : "mudem",
+        "bitmap" : 1052696,
+        "wordLetters" : 12717708,
+        "yellowLeters" : [4096, 1048576, 8, 16, 4096]
     },
     {
-        "word" : "müden",
-        "bitmap" : 134230040,
-        "wordLetters" : 13770604,
-        "yellowLeters" : [4096, 134217728, 8, 16, 8192]
+        "word" : "muden",
+        "bitmap" : 1060888,
+        "wordLetters" : 13766284,
+        "yellowLeters" : [4096, 1048576, 8, 16, 8192]
     },
     {
-        "word" : "müder",
-        "bitmap" : 134352920,
-        "wordLetters" : 17964908,
-        "yellowLeters" : [4096, 134217728, 8, 16, 131072]
+        "word" : "muder",
+        "bitmap" : 1183768,
+        "wordLetters" : 17960588,
+        "yellowLeters" : [4096, 1048576, 8, 16, 131072]
     },
     {
-        "word" : "müdes",
-        "bitmap" : 134483992,
-        "wordLetters" : 19013484,
-        "yellowLeters" : [4096, 134217728, 8, 16, 262144]
+        "word" : "mudes",
+        "bitmap" : 1314840,
+        "wordLetters" : 19009164,
+        "yellowLeters" : [4096, 1048576, 8, 16, 262144]
     },
     {
         "word" : "muffe",
@@ -23694,28 +23052,22 @@ module.exports = GermanArr = [
         "yellowLeters" : [4096, 1048576, 128, 16, 8192]
     },
     {
-        "word" : "mühen",
-        "bitmap" : 134230160,
-        "wordLetters" : 13774700,
-        "yellowLeters" : [4096, 134217728, 128, 16, 8192]
+        "word" : "muhle",
+        "bitmap" : 1054864,
+        "wordLetters" : 4562572,
+        "yellowLeters" : [4096, 1048576, 128, 2048, 16]
     },
     {
-        "word" : "mühle",
-        "bitmap" : 134224016,
-        "wordLetters" : 4566892,
-        "yellowLeters" : [4096, 134217728, 128, 2048, 16]
+        "word" : "muhst",
+        "bitmap" : 1839232,
+        "wordLetters" : 20520588,
+        "yellowLeters" : [4096, 1048576, 128, 262144, 524288]
     },
     {
-        "word" : "mühst",
-        "bitmap" : 135008384,
-        "wordLetters" : 20524908,
-        "yellowLeters" : [4096, 134217728, 128, 262144, 524288]
-    },
-    {
-        "word" : "mühte",
-        "bitmap" : 134746256,
-        "wordLetters" : 4829036,
-        "yellowLeters" : [4096, 134217728, 128, 524288, 16]
+        "word" : "muhte",
+        "bitmap" : 1577104,
+        "wordLetters" : 4824716,
+        "yellowLeters" : [4096, 1048576, 128, 524288, 16]
     },
     {
         "word" : "mulch",
@@ -23736,10 +23088,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [4096, 1048576, 2048, 256, 262144]
     },
     {
-        "word" : "mülls",
-        "bitmap" : 134486016,
-        "wordLetters" : 19251052,
-        "yellowLeters" : [4096, 134217728, 2048, 2048, 262144]
+        "word" : "mulls",
+        "bitmap" : 1316864,
+        "wordLetters" : 19246732,
+        "yellowLeters" : [4096, 1048576, 2048, 2048, 262144]
     },
     {
         "word" : "multi",
@@ -23766,10 +23118,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [4096, 1048576, 4096, 32768, 262144]
     },
     {
-        "word" : "münch",
-        "bitmap" : 134230148,
-        "wordLetters" : 7423852,
-        "yellowLeters" : [4096, 134217728, 8192, 4, 128]
+        "word" : "munch",
+        "bitmap" : 1060996,
+        "wordLetters" : 7419532,
+        "yellowLeters" : [4096, 1048576, 8192, 4, 128]
     },
     {
         "word" : "munde",
@@ -23778,22 +23130,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [4096, 1048576, 8192, 8, 16]
     },
     {
-        "word" : "münde",
-        "bitmap" : 134230040,
-        "wordLetters" : 4310892,
-        "yellowLeters" : [4096, 134217728, 8192, 8, 16]
+        "word" : "munze",
+        "bitmap" : 34615312,
+        "wordLetters" : 5027468,
+        "yellowLeters" : [4096, 1048576, 8192, 33554432, 16]
     },
     {
-        "word" : "münze",
-        "bitmap" : 167784464,
-        "wordLetters" : 5031788,
-        "yellowLeters" : [4096, 134217728, 8192, 33554432, 16]
-    },
-    {
-        "word" : "münzt",
-        "bitmap" : 168308736,
-        "wordLetters" : 20760428,
-        "yellowLeters" : [4096, 134217728, 8192, 33554432, 524288]
+        "word" : "munzt",
+        "bitmap" : 35139584,
+        "wordLetters" : 20756108,
+        "yellowLeters" : [4096, 1048576, 8192, 33554432, 524288]
     },
     {
         "word" : "murat",
@@ -23808,10 +23154,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [4096, 1048576, 131072, 1, 1048576]
     },
     {
-        "word" : "mürbe",
-        "bitmap" : 134352914,
-        "wordLetters" : 4249452,
-        "yellowLeters" : [4096, 134217728, 131072, 2, 16]
+        "word" : "murbe",
+        "bitmap" : 1183762,
+        "wordLetters" : 4245132,
+        "yellowLeters" : [4096, 1048576, 131072, 2, 16]
     },
     {
         "word" : "murks",
@@ -23862,34 +23208,22 @@ module.exports = GermanArr = [
         "yellowLeters" : [4096, 1048576, 262144, 256, 2048]
     },
     {
-        "word" : "müsli",
-        "bitmap" : 134486272,
-        "wordLetters" : 8772460,
-        "yellowLeters" : [4096, 134217728, 262144, 2048, 256]
+        "word" : "musli",
+        "bitmap" : 1317120,
+        "wordLetters" : 8768140,
+        "yellowLeters" : [4096, 1048576, 262144, 2048, 256]
     },
     {
-        "word" : "müsse",
-        "bitmap" : 134483984,
-        "wordLetters" : 4807532,
-        "yellowLeters" : [4096, 134217728, 262144, 262144, 16]
-    },
-    {
-        "word" : "müßig",
-        "bitmap" : 1207963968,
-        "wordLetters" : 6687596,
-        "yellowLeters" : [4096, 134217728, 1073741824, 256, 64]
+        "word" : "musse",
+        "bitmap" : 1314832,
+        "wordLetters" : 4803212,
+        "yellowLeters" : [4096, 1048576, 262144, 262144, 16]
     },
     {
         "word" : "musst",
         "bitmap" : 1839104,
         "wordLetters" : 20531852,
         "yellowLeters" : [4096, 1048576, 262144, 262144, 524288]
-    },
-    {
-        "word" : "müsst",
-        "bitmap" : 135008256,
-        "wordLetters" : 20536172,
-        "yellowLeters" : [4096, 134217728, 262144, 262144, 524288]
     },
     {
         "word" : "muten",
@@ -23922,10 +23256,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [4096, 1048576, 524288, 524288, 256]
     },
     {
-        "word" : "mütze",
-        "bitmap" : 168300560,
-        "wordLetters" : 5037932,
-        "yellowLeters" : [4096, 134217728, 524288, 33554432, 16]
+        "word" : "mutze",
+        "bitmap" : 35131408,
+        "wordLetters" : 5033612,
+        "yellowLeters" : [4096, 1048576, 524288, 33554432, 16]
     },
     {
         "word" : "myope",
@@ -24390,12 +23724,6 @@ module.exports = GermanArr = [
         "yellowLeters" : [8192, 16, 256, 8192, 262144]
     },
     {
-        "word" : "neiße",
-        "bitmap" : 1073750288,
-        "wordLetters" : 8331405,
-        "yellowLeters" : [8192, 16, 256, 1073741824, 16]
-    },
-    {
         "word" : "nelke",
         "bitmap" : 11280,
         "wordLetters" : 4533389,
@@ -24546,10 +23874,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [8192, 16, 1048576, 8192, 524288]
     },
     {
-        "word" : "neuöl",
-        "bitmap" : 3155984,
-        "wordLetters" : 16437389,
-        "yellowLeters" : [8192, 16, 1048576, 2097152, 2048]
+        "word" : "neuol",
+        "bitmap" : 1075216,
+        "wordLetters" : 12013709,
+        "yellowLeters" : [8192, 16, 1048576, 16384, 2048]
     },
     {
         "word" : "neuss",
@@ -24786,10 +24114,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [8192, 16384, 4, 1024, 16]
     },
     {
-        "word" : "nodös",
-        "bitmap" : 2383880,
-        "wordLetters" : 23760333,
-        "yellowLeters" : [8192, 16384, 8, 2097152, 262144]
+        "word" : "nodos",
+        "bitmap" : 286728,
+        "wordLetters" : 19336653,
+        "yellowLeters" : [8192, 16384, 8, 16384, 262144]
     },
     {
         "word" : "nokia",
@@ -24804,28 +24132,22 @@ module.exports = GermanArr = [
         "yellowLeters" : [8192, 16384, 2048, 8, 16]
     },
     {
-        "word" : "nölen",
-        "bitmap" : 2107408,
-        "wordLetters" : 13778605,
-        "yellowLeters" : [8192, 2097152, 2048, 16, 8192]
+        "word" : "nolen",
+        "bitmap" : 26640,
+        "wordLetters" : 13774285,
+        "yellowLeters" : [8192, 16384, 2048, 16, 8192]
     },
     {
-        "word" : "nölst",
-        "bitmap" : 2893824,
-        "wordLetters" : 20528813,
-        "yellowLeters" : [8192, 2097152, 2048, 262144, 524288]
+        "word" : "nolst",
+        "bitmap" : 813056,
+        "wordLetters" : 20524493,
+        "yellowLeters" : [8192, 16384, 2048, 262144, 524288]
     },
     {
         "word" : "nolte",
         "bitmap" : 550928,
         "wordLetters" : 4828621,
         "yellowLeters" : [8192, 16384, 2048, 524288, 16]
-    },
-    {
-        "word" : "nölte",
-        "bitmap" : 2631696,
-        "wordLetters" : 4832941,
-        "yellowLeters" : [8192, 2097152, 2048, 524288, 16]
     },
     {
         "word" : "nomen",
@@ -24888,16 +24210,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [8192, 16384, 524288, 16, 8192]
     },
     {
-        "word" : "nöten",
-        "bitmap" : 2629648,
-        "wordLetters" : 13786797,
-        "yellowLeters" : [8192, 2097152, 524288, 16, 8192]
-    },
-    {
-        "word" : "nötig",
-        "bitmap" : 2629952,
-        "wordLetters" : 6577837,
-        "yellowLeters" : [8192, 2097152, 524288, 256, 64]
+        "word" : "notig",
+        "bitmap" : 549184,
+        "wordLetters" : 6573517,
+        "yellowLeters" : [8192, 16384, 524288, 256, 64]
     },
     {
         "word" : "notiz",
@@ -24960,10 +24276,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [8192, 1048576, 4096, 16, 8192]
     },
     {
-        "word" : "nüsse",
-        "bitmap" : 134488080,
-        "wordLetters" : 4807533,
-        "yellowLeters" : [8192, 134217728, 262144, 262144, 16]
+        "word" : "nusse",
+        "bitmap" : 1318928,
+        "wordLetters" : 4803213,
+        "yellowLeters" : [8192, 1048576, 262144, 262144, 16]
     },
     {
         "word" : "nuten",
@@ -24984,22 +24300,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [8192, 1048576, 524288, 33554432, 16]
     },
     {
-        "word" : "nütze",
-        "bitmap" : 168304656,
-        "wordLetters" : 5037933,
-        "yellowLeters" : [8192, 134217728, 524288, 33554432, 16]
-    },
-    {
         "word" : "nutzt",
         "bitmap" : 35135488,
         "wordLetters" : 20762253,
         "yellowLeters" : [8192, 1048576, 524288, 33554432, 524288]
-    },
-    {
-        "word" : "nützt",
-        "bitmap" : 168304640,
-        "wordLetters" : 20766573,
-        "yellowLeters" : [8192, 134217728, 524288, 33554432, 524288]
     },
     {
         "word" : "nylon",
@@ -25008,10 +24312,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [8192, 16777216, 2048, 16384, 8192]
     },
     {
-        "word" : "öamtc",
-        "bitmap" : 2625541,
-        "wordLetters" : 2732181,
-        "yellowLeters" : [2097152, 1, 4096, 524288, 4]
+        "word" : "oamtc",
+        "bitmap" : 544773,
+        "wordLetters" : 2732046,
+        "yellowLeters" : [16384, 1, 4096, 524288, 4]
     },
     {
         "word" : "oasen",
@@ -25080,10 +24384,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [16384, 4, 1024, 16, 131072]
     },
     {
-        "word" : "ödeme",
-        "bitmap" : 2101272,
-        "wordLetters" : 4591861,
-        "yellowLeters" : [2097152, 8, 16, 4096, 16]
+        "word" : "odeme",
+        "bitmap" : 20504,
+        "wordLetters" : 4591726,
+        "yellowLeters" : [16384, 8, 16, 4096, 16]
     },
     {
         "word" : "odems",
@@ -25098,22 +24402,22 @@ module.exports = GermanArr = [
         "yellowLeters" : [16384, 8, 16, 16384, 8192]
     },
     {
-        "word" : "ödere",
-        "bitmap" : 2228248,
-        "wordLetters" : 4755701,
-        "yellowLeters" : [2097152, 8, 16, 131072, 16]
+        "word" : "odere",
+        "bitmap" : 147480,
+        "wordLetters" : 4755566,
+        "yellowLeters" : [16384, 8, 16, 131072, 16]
     },
     {
-        "word" : "ödest",
-        "bitmap" : 2883608,
-        "wordLetters" : 20517109,
-        "yellowLeters" : [2097152, 8, 16, 262144, 524288]
+        "word" : "odest",
+        "bitmap" : 802840,
+        "wordLetters" : 20516974,
+        "yellowLeters" : [16384, 8, 16, 262144, 524288]
     },
     {
-        "word" : "ödete",
-        "bitmap" : 2621464,
-        "wordLetters" : 4821237,
-        "yellowLeters" : [2097152, 8, 16, 524288, 16]
+        "word" : "odete",
+        "bitmap" : 540696,
+        "wordLetters" : 4821102,
+        "yellowLeters" : [16384, 8, 16, 524288, 16]
     },
     {
         "word" : "odeur",
@@ -25134,10 +24438,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [16384, 8, 256, 1048576, 4096]
     },
     {
-        "word" : "ödnis",
-        "bitmap" : 2367752,
-        "wordLetters" : 19150069,
-        "yellowLeters" : [2097152, 8, 8192, 256, 262144]
+        "word" : "odnis",
+        "bitmap" : 286984,
+        "wordLetters" : 19149934,
+        "yellowLeters" : [16384, 8, 8192, 256, 262144]
     },
     {
         "word" : "oelde",
@@ -25158,16 +24462,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [16384, 32, 32, 16, 8192]
     },
     {
-        "word" : "öffne",
-        "bitmap" : 2105392,
-        "wordLetters" : 4625717,
-        "yellowLeters" : [2097152, 32, 32, 8192, 16]
+        "word" : "offne",
+        "bitmap" : 24624,
+        "wordLetters" : 4625582,
+        "yellowLeters" : [16384, 32, 32, 8192, 16]
     },
     {
-        "word" : "öfter",
-        "bitmap" : 2752560,
-        "wordLetters" : 17976629,
-        "yellowLeters" : [2097152, 32, 524288, 16, 131072]
+        "word" : "ofter",
+        "bitmap" : 671792,
+        "wordLetters" : 17976494,
+        "yellowLeters" : [16384, 32, 524288, 16, 131072]
     },
     {
         "word" : "oheim",
@@ -25224,10 +24528,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [16384, 2048, 1, 32, 262144]
     },
     {
-        "word" : "ölbad",
-        "bitmap" : 2099211,
-        "wordLetters" : 3147253,
-        "yellowLeters" : [2097152, 2048, 2, 1, 8]
+        "word" : "olbad",
+        "bitmap" : 18443,
+        "wordLetters" : 3147118,
+        "yellowLeters" : [16384, 2048, 2, 1, 8]
     },
     {
         "word" : "oldie",
@@ -25242,16 +24546,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [16384, 2048, 16, 64, 262144]
     },
     {
-        "word" : "ölend",
-        "bitmap" : 2107416,
-        "wordLetters" : 3576309,
-        "yellowLeters" : [2097152, 2048, 16, 8192, 8]
+        "word" : "olend",
+        "bitmap" : 26648,
+        "wordLetters" : 3576174,
+        "yellowLeters" : [16384, 2048, 16, 8192, 8]
     },
     {
-        "word" : "ölens",
-        "bitmap" : 2369552,
-        "wordLetters" : 19304949,
-        "yellowLeters" : [2097152, 2048, 16, 8192, 262144]
+        "word" : "olens",
+        "bitmap" : 288784,
+        "wordLetters" : 19304814,
+        "yellowLeters" : [16384, 2048, 16, 8192, 262144]
     },
     {
         "word" : "oleum",
@@ -25266,16 +24570,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [16384, 2048, 64, 1, 262144]
     },
     {
-        "word" : "ölgas",
-        "bitmap" : 2361409,
-        "wordLetters" : 18881013,
-        "yellowLeters" : [2097152, 2048, 64, 1, 262144]
-    },
-    {
-        "word" : "ölige",
-        "bitmap" : 2099536,
-        "wordLetters" : 4399605,
-        "yellowLeters" : [2097152, 2048, 256, 64, 16]
+        "word" : "olige",
+        "bitmap" : 18768,
+        "wordLetters" : 4399470,
+        "yellowLeters" : [16384, 2048, 256, 64, 16]
     },
     {
         "word" : "olive",
@@ -25284,10 +24582,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [16384, 2048, 256, 2097152, 16]
     },
     {
-        "word" : "ölkur",
-        "bitmap" : 3279872,
-        "wordLetters" : 18491893,
-        "yellowLeters" : [2097152, 2048, 1024, 1048576, 131072]
+        "word" : "olkur",
+        "bitmap" : 1199104,
+        "wordLetters" : 18491758,
+        "yellowLeters" : [16384, 2048, 1024, 1048576, 131072]
     },
     {
         "word" : "ollem",
@@ -25326,10 +24624,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [16384, 2048, 4096, 16, 262144]
     },
     {
-        "word" : "ölnut",
-        "bitmap" : 3680256,
-        "wordLetters" : 20592117,
-        "yellowLeters" : [2097152, 2048, 8192, 1048576, 524288]
+        "word" : "olnut",
+        "bitmap" : 1599488,
+        "wordLetters" : 20591982,
+        "yellowLeters" : [16384, 2048, 8192, 1048576, 524288]
     },
     {
         "word" : "olper",
@@ -25356,22 +24654,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [16384, 2048, 524288, 16, 8192]
     },
     {
-        "word" : "ölten",
-        "bitmap" : 2631696,
-        "wordLetters" : 13782517,
-        "yellowLeters" : [2097152, 2048, 524288, 16, 8192]
+        "word" : "oltet",
+        "bitmap" : 542736,
+        "wordLetters" : 20073838,
+        "yellowLeters" : [16384, 2048, 524288, 16, 524288]
     },
     {
-        "word" : "öltet",
-        "bitmap" : 2623504,
-        "wordLetters" : 20073973,
-        "yellowLeters" : [2097152, 2048, 524288, 16, 524288]
-    },
-    {
-        "word" : "ölung",
-        "bitmap" : 3156032,
-        "wordLetters" : 6738421,
-        "yellowLeters" : [2097152, 2048, 1048576, 8192, 64]
+        "word" : "olung",
+        "bitmap" : 1075264,
+        "wordLetters" : 6738286,
+        "yellowLeters" : [16384, 2048, 1048576, 8192, 64]
     },
     {
         "word" : "olymp",
@@ -25728,10 +25020,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [16384, 524288, 524288, 16384, 262144]
     },
     {
-        "word" : "ötzis",
-        "bitmap" : 36438272,
-        "wordLetters" : 19162869,
-        "yellowLeters" : [2097152, 524288, 33554432, 256, 262144]
+        "word" : "otzis",
+        "bitmap" : 34357504,
+        "wordLetters" : 19162734,
+        "yellowLeters" : [16384, 524288, 33554432, 256, 262144]
     },
     {
         "word" : "outen",
@@ -25806,10 +25098,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [16384, 33554432, 16, 1, 8192]
     },
     {
-        "word" : "özlem",
-        "bitmap" : 35657744,
-        "wordLetters" : 12726197,
-        "yellowLeters" : [2097152, 33554432, 2048, 16, 4096]
+        "word" : "ozlem",
+        "bitmap" : 33576976,
+        "wordLetters" : 12726062,
+        "yellowLeters" : [16384, 33554432, 2048, 16, 4096]
     },
     {
         "word" : "ozons",
@@ -26136,12 +25428,6 @@ module.exports = GermanArr = [
         "yellowLeters" : [32768, 1, 262144, 262144, 16]
     },
     {
-        "word" : "passé",
-        "bitmap" : 295169,
-        "wordLetters" : 143214607,
-        "yellowLeters" : [32768, 1, 262144, 262144, 256]
-    },
-    {
         "word" : "passt",
         "bitmap" : 819201,
         "wordLetters" : 20531215,
@@ -26430,10 +25716,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [32768, 16, 131072, 8, 1048576]
     },
     {
-        "word" : "pérez",
-        "bitmap" : 33718544,
-        "wordLetters" : 26367247,
-        "yellowLeters" : [32768, 256, 131072, 16, 33554432]
+        "word" : "perez",
+        "bitmap" : 33718288,
+        "wordLetters" : 26363023,
+        "yellowLeters" : [32768, 16, 131072, 16, 33554432]
     },
     {
         "word" : "perle",
@@ -26604,12 +25890,6 @@ module.exports = GermanArr = [
         "yellowLeters" : [32768, 32, 1048576, 128, 2048]
     },
     {
-        "word" : "pfühl",
-        "bitmap" : 134252704,
-        "wordLetters" : 11922607,
-        "yellowLeters" : [32768, 32, 134217728, 128, 2048]
-    },
-    {
         "word" : "pfund",
         "bitmap" : 1089576,
         "wordLetters" : 3592367,
@@ -26640,10 +25920,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [32768, 128, 8192, 16384, 4096]
     },
     {
-        "word" : "phöbe",
-        "bitmap" : 2130066,
-        "wordLetters" : 4379887,
-        "yellowLeters" : [32768, 128, 2097152, 2, 16]
+        "word" : "phobe",
+        "bitmap" : 49298,
+        "wordLetters" : 4241647,
+        "yellowLeters" : [32768, 128, 16384, 2, 16]
     },
     {
         "word" : "phyla",
@@ -27066,10 +26346,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [32768, 8192, 16, 1048576, 262144]
     },
     {
-        "word" : "pöbel",
-        "bitmap" : 2131986,
-        "wordLetters" : 11671215,
-        "yellowLeters" : [32768, 2097152, 2, 16, 2048]
+        "word" : "pobel",
+        "bitmap" : 51218,
+        "wordLetters" : 11666895,
+        "yellowLeters" : [32768, 16384, 2, 16, 2048]
     },
     {
         "word" : "poche",
@@ -27228,10 +26508,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [32768, 16384, 4096, 32768, 262144]
     },
     {
-        "word" : "pönal",
-        "bitmap" : 2140161,
-        "wordLetters" : 11552431,
-        "yellowLeters" : [32768, 2097152, 8192, 1, 2048]
+        "word" : "ponal",
+        "bitmap" : 59393,
+        "wordLetters" : 11548111,
+        "yellowLeters" : [32768, 16384, 8192, 1, 2048]
     },
     {
         "word" : "ponte",
@@ -27312,10 +26592,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [32768, 16384, 131072, 8192, 16384]
     },
     {
-        "word" : "porös",
-        "bitmap" : 2539520,
-        "wordLetters" : 23774671,
-        "yellowLeters" : [32768, 16384, 131072, 2097152, 262144]
+        "word" : "poros",
+        "bitmap" : 442368,
+        "wordLetters" : 19350991,
+        "yellowLeters" : [32768, 16384, 131072, 16384, 262144]
     },
     {
         "word" : "porta",
@@ -27388,12 +26668,6 @@ module.exports = GermanArr = [
         "bitmap" : 573456,
         "wordLetters" : 4836815,
         "yellowLeters" : [32768, 16384, 524288, 524288, 16]
-    },
-    {
-        "word" : "pötte",
-        "bitmap" : 2654224,
-        "wordLetters" : 4841135,
-        "yellowLeters" : [32768, 2097152, 524288, 524288, 16]
     },
     {
         "word" : "potts",
@@ -27588,22 +26862,22 @@ module.exports = GermanArr = [
         "yellowLeters" : [32768, 131072, 16384, 8388608, 16777216]
     },
     {
-        "word" : "prüde",
-        "bitmap" : 134381592,
-        "wordLetters" : 4451887,
-        "yellowLeters" : [32768, 131072, 134217728, 8, 16]
+        "word" : "prude",
+        "bitmap" : 1212440,
+        "wordLetters" : 4313647,
+        "yellowLeters" : [32768, 131072, 1048576, 8, 16]
     },
     {
-        "word" : "prüfe",
-        "bitmap" : 134381616,
-        "wordLetters" : 4517423,
-        "yellowLeters" : [32768, 131072, 134217728, 32, 16]
+        "word" : "prufe",
+        "bitmap" : 1212464,
+        "wordLetters" : 4379183,
+        "yellowLeters" : [32768, 131072, 1048576, 32, 16]
     },
     {
-        "word" : "prüft",
-        "bitmap" : 134905888,
-        "wordLetters" : 20246063,
-        "yellowLeters" : [32768, 131072, 134217728, 32, 524288]
+        "word" : "pruft",
+        "bitmap" : 1736736,
+        "wordLetters" : 20107823,
+        "yellowLeters" : [32768, 131072, 1048576, 32, 524288]
     },
     {
         "word" : "prunk",
@@ -27780,10 +27054,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [32768, 1048576, 32768, 262144, 524288]
     },
     {
-        "word" : "püree",
-        "bitmap" : 134381584,
-        "wordLetters" : 4347759,
-        "yellowLeters" : [32768, 134217728, 131072, 16, 16]
+        "word" : "puree",
+        "bitmap" : 1212432,
+        "wordLetters" : 4343439,
+        "yellowLeters" : [32768, 1048576, 131072, 16, 16]
     },
     {
         "word" : "purem",
@@ -27876,10 +27150,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [32768, 1048576, 524288, 524288, 16384]
     },
     {
-        "word" : "pütts",
-        "bitmap" : 135036928,
-        "wordLetters" : 19521391,
-        "yellowLeters" : [32768, 134217728, 524288, 524288, 262144]
+        "word" : "putts",
+        "bitmap" : 1867776,
+        "wordLetters" : 19517071,
+        "yellowLeters" : [32768, 1048576, 524288, 524288, 262144]
     },
     {
         "word" : "putze",
@@ -28938,16 +28212,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [131072, 16, 256, 262144, 16]
     },
     {
-        "word" : "reiße",
-        "bitmap" : 1073873168,
-        "wordLetters" : 8331409,
-        "yellowLeters" : [131072, 16, 256, 1073741824, 16]
-    },
-    {
-        "word" : "reißt",
-        "bitmap" : 1074397456,
-        "wordLetters" : 24060049,
-        "yellowLeters" : [131072, 16, 256, 1073741824, 524288]
+        "word" : "reiss",
+        "bitmap" : 393488,
+        "wordLetters" : 19472529,
+        "yellowLeters" : [131072, 16, 256, 262144, 262144]
     },
     {
         "word" : "reist",
@@ -29010,16 +28278,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [131072, 16, 8192, 1, 2048]
     },
     {
-        "word" : "renée",
-        "bitmap" : 139536,
-        "wordLetters" : 8664209,
-        "yellowLeters" : [131072, 16, 8192, 256, 16]
+        "word" : "renee",
+        "bitmap" : 139280,
+        "wordLetters" : 4338833,
+        "yellowLeters" : [131072, 16, 8192, 16, 16]
     },
     {
-        "word" : "renés",
-        "bitmap" : 401680,
-        "wordLetters" : 23344273,
-        "yellowLeters" : [131072, 16, 8192, 256, 262144]
+        "word" : "renes",
+        "bitmap" : 401424,
+        "wordLetters" : 19018897,
+        "yellowLeters" : [131072, 16, 8192, 16, 262144]
     },
     {
         "word" : "renke",
@@ -29466,10 +28734,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [131072, 16384, 2, 16384, 524288]
     },
     {
-        "word" : "röche",
-        "bitmap" : 2228372,
-        "wordLetters" : 4430513,
-        "yellowLeters" : [131072, 2097152, 4, 128, 16]
+        "word" : "roche",
+        "bitmap" : 147604,
+        "wordLetters" : 4426193,
+        "yellowLeters" : [131072, 16384, 4, 128, 16]
     },
     {
         "word" : "rocht",
@@ -29478,22 +28746,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [131072, 16384, 4, 128, 524288]
     },
     {
-        "word" : "röcht",
-        "bitmap" : 2752644,
-        "wordLetters" : 20159153,
-        "yellowLeters" : [131072, 2097152, 4, 128, 524288]
-    },
-    {
         "word" : "rocke",
         "bitmap" : 148500,
         "wordLetters" : 4524497,
         "yellowLeters" : [131072, 16384, 4, 1024, 16]
-    },
-    {
-        "word" : "röcke",
-        "bitmap" : 2229268,
-        "wordLetters" : 4528817,
-        "yellowLeters" : [131072, 2097152, 4, 1024, 16]
     },
     {
         "word" : "rocks",
@@ -29592,10 +28848,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [131072, 16384, 128, 16, 262144]
     },
     {
-        "word" : "rohöl",
-        "bitmap" : 2246784,
-        "wordLetters" : 16424401,
-        "yellowLeters" : [131072, 16384, 128, 2097152, 2048]
+        "word" : "rohol",
+        "bitmap" : 149632,
+        "wordLetters" : 12000721,
+        "yellowLeters" : [131072, 16384, 128, 16384, 2048]
     },
     {
         "word" : "rohre",
@@ -29604,22 +28860,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [131072, 16384, 128, 131072, 16]
     },
     {
-        "word" : "röhre",
-        "bitmap" : 2228368,
-        "wordLetters" : 4763313,
-        "yellowLeters" : [131072, 2097152, 128, 131072, 16]
-    },
-    {
         "word" : "rohrs",
         "bitmap" : 409728,
         "wordLetters" : 19439057,
         "yellowLeters" : [131072, 16384, 128, 131072, 262144]
     },
     {
-        "word" : "röhrt",
-        "bitmap" : 2752640,
-        "wordLetters" : 20491953,
-        "yellowLeters" : [131072, 2097152, 128, 131072, 524288]
+        "word" : "rohrt",
+        "bitmap" : 671872,
+        "wordLetters" : 20487633,
+        "yellowLeters" : [131072, 16384, 128, 131072, 524288]
     },
     {
         "word" : "rolex",
@@ -29676,16 +28926,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [131072, 16384, 4096, 16, 16384]
     },
     {
-        "word" : "römer",
-        "bitmap" : 2232336,
-        "wordLetters" : 17973937,
-        "yellowLeters" : [131072, 2097152, 4096, 16, 131072]
+        "word" : "romer",
+        "bitmap" : 151568,
+        "wordLetters" : 17969617,
+        "yellowLeters" : [131072, 16384, 4096, 16, 131072]
     },
     {
-        "word" : "rommé",
-        "bitmap" : 151808,
-        "wordLetters" : 143012305,
-        "yellowLeters" : [131072, 16384, 4096, 4096, 256]
+        "word" : "romme",
+        "bitmap" : 151568,
+        "wordLetters" : 4600273,
+        "yellowLeters" : [131072, 16384, 4096, 4096, 16]
     },
     {
         "word" : "romys",
@@ -29724,10 +28974,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [131072, 16384, 262144, 1, 262144]
     },
     {
-        "word" : "rösch",
-        "bitmap" : 2490500,
-        "wordLetters" : 7428785,
-        "yellowLeters" : [131072, 2097152, 262144, 4, 128]
+        "word" : "rosch",
+        "bitmap" : 409732,
+        "wordLetters" : 7424465,
+        "yellowLeters" : [131072, 16384, 262144, 4, 128]
     },
     {
         "word" : "rosen",
@@ -29778,22 +29028,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [131072, 16384, 262144, 524288, 16]
     },
     {
-        "word" : "röste",
-        "bitmap" : 3014672,
-        "wordLetters" : 4840113,
-        "yellowLeters" : [131072, 2097152, 262144, 524288, 16]
+        "word" : "rosti",
+        "bitmap" : 934144,
+        "wordLetters" : 9030097,
+        "yellowLeters" : [131072, 16384, 262144, 524288, 256]
     },
     {
-        "word" : "rösti",
-        "bitmap" : 3014912,
-        "wordLetters" : 9034417,
-        "yellowLeters" : [131072, 2097152, 262144, 524288, 256]
-    },
-    {
-        "word" : "rötel",
-        "bitmap" : 2754576,
-        "wordLetters" : 11689649,
-        "yellowLeters" : [131072, 2097152, 524288, 16, 2048]
+        "word" : "rotel",
+        "bitmap" : 673808,
+        "wordLetters" : 11685329,
+        "yellowLeters" : [131072, 16384, 524288, 16, 2048]
     },
     {
         "word" : "rotem",
@@ -29808,22 +29052,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [131072, 16384, 524288, 16, 8192]
     },
     {
-        "word" : "röten",
-        "bitmap" : 2760720,
-        "wordLetters" : 13786801,
-        "yellowLeters" : [131072, 2097152, 524288, 16, 8192]
-    },
-    {
         "word" : "roter",
         "bitmap" : 671760,
         "wordLetters" : 17976785,
         "yellowLeters" : [131072, 16384, 524288, 16, 131072]
-    },
-    {
-        "word" : "röter",
-        "bitmap" : 2752528,
-        "wordLetters" : 17981105,
-        "yellowLeters" : [131072, 2097152, 524288, 16, 131072]
     },
     {
         "word" : "rotes",
@@ -29832,10 +29064,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [131072, 16384, 524288, 16, 262144]
     },
     {
-        "word" : "rötet",
-        "bitmap" : 2752528,
-        "wordLetters" : 20078257,
-        "yellowLeters" : [131072, 2097152, 524288, 16, 524288]
+        "word" : "rotet",
+        "bitmap" : 671760,
+        "wordLetters" : 20073937,
+        "yellowLeters" : [131072, 16384, 524288, 16, 524288]
     },
     {
         "word" : "rothe",
@@ -29916,16 +29148,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [131072, 1048576, 2, 16, 2048]
     },
     {
-        "word" : "rüben",
-        "bitmap" : 134357010,
-        "wordLetters" : 13768561,
-        "yellowLeters" : [131072, 134217728, 2, 16, 8192]
+        "word" : "ruben",
+        "bitmap" : 1187858,
+        "wordLetters" : 13764241,
+        "yellowLeters" : [131072, 1048576, 2, 16, 8192]
     },
     {
-        "word" : "rüber",
-        "bitmap" : 134348818,
-        "wordLetters" : 17962865,
-        "yellowLeters" : [131072, 134217728, 2, 16, 131072]
+        "word" : "ruber",
+        "bitmap" : 1179666,
+        "wordLetters" : 17958545,
+        "yellowLeters" : [131072, 1048576, 2, 16, 131072]
     },
     {
         "word" : "rubin",
@@ -29946,12 +29178,6 @@ module.exports = GermanArr = [
         "yellowLeters" : [131072, 1048576, 4, 1024, 16]
     },
     {
-        "word" : "rücke",
-        "bitmap" : 134349844,
-        "wordLetters" : 4529009,
-        "yellowLeters" : [131072, 134217728, 4, 1024, 16]
-    },
-    {
         "word" : "rucks",
         "bitmap" : 1442820,
         "wordLetters" : 19204753,
@@ -29964,28 +29190,22 @@ module.exports = GermanArr = [
         "yellowLeters" : [131072, 1048576, 4, 1024, 524288]
     },
     {
-        "word" : "rückt",
-        "bitmap" : 134874116,
-        "wordLetters" : 20257649,
-        "yellowLeters" : [131072, 134217728, 4, 1024, 524288]
-    },
-    {
         "word" : "rudel",
         "bitmap" : 1181720,
         "wordLetters" : 11669137,
         "yellowLeters" : [131072, 1048576, 8, 16, 2048]
     },
     {
-        "word" : "rüdem",
-        "bitmap" : 134352920,
-        "wordLetters" : 12722033,
-        "yellowLeters" : [131072, 134217728, 8, 16, 4096]
+        "word" : "rudem",
+        "bitmap" : 1183768,
+        "wordLetters" : 12717713,
+        "yellowLeters" : [131072, 1048576, 8, 16, 4096]
     },
     {
-        "word" : "rüden",
-        "bitmap" : 134357016,
-        "wordLetters" : 13770609,
-        "yellowLeters" : [131072, 134217728, 8, 16, 8192]
+        "word" : "ruden",
+        "bitmap" : 1187864,
+        "wordLetters" : 13766289,
+        "yellowLeters" : [131072, 1048576, 8, 16, 8192]
     },
     {
         "word" : "ruder",
@@ -29994,16 +29214,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [131072, 1048576, 8, 16, 131072]
     },
     {
-        "word" : "rüder",
-        "bitmap" : 134348824,
-        "wordLetters" : 17964913,
-        "yellowLeters" : [131072, 134217728, 8, 16, 131072]
-    },
-    {
-        "word" : "rüdes",
-        "bitmap" : 134610968,
-        "wordLetters" : 19013489,
-        "yellowLeters" : [131072, 134217728, 8, 16, 262144]
+        "word" : "rudes",
+        "bitmap" : 1441816,
+        "wordLetters" : 19009169,
+        "yellowLeters" : [131072, 1048576, 8, 16, 262144]
     },
     {
         "word" : "rudis",
@@ -30054,22 +29268,22 @@ module.exports = GermanArr = [
         "yellowLeters" : [131072, 1048576, 64, 2, 16777216]
     },
     {
-        "word" : "rügen",
-        "bitmap" : 134357072,
-        "wordLetters" : 13773681,
-        "yellowLeters" : [131072, 134217728, 64, 16, 8192]
+        "word" : "rugen",
+        "bitmap" : 1187920,
+        "wordLetters" : 13769361,
+        "yellowLeters" : [131072, 1048576, 64, 16, 8192]
     },
     {
-        "word" : "rügst",
-        "bitmap" : 135135296,
-        "wordLetters" : 20523889,
-        "yellowLeters" : [131072, 134217728, 64, 262144, 524288]
+        "word" : "rugst",
+        "bitmap" : 1966144,
+        "wordLetters" : 20519569,
+        "yellowLeters" : [131072, 1048576, 64, 262144, 524288]
     },
     {
-        "word" : "rügte",
-        "bitmap" : 134873168,
-        "wordLetters" : 4828017,
-        "yellowLeters" : [131072, 134217728, 64, 524288, 16]
+        "word" : "rugte",
+        "bitmap" : 1704016,
+        "wordLetters" : 4823697,
+        "yellowLeters" : [131072, 1048576, 64, 524288, 16]
     },
     {
         "word" : "ruhen",
@@ -30090,10 +29304,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [131072, 1048576, 128, 2048, 1]
     },
     {
-        "word" : "rühme",
-        "bitmap" : 134353040,
-        "wordLetters" : 4599665,
-        "yellowLeters" : [131072, 134217728, 128, 4096, 16]
+        "word" : "ruhme",
+        "bitmap" : 1183888,
+        "wordLetters" : 4595345,
+        "yellowLeters" : [131072, 1048576, 128, 4096, 16]
     },
     {
         "word" : "ruhms",
@@ -30102,22 +29316,22 @@ module.exports = GermanArr = [
         "yellowLeters" : [131072, 1048576, 128, 4096, 262144]
     },
     {
-        "word" : "rühmt",
-        "bitmap" : 134877312,
-        "wordLetters" : 20328305,
-        "yellowLeters" : [131072, 134217728, 128, 4096, 524288]
+        "word" : "ruhmt",
+        "bitmap" : 1708160,
+        "wordLetters" : 20323985,
+        "yellowLeters" : [131072, 1048576, 128, 4096, 524288]
     },
     {
-        "word" : "rühre",
-        "bitmap" : 134348944,
-        "wordLetters" : 4763505,
-        "yellowLeters" : [131072, 134217728, 128, 131072, 16]
+        "word" : "ruhre",
+        "bitmap" : 1179792,
+        "wordLetters" : 4759185,
+        "yellowLeters" : [131072, 1048576, 128, 131072, 16]
     },
     {
-        "word" : "rührt",
-        "bitmap" : 134873216,
-        "wordLetters" : 20492145,
-        "yellowLeters" : [131072, 134217728, 128, 131072, 524288]
+        "word" : "ruhrt",
+        "bitmap" : 1704064,
+        "wordLetters" : 20487825,
+        "yellowLeters" : [131072, 1048576, 128, 131072, 524288]
     },
     {
         "word" : "ruhst",
@@ -30144,10 +29358,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [131072, 1048576, 256, 8192, 262144]
     },
     {
-        "word" : "rülps",
-        "bitmap" : 134645760,
-        "wordLetters" : 19382129,
-        "yellowLeters" : [131072, 134217728, 2048, 32768, 262144]
+        "word" : "rulps",
+        "bitmap" : 1476608,
+        "wordLetters" : 19377809,
+        "yellowLeters" : [131072, 1048576, 2048, 32768, 262144]
     },
     {
         "word" : "rumba",
@@ -30198,10 +29412,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [131072, 1048576, 8192, 64, 16]
     },
     {
-        "word" : "rüpel",
-        "bitmap" : 134383632,
-        "wordLetters" : 11685745,
-        "yellowLeters" : [131072, 134217728, 32768, 16, 2048]
+        "word" : "rupel",
+        "bitmap" : 1214480,
+        "wordLetters" : 11681425,
+        "yellowLeters" : [131072, 1048576, 32768, 16, 2048]
     },
     {
         "word" : "rupfe",
@@ -30246,34 +29460,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [131072, 1048576, 262144, 262144, 16]
     },
     {
-        "word" : "rußen",
-        "bitmap" : 1074929680,
-        "wordLetters" : 13892241,
-        "yellowLeters" : [131072, 1048576, 1073741824, 16, 8192]
+        "word" : "russt",
+        "bitmap" : 1966080,
+        "wordLetters" : 20531857,
+        "yellowLeters" : [131072, 1048576, 262144, 262144, 524288]
     },
     {
-        "word" : "rußes",
-        "bitmap" : 1075183632,
-        "wordLetters" : 19135121,
-        "yellowLeters" : [131072, 1048576, 1073741824, 16, 262144]
-    },
-    {
-        "word" : "rußig",
-        "bitmap" : 1074921792,
-        "wordLetters" : 6683281,
-        "yellowLeters" : [131072, 1048576, 1073741824, 256, 64]
-    },
-    {
-        "word" : "rußte",
-        "bitmap" : 1075445776,
-        "wordLetters" : 4946577,
-        "yellowLeters" : [131072, 1048576, 1073741824, 524288, 16]
-    },
-    {
-        "word" : "rüste",
-        "bitmap" : 135135248,
-        "wordLetters" : 4840305,
-        "yellowLeters" : [131072, 134217728, 262144, 524288, 16]
+        "word" : "ruste",
+        "bitmap" : 1966096,
+        "wordLetters" : 4835985,
+        "yellowLeters" : [131072, 1048576, 262144, 524288, 16]
     },
     {
         "word" : "ruten",
@@ -30750,16 +29946,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [262144, 1, 262144, 262144, 16]
     },
     {
-        "word" : "saßen",
-        "bitmap" : 1074012177,
-        "wordLetters" : 13891602,
-        "yellowLeters" : [262144, 1, 1073741824, 16, 8192]
-    },
-    {
-        "word" : "saßet",
-        "bitmap" : 1074528273,
-        "wordLetters" : 20183058,
-        "yellowLeters" : [262144, 1, 1073741824, 16, 524288]
+        "word" : "sasst",
+        "bitmap" : 786433,
+        "wordLetters" : 20531218,
+        "yellowLeters" : [262144, 1, 262144, 262144, 524288]
     },
     {
         "word" : "satan",
@@ -31014,22 +30204,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [262144, 4, 128, 16384, 8192]
     },
     {
-        "word" : "schön",
-        "bitmap" : 2367620,
-        "wordLetters" : 18521170,
-        "yellowLeters" : [262144, 4, 128, 2097152, 8192]
-    },
-    {
         "word" : "schor",
         "bitmap" : 409732,
         "wordLetters" : 18291794,
         "yellowLeters" : [262144, 4, 128, 16384, 131072]
-    },
-    {
-        "word" : "schoß",
-        "bitmap" : 1074020484,
-        "wordLetters" : 132586578,
-        "yellowLeters" : [262144, 4, 128, 16384, 1073741824]
     },
     {
         "word" : "schot",
@@ -31410,10 +30588,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [262144, 16, 131072, 256, 8192]
     },
     {
-        "word" : "serös",
-        "bitmap" : 2490384,
-        "wordLetters" : 23774354,
-        "yellowLeters" : [262144, 16, 131072, 2097152, 262144]
+        "word" : "seros",
+        "bitmap" : 409616,
+        "wordLetters" : 19350674,
+        "yellowLeters" : [262144, 16, 131072, 16384, 262144]
     },
     {
         "word" : "serra",
@@ -32076,12 +31254,6 @@ module.exports = GermanArr = [
         "yellowLeters" : [262144, 16384, 64, 16, 8192]
     },
     {
-        "word" : "sögen",
-        "bitmap" : 2367568,
-        "wordLetters" : 13773490,
-        "yellowLeters" : [262144, 2097152, 64, 16, 8192]
-    },
-    {
         "word" : "soges",
         "bitmap" : 278608,
         "wordLetters" : 19012050,
@@ -32106,22 +31278,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [262144, 16384, 128, 8192, 16]
     },
     {
-        "word" : "söhne",
-        "bitmap" : 2367632,
-        "wordLetters" : 4632242,
-        "yellowLeters" : [262144, 2097152, 128, 8192, 16]
-    },
-    {
         "word" : "sohns",
         "bitmap" : 286848,
         "wordLetters" : 19307986,
         "yellowLeters" : [262144, 16384, 128, 8192, 262144]
     },
     {
-        "word" : "söhnt",
-        "bitmap" : 2891904,
-        "wordLetters" : 20360882,
-        "yellowLeters" : [262144, 2097152, 128, 8192, 524288]
+        "word" : "sohnt",
+        "bitmap" : 811136,
+        "wordLetters" : 20356562,
+        "yellowLeters" : [262144, 16384, 128, 8192, 524288]
     },
     {
         "word" : "sojus",
@@ -32238,10 +31404,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [262144, 16384, 8192, 512, 1]
     },
     {
-        "word" : "sönke",
-        "bitmap" : 2368528,
-        "wordLetters" : 4540082,
-        "yellowLeters" : [262144, 2097152, 8192, 1024, 16]
+        "word" : "sonke",
+        "bitmap" : 287760,
+        "wordLetters" : 4535762,
+        "yellowLeters" : [262144, 16384, 8192, 1024, 16]
     },
     {
         "word" : "sonne",
@@ -32292,10 +31458,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [262144, 16384, 131072, 2, 16]
     },
     {
-        "word" : "sören",
-        "bitmap" : 2498576,
-        "wordLetters" : 13784754,
-        "yellowLeters" : [262144, 2097152, 131072, 16, 8192]
+        "word" : "soren",
+        "bitmap" : 417808,
+        "wordLetters" : 13780434,
+        "yellowLeters" : [262144, 16384, 131072, 16, 8192]
     },
     {
         "word" : "søren",
@@ -32328,10 +31494,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [262144, 16384, 131072, 524288, 16]
     },
     {
-        "word" : "soßen",
-        "bitmap" : 1074028560,
-        "wordLetters" : 13892050,
-        "yellowLeters" : [262144, 16384, 1073741824, 16, 8192]
+        "word" : "sosse",
+        "bitmap" : 278544,
+        "wordLetters" : 4803026,
+        "yellowLeters" : [262144, 16384, 262144, 262144, 16]
     },
     {
         "word" : "souks",
@@ -32430,16 +31596,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [262144, 32768, 1, 131072, 524288]
     },
     {
-        "word" : "spaße",
-        "bitmap" : 1074036753,
-        "wordLetters" : 8323570,
-        "yellowLeters" : [262144, 32768, 1, 1073741824, 16]
-    },
-    {
-        "word" : "spaßt",
-        "bitmap" : 1074561025,
-        "wordLetters" : 24052210,
-        "yellowLeters" : [262144, 32768, 1, 1073741824, 524288]
+        "word" : "spass",
+        "bitmap" : 294913,
+        "wordLetters" : 19464690,
+        "yellowLeters" : [262144, 32768, 1, 262144, 262144]
     },
     {
         "word" : "spate",
@@ -32518,12 +31678,6 @@ module.exports = GermanArr = [
         "bitmap" : 303376,
         "wordLetters" : 13771250,
         "yellowLeters" : [262144, 32768, 256, 16, 8192]
-    },
-    {
-        "word" : "spieß",
-        "bitmap" : 1074037008,
-        "wordLetters" : 132260338,
-        "yellowLeters" : [262144, 32768, 256, 16, 1073741824]
     },
     {
         "word" : "spiet",
@@ -32646,10 +31800,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [262144, 32768, 131072, 256, 524288]
     },
     {
-        "word" : "spröd",
-        "bitmap" : 2523144,
-        "wordLetters" : 8046066,
-        "yellowLeters" : [262144, 32768, 131072, 2097152, 8]
+        "word" : "sprod",
+        "bitmap" : 442376,
+        "wordLetters" : 3622386,
+        "yellowLeters" : [262144, 32768, 131072, 16384, 8]
     },
     {
         "word" : "spuck",
@@ -32682,16 +31836,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [262144, 32768, 1048576, 2048, 16]
     },
     {
-        "word" : "spüle",
-        "bitmap" : 134514704,
-        "wordLetters" : 4713970,
-        "yellowLeters" : [262144, 32768, 134217728, 2048, 16]
-    },
-    {
-        "word" : "spüli",
-        "bitmap" : 134514944,
-        "wordLetters" : 8908274,
-        "yellowLeters" : [262144, 32768, 134217728, 2048, 256]
+        "word" : "spuli",
+        "bitmap" : 1345792,
+        "wordLetters" : 8770034,
+        "yellowLeters" : [262144, 32768, 1048576, 2048, 256]
     },
     {
         "word" : "spult",
@@ -32700,34 +31848,22 @@ module.exports = GermanArr = [
         "yellowLeters" : [262144, 32768, 1048576, 2048, 524288]
     },
     {
-        "word" : "spült",
-        "bitmap" : 135038976,
-        "wordLetters" : 20442610,
-        "yellowLeters" : [262144, 32768, 134217728, 2048, 524288]
-    },
-    {
         "word" : "spund",
         "bitmap" : 1351688,
         "wordLetters" : 3592690,
         "yellowLeters" : [262144, 32768, 1048576, 8192, 8]
     },
     {
-        "word" : "spüre",
-        "bitmap" : 134643728,
-        "wordLetters" : 4910578,
-        "yellowLeters" : [262144, 32768, 134217728, 131072, 16]
+        "word" : "spure",
+        "bitmap" : 1474576,
+        "wordLetters" : 4772338,
+        "yellowLeters" : [262144, 32768, 1048576, 131072, 16]
     },
     {
         "word" : "spurt",
         "bitmap" : 1998848,
         "wordLetters" : 20500978,
         "yellowLeters" : [262144, 32768, 1048576, 131072, 524288]
-    },
-    {
-        "word" : "spürt",
-        "bitmap" : 135168000,
-        "wordLetters" : 20639218,
-        "yellowLeters" : [262144, 32768, 134217728, 131072, 524288]
     },
     {
         "word" : "spute",
@@ -32970,12 +32106,6 @@ module.exports = GermanArr = [
         "yellowLeters" : [262144, 524288, 16, 256, 8192]
     },
     {
-        "word" : "steiß",
-        "bitmap" : 1074528528,
-        "wordLetters" : 132387442,
-        "yellowLeters" : [262144, 524288, 16, 256, 1073741824]
-    },
-    {
         "word" : "stele",
         "bitmap" : 788496,
         "wordLetters" : 4559474,
@@ -33078,12 +32208,6 @@ module.exports = GermanArr = [
         "yellowLeters" : [262144, 524288, 256, 16, 131072]
     },
     {
-        "word" : "stieß",
-        "bitmap" : 1074528528,
-        "wordLetters" : 132260466,
-        "yellowLeters" : [262144, 524288, 256, 16, 1073741824]
-    },
-    {
         "word" : "stift",
         "bitmap" : 786720,
         "wordLetters" : 20095602,
@@ -33132,10 +32256,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [262144, 524288, 256, 131072, 8192]
     },
     {
-        "word" : "stöbe",
-        "bitmap" : 2883602,
-        "wordLetters" : 4380274,
-        "yellowLeters" : [262144, 524288, 2097152, 2, 16]
+        "word" : "stobe",
+        "bitmap" : 802834,
+        "wordLetters" : 4242034,
+        "yellowLeters" : [262144, 524288, 16384, 2, 16]
     },
     {
         "word" : "stock",
@@ -33150,10 +32274,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [262144, 524288, 16384, 32, 32]
     },
     {
-        "word" : "stöhn",
-        "bitmap" : 2891904,
-        "wordLetters" : 14014066,
-        "yellowLeters" : [262144, 524288, 2097152, 128, 8192]
+        "word" : "stohn",
+        "bitmap" : 811136,
+        "wordLetters" : 13875826,
+        "yellowLeters" : [262144, 524288, 16384, 128, 8192]
     },
     {
         "word" : "stola",
@@ -33192,28 +32316,22 @@ module.exports = GermanArr = [
         "yellowLeters" : [262144, 524288, 16384, 131072, 16]
     },
     {
-        "word" : "störe",
-        "bitmap" : 3014672,
-        "wordLetters" : 4904562,
-        "yellowLeters" : [262144, 524288, 2097152, 131072, 16]
-    },
-    {
         "word" : "storm",
         "bitmap" : 937984,
         "wordLetters" : 13154930,
         "yellowLeters" : [262144, 524288, 16384, 131072, 4096]
     },
     {
-        "word" : "störs",
-        "bitmap" : 3014656,
-        "wordLetters" : 19584626,
-        "yellowLeters" : [262144, 524288, 2097152, 131072, 262144]
+        "word" : "stors",
+        "bitmap" : 933888,
+        "wordLetters" : 19446386,
+        "yellowLeters" : [262144, 524288, 16384, 131072, 262144]
     },
     {
-        "word" : "stört",
-        "bitmap" : 3014656,
-        "wordLetters" : 20633202,
-        "yellowLeters" : [262144, 524288, 2097152, 131072, 524288]
+        "word" : "stort",
+        "bitmap" : 933888,
+        "wordLetters" : 20494962,
+        "yellowLeters" : [262144, 524288, 16384, 131072, 524288]
     },
     {
         "word" : "story",
@@ -33222,28 +32340,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [262144, 524288, 16384, 131072, 16777216]
     },
     {
-        "word" : "stoße",
-        "bitmap" : 1074544656,
-        "wordLetters" : 8338034,
-        "yellowLeters" : [262144, 524288, 16384, 1073741824, 16]
-    },
-    {
-        "word" : "stöße",
-        "bitmap" : 1076625424,
-        "wordLetters" : 8476274,
-        "yellowLeters" : [262144, 524288, 2097152, 1073741824, 16]
-    },
-    {
-        "word" : "stoßt",
-        "bitmap" : 1074544640,
-        "wordLetters" : 24066674,
-        "yellowLeters" : [262144, 524288, 16384, 1073741824, 524288]
-    },
-    {
-        "word" : "stößt",
-        "bitmap" : 1076625408,
-        "wordLetters" : 24204914,
-        "yellowLeters" : [262144, 524288, 2097152, 1073741824, 524288]
+        "word" : "stoss",
+        "bitmap" : 802816,
+        "wordLetters" : 19479154,
+        "yellowLeters" : [262144, 524288, 16384, 262144, 262144]
     },
     {
         "word" : "streb",
@@ -33286,12 +32386,6 @@ module.exports = GermanArr = [
         "bitmap" : 1836036,
         "wordLetters" : 10572402,
         "yellowLeters" : [262144, 524288, 1048576, 4, 1024]
-    },
-    {
-        "word" : "stück",
-        "bitmap" : 135005188,
-        "wordLetters" : 10710642,
-        "yellowLeters" : [262144, 524288, 134217728, 4, 1024]
     },
     {
         "word" : "studi",
@@ -33384,10 +32478,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [262144, 524288, 1048576, 524288, 16]
     },
     {
-        "word" : "stütz",
-        "bitmap" : 168558592,
-        "wordLetters" : 26996338,
-        "yellowLeters" : [262144, 524288, 134217728, 524288, 33554432]
+        "word" : "stutz",
+        "bitmap" : 35389440,
+        "wordLetters" : 26858098,
+        "yellowLeters" : [262144, 524288, 1048576, 524288, 33554432]
     },
     {
         "word" : "stvzo",
@@ -33438,10 +32532,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [262144, 1048576, 8, 1, 8192]
     },
     {
-        "word" : "süden",
-        "bitmap" : 134488088,
-        "wordLetters" : 13770610,
-        "yellowLeters" : [262144, 134217728, 8, 16, 8192]
+        "word" : "suden",
+        "bitmap" : 1318936,
+        "wordLetters" : 13766290,
+        "yellowLeters" : [262144, 1048576, 8, 16, 8192]
     },
     {
         "word" : "sudle",
@@ -33468,16 +32562,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [262144, 1048576, 128, 2048, 524288]
     },
     {
-        "word" : "sühne",
-        "bitmap" : 134488208,
-        "wordLetters" : 4632434,
-        "yellowLeters" : [262144, 134217728, 128, 8192, 16]
+        "word" : "suhne",
+        "bitmap" : 1319056,
+        "wordLetters" : 4628114,
+        "yellowLeters" : [262144, 1048576, 128, 8192, 16]
     },
     {
-        "word" : "sühnt",
-        "bitmap" : 135012480,
-        "wordLetters" : 20361074,
-        "yellowLeters" : [262144, 134217728, 128, 8192, 524288]
+        "word" : "suhnt",
+        "bitmap" : 1843328,
+        "wordLetters" : 20356754,
+        "yellowLeters" : [262144, 1048576, 128, 8192, 524288]
     },
     {
         "word" : "suite",
@@ -33510,22 +32604,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [262144, 1048576, 2048, 33554432, 16]
     },
     {
-        "word" : "sülze",
-        "bitmap" : 168036368,
-        "wordLetters" : 5029746,
-        "yellowLeters" : [262144, 134217728, 2048, 33554432, 16]
-    },
-    {
         "word" : "sulzt",
         "bitmap" : 35391488,
         "wordLetters" : 20754066,
         "yellowLeters" : [262144, 1048576, 2048, 33554432, 524288]
-    },
-    {
-        "word" : "sülzt",
-        "bitmap" : 168560640,
-        "wordLetters" : 20758386,
-        "yellowLeters" : [262144, 134217728, 2048, 33554432, 524288]
     },
     {
         "word" : "sumer",
@@ -33558,10 +32640,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [262144, 1048576, 4096, 32768, 32]
     },
     {
-        "word" : "sünde",
-        "bitmap" : 134488088,
-        "wordLetters" : 4310898,
-        "yellowLeters" : [262144, 134217728, 8192, 8, 16]
+        "word" : "sunde",
+        "bitmap" : 1318936,
+        "wordLetters" : 4306578,
+        "yellowLeters" : [262144, 1048576, 8192, 8, 16]
     },
     {
         "word" : "suomi",
@@ -33642,34 +32724,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [262144, 1048576, 262144, 256, 262144]
     },
     {
-        "word" : "süßem",
-        "bitmap" : 1208225808,
-        "wordLetters" : 12847986,
-        "yellowLeters" : [262144, 134217728, 1073741824, 16, 4096]
+        "word" : "susse",
+        "bitmap" : 1310736,
+        "wordLetters" : 4803218,
+        "yellowLeters" : [262144, 1048576, 262144, 262144, 16]
     },
     {
-        "word" : "süßen",
-        "bitmap" : 1208229904,
-        "wordLetters" : 13896562,
-        "yellowLeters" : [262144, 134217728, 1073741824, 16, 8192]
-    },
-    {
-        "word" : "süßer",
-        "bitmap" : 1208352784,
-        "wordLetters" : 18090866,
-        "yellowLeters" : [262144, 134217728, 1073741824, 16, 131072]
-    },
-    {
-        "word" : "süßes",
-        "bitmap" : 1208221712,
-        "wordLetters" : 19139442,
-        "yellowLeters" : [262144, 134217728, 1073741824, 16, 262144]
-    },
-    {
-        "word" : "süßte",
-        "bitmap" : 1208746000,
-        "wordLetters" : 4950898,
-        "yellowLeters" : [262144, 134217728, 1073741824, 524288, 16]
+        "word" : "susst",
+        "bitmap" : 1835008,
+        "wordLetters" : 20531858,
+        "yellowLeters" : [262144, 1048576, 262144, 262144, 524288]
     },
     {
         "word" : "suzys",
@@ -35004,12 +34068,6 @@ module.exports = GermanArr = [
         "yellowLeters" : [524288, 16384, 8192, 16, 8192]
     },
     {
-        "word" : "tönen",
-        "bitmap" : 2629648,
-        "wordLetters" : 13780659,
-        "yellowLeters" : [524288, 2097152, 8192, 16, 8192]
-    },
-    {
         "word" : "toner",
         "bitmap" : 679952,
         "wordLetters" : 17970643,
@@ -35052,16 +34110,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [524288, 16384, 8192, 8192, 16]
     },
     {
-        "word" : "tönst",
-        "bitmap" : 2891776,
-        "wordLetters" : 20530867,
-        "yellowLeters" : [524288, 2097152, 8192, 262144, 524288]
+        "word" : "tonst",
+        "bitmap" : 811008,
+        "wordLetters" : 20526547,
+        "yellowLeters" : [524288, 16384, 8192, 262144, 524288]
     },
     {
-        "word" : "tönte",
-        "bitmap" : 2629648,
-        "wordLetters" : 4834995,
-        "yellowLeters" : [524288, 2097152, 8192, 524288, 16]
+        "word" : "tonte",
+        "bitmap" : 548880,
+        "wordLetters" : 4830675,
+        "yellowLeters" : [524288, 16384, 8192, 524288, 16]
     },
     {
         "word" : "tonus",
@@ -35082,10 +34140,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [524288, 16384, 32768, 1, 262144]
     },
     {
-        "word" : "töpfe",
-        "bitmap" : 2654256,
-        "wordLetters" : 4378291,
-        "yellowLeters" : [524288, 2097152, 32768, 32, 16]
+        "word" : "topfe",
+        "bitmap" : 573488,
+        "wordLetters" : 4373971,
+        "yellowLeters" : [524288, 16384, 32768, 32, 16]
     },
     {
         "word" : "topfs",
@@ -35142,10 +34200,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [524288, 16384, 131072, 32, 262144]
     },
     {
-        "word" : "törin",
-        "bitmap" : 2760960,
-        "wordLetters" : 13915827,
-        "yellowLeters" : [524288, 2097152, 131072, 256, 8192]
+        "word" : "torin",
+        "bitmap" : 680192,
+        "wordLetters" : 13911507,
+        "yellowLeters" : [524288, 16384, 131072, 256, 8192]
     },
     {
         "word" : "torso",
@@ -35202,12 +34260,6 @@ module.exports = GermanArr = [
         "yellowLeters" : [524288, 16384, 524288, 16, 8192]
     },
     {
-        "word" : "töten",
-        "bitmap" : 2629648,
-        "wordLetters" : 13786803,
-        "yellowLeters" : [524288, 2097152, 524288, 16, 8192]
-    },
-    {
         "word" : "toter",
         "bitmap" : 671760,
         "wordLetters" : 17976787,
@@ -35220,10 +34272,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [524288, 16384, 524288, 16, 262144]
     },
     {
-        "word" : "tötet",
-        "bitmap" : 2621456,
-        "wordLetters" : 20078259,
-        "yellowLeters" : [524288, 2097152, 524288, 16, 524288]
+        "word" : "totet",
+        "bitmap" : 540688,
+        "wordLetters" : 20073939,
+        "yellowLeters" : [524288, 16384, 524288, 16, 524288]
     },
     {
         "word" : "totos",
@@ -35586,10 +34638,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [524288, 131072, 16384, 32, 32]
     },
     {
-        "word" : "tröge",
-        "bitmap" : 2752592,
-        "wordLetters" : 4544051,
-        "yellowLeters" : [524288, 131072, 2097152, 64, 16]
+        "word" : "troge",
+        "bitmap" : 671824,
+        "wordLetters" : 4405811,
+        "yellowLeters" : [524288, 131072, 16384, 64, 16]
     },
     {
         "word" : "trogt",
@@ -35628,10 +34680,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [524288, 131072, 16384, 262144, 524288]
     },
     {
-        "word" : "tröte",
-        "bitmap" : 2752528,
-        "wordLetters" : 4970035,
-        "yellowLeters" : [524288, 131072, 2097152, 524288, 16]
+        "word" : "trote",
+        "bitmap" : 671760,
+        "wordLetters" : 4831795,
+        "yellowLeters" : [524288, 131072, 16384, 524288, 16]
     },
     {
         "word" : "trott",
@@ -35646,16 +34698,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [524288, 131072, 16384, 524288, 33554432]
     },
     {
-        "word" : "trübe",
-        "bitmap" : 134873106,
-        "wordLetters" : 4386355,
-        "yellowLeters" : [524288, 131072, 134217728, 2, 16]
+        "word" : "trube",
+        "bitmap" : 1703954,
+        "wordLetters" : 4248115,
+        "yellowLeters" : [524288, 131072, 1048576, 2, 16]
     },
     {
-        "word" : "trübt",
-        "bitmap" : 134873090,
-        "wordLetters" : 20114995,
-        "yellowLeters" : [524288, 131072, 134217728, 2, 524288]
+        "word" : "trubt",
+        "bitmap" : 1703938,
+        "wordLetters" : 19976755,
+        "yellowLeters" : [524288, 131072, 1048576, 2, 524288]
     },
     {
         "word" : "truck",
@@ -35676,22 +34728,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [524288, 131072, 1048576, 8, 256]
     },
     {
-        "word" : "trüge",
-        "bitmap" : 134873168,
-        "wordLetters" : 4550195,
-        "yellowLeters" : [524288, 131072, 134217728, 64, 16]
+        "word" : "truge",
+        "bitmap" : 1704016,
+        "wordLetters" : 4411955,
+        "yellowLeters" : [524288, 131072, 1048576, 64, 16]
     },
     {
         "word" : "trugt",
         "bitmap" : 1704000,
         "wordLetters" : 20140595,
         "yellowLeters" : [524288, 131072, 1048576, 64, 524288]
-    },
-    {
-        "word" : "trügt",
-        "bitmap" : 134873152,
-        "wordLetters" : 20278835,
-        "yellowLeters" : [524288, 131072, 134217728, 64, 524288]
     },
     {
         "word" : "truhe",
@@ -35754,10 +34800,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [524288, 1048576, 4, 128, 262144]
     },
     {
-        "word" : "tücke",
-        "bitmap" : 134743060,
-        "wordLetters" : 4529011,
-        "yellowLeters" : [524288, 134217728, 4, 1024, 16]
+        "word" : "tucke",
+        "bitmap" : 1573908,
+        "wordLetters" : 4524691,
+        "yellowLeters" : [524288, 1048576, 4, 1024, 16]
     },
     {
         "word" : "tudor",
@@ -35790,16 +34836,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [524288, 1048576, 1024, 1, 8192]
     },
     {
-        "word" : "tülle",
-        "bitmap" : 134744080,
-        "wordLetters" : 4570995,
-        "yellowLeters" : [524288, 134217728, 2048, 2048, 16]
+        "word" : "tulle",
+        "bitmap" : 1574928,
+        "wordLetters" : 4566675,
+        "yellowLeters" : [524288, 1048576, 2048, 2048, 16]
     },
     {
-        "word" : "tülls",
-        "bitmap" : 135006208,
-        "wordLetters" : 19251059,
-        "yellowLeters" : [524288, 134217728, 2048, 2048, 262144]
+        "word" : "tulls",
+        "bitmap" : 1837056,
+        "wordLetters" : 19246739,
+        "yellowLeters" : [524288, 1048576, 2048, 2048, 262144]
     },
     {
         "word" : "tulpe",
@@ -35886,10 +34932,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [524288, 1048576, 131072, 2, 16384]
     },
     {
-        "word" : "türen",
-        "bitmap" : 134881296,
-        "wordLetters" : 13784947,
-        "yellowLeters" : [524288, 134217728, 131072, 16, 8192]
+        "word" : "turen",
+        "bitmap" : 1712144,
+        "wordLetters" : 13780627,
+        "yellowLeters" : [524288, 1048576, 131072, 16, 8192]
     },
     {
         "word" : "turin",
@@ -35898,10 +34944,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [524288, 1048576, 131072, 256, 8192]
     },
     {
-        "word" : "türke",
-        "bitmap" : 134874128,
-        "wordLetters" : 4544371,
-        "yellowLeters" : [524288, 134217728, 131072, 1024, 16]
+        "word" : "turke",
+        "bitmap" : 1704976,
+        "wordLetters" : 4540051,
+        "yellowLeters" : [524288, 1048576, 131072, 1024, 16]
     },
     {
         "word" : "turku",
@@ -35916,22 +34962,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [524288, 1048576, 131072, 4096, 16]
     },
     {
-        "word" : "türme",
-        "bitmap" : 134877200,
-        "wordLetters" : 4609907,
-        "yellowLeters" : [524288, 134217728, 131072, 4096, 16]
-    },
-    {
         "word" : "turms",
         "bitmap" : 1970176,
         "wordLetters" : 19285651,
         "yellowLeters" : [524288, 1048576, 131072, 4096, 262144]
     },
     {
-        "word" : "türmt",
-        "bitmap" : 134877184,
-        "wordLetters" : 20338547,
-        "yellowLeters" : [524288, 134217728, 131072, 4096, 524288]
+        "word" : "turmt",
+        "bitmap" : 1708032,
+        "wordLetters" : 20334227,
+        "yellowLeters" : [524288, 1048576, 131072, 4096, 524288]
     },
     {
         "word" : "turne",
@@ -35968,12 +35008,6 @@ module.exports = GermanArr = [
         "bitmap" : 1581072,
         "wordLetters" : 13782675,
         "yellowLeters" : [524288, 1048576, 524288, 16, 8192]
-    },
-    {
-        "word" : "tüten",
-        "bitmap" : 134750224,
-        "wordLetters" : 13786995,
-        "yellowLeters" : [524288, 134217728, 524288, 16, 8192]
     },
     {
         "word" : "tutet",
@@ -36090,46 +35124,46 @@ module.exports = GermanArr = [
         "yellowLeters" : [524288, 33554432, 2, 32, 64]
     },
     {
-        "word" : "übeln",
-        "bitmap" : 134227986,
-        "wordLetters" : 13996219,
-        "yellowLeters" : [134217728, 2, 16, 2048, 8192]
+        "word" : "ubeln",
+        "bitmap" : 1058834,
+        "wordLetters" : 13996084,
+        "yellowLeters" : [1048576, 2, 16, 2048, 8192]
     },
     {
-        "word" : "übels",
-        "bitmap" : 134481938,
-        "wordLetters" : 19239099,
-        "yellowLeters" : [134217728, 2, 16, 2048, 262144]
+        "word" : "ubels",
+        "bitmap" : 1312786,
+        "wordLetters" : 19238964,
+        "yellowLeters" : [1048576, 2, 16, 2048, 262144]
     },
     {
-        "word" : "übend",
-        "bitmap" : 134225946,
-        "wordLetters" : 3575995,
-        "yellowLeters" : [134217728, 2, 16, 8192, 8]
+        "word" : "ubend",
+        "bitmap" : 1056794,
+        "wordLetters" : 3575860,
+        "yellowLeters" : [1048576, 2, 16, 8192, 8]
     },
     {
-        "word" : "übens",
-        "bitmap" : 134488082,
-        "wordLetters" : 19304635,
-        "yellowLeters" : [134217728, 2, 16, 8192, 262144]
+        "word" : "ubens",
+        "bitmap" : 1318930,
+        "wordLetters" : 19304500,
+        "yellowLeters" : [1048576, 2, 16, 8192, 262144]
     },
     {
-        "word" : "überm",
-        "bitmap" : 134352914,
-        "wordLetters" : 13144251,
-        "yellowLeters" : [134217728, 2, 16, 131072, 4096]
+        "word" : "uberm",
+        "bitmap" : 1183762,
+        "wordLetters" : 13144116,
+        "yellowLeters" : [1048576, 2, 16, 131072, 4096]
     },
     {
-        "word" : "übern",
-        "bitmap" : 134357010,
-        "wordLetters" : 14192827,
-        "yellowLeters" : [134217728, 2, 16, 131072, 8192]
+        "word" : "ubern",
+        "bitmap" : 1187858,
+        "wordLetters" : 14192692,
+        "yellowLeters" : [1048576, 2, 16, 131072, 8192]
     },
     {
-        "word" : "übers",
-        "bitmap" : 134610962,
-        "wordLetters" : 19435707,
-        "yellowLeters" : [134217728, 2, 16, 131072, 262144]
+        "word" : "ubers",
+        "bitmap" : 1441810,
+        "wordLetters" : 19435572,
+        "yellowLeters" : [1048576, 2, 16, 131072, 262144]
     },
     {
         "word" : "ubier",
@@ -36138,52 +35172,52 @@ module.exports = GermanArr = [
         "yellowLeters" : [1048576, 2, 256, 16, 131072]
     },
     {
-        "word" : "üblem",
-        "bitmap" : 134223890,
-        "wordLetters" : 12725435,
-        "yellowLeters" : [134217728, 2, 2048, 16, 4096]
+        "word" : "ublem",
+        "bitmap" : 1054738,
+        "wordLetters" : 12725300,
+        "yellowLeters" : [1048576, 2, 2048, 16, 4096]
     },
     {
-        "word" : "üblen",
-        "bitmap" : 134227986,
-        "wordLetters" : 13774011,
-        "yellowLeters" : [134217728, 2, 2048, 16, 8192]
+        "word" : "ublen",
+        "bitmap" : 1058834,
+        "wordLetters" : 13773876,
+        "yellowLeters" : [1048576, 2, 2048, 16, 8192]
     },
     {
-        "word" : "übler",
-        "bitmap" : 134350866,
-        "wordLetters" : 17968315,
-        "yellowLeters" : [134217728, 2, 2048, 16, 131072]
+        "word" : "ubler",
+        "bitmap" : 1181714,
+        "wordLetters" : 17968180,
+        "yellowLeters" : [1048576, 2, 2048, 16, 131072]
     },
     {
-        "word" : "übles",
-        "bitmap" : 134481938,
-        "wordLetters" : 19016891,
-        "yellowLeters" : [134217728, 2, 2048, 16, 262144]
+        "word" : "ubles",
+        "bitmap" : 1312786,
+        "wordLetters" : 19016756,
+        "yellowLeters" : [1048576, 2, 2048, 16, 262144]
     },
     {
-        "word" : "übrig",
-        "bitmap" : 134349122,
-        "wordLetters" : 6571195,
-        "yellowLeters" : [134217728, 2, 131072, 256, 64]
+        "word" : "ubrig",
+        "bitmap" : 1179970,
+        "wordLetters" : 6571060,
+        "yellowLeters" : [1048576, 2, 131072, 256, 64]
     },
     {
-        "word" : "übten",
-        "bitmap" : 134750226,
-        "wordLetters" : 13782203,
-        "yellowLeters" : [134217728, 2, 524288, 16, 8192]
+        "word" : "ubten",
+        "bitmap" : 1581074,
+        "wordLetters" : 13782068,
+        "yellowLeters" : [1048576, 2, 524288, 16, 8192]
     },
     {
-        "word" : "übtet",
-        "bitmap" : 134742034,
-        "wordLetters" : 20073659,
-        "yellowLeters" : [134217728, 2, 524288, 16, 524288]
+        "word" : "ubtet",
+        "bitmap" : 1572882,
+        "wordLetters" : 20073524,
+        "yellowLeters" : [1048576, 2, 524288, 16, 524288]
     },
     {
-        "word" : "übung",
-        "bitmap" : 135274562,
-        "wordLetters" : 6738107,
-        "yellowLeters" : [134217728, 2, 1048576, 8192, 64]
+        "word" : "ubung",
+        "bitmap" : 1056834,
+        "wordLetters" : 6737972,
+        "yellowLeters" : [1048576, 2, 1048576, 8192, 64]
     },
     {
         "word" : "uchta",
@@ -36486,12 +35520,6 @@ module.exports = GermanArr = [
         "yellowLeters" : [1048576, 8192, 1024, 524288, 16]
     },
     {
-        "word" : "unmaß",
-        "bitmap" : 1074802689,
-        "wordLetters" : 132133300,
-        "yellowLeters" : [1048576, 8192, 4096, 1, 1073741824]
-    },
-    {
         "word" : "unmut",
         "bitmap" : 1585152,
         "wordLetters" : 20591028,
@@ -36552,10 +35580,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [1048576, 8192, 33554432, 16, 8192]
     },
     {
-        "word" : "üppig",
-        "bitmap" : 134250816,
-        "wordLetters" : 6569595,
-        "yellowLeters" : [134217728, 32768, 32768, 256, 64]
+        "word" : "uppig",
+        "bitmap" : 1081664,
+        "wordLetters" : 6569460,
+        "yellowLeters" : [1048576, 32768, 32768, 256, 64]
     },
     {
         "word" : "urahn",
@@ -36876,10 +35904,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [2097152, 16, 8192, 8192, 262144]
     },
     {
-        "word" : "venös",
-        "bitmap" : 2367504,
-        "wordLetters" : 23770261,
-        "yellowLeters" : [2097152, 16, 8192, 2097152, 262144]
+        "word" : "venos",
+        "bitmap" : 2383888,
+        "wordLetters" : 19346581,
+        "yellowLeters" : [2097152, 16, 8192, 16384, 262144]
     },
     {
         "word" : "venus",
@@ -37164,22 +36192,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [2097152, 16384, 64, 16, 2048]
     },
     {
-        "word" : "vögel",
-        "bitmap" : 2099280,
-        "wordLetters" : 11676341,
-        "yellowLeters" : [2097152, 2097152, 64, 16, 2048]
+        "word" : "vogle",
+        "bitmap" : 2115664,
+        "wordLetters" : 4561365,
+        "yellowLeters" : [2097152, 16384, 64, 2048, 16]
     },
     {
-        "word" : "vögle",
-        "bitmap" : 2099280,
-        "wordLetters" : 4565685,
-        "yellowLeters" : [2097152, 2097152, 64, 2048, 16]
-    },
-    {
-        "word" : "vögte",
-        "bitmap" : 2621520,
-        "wordLetters" : 4827829,
-        "yellowLeters" : [2097152, 2097152, 64, 524288, 16]
+        "word" : "vogte",
+        "bitmap" : 2637904,
+        "wordLetters" : 4823509,
+        "yellowLeters" : [2097152, 16384, 64, 524288, 16]
     },
     {
         "word" : "vogts",
@@ -37242,12 +36264,6 @@ module.exports = GermanArr = [
         "yellowLeters" : [2097152, 16384, 2048, 2048, 16]
     },
     {
-        "word" : "völle",
-        "bitmap" : 2099216,
-        "wordLetters" : 4570805,
-        "yellowLeters" : [2097152, 2097152, 2048, 2048, 16]
-    },
-    {
         "word" : "volos",
         "bitmap" : 2377728,
         "wordLetters" : 19344853,
@@ -37308,10 +36324,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [2097152, 16384, 524288, 1048576, 4096]
     },
     {
-        "word" : "vsstö",
-        "bitmap" : 2883584,
-        "wordLetters" : 156879445,
-        "yellowLeters" : [2097152, 262144, 262144, 524288, 2097152]
+        "word" : "vssto",
+        "bitmap" : 2899968,
+        "wordLetters" : 15321685,
+        "yellowLeters" : [2097152, 262144, 262144, 524288, 16384]
     },
     {
         "word" : "vulgo",
@@ -37536,10 +36552,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [4194304, 1, 2048, 2048, 16777216]
     },
     {
-        "word" : "walöl",
-        "bitmap" : 6293505,
-        "wordLetters" : 16428054,
-        "yellowLeters" : [4194304, 1, 2048, 2097152, 2048]
+        "word" : "walol",
+        "bitmap" : 4212737,
+        "wordLetters" : 12004374,
+        "yellowLeters" : [4194304, 1, 2048, 16384, 2048]
     },
     {
         "word" : "walte",
@@ -37932,16 +36948,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [4194304, 16, 256, 262144, 16]
     },
     {
-        "word" : "weiße",
-        "bitmap" : 1077936400,
-        "wordLetters" : 8331414,
-        "yellowLeters" : [4194304, 16, 256, 1073741824, 16]
-    },
-    {
-        "word" : "weißt",
-        "bitmap" : 1078460688,
-        "wordLetters" : 24060054,
-        "yellowLeters" : [4194304, 16, 256, 1073741824, 524288]
+        "word" : "weiss",
+        "bitmap" : 4456720,
+        "wordLetters" : 19472534,
+        "yellowLeters" : [4194304, 16, 256, 262144, 262144]
     },
     {
         "word" : "weist",
@@ -38490,10 +37500,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [4194304, 16384, 8, 1024, 1]
     },
     {
-        "word" : "wofür",
-        "bitmap" : 138559520,
-        "wordLetters" : 22910422,
-        "yellowLeters" : [4194304, 16384, 32, 134217728, 131072]
+        "word" : "wofur",
+        "bitmap" : 5390368,
+        "wordLetters" : 18486742,
+        "yellowLeters" : [4194304, 16384, 32, 1048576, 131072]
     },
     {
         "word" : "wogen",
@@ -38502,16 +37512,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [4194304, 16384, 64, 16, 8192]
     },
     {
-        "word" : "wögen",
-        "bitmap" : 6299728,
-        "wordLetters" : 13773494,
-        "yellowLeters" : [4194304, 2097152, 64, 16, 8192]
-    },
-    {
-        "word" : "wöget",
-        "bitmap" : 6815824,
-        "wordLetters" : 20064950,
-        "yellowLeters" : [4194304, 2097152, 64, 16, 524288]
+        "word" : "woget",
+        "bitmap" : 4735056,
+        "wordLetters" : 20060630,
+        "yellowLeters" : [4194304, 16384, 64, 16, 524288]
     },
     {
         "word" : "wogst",
@@ -38562,22 +37566,22 @@ module.exports = GermanArr = [
         "yellowLeters" : [4194304, 16384, 128, 8192, 524288]
     },
     {
-        "word" : "wölbe",
-        "bitmap" : 6293522,
-        "wordLetters" : 4243126,
-        "yellowLeters" : [4194304, 2097152, 2048, 2, 16]
+        "word" : "wolbe",
+        "bitmap" : 4212754,
+        "wordLetters" : 4238806,
+        "yellowLeters" : [4194304, 16384, 2048, 2, 16]
     },
     {
-        "word" : "wölbt",
-        "bitmap" : 6817794,
-        "wordLetters" : 19971766,
-        "yellowLeters" : [4194304, 2097152, 2048, 2, 524288]
+        "word" : "wolbt",
+        "bitmap" : 4737026,
+        "wordLetters" : 19967446,
+        "yellowLeters" : [4194304, 16384, 2048, 2, 524288]
     },
     {
-        "word" : "wölfe",
-        "bitmap" : 6293552,
-        "wordLetters" : 4374198,
-        "yellowLeters" : [4194304, 2097152, 2048, 32, 16]
+        "word" : "wolfe",
+        "bitmap" : 4212784,
+        "wordLetters" : 4369878,
+        "yellowLeters" : [4194304, 16384, 2048, 32, 16]
     },
     {
         "word" : "wolff",
@@ -38670,10 +37674,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [4194304, 16384, 131072, 524288, 16]
     },
     {
-        "word" : "wörth",
-        "bitmap" : 6946944,
-        "wordLetters" : 7984822,
-        "yellowLeters" : [4194304, 2097152, 131072, 524288, 128]
+        "word" : "worth",
+        "bitmap" : 4866176,
+        "wordLetters" : 7980502,
+        "yellowLeters" : [4194304, 16384, 131072, 524288, 128]
     },
     {
         "word" : "worts",
@@ -38748,16 +37752,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [4194304, 1048576, 128, 1, 8192]
     },
     {
-        "word" : "wühle",
-        "bitmap" : 138414224,
-        "wordLetters" : 4566902,
-        "yellowLeters" : [4194304, 134217728, 128, 2048, 16]
+        "word" : "wuhle",
+        "bitmap" : 5245072,
+        "wordLetters" : 4562582,
+        "yellowLeters" : [4194304, 1048576, 128, 2048, 16]
     },
     {
-        "word" : "wühlt",
-        "bitmap" : 138938496,
-        "wordLetters" : 20295542,
-        "yellowLeters" : [4194304, 134217728, 128, 2048, 524288]
+        "word" : "wuhlt",
+        "bitmap" : 5769344,
+        "wordLetters" : 20291222,
+        "yellowLeters" : [4194304, 1048576, 128, 2048, 524288]
     },
     {
         "word" : "wulff",
@@ -38776,12 +37780,6 @@ module.exports = GermanArr = [
         "bitmap" : 5246992,
         "wordLetters" : 4600470,
         "yellowLeters" : [4194304, 1048576, 4096, 4096, 16]
-    },
-    {
-        "word" : "wümme",
-        "bitmap" : 138416144,
-        "wordLetters" : 4604790,
-        "yellowLeters" : [4194304, 134217728, 4096, 4096, 16]
     },
     {
         "word" : "wumpe",
@@ -38814,16 +37812,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [4194304, 1048576, 131072, 8, 16]
     },
     {
-        "word" : "würde",
-        "bitmap" : 138543128,
-        "wordLetters" : 4314998,
-        "yellowLeters" : [4194304, 134217728, 131072, 8, 16]
-    },
-    {
-        "word" : "würfe",
-        "bitmap" : 138543152,
-        "wordLetters" : 4380534,
-        "yellowLeters" : [4194304, 134217728, 131072, 32, 16]
+        "word" : "wurfe",
+        "bitmap" : 5374000,
+        "wordLetters" : 4376214,
+        "yellowLeters" : [4194304, 1048576, 131072, 32, 16]
     },
     {
         "word" : "wurfs",
@@ -38832,16 +37824,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [4194304, 1048576, 131072, 32, 262144]
     },
     {
-        "word" : "würge",
-        "bitmap" : 138543184,
-        "wordLetters" : 4413302,
-        "yellowLeters" : [4194304, 134217728, 131072, 64, 16]
+        "word" : "wurge",
+        "bitmap" : 5374032,
+        "wordLetters" : 4408982,
+        "yellowLeters" : [4194304, 1048576, 131072, 64, 16]
     },
     {
-        "word" : "würgt",
-        "bitmap" : 139067456,
-        "wordLetters" : 20141942,
-        "yellowLeters" : [4194304, 134217728, 131072, 64, 524288]
+        "word" : "wurgt",
+        "bitmap" : 5898304,
+        "wordLetters" : 20137622,
+        "yellowLeters" : [4194304, 1048576, 131072, 64, 524288]
     },
     {
         "word" : "wurme",
@@ -38868,16 +37860,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [4194304, 1048576, 131072, 262144, 524288]
     },
     {
-        "word" : "würze",
-        "bitmap" : 172097552,
-        "wordLetters" : 5035894,
-        "yellowLeters" : [4194304, 134217728, 131072, 33554432, 16]
+        "word" : "wurze",
+        "bitmap" : 38928400,
+        "wordLetters" : 5031574,
+        "yellowLeters" : [4194304, 1048576, 131072, 33554432, 16]
     },
     {
-        "word" : "würzt",
-        "bitmap" : 172621824,
-        "wordLetters" : 20764534,
-        "yellowLeters" : [4194304, 134217728, 131072, 33554432, 524288]
+        "word" : "wurzt",
+        "bitmap" : 39452672,
+        "wordLetters" : 20760214,
+        "yellowLeters" : [4194304, 1048576, 131072, 33554432, 524288]
     },
     {
         "word" : "wusch",
@@ -38892,10 +37884,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [4194304, 1048576, 262144, 2048, 16]
     },
     {
-        "word" : "wüste",
-        "bitmap" : 139198480,
-        "wordLetters" : 4840310,
-        "yellowLeters" : [4194304, 134217728, 262144, 524288, 16]
+        "word" : "wuste",
+        "bitmap" : 6029328,
+        "wordLetters" : 4835990,
+        "yellowLeters" : [4194304, 1048576, 262144, 524288, 16]
     },
     {
         "word" : "wusts",
@@ -38904,16 +37896,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [4194304, 1048576, 262144, 524288, 262144]
     },
     {
-        "word" : "wüten",
-        "bitmap" : 138944528,
-        "wordLetters" : 13786998,
-        "yellowLeters" : [4194304, 134217728, 524288, 16, 8192]
+        "word" : "wuten",
+        "bitmap" : 5775376,
+        "wordLetters" : 13782678,
+        "yellowLeters" : [4194304, 1048576, 524288, 16, 8192]
     },
     {
-        "word" : "wütet",
-        "bitmap" : 138936336,
-        "wordLetters" : 20078454,
-        "yellowLeters" : [4194304, 134217728, 524288, 16, 524288]
+        "word" : "wutet",
+        "bitmap" : 5767184,
+        "wordLetters" : 20074134,
+        "yellowLeters" : [4194304, 1048576, 524288, 16, 524288]
     },
     {
         "word" : "xaver",
@@ -39792,28 +38784,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [33554432, 16384, 64, 16, 8192]
     },
     {
-        "word" : "zögen",
-        "bitmap" : 35659856,
-        "wordLetters" : 13773497,
-        "yellowLeters" : [33554432, 2097152, 64, 16, 8192]
-    },
-    {
-        "word" : "zöget",
-        "bitmap" : 36175952,
-        "wordLetters" : 20064953,
-        "yellowLeters" : [33554432, 2097152, 64, 16, 524288]
+        "word" : "zoget",
+        "bitmap" : 34095184,
+        "wordLetters" : 20060633,
+        "yellowLeters" : [33554432, 16384, 64, 16, 524288]
     },
     {
         "word" : "zogst",
         "bitmap" : 34357312,
         "wordLetters" : 20519385,
         "yellowLeters" : [33554432, 16384, 64, 262144, 524288]
-    },
-    {
-        "word" : "zögst",
-        "bitmap" : 36438080,
-        "wordLetters" : 20523705,
-        "yellowLeters" : [33554432, 2097152, 64, 262144, 524288]
     },
     {
         "word" : "zolas",
@@ -39826,12 +38806,6 @@ module.exports = GermanArr = [
         "bitmap" : 33572880,
         "wordLetters" : 4566489,
         "yellowLeters" : [33554432, 16384, 2048, 2048, 16]
-    },
-    {
-        "word" : "zölle",
-        "bitmap" : 35653648,
-        "wordLetters" : 4570809,
-        "yellowLeters" : [33554432, 2097152, 2048, 2048, 16]
     },
     {
         "word" : "zolls",
@@ -39876,10 +38850,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [33554432, 16384, 16384, 4096, 524288]
     },
     {
-        "word" : "zöpfe",
-        "bitmap" : 35684400,
-        "wordLetters" : 4378297,
-        "yellowLeters" : [33554432, 2097152, 32768, 32, 16]
+        "word" : "zopfe",
+        "bitmap" : 33603632,
+        "wordLetters" : 4373977,
+        "yellowLeters" : [33554432, 16384, 32768, 32, 16]
     },
     {
         "word" : "zopfs",
@@ -39948,22 +38922,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [33554432, 1048576, 4, 1024, 16]
     },
     {
-        "word" : "zücke",
-        "bitmap" : 167773204,
-        "wordLetters" : 4529017,
-        "yellowLeters" : [33554432, 134217728, 4, 1024, 16]
-    },
-    {
         "word" : "zuckt",
         "bitmap" : 35128324,
         "wordLetters" : 20253337,
         "yellowLeters" : [33554432, 1048576, 4, 1024, 524288]
-    },
-    {
-        "word" : "zückt",
-        "bitmap" : 168297476,
-        "wordLetters" : 20257657,
-        "yellowLeters" : [33554432, 134217728, 4, 1024, 524288]
     },
     {
         "word" : "zudem",
@@ -39978,16 +38940,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [33554432, 1048576, 64, 1, 2]
     },
     {
-        "word" : "zügel",
-        "bitmap" : 167774288,
-        "wordLetters" : 11676537,
-        "yellowLeters" : [33554432, 134217728, 64, 16, 2048]
+        "word" : "zugel",
+        "bitmap" : 34605136,
+        "wordLetters" : 11672217,
+        "yellowLeters" : [33554432, 1048576, 64, 16, 2048]
     },
     {
-        "word" : "zügen",
-        "bitmap" : 167780432,
-        "wordLetters" : 13773689,
-        "yellowLeters" : [33554432, 134217728, 64, 16, 8192]
+        "word" : "zugen",
+        "bitmap" : 34611280,
+        "wordLetters" : 13769369,
+        "yellowLeters" : [33554432, 1048576, 64, 16, 8192]
     },
     {
         "word" : "zuger",
@@ -40008,16 +38970,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [33554432, 1048576, 64, 256, 64]
     },
     {
-        "word" : "zügig",
-        "bitmap" : 167772480,
-        "wordLetters" : 6564729,
-        "yellowLeters" : [33554432, 134217728, 64, 256, 64]
-    },
-    {
-        "word" : "zügle",
-        "bitmap" : 167774288,
-        "wordLetters" : 4565881,
-        "yellowLeters" : [33554432, 134217728, 64, 2048, 16]
+        "word" : "zugle",
+        "bitmap" : 34605136,
+        "wordLetters" : 4561561,
+        "yellowLeters" : [33554432, 1048576, 64, 2048, 16]
     },
     {
         "word" : "zukam",
@@ -40038,16 +38994,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [33554432, 1048576, 4096, 1, 2048]
     },
     {
-        "word" : "zumaß",
-        "bitmap" : 1108348929,
-        "wordLetters" : 132133529,
-        "yellowLeters" : [33554432, 1048576, 4096, 1, 1073741824]
-    },
-    {
-        "word" : "zünde",
-        "bitmap" : 167780376,
-        "wordLetters" : 4310905,
-        "yellowLeters" : [33554432, 134217728, 8192, 8, 16]
+        "word" : "zunde",
+        "bitmap" : 34611224,
+        "wordLetters" : 4306585,
+        "yellowLeters" : [33554432, 1048576, 8192, 8, 16]
     },
     {
         "word" : "zunft",
@@ -40080,16 +39030,16 @@ module.exports = GermanArr = [
         "yellowLeters" : [33554432, 1048576, 131072, 1, 524288]
     },
     {
-        "word" : "zürne",
-        "bitmap" : 167911440,
-        "wordLetters" : 4642681,
-        "yellowLeters" : [33554432, 134217728, 131072, 8192, 16]
+        "word" : "zurne",
+        "bitmap" : 34742288,
+        "wordLetters" : 4638361,
+        "yellowLeters" : [33554432, 1048576, 131072, 8192, 16]
     },
     {
-        "word" : "zürnt",
-        "bitmap" : 168435712,
-        "wordLetters" : 20371321,
-        "yellowLeters" : [33554432, 134217728, 131072, 8192, 524288]
+        "word" : "zurnt",
+        "bitmap" : 35266560,
+        "wordLetters" : 20367001,
+        "yellowLeters" : [33554432, 1048576, 131072, 8192, 524288]
     },
     {
         "word" : "zurre",
@@ -40206,10 +39156,10 @@ module.exports = GermanArr = [
         "yellowLeters" : [33554432, 4194304, 256, 262144, 524288]
     },
     {
-        "word" : "zwölf",
-        "bitmap" : 39847968,
-        "wordLetters" : 5756633,
-        "yellowLeters" : [33554432, 4194304, 2097152, 2048, 32]
+        "word" : "zwolf",
+        "bitmap" : 37767200,
+        "wordLetters" : 5618393,
+        "yellowLeters" : [33554432, 4194304, 16384, 2048, 32]
     },
     {
         "word" : "zyste",
